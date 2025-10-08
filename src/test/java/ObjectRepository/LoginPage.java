@@ -21,7 +21,7 @@ public class LoginPage extends BaseClass{
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(id = "Username")
+	@FindBy(xpath  = "//input[@placeholder='User ID']")
 	private WebElement username;
 	
 	@FindBy(xpath = "//input[@value='PROCEED']")
@@ -67,13 +67,13 @@ public class LoginPage extends BaseClass{
 
              // Re-locate yesterday’s day in the *previous month’s calendar*
              
-             WebElement yesterdays = driver.findElement(By.xpath("//div[text()=' " + day + " ']"));
+             WebElement yesterdays = driver.findElement(By.xpath("//div[text()='" + day + "']"));
              yesterdays.click();
 
          } else {
              // Same month → just click yesterday’s date
             
-             WebElement yesterdays = driver.findElement(By.xpath("//div[text()=' " + day + " ']"));
+             WebElement yesterdays = driver.findElement(By.xpath("//div[text()='" + day + "']"));
              yesterdays.click();
          }
     }

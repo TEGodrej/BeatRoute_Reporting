@@ -19,14 +19,14 @@ public class LiquidationReportTest extends BaseClass{
 	    loginpage.SendkeyToUserName(user);
 	    loginpage.sendkeyToPasswordTextField(paswrd);
 	    loginpage.clickOnLogInButton();
-		Thread.sleep(1000);
+		Thread.sleep(8000);
 		dashboardPage.clickOnSacnTab();
 		Thread.sleep(1000);
 		dashboardPage.clickOnLiquidationTab();
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		dashboardPage.clickOnFilterIcon();
 		dashboardPage.clickOnCustomDateRange();
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		dashboardPage.clickOnFromDate();
 		dashboardPage.clickOnToDateButton();
 		Thread.sleep(1000);

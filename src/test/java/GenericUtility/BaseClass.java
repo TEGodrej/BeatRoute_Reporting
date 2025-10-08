@@ -1,6 +1,7 @@
 package GenericUtility;
 
 
+import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -37,7 +38,7 @@ public class BaseClass {
 			  driver = new ChromeDriver(options);
 		
 		driver.manage().window().maximize();
-//		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		driver.get("https://gavl.uniqid.io");
 		

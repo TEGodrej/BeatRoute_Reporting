@@ -5,6 +5,7 @@
     <classes>
       <class name="test.LiquidationReportTest">
         <methods>
+          <include name="closeInstance"/>
           <include name="Login"/>
           <include name="liquidationReport"/>
         </methods>
