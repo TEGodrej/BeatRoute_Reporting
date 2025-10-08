@@ -1,7 +1,5 @@
 package test;
 
-import java.time.Duration;
-
 import org.testng.annotations.Test;
 
 import GenericUtility.BaseClass;
@@ -21,27 +19,27 @@ public class LiquidationReportTest extends BaseClass{
 	    loginpage.SendkeyToUserName(user);
 	    loginpage.sendkeyToPasswordTextField(paswrd);
 	    loginpage.clickOnLogInButton();
-		Thread.sleep(Duration.ofSeconds(2).toMillis());
+		Thread.sleep(1000);
 		dashboardPage.clickOnSacnTab();
-		Thread.sleep(Duration.ofSeconds(2).toMillis());
+		Thread.sleep(1000);
 		dashboardPage.clickOnLiquidationTab();
-		Thread.sleep(Duration.ofSeconds(6).toMillis());
+		Thread.sleep(1000);
 		dashboardPage.clickOnFilterIcon();
 		dashboardPage.clickOnCustomDateRange();
-		Thread.sleep(Duration.ofSeconds(4).toMillis());
+		Thread.sleep(1000);
 		dashboardPage.clickOnFromDate();
 		dashboardPage.clickOnToDateButton();
-        Thread.sleep(Duration.ofSeconds(4).toMillis());
+		Thread.sleep(1000);
         dashboardPage.clickOnToDate();
-        Thread.sleep(Duration.ofSeconds(2).toMillis());
+        Thread.sleep(1000);
         dashboardPage.clickOnApplyButton();
-        Thread.sleep(Duration.ofSeconds(2).toMillis());
+        Thread.sleep(1000);
         dashboardPage.clickOnDownloadTab();
-        Thread.sleep(Duration.ofSeconds(2).toMillis());
+        Thread.sleep(1000);
         dashboardPage.clickOnLiquidationLog();
-        Thread.sleep(Duration.ofSeconds(4).toMillis());
+        Thread.sleep(1000);
         dashboardPage.clickOnDownloadButton();
-        Thread.sleep(Duration.ofSeconds(7).toMillis());
+        Thread.sleep(1000);
         loginpage.clickOnLogoutButton();
         
         

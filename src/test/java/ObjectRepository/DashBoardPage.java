@@ -1,6 +1,5 @@
 package ObjectRepository;
 
-import java.time.Duration;
 import java.time.LocalDate;
 
 import org.openqa.selenium.By;
@@ -65,7 +64,7 @@ public class DashBoardPage extends BaseClass{
              previousMonthBtn.click();
 
              // Small wait to allow calendar to load previous month
-             Thread.sleep(Duration.ofSeconds(4).toMillis());
+             Thread.sleep(1000);
 
              // Re-locate yesterday’s day in the *previous month’s calendar*
              
@@ -89,7 +88,7 @@ public class DashBoardPage extends BaseClass{
              previousMonthBtn.click();
 
              // Small wait to allow calendar to load previous month
-             Thread.sleep(Duration.ofSeconds(4).toMillis());
+             Thread.sleep(1000);
 
              // Re-locate yesterday’s day in the *previous month’s calendar*
              
