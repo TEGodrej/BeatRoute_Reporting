@@ -1,6 +1,7 @@
 package ObjectRepository;
 
 import java.text.SimpleDateFormat;
+import java.time.Duration;
 import java.time.LocalDate;
 import java.util.Date;
 
@@ -62,7 +63,7 @@ public class LoginPage extends BaseClass{
              previousMonthBtn.click();
 
              // Small wait to allow calendar to load previous month
-             Thread.sleep(1000);
+             Thread.sleep(Duration.ofSeconds(4).toMillis());
 
              // Re-locate yesterday’s day in the *previous month’s calendar*
              
