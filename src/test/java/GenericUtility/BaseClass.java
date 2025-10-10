@@ -23,7 +23,8 @@ public class BaseClass {
 	
 	@BeforeClass
 	public void Login() {
-		 String downloadFilepath1 = System.getProperty("user.dir") + "\\Reports";
+		String downloadFilepath1 = System.getProperty("user.dir") + "\\Reports";
+
 
 	        Map<String, Object> prefs = new HashMap<>();
 	        prefs.put("download.default_directory", downloadFilepath1);
@@ -35,7 +36,7 @@ public class BaseClass {
 			ChromeOptions options = new ChromeOptions();
 			options.setExperimentalOption("prefs", prefs);
 			 
-			  driver = new ChromeDriver(options);
+		driver = new ChromeDriver(options);
 		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
