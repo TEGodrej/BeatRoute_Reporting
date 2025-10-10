@@ -40,6 +40,70 @@ public class LoginPage extends BaseClass{
 	private WebElement logoutButton;
 
 	
+	public WebElement getUsername() {
+		return username;
+	}
+
+	public void setUsername(WebElement username) {
+		this.username = username;
+	}
+
+	public WebElement getProceedButton() {
+		return proceedButton;
+	}
+
+	public void setProceedButton(WebElement proceedButton) {
+		this.proceedButton = proceedButton;
+	}
+
+	public WebElement getPasswordTextField() {
+		return passwordTextField;
+	}
+
+	public void setPasswordTextField(WebElement passwordTextField) {
+		this.passwordTextField = passwordTextField;
+	}
+
+	public WebElement getLogInButton() {
+		return logInButton;
+	}
+
+	public void setLogInButton(WebElement logInButton) {
+		this.logInButton = logInButton;
+	}
+
+	public WebElement getActivityLog() {
+		return activityLog;
+	}
+
+	public void setActivityLog(WebElement activityLog) {
+		this.activityLog = activityLog;
+	}
+
+	public WebElement getGenerateFile() {
+		return generateFile;
+	}
+
+	public void setGenerateFile(WebElement generateFile) {
+		this.generateFile = generateFile;
+	}
+
+	public WebElement getDownloadButton() {
+		return downloadButton;
+	}
+
+	public void setDownloadButton(WebElement downloadButton) {
+		this.downloadButton = downloadButton;
+	}
+
+	public WebElement getLogoutButton() {
+		return logoutButton;
+	}
+
+	public void setLogoutButton(WebElement logoutButton) {
+		this.logoutButton = logoutButton;
+	}
+
 	public void SendkeyToUserName(String key) {
 		try {
 			username.sendKeys(key);

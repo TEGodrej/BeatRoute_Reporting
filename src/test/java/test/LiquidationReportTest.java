@@ -16,33 +16,34 @@ public class LiquidationReportTest extends BaseClass{
 
 	    String user = "PowerBI";
 	    String paswrd = "Ganpati#123456";
-	    Thread.sleep(8000);
+	    driverUtility.WaitTovisibility(10, loginpage.getUsername());
 	    loginpage.SendkeyToUserName(user);
-	    Thread.sleep(8000);
+	    driverUtility.WaitTovisibility(10, loginpage.getPasswordTextField());
 	    loginpage.sendkeyToPasswordTextField(paswrd);
-	    Thread.sleep(8000);
+	    driverUtility.WaitTovisibility(10, loginpage.getLogInButton());
 	    loginpage.clickOnLogInButton();
-		Thread.sleep(8000);
-		dashboardPage.clickOnSacnTab();
-		Thread.sleep(1000);
+	    driverUtility.WaitTovisibility(10, dashboardPage.getScanTab());
+		dashboardPage.clickOnScanTab();
+		driverUtility.WaitTovisibility(10, dashboardPage.getLiquidationTab());
 		dashboardPage.clickOnLiquidationTab();
-		Thread.sleep(5000);
+		driverUtility.WaitTovisibility(10, dashboardPage.getFilterIcon());
 		dashboardPage.clickOnFilterIcon();
+		driverUtility.WaitTovisibility(10, dashboardPage.getCustomDateRange());
 		dashboardPage.clickOnCustomDateRange();
-		Thread.sleep(5000);
+
 		dashboardPage.clickOnFromDate();
+		driverUtility.WaitTovisibility(10, dashboardPage.getToDateButton());
 		dashboardPage.clickOnToDateButton();
-		Thread.sleep(1000);
         dashboardPage.clickOnToDate();
-        Thread.sleep(1000);
+        driverUtility.WaitTovisibility(10, dashboardPage.getApplyButton());
         dashboardPage.clickOnApplyButton();
-        Thread.sleep(1000);
+        driverUtility.WaitTovisibility(10, dashboardPage.getToDateButton());
         dashboardPage.clickOnDownloadTab();
-        Thread.sleep(1000);
+        driverUtility.WaitTovisibility(10, dashboardPage.getLiquidationLog());
         dashboardPage.clickOnLiquidationLog();
-        Thread.sleep(1000);
+        driverUtility.WaitTovisibility(10, dashboardPage.getDownloadButton());
         dashboardPage.clickOnDownloadButton();
-        Thread.sleep(1000);
+        driverUtility.WaitTovisibility(10, loginpage.getLogoutButton());
         loginpage.clickOnLogoutButton();
         
         

@@ -29,7 +29,7 @@ public class DashBoardPage extends BaseClass{
 	private WebElement toDateButton;
 	
 	@FindBy(xpath = "//mat-label[normalize-space(text())='Scan']")
-	private WebElement sacnTab;
+	private WebElement scanTab;
 	
 	@FindBy(xpath = "//mat-label[normalize-space(text())='Liquidation']")
 	private WebElement liquidationTab;
@@ -115,9 +115,79 @@ public class DashBoardPage extends BaseClass{
          }
     }
     
-    public void clickOnSacnTab() {
+    public WebElement getToDateButton() {
+		return toDateButton;
+	}
+
+	public void setToDateButton(WebElement toDateButton) {
+		this.toDateButton = toDateButton;
+	}
+
+	public WebElement getScanTab() {
+		return scanTab;
+	}
+
+	public void setSacnTab(WebElement sacnTab) {
+		this.scanTab = sacnTab;
+	}
+
+	public WebElement getLiquidationTab() {
+		return liquidationTab;
+	}
+
+	
+
+	public WebElement getFilterIcon() {
+		return filterIcon;
+	}
+
+	public void setFilterIcon(WebElement filterIcon) {
+		this.filterIcon = filterIcon;
+	}
+
+	public WebElement getCustomDateRange() {
+		return CustomDateRange;
+	}
+
+	public void setCustomDateRange(WebElement customDateRange) {
+		CustomDateRange = customDateRange;
+	}
+
+	public WebElement getApplyButton() {
+		return applyButton;
+	}
+
+	public void setApplyButton(WebElement applyButton) {
+		this.applyButton = applyButton;
+	}
+
+	public WebElement getDownloadTab() {
+		return downloadTab;
+	}
+
+	public void setDownloadTab(WebElement downloadTab) {
+		this.downloadTab = downloadTab;
+	}
+
+	public WebElement getLiquidationLog() {
+		return liquidationLog;
+	}
+
+	public void setLiquidationLog(WebElement liquidationLog) {
+		this.liquidationLog = liquidationLog;
+	}
+
+	public WebElement getDownloadButton() {
+		return downloadButton;
+	}
+
+	public void setDownloadButton(WebElement downloadButton) {
+		this.downloadButton = downloadButton;
+	}
+
+	public void clickOnScanTab() {
     	try {
-    		sacnTab.click();
+    		scanTab.click();
     		System.out.println("Clicked on sacnTab");
     	}catch (Exception e) {
 			System.out.println("Not able to click on SacnTab "+ e);
