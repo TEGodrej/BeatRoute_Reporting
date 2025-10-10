@@ -16,8 +16,11 @@ public class LiquidationReportTest extends BaseClass{
 
 	    String user = "PowerBI";
 	    String paswrd = "Ganpati#123456";
+	    Thread.sleep(8000);
 	    loginpage.SendkeyToUserName(user);
+	    Thread.sleep(8000);
 	    loginpage.sendkeyToPasswordTextField(paswrd);
+	    Thread.sleep(8000);
 	    loginpage.clickOnLogInButton();
 		Thread.sleep(8000);
 		dashboardPage.clickOnSacnTab();
