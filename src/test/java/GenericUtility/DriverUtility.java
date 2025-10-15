@@ -17,10 +17,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Driverutility  {
+public class DriverUtility  {
 	
 	public WebDriver driver;
-	public Driverutility(WebDriver driver) {
+	public DriverUtility(WebDriver driver) {
 		this.driver = driver;
 		
 	}

@@ -20,7 +20,7 @@ public class BaseClass {
 	public static WebDriver driver;
 	public LoginPage loginpage;
 	public DashBoardPage dashboardPage;
-	public Driverutility driverUtility;
+	public DriverUtility driverutility;
 	
 	@BeforeClass
 	public void Login() {
@@ -46,7 +46,7 @@ public class BaseClass {
 		
 		loginpage                  =new LoginPage(driver);
 		dashboardPage              = new DashBoardPage(driver);
-		driverUtility              = new Driverutility(driver);
+		driverutility              = new DriverUtility(driver);
 	}
 	
 	@AfterClass

@@ -16,34 +16,34 @@ public class LiquidationReportTest extends BaseClass{
 
 	    String user = "PowerBI";
 	    String paswrd = "Ganpati#123456";
-	    driverUtility.WaitTovisibility(10, loginpage.getUsername());
+	    driverutility.WaitTovisibility(10, loginpage.getUsername());
 	    loginpage.SendkeyToUserName(user);
-	    driverUtility.WaitTovisibility(10, loginpage.getPasswordTextField());
+	    driverutility.WaitTovisibility(10, loginpage.getPasswordTextField());
 	    loginpage.sendkeyToPasswordTextField(paswrd);
-	    driverUtility.WaitTovisibility(10, loginpage.getLogInButton());
+	    driverutility.WaitTovisibility(10, loginpage.getLogInButton());
 	    loginpage.clickOnLogInButton();
-	    driverUtility.WaitTovisibility(10, dashboardPage.getScanTab());
+	    driverutility.WaitTovisibility(10, dashboardPage.getScanTab());
 		dashboardPage.clickOnScanTab();
-		driverUtility.WaitTovisibility(10, dashboardPage.getLiquidationTab());
+		driverutility.WaitTovisibility(10, dashboardPage.getLiquidationTab());
 		dashboardPage.clickOnLiquidationTab();
-		driverUtility.WaitTovisibility(10, dashboardPage.getFilterIcon());
+		driverutility.WaitTovisibility(10, dashboardPage.getFilterIcon());
 		dashboardPage.clickOnFilterIcon();
-		driverUtility.WaitTovisibility(10, dashboardPage.getCustomDateRange());
+		driverutility.WaitTovisibility(10, dashboardPage.getCustomDateRange());
 		dashboardPage.clickOnCustomDateRange();
 
 		dashboardPage.clickOnFromDate();
-		driverUtility.WaitTovisibility(10, dashboardPage.getToDateButton());
+		driverutility.WaitTovisibility(10, dashboardPage.getToDateButton());
 		dashboardPage.clickOnToDateButton();
         dashboardPage.clickOnToDate();
-        driverUtility.WaitTovisibility(10, dashboardPage.getApplyButton());
+        driverutility.WaitTovisibility(10, dashboardPage.getApplyButton());
         dashboardPage.clickOnApplyButton();
-        driverUtility.WaitTovisibility(10, dashboardPage.getToDateButton());
+        driverutility.WaitTovisibility(10, dashboardPage.getToDateButton());
         dashboardPage.clickOnDownloadTab();
-        driverUtility.WaitTovisibility(10, dashboardPage.getLiquidationLog());
+        driverutility.WaitTovisibility(10, dashboardPage.getLiquidationLog());
         dashboardPage.clickOnLiquidationLog();
-        driverUtility.WaitTovisibility(10, dashboardPage.getDownloadButton());
+        driverutility.WaitTovisibility(10, dashboardPage.getDownloadButton());
         dashboardPage.clickOnDownloadButton();
-        driverUtility.WaitTovisibility(10, loginpage.getLogoutButton());
+        driverutility.WaitTovisibility(10, loginpage.getLogoutButton());
         loginpage.clickOnLogoutButton();
         
         
