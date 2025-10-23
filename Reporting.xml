@@ -3,11 +3,16 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="test.LiquidationReportTest"/>
-      <methods>
+      <class name="test.LiquidationReportTest">
+        <methods>
           <include name="liquidationReport"/>
           <include name="upload"/>
         </methods>
+      </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+
+
+
+
