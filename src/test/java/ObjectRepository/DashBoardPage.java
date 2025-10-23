@@ -28,19 +28,19 @@ public class DashBoardPage extends BaseClass{
 	@FindBy(xpath = "//input[@value='toDate']")
 	private WebElement toDateButton;
 	
-	@FindBy(xpath = "//mat-label[normalize-space(text())='Scan']")
+	@FindBy(xpath = "//mat-label[text()='Scan']")
 	private WebElement scanTab;
 	
-	@FindBy(xpath = "//mat-label[normalize-space(text())='Liquidation']")
+	@FindBy(xpath = "//mat-label[text()='Liquidation']")
 	private WebElement liquidationTab;
 	
 	@FindBy(xpath = "(//span[@title='Advanced filters'])[1]")
 	private WebElement filterIcon;
 	
-	@FindBy(xpath = "//li[normalize-space(text())=' Custom date range ']")
+	@FindBy(xpath = "//li[text()=' Custom date range ']")
 	private WebElement CustomDateRange;
 	
-	@FindBy(xpath = "//button[normalize-space(text())='Apply ']")
+	@FindBy(xpath = "//button[text()='Apply ']")
 	private WebElement applyButton;
 	
 	@FindBy(xpath = "//i[@class='fa fa-download scASFIconStyle scCMCenterXY']")
@@ -49,7 +49,7 @@ public class DashBoardPage extends BaseClass{
 	@FindBy(xpath = "//div[@class='scASFDropdownListItems']/child::span[text()='Liquidation log']")
 	private WebElement liquidationLog;
 	
-	@FindBy(xpath = "//button[normalize-space(text())='Download ']")
+	@FindBy(xpath = "//button[text()='Download ']")
 	private WebElement downloadButton;
 	
     LocalDate today = LocalDate.now(ZoneId.of("Asia/Kolkata"));
@@ -72,7 +72,7 @@ public class DashBoardPage extends BaseClass{
 
              // Re-locate yesterday’s day in the *previous month’s calendar*
              
-             WebElement yesterdays = driver.findElement(By.xpath("//div[normalize-space(text())='" + day + "']"));
+             WebElement yesterdays = driver.findElement(By.xpath("//div[text()='" + day + "']"));
              WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
              wait.until(ExpectedConditions.elementToBeClickable(yesterdays));
              yesterdays.click();
@@ -80,7 +80,7 @@ public class DashBoardPage extends BaseClass{
          } else {
              // Same month → just click yesterday’s date
             
-             WebElement yesterdays = driver.findElement(By.xpath("//div[normalize-space(text())=' " + day + " ']"));
+             WebElement yesterdays = driver.findElement(By.xpath("//div[text()=' " + day + " ']"));
              WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
              wait.until(ExpectedConditions.elementToBeClickable(yesterdays));
              yesterdays.click();
@@ -100,7 +100,7 @@ public class DashBoardPage extends BaseClass{
 
              // Re-locate yesterday’s day in the *previous month’s calendar*
              
-             WebElement yesterdays1 = driver.findElement(By.xpath("//div[normalize-space(text())=' " + day + " ']"));
+             WebElement yesterdays1 = driver.findElement(By.xpath("//div[text()=' " + day + " ']"));
              WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
              wait.until(ExpectedConditions.elementToBeClickable(yesterdays1));
              yesterdays1.click();
@@ -108,7 +108,7 @@ public class DashBoardPage extends BaseClass{
          } else {
              // Same month → just click yesterday’s date
             
-             WebElement yesterdays1 = driver.findElement(By.xpath("//div[normalize-space(text())=' " + day + " ']"));
+             WebElement yesterdays1 = driver.findElement(By.xpath("//div[text()=' " + day + " ']"));
              WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
              wait.until(ExpectedConditions.elementToBeClickable(yesterdays1));
              yesterdays1.click();

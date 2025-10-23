@@ -36,7 +36,7 @@ public class LoginPage extends BaseClass{
 	@FindBy(xpath = "//a[@href='/download/CSV/getLast/type/activity']")
 	private WebElement downloadButton;
 	
-	@FindBy(xpath = "//mat-icon[normalize-space(text())='logout']")
+	@FindBy(xpath = "//mat-icon[text()='logout']")
 	private WebElement logoutButton;
 
 	
