@@ -18,7 +18,7 @@ import GenericUtility.BaseClass;
 public class LiquidationReportTest extends BaseClass{
 
 	
-	@Test
+	@Test(priority = 0)
 	public void liquidationReport() throws InterruptedException {
 		
 
@@ -56,7 +56,7 @@ public class LiquidationReportTest extends BaseClass{
 	}
 	
 	 	
-	     @Test
+	     @Test(priority = 1)
 	     public void upload(){
 	         // Local folder where reports are stored
 

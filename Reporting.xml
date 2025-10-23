@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="test.LiquidationReportTest"/>
+      <class name="test.FTPUploaderTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
