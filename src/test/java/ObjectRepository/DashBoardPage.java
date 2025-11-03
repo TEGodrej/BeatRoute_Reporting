@@ -76,6 +76,7 @@ public class DashBoardPage extends BaseClass{
              WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
              wait.until(ExpectedConditions.elementToBeClickable(yesterdays));
              yesterdays.click();
+             System.out.println(yesterdays);
 
          } else {
              // Same month → just click yesterday’s date
@@ -84,6 +85,7 @@ public class DashBoardPage extends BaseClass{
              WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
              wait.until(ExpectedConditions.elementToBeClickable(yesterdays));
              yesterdays.click();
+             System.out.println(yesterdays);
          }
     }
     
@@ -104,6 +106,7 @@ public class DashBoardPage extends BaseClass{
              WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
              wait.until(ExpectedConditions.elementToBeClickable(yesterdays1));
              yesterdays1.click();
+             System.out.println(yesterdays1);
 
          } else {
              // Same month → just click yesterday’s date
@@ -112,6 +115,7 @@ public class DashBoardPage extends BaseClass{
              WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
              wait.until(ExpectedConditions.elementToBeClickable(yesterdays1));
              yesterdays1.click();
+             System.out.println(yesterdays1);
          }
     }
     
