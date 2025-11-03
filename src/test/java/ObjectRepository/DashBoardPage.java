@@ -63,7 +63,7 @@ public class DashBoardPage extends BaseClass{
     	 if (today.isEqual(firstDayOfMonth)) {
              // Click the "previous month" button
              WebElement previousMonthBtn = driver.findElement(By.xpath(
-                 "//button[@class='mat-calendar-previous-button mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base']"
+                 "//button[@aria-label='Previous month']//span[@class='mat-mdc-focus-indicator']"
              ));
              previousMonthBtn.click();
 
