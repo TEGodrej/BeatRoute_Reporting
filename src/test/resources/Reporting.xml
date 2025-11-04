@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="testng.xml"?>
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test thread-count="2" name="Test">
     <classes>
       <class name="test.LiquidationReportTest">
         <methods>

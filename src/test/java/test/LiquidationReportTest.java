@@ -30,7 +30,7 @@ public class LiquidationReportTest extends BaseClass{
 	    loginpage.sendkeyToPasswordTextField(paswrd);
 	    driverUtility.threadWait(2);
 	    loginpage.clickOnLogInButton();
-	    driverUtility.threadWait(2);
+	    driverUtility.threadWait(4);
 		dashboardPage.clickOnScanTab();
 		driverUtility.threadWait(2);
 		dashboardPage.clickOnLiquidationTab();
@@ -56,7 +56,7 @@ public class LiquidationReportTest extends BaseClass{
 	}
 	
 	 	
-	     @Test
+	     @Test(dependsOnMethods = {"liquidationReport"})
 	     public void upload(){
 	         // Local folder where reports are stored
 
