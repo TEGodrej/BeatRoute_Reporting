@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-04T09:37:29 IST" name="Default suite" finished-at="2025-11-04T09:38:09 IST" duration-ms="39628">
+  <suite started-at="2025-11-05T09:16:28 IST" name="Default suite" finished-at="2025-11-05T09:17:07 IST" duration-ms="39118">
     <groups>
     </groups>
-    <test started-at="2025-11-04T09:37:29 IST" name="Default test" finished-at="2025-11-04T09:38:09 IST" duration-ms="39628">
+    <test started-at="2025-11-05T09:16:28 IST" name="Default test" finished-at="2025-11-05T09:17:07 IST" duration-ms="39118">
       <class name="test.LiquidationReportTest">
-        <test-method is-config="true" signature="Login()[pri:0, instance:test.LiquidationReportTest@bccb269]" started-at="2025-11-04T09:37:29 IST" name="Login" finished-at="2025-11-04T09:37:33 IST" duration-ms="3317" status="PASS">
+        <test-method is-config="true" signature="Login()[pri:0, instance:test.LiquidationReportTest@c0c2f8d]" started-at="2025-11-05T09:16:28 IST" name="Login" finished-at="2025-11-05T09:16:31 IST" duration-ms="3071" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="liquidationReport()[pri:0, instance:test.LiquidationReportTest@bccb269]" started-at="2025-11-04T09:37:33 IST" name="liquidationReport" finished-at="2025-11-04T09:38:08 IST" duration-ms="35590" status="PASS">
+        <test-method signature="liquidationReport()[pri:0, instance:test.LiquidationReportTest@c0c2f8d]" started-at="2025-11-05T09:16:31 IST" name="liquidationReport" finished-at="2025-11-05T09:17:06 IST" duration-ms="35553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- liquidationReport -->
-        <test-method signature="upload()[pri:0, instance:test.LiquidationReportTest@bccb269]" started-at="2025-11-04T09:38:08 IST" name="upload" finished-at="2025-11-04T09:38:09 IST" depends-on-methods="test.LiquidationReportTest.liquidationReport" duration-ms="304" status="PASS">
+        <test-method signature="upload()[pri:0, instance:test.LiquidationReportTest@c0c2f8d]" started-at="2025-11-05T09:17:06 IST" name="upload" finished-at="2025-11-05T09:17:07 IST" depends-on-methods="test.LiquidationReportTest.liquidationReport" duration-ms="216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- upload -->
-        <test-method is-config="true" signature="closeInstance()[pri:0, instance:test.LiquidationReportTest@bccb269]" started-at="2025-11-04T09:38:09 IST" name="closeInstance" finished-at="2025-11-04T09:38:09 IST" duration-ms="388" status="PASS">
+        <test-method is-config="true" signature="closeInstance()[pri:0, instance:test.LiquidationReportTest@c0c2f8d]" started-at="2025-11-05T09:17:07 IST" name="closeInstance" finished-at="2025-11-05T09:17:07 IST" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeInstance -->

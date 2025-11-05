@@ -24,33 +24,33 @@ public class LiquidationReportTest extends BaseClass{
 
 	    String user = "PowerBI";
 	    String paswrd = "Ganpati#123456";
-	    driverUtility.threadWait(2);
+	    driverUtility.threadWait(10);
 	    loginpage.SendkeyToUserName(user);
-	    driverUtility.threadWait(2);
+	    driverUtility.threadWait(10);
 	    loginpage.sendkeyToPasswordTextField(paswrd);
-	    driverUtility.threadWait(2);
+	    driverUtility.threadWait(10);
 	    loginpage.clickOnLogInButton();
-	    driverUtility.threadWait(4);
+	    driverUtility.threadWait(10);
 		dashboardPage.clickOnScanTab();
-		driverUtility.threadWait(2);
+		driverUtility.threadWait(10);
 		dashboardPage.clickOnLiquidationTab();
-		driverUtility.threadWait(2);
+		driverUtility.threadWait(10);
 		dashboardPage.clickOnFilterIcon();
-		driverUtility.threadWait(2);
+		driverUtility.threadWait(10);
 		dashboardPage.clickOnCustomDateRange();
 		dashboardPage.clickOnFromDate();
-		driverUtility.threadWait(2);
+		driverUtility.threadWait(10);
 		dashboardPage.clickOnToDateButton();
         dashboardPage.clickOnToDate();
-        driverUtility.threadWait(2);
+        driverUtility.threadWait(10);
         dashboardPage.clickOnApplyButton();
-        driverUtility.threadWait(2);
+        driverUtility.threadWait(10);
         dashboardPage.clickOnDownloadTab();
-        driverUtility.threadWait(2);
+        driverUtility.threadWait(10);
         dashboardPage.clickOnLiquidationLog();
-        driverUtility.threadWait(2);
+        driverUtility.threadWait(10);
         dashboardPage.clickOnDownloadButton();
-        driverUtility.threadWait(8);
+        driverUtility.threadWait(10);
         loginpage.clickOnLogoutButton();
         
 	}
