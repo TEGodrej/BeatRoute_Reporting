@@ -3,8 +3,8 @@ package test;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.Comparator;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.apache.commons.net.ftp.FTP;
 import org.apache.commons.net.ftp.FTPClient;
@@ -62,20 +62,33 @@ public class LiquidationReportTest extends BaseClass{
 
 	     	String localFolder = "C:\\Users\\testing.engineer\\git\\Reporting\\BeatRoute_ReportGeneration\\Reports" ;
 	     	
+	     // Get today’s date in the same format as file name
+	     	String today = new SimpleDateFormat("dd-MM-yyyy").format(new Date());
+
+	     	
 	         // Get all files starting with "Liquidation_Log" and ending with ".xlsx"
 	         File folder = new File(localFolder);
-	         File[] files = folder.listFiles((dir, name) -> name.startsWith("Liquidation_Log") && name.endsWith(".xlsx"));
+	         File[] todayFiles = folder.listFiles((dir, name) ->
+	         name.startsWith("Liquidation_Log_" + today) && name.endsWith(".xlsx"));
 
-	         if (files == null || files.length == 0) {
-	             System.out.println("No report file found in folder: " + localFolder);
-	             return;
+
+	         if (todayFiles == null || todayFiles.length == 0) {
+	        	    System.out.println("❌ No Excel file found for today's date: " + today);
+	        	    return;
+	        	}
+
+	      // In case multiple files generated today, pick the most recent
+	         File latestFile = todayFiles[0];
+	         for (File f : todayFiles) {
+	             if (f.lastModified() > latestFile.lastModified()) {
+	                 latestFile = f;
+	             }
 	         }
 
-	         // Sort by last modified to pick the latest file
-	         Arrays.sort(files, Comparator.comparingLong(File::lastModified).reversed());
-	         File reportFile = files[0];  // Latest file
-	         String localFilePath = reportFile.getAbsolutePath();
-	         String remoteFilePath = "/Powerbi_Analytics/MD_Dashboards/CPB/" + reportFile.getName();
+	         // Latest file path
+	         String localFilePath = latestFile.getAbsolutePath();
+	         System.out.println("✅ Found today's file: " + localFilePath);
+	         String remoteFilePath = "/Powerbi_Analytics/MD_Dashboards/CPB/" + latestFile.getName();
 	         String userId ="powerbi.admin";
 	         String password ="Pbianalyts@456#";
 
