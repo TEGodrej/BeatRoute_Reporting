@@ -1,0 +1,105 @@
+package ObjectRepository;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class TeamActivityPage {
+	
+	WebDriver driver;
+	public TeamActivityPage(WebDriver driver) {
+		this.driver=driver;
+		PageFactory.initElements(driver, this);
+	}
+
+	@FindBy(xpath = "//li[@class='highlight']//span[@class='item-label'][normalize-space()='Team Activity']")
+	private WebElement teamActivityTab;
+	
+	@FindBy(xpath = "//body[1]/div[5]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/i[1]")
+	private WebElement activityLogTab;
+	
+	@FindBy(xpath = "//a[contains(@href,'/download/CSV/logRequest/type/activity')]")
+	private WebElement generateFileButton;
+	
+	@FindBy(xpath = "//a[@href='/download/CSV/getLast/type/activity']")
+	private WebElement downloadButton;
+	
+	public void clickOnTeamActivityTab() {
+		try {
+			teamActivityTab.click();
+			System.out.println("Clicked on TeamActivity Tab");
+		} catch (Exception e) {
+			System.out.println("Not able to click on TeamActivity Tab "+e);
+		}
+	}
+	
+	public void clickOnactivityLogTab() {
+		try {
+			activityLogTab.click();
+			System.out.println("clicked on ActivityLog Tab");
+		} catch (Exception e) {
+			System.out.println("Not able to click on ActivityLog Tab "+e);
+		}
+	}
+	
+	public void clickOngenerateFileButton() {
+		try {
+			generateFileButton.click();
+			System.out.println("Clicked on GenerateFile Button");
+		} catch (Exception e) {
+			System.out.println("Not able to click on GenerateFile Button "+e);
+		}
+	}
+	
+	// Handle date
+    Date date = new Date();
+    
+	public void clickOnChangedate() {
+		try {
+		 
+        SimpleDateFormat sim = new SimpleDateFormat("dd MMM, yyyy");
+        String day = sim.format(date);
+
+        WebElement dateChange = driver.findElement(By.xpath(
+            "//div[@id='activityDateFilterTrigger1']//span[@class='printDate'][normalize-space()='" + day + "']"));
+        dateChange.click();
+        String Date=dateChange.getText();
+        System.out.println("Clicked on "+Date);
+		}
+		catch (Exception e) {
+			System.out.println("Not able to click on chage "+e);
+		}
+	}
+	
+	public void clickOnFromDate() {
+		try {
+			SimpleDateFormat sdf = new SimpleDateFormat("d");
+	        String day1 = sdf.format(date);
+	        System.out.println(day1);
+	        WebElement reportDate = driver.findElement(By.xpath("//a[@data-date='"+day1+"']"));
+	        reportDate.click();
+	        
+	        System.out.println("Selected from-date");
+		} catch (Exception e) {
+			System.out.println("Not able to select from-date "+e);
+		}
+	}
+	
+	public void clickOnToDate() {
+		try {
+			SimpleDateFormat sdf1 = new SimpleDateFormat("d");
+	        String day2 = sdf1.format(date);
+	        WebElement reportDate1 = driver.findElement(By.xpath("//a[@data-date='"+ day2 +"']"));
+	        reportDate1.click();
+	        
+	        System.out.println("Selected To-date");
+		} catch (Exception e) {
+			System.out.println("Not able to select To-date "+e);
+		}
+	}
+}
