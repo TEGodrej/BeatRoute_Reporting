@@ -58,36 +58,41 @@ public class LiquidationReportTest extends BaseClass{
 	 	
 	     @Test(dependsOnMethods = {"liquidationReport"})
 	     public void upload(){
-	         // Local folder where reports are stored
+	    	// Get workspace path dynamically (works for both local and Jenkins)
+	    	 String workspacePath = System.getProperty("user.dir");
 
-	     	String localFolder = "C:\\Users\\testing.engineer\\git\\Reporting\\BeatRoute_ReportGeneration\\Reports" ;
-	     	
-	     // Get today’s date in the same format as file name
-	     	String today = new SimpleDateFormat("dd-MM-yyyy").format(new Date());
+	    	 // Local folder where reports are stored (inside workspace)
+	    	 String localFolder = workspacePath + File.separator + "Reports";
 
-	     	
-	         // Get all files starting with "Liquidation_Log" and ending with ".xlsx"
-	         File folder = new File(localFolder);
-	         File[] todayFiles = folder.listFiles((dir, name) ->
-	         name.startsWith("Liquidation_Log_" + today) && name.endsWith(".xlsx"));
+	    	 // Get today’s date in the same format as file name
+	    	 String today = new SimpleDateFormat("dd-MM-yyyy").format(new Date());
 
+	    	 // Create folder object
+	    	 File folder = new File(localFolder);
 
-	         if (todayFiles == null || todayFiles.length == 0) {
-	        	    System.out.println("❌ No Excel file found for today's date: " + today);
-	        	    return;
-	        	}
+	    	 // Get all files starting with "Liquidation_Log_<today>" and ending with ".xlsx"
+	    	 File[] todayFiles = folder.listFiles((dir, name) ->
+	    	     name.startsWith("Liquidation_Log_" + today) && name.endsWith(".xlsx")
+	    	 );
 
-	      // In case multiple files generated today, pick the most recent
-	         File latestFile = todayFiles[0];
-	         for (File f : todayFiles) {
-	             if (f.lastModified() > latestFile.lastModified()) {
-	                 latestFile = f;
-	             }
-	         }
+	    	 // Check if files found
+	    	 if (todayFiles == null || todayFiles.length == 0) {
+	    	     System.out.println("❌ No Excel file found for today's date: " + today);
+	    	     System.out.println("Checked folder: " + localFolder);
+	    	     return;
+	    	 }
 
-	         // Latest file path
-	         String localFilePath = latestFile.getAbsolutePath();
-	         System.out.println("✅ Found today's file: " + localFilePath);
+	    	 // In case multiple files generated today, pick the most recent
+	    	 File latestFile = todayFiles[0];
+	    	 for (File f : todayFiles) {
+	    	     if (f.lastModified() > latestFile.lastModified()) {
+	    	         latestFile = f;
+	    	     }
+	    	 }
+
+	    	 // Latest file path
+	    	 String localFilePath = latestFile.getAbsolutePath();
+	    	 System.out.println("✅ Found today's file: " + localFilePath);
 	         String remoteFilePath = "/Powerbi_Analytics/MD_Dashboards/CPB/" + latestFile.getName();
 	         String userId ="powerbi.admin";
 	         String password ="Pbianalyts@456#";
