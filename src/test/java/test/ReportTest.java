@@ -1,14 +1,14 @@
 package test;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+import org.apache.commons.net.ftp.FTP;
+import org.apache.commons.net.ftp.FTPClient;
 import org.testng.annotations.Test;
 
 import GenericUtility.BaseClassAF;
@@ -17,101 +17,101 @@ public class ReportTest extends BaseClassAF{
 
     @Test
     public void reportGeneration() throws InterruptedException {
-        // 🔹 Set custom download path before launching browser
-
-//        String downloadFilepath1 = System.getProperty("user.dir") + "/Reports";
-//
-//        Map<String, Object> prefs = new HashMap<>();
-//        prefs.put("download.default_directory", downloadFilepath1);
-//        prefs.put("download.prompt_for_download", false);
-//        prefs.put("download.directory_upgrade", true);
-//        prefs.put("safebrowsing.enabled", true);
-//
-//        ChromeOptions options = new ChromeOptions();
-//        options.setExperimentalOption("prefs", prefs);
-//
-//        WebDriver driver = new ChromeDriver(options); // ✅ use this driver everywhere
-//
-//        driver.manage().window().maximize();
-//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-//
-//        // Login
-//        driver.get("https://app.beatroute.io/site/login");
         String user = "ajit.sahu@godrejagrovet.com";
         String paswrd = "Ganpati@123456";
 
-//        WebElement userName = driver.findElement(By.xpath("//input[@placeholder='Please enter your email']"));
-//        userName.sendKeys(user);
         loginPage_AF.sendkeyToUserNameTextField(user);
-        
-
-//        WebElement proceedBtn = driver.findElement(By.xpath("//input[@value='PROCEED']"));
-//        proceedBtn.click();
         loginPage_AF.clickOnProceedButton();
-
-//        WebElement password = driver.findElement(By.xpath("//input[@placeholder='Enter your password']"));
-//        password.sendKeys(paswrd);
         loginPage_AF.sendkeyToPasswordTextField(paswrd);
+        loginPage_AF.clickOnLoginButton();
+        driverUtility.threadWait(2);
+        teamActivityPage.errorMessageDisplay();
+        driverUtility.threadWait(2);
+        teamActivityPage.clickOnChangedate();
+        driverUtility.threadWait(2);
+        teamActivityPage.clickOnFromDate();
+        driverUtility.threadWait(2);
+        teamActivityPage.clickOnToDate();
+        driverUtility.threadWait(2);
+        teamActivityPage.clickOnactivityLogTab();
+        driverUtility.threadWait(2);
+        teamActivityPage.clickOngenerateFileButton();
+        driverUtility.allowAlertPopUp();
+        teamActivityPage.clickOnactivityLogTab();
+        teamActivityPage.downloadFile();
 
-        WebElement loginBtn = driver.findElement(By.xpath("//input[@value='Log In']"));
-        loginBtn.click();
+    }
+    
+    @Test
+    public void UploadToFTP() {
+    	// Get workspace path dynamically (works for both local and Jenkins)
+   	 String workspacePath = System.getProperty("user.dir");
 
-        // Handle date
-        Date date = new Date();
-        SimpleDateFormat sim = new SimpleDateFormat("dd MMM, yyyy");
-        String day = sim.format(date);
-        
-        Thread.sleep(Duration.ofSeconds(8));
+   	 // Local folder where reports are stored (inside workspace)
+   	 String localFolder = workspacePath + File.separator + "Reports";
 
-        WebElement dateChange = driver.findElement(By.xpath(
-            "//div[@id='activityDateFilterTrigger1']//span[@class='printDate'][normalize-space()='" + day + "']"));
-        dateChange.click();
-        
-        Thread.sleep(Duration.ofSeconds(4));
+   	 // Get today’s date in the same format as file name
+   	 String today = new SimpleDateFormat("dd-MM-yyyy").format(new Date());
 
-        SimpleDateFormat sdf = new SimpleDateFormat("d");
-        String day1 = sdf.format(date);
-        System.out.println(day1);
-        WebElement reportDate = driver.findElement(By.xpath("//a[@data-date='"+day1+"']"));
-        reportDate.click();
-        
-        Thread.sleep(Duration.ofSeconds(4));
-        
-        SimpleDateFormat sdf1 = new SimpleDateFormat("d");
-        String day2 = sdf1.format(date);
-        WebElement reportDate1 = driver.findElement(By.xpath("//a[@data-date='"+ day2 +"']"));
-        reportDate1.click();
+   	 // Create folder object
+   	 File folder = new File(localFolder);
 
-        // Open activity log
-        WebElement activityLog = driver.findElement(By.xpath(
-            "//body[1]/div[5]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/i[1]"));
-        activityLog.click();
+   	 // Get all files starting with "Liquidation_Log_<today>" and ending with ".xlsx"
+   	 File[] todayFiles = folder.listFiles((dir, name) ->
+   	     name.startsWith("Liquidation_Log_" + today) && name.endsWith(".xlsx")
+   	 );
 
-        WebElement generateFile = driver.findElement(By.xpath(
-            "//a[contains(@href,'/download/CSV/logRequest/type/activity')]"));
-        generateFile.click();
+   	 // Check if files found
+   	 if (todayFiles == null || todayFiles.length == 0) {
+   	     System.out.println("❌ No Excel file found for today's date: " + today);
+   	     System.out.println("Checked folder: " + localFolder);
+   	     return;
+   	 }
 
-        // Handle alert
-        Alert alert = driver.switchTo().alert();
-        alert.accept();
+   	 // In case multiple files generated today, pick the most recent
+   	 File latestFile = todayFiles[0];
+   	 for (File f : todayFiles) {
+   	     if (f.lastModified() > latestFile.lastModified()) {
+   	         latestFile = f;
+   	     }
+   	 }
 
-        WebElement downloadBtn = driver.findElement(By.xpath(
-            "//a[@href='/download/CSV/getLast/type/activity']"));
+   	 // Latest file path
+   	 String localFilePath = latestFile.getAbsolutePath();
+   	 System.out.println("✅ Found today's file: " + localFilePath);
+        String remoteFilePath = "/Bizom/CARGOFL/<Create BITROUTE>/<AF/CPB>/<files>" + latestFile.getName();
+        String userId ="CARGOFL.ADMIN";
+        String password ="CargoGod@678#";
 
-        // Wait until 50 minutes later
-        LocalDateTime now = LocalDateTime.now();
-        LocalDateTime targetTime = now.plusMinutes(50);
+        FTPClient ftpClient = new FTPClient();
+        try {
+            ftpClient.connect("10.9.111.212",21);
+            boolean login = ftpClient.login(userId, password);
 
-        System.out.println("Current Time: " + now.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
-        System.out.println("Will click at: " + targetTime.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
+            if (login) {
+                System.out.println("Connected to FTP server");
 
-        while (LocalDateTime.now().isBefore(targetTime)) {
-            Thread.sleep(1000);
+                ftpClient.enterLocalPassiveMode(); // Passive mode
+                ftpClient.setFileType(FTP.BINARY_FILE_TYPE); // For Excel file
+
+                try (FileInputStream inputStream = new FileInputStream(localFilePath)) {
+                    boolean done = ftpClient.storeFile(remoteFilePath, inputStream);
+                    if (done) {
+                        System.out.println("File uploaded successfully to " + remoteFilePath);
+                    } else {
+                        System.out.println("Failed to upload file.");
+                    }
+                }
+
+                ftpClient.logout();
+            } else {
+                System.out.println("Failed to login to FTP server.");
+            }
+
+            ftpClient.disconnect();
+        } catch (IOException ex) {
+            ex.printStackTrace();
         }
-
-        // Click to download (file goes to /downloads inside project)
-        downloadBtn.click();
-
-//        System.out.println("File downloaded to: " + downloadFilepath);
+    
     }
 }

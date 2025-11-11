@@ -1,6 +1,8 @@
 package ObjectRepository;
 
 import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 import org.openqa.selenium.By;
@@ -28,6 +30,12 @@ public class TeamActivityPage {
 	
 	@FindBy(xpath = "//a[@href='/download/CSV/getLast/type/activity']")
 	private WebElement downloadButton;
+	
+	@FindBy(xpath = "//strong[contains(text(), 'Your account is about to expire in 4 days')]")
+	private WebElement errorMessage;
+	
+	@FindBy(xpath = "//a[@class='close']")
+	private WebElement closeButton;
 	
 	public void clickOnTeamActivityTab() {
 		try {
@@ -100,6 +108,42 @@ public class TeamActivityPage {
 	        System.out.println("Selected To-date");
 		} catch (Exception e) {
 			System.out.println("Not able to select To-date "+e);
+		}
+	}
+	
+	public void downloadFile() {
+		try {
+			// Wait until 50 minutes later
+	        LocalDateTime now = LocalDateTime.now();
+	        LocalDateTime targetTime = now.plusMinutes(5);
+	        
+	        System.out.println("Please wit for 20 minutes ; download is under process");
+
+	        System.out.println("Current Time: " + now.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
+	        System.out.println("Will click at: " + targetTime.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
+
+	        while (LocalDateTime.now().isBefore(targetTime)) {
+	            Thread.sleep(1000);
+	        }
+	        
+//	        activityLogTab.click();
+
+	        // Click to download (file goes to /downloads inside project)
+	        downloadButton.click();
+	        System.out.println("clicked on download button");
+		} catch (Exception e) {
+			System.out.println("File has not been downloaded "+e);
+		}
+	}
+	
+	public void errorMessageDisplay() {
+		
+			if(errorMessage.isDisplayed()) {
+				closeButton.click();
+				System.out.println("Pop Up closed");
+			
+		} else {
+			System.out.println("Pop-up not displayed ");
 		}
 	}
 }

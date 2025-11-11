@@ -153,7 +153,7 @@ public class Driverutility  {
 		js.executeScript("arguments[0].click();",element );
 	}
 	
-	public void allowPopUp() {
+	public void allowAlertPopUp() {
 	    try {
 	        // Switch to the browser alert popup
 	        Alert alert = driver.switchTo().alert();
