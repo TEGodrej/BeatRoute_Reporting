@@ -1,7 +1,9 @@
 package ObjectRepository;
 
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
@@ -31,11 +33,18 @@ public class TeamActivityPage {
 	@FindBy(xpath = "//a[@href='/download/CSV/getLast/type/activity']")
 	private WebElement downloadButton;
 	
-	@FindBy(xpath = "//strong[contains(text(), 'Your account is about to expire in 4 days')]")
+	@FindBy(xpath = "//strong[contains(text(), 'Your account is about to expire ')]")
 	private WebElement errorMessage;
 	
 	@FindBy(xpath = "//a[@class='close']")
 	private WebElement closeButton;
+	
+	@FindBy(xpath = "//span[text()='Users']")
+	private WebElement userTab;
+	
+	@FindBy(xpath = "//a[@href='/team/user/downloadUserList']")
+	private WebElement userDownload;
+	
 	
 	public void clickOnTeamActivityTab() {
 		try {
@@ -84,12 +93,19 @@ public class TeamActivityPage {
 		}
 	}
 	
+	 LocalDate today = LocalDate.now(ZoneId.of("Asia/Kolkata"));
+		
+	    LocalDate yesterday = today.minusDays(1);
+	    
+	    LocalDate firstDayOfMonth = today.withDayOfMonth(1);
+	    int day=yesterday.getDayOfMonth();
+	
 	public void clickOnFromDate() {
 		try {
-			SimpleDateFormat sdf = new SimpleDateFormat("d");
-	        String day1 = sdf.format(date);
-	        System.out.println(day1);
-	        WebElement reportDate = driver.findElement(By.xpath("//a[@data-date='"+day1+"']"));
+//			SimpleDateFormat sdf = new SimpleDateFormat("d");
+//	        String day1 = sdf.format(date);
+//	        System.out.println(day1);
+	        WebElement reportDate = driver.findElement(By.xpath("//a[@data-date='"+day+"']"));
 	        reportDate.click();
 	        
 	        System.out.println("Selected from-date");
@@ -100,9 +116,9 @@ public class TeamActivityPage {
 	
 	public void clickOnToDate() {
 		try {
-			SimpleDateFormat sdf1 = new SimpleDateFormat("d");
-	        String day2 = sdf1.format(date);
-	        WebElement reportDate1 = driver.findElement(By.xpath("//a[@data-date='"+ day2 +"']"));
+//			SimpleDateFormat sdf1 = new SimpleDateFormat("d");
+//	        String day2 = sdf1.format(date);
+	        WebElement reportDate1 = driver.findElement(By.xpath("//a[@data-date='"+ day +"']"));
 	        reportDate1.click();
 	        
 	        System.out.println("Selected To-date");
@@ -115,9 +131,9 @@ public class TeamActivityPage {
 		try {
 			// Wait until 50 minutes later
 	        LocalDateTime now = LocalDateTime.now();
-	        LocalDateTime targetTime = now.plusMinutes(5);
+	        LocalDateTime targetTime = now.plusMinutes(10);
 	        
-	        System.out.println("Please wit for 20 minutes ; download is under process");
+	        System.out.println("Please wit for 30 minutes ; download is under process");
 
 	        System.out.println("Current Time: " + now.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
 	        System.out.println("Will click at: " + targetTime.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
@@ -144,6 +160,24 @@ public class TeamActivityPage {
 			
 		} else {
 			System.out.println("Pop-up not displayed ");
+		}
+	}
+	
+	public void clickOnUserTab() {
+		try {
+			userTab.click();
+			System.out.println("clicked on userTab ");
+		} catch (Exception e) {
+			System.out.println("Not able to click on userTab "+e);
+		}
+	}
+	
+	public void clickOnUserDownload() {
+		try {
+			userDownload.click();
+			System.out.println("clicked on userDownload");
+		} catch (Exception e) {
+			System.out.println("Not abke to click on userDownload "+e);
 		}
 	}
 }
