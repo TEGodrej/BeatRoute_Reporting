@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="testng.xml"?>
+<suite name="Suite">
+  <test thread-count="1" name="Test">
+    <classes>
+      <class name="test.AF_UserListReport">
+       <methods>
+          <include name="uploadToFTP_AF_User"/>
+          <include name="AF_userListReport"/>
+        </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

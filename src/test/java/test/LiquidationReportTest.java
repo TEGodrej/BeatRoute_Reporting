@@ -56,7 +56,7 @@ public class LiquidationReportTest extends BaseClass{
 	}
 	
 	 	
-	     @Test //(dependsOnMethods = {"liquidationReport"})
+	     @Test (dependsOnMethods = {"liquidationReport"})
 	     public void upload(){
 	    	// Get workspace path dynamically (works for both local and Jenkins)
 	    	 String workspacePath = System.getProperty("user.dir");
@@ -77,7 +77,7 @@ public class LiquidationReportTest extends BaseClass{
 
 	    	 // Check if files found
 	    	 if (todayFiles == null || todayFiles.length == 0) {
-	    	     System.out.println("❌ No Excel file found for today's date: " + today);
+	    	     System.out.println("No Excel file found for today's date: " + today);
 	    	     System.out.println("Checked folder: " + localFolder);
 	    	     return;
 	    	 }
@@ -92,7 +92,7 @@ public class LiquidationReportTest extends BaseClass{
 
 	    	 // Latest file path
 	    	 String localFilePath = latestFile.getAbsolutePath();
-	    	 System.out.println("✅ Found today's file: " + localFilePath);
+	    	 System.out.println(" Found today's file: " + localFilePath);
 	         String remoteFilePath = "/Powerbi_Analytics/MD_Dashboards/CPB/" + latestFile.getName();
 	         String userId ="powerbi.admin";
 	         String password ="Pbianalyts@456#";
