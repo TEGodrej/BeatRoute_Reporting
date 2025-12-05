@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 import GenericUtility.BaseClass_CPB;
 
-	public class CPB_Report extends BaseClass_CPB{
+	public class CPB_ReportTest extends BaseClass_CPB{
 
 	    @Test
 	    public void reportGeneration() throws InterruptedException {

@@ -10,41 +10,48 @@ import org.apache.commons.net.ftp.FTP;
 import org.apache.commons.net.ftp.FTPClient;
 import org.testng.annotations.Test;
 
-import GenericUtility.BaseClassCPB_UserList;
+import GenericUtility.BaseClassAF;
 
-public class CPB_UserListReport extends BaseClassCPB_UserList{
+public class AF_ReportTest extends BaseClassAF{
 
-	@Test
-	public void userListReport() {
-		String user = "Beatroute.admin@godrejagrovet.com";
-        String paswrd = "GAVL@123";
+    @Test
+    public void reportGeneration() throws InterruptedException {
+        String user = "ajit.sahu@godrejagrovet.com";
+        String paswrd = "Ganpati@123456";
 
-		
-		driverUtility.implicitlyWait(10);
-		loginPage_AF.sendkeyToUserNameTextField(user);
+        loginPage_AF.sendkeyToUserNameTextField(user);
         loginPage_AF.clickOnProceedButton();
         loginPage_AF.sendkeyToPasswordTextField(paswrd);
         loginPage_AF.clickOnLoginButton();
         driverUtility.threadWait(2);
-        teamActivityPage.clickOnUserTab();
-        driverUtility.threadWait(4);
-        teamActivityPage.clickOnUserDownload();
-        driverUtility.threadWait(4);
+        teamActivityPage.errorMessageDisplay();
+        driverUtility.threadWait(2);
+        teamActivityPage.clickOnChangedate();
+        driverUtility.threadWait(2);
+        teamActivityPage.clickOnFromDate();
+        driverUtility.threadWait(2);
+        teamActivityPage.clickOnToDate();
+        driverUtility.threadWait(2);
+        teamActivityPage.clickOnactivityLogTab();
+        driverUtility.threadWait(2);
+        teamActivityPage.clickOngenerateFileButton();
         driverUtility.allowAlertPopUp();
-        driverUtility.threadWait(60);
+        teamActivityPage.clickOnactivityLogTab();
+        teamActivityPage.downloadFile();
         loginPage_AF.clickOnDropDownButton();
         driverUtility.threadWait(2);
         loginPage_AF.clickOnLogoutButton();
         
-	}
-	
-	@Test (dependsOnMethods = {"userListReport"})
-	public void uploadToFTP_User() {
-		// Get workspace path dynamically (works for both local and Jenkins)
+
+    }
+    
+    @Test (dependsOnMethods = {"reportGeneration"})
+    public void UploadBR_ReportToFTP() {
+    	// Get workspace path dynamically (works for both local and Jenkins)
     	String workspacePath = System.getProperty("user.dir");
 
     	// Local folder where reports are stored (inside workspace)
-    	String localFolder = workspacePath + File.separator + "Reports_CPB_UserList";
+    	String localFolder = workspacePath + File.separator + "Reports_AF";
 
     	// Get today’s date in the same format as file name
     	String today = new SimpleDateFormat("dd-MM-yyyy").format(new Date());
@@ -52,27 +59,27 @@ public class CPB_UserListReport extends BaseClassCPB_UserList{
     	// Create folder object
     	File folder = new File(localFolder);
 
-    	// Step 1: Get all UserList files (downloaded by driver)
-    	File[] UserListFiles = folder.listFiles((dir, name) -> name.startsWith("UserList"));
+    	// Step 1: Get all .tmp files (downloaded by driver)
+    	File[] tmpFiles = folder.listFiles((dir, name) -> name.endsWith(".csv"));
 
-    	// Step 2: Check if any UserList files exist
-    	if (UserListFiles == null || UserListFiles.length == 0) {
-    	    System.out.println(" No UserList file found in folder: " + localFolder);
+    	// Step 2: Check if any .tmp files exist
+    	if (tmpFiles == null || tmpFiles.length == 0) {
+    	    System.out.println("❌ No .tmp file found in folder: " + localFolder);
     	    return;
     	}
 
-    	// Step 3: Pick the most recent .UserList file
-    	File latestTmpFile = UserListFiles[0];
-    	for (File f : UserListFiles) {
+    	// Step 3: Pick the most recent .tmp file
+    	File latestTmpFile = tmpFiles[0];
+    	for (File f : tmpFiles) {
     	    if (f.lastModified() > latestTmpFile.lastModified()) {
     	        latestTmpFile = f;
     	    }
     	}
 
-    	System.out.println(" Found latest UserList file: " + latestTmpFile.getName());
+    	System.out.println("📄 Found latest .tmp file: " + latestTmpFile.getName());
 
     	// Step 4: Define the final CSV file name
-    	String newFileName = "UserList_CPB_" + today + ".csv";
+    	String newFileName = "Beatroute_AF_" + today + ".csv";
     	File renamedFile = new File(folder, newFileName);
 
     	// Step 5: Wait until file is fully downloaded (optional but safer)
@@ -80,7 +87,7 @@ public class CPB_UserListReport extends BaseClassCPB_UserList{
     	long currentSize = latestTmpFile.length();
     	int stableCount = 0;
 
-    	System.out.println(" Waiting for download to complete...");
+    	System.out.println("⏳ Waiting for download to complete...");
     	while (stableCount < 3) { // Check stability 3 times in a row
     	    try { Thread.sleep(1000); } catch (InterruptedException e) { e.printStackTrace(); }
     	    previousSize = currentSize;
@@ -88,28 +95,28 @@ public class CPB_UserListReport extends BaseClassCPB_UserList{
     	    if (currentSize == previousSize) stableCount++;
     	    else stableCount = 0;
     	}
-    	System.out.println(" Download seems complete.");
+    	System.out.println("✅ Download seems complete.");
 
     	// Step 6: Rename file to CSV format
     	boolean renamed = latestTmpFile.renameTo(renamedFile);
 
     	if (renamed) {
-    	    System.out.println(" File renamed successfully to: " + renamedFile.getAbsolutePath());
+    	    System.out.println("✅ File renamed successfully to: " + renamedFile.getAbsolutePath());
     	} else {
-    	    System.out.println(" Failed to rename file: " + latestTmpFile.getName());
+    	    System.out.println("❌ Failed to rename file: " + latestTmpFile.getName());
     	    return;
     	}
 
     	// Step 7: Proceed with FTP upload using renamedFile
     	// (Example placeholder)
-    	System.out.println(" Ready to upload: " + renamedFile.getName());
+    	System.out.println("📤 Ready to upload: " + renamedFile.getName());
 
 
 
    	 // Latest file path
    	 String localFilePath = renamedFile.getAbsolutePath();
-   	 System.out.println(" Found today's file: " + localFilePath);
-        String remoteFilePath = "/Powerbi_Analytics/Beatroute/CPB/Users/" + renamedFile.getName();
+   	 System.out.println("✅ Found today's file: " + localFilePath);
+        String remoteFilePath = "/Powerbi_Analytics/Beatroute/Animal Feed/Activity Log/" + renamedFile.getName();
         String userId ="powerbi.admin";
         String password ="Pbianalyts@456#";
 
@@ -144,6 +151,4 @@ public class CPB_UserListReport extends BaseClassCPB_UserList{
         }
     
     }
-
-	}
-
+}

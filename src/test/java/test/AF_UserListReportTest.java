@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import GenericUtility.BaseClassAFUserList;
 
-public class AF_UserListReport extends BaseClassAFUserList{
+public class AF_UserListReportTest extends BaseClassAFUserList{
 
 	@Test
 	public void AF_userListReport() {
