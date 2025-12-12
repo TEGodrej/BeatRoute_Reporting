@@ -78,6 +78,11 @@ public class TeamActivityPage {
     
 	public void clickOnChangedate() {
 		try {
+			if(errorMessage.isDisplayed()) {
+				closeButton.click();
+				System.out.println("Pop Up closed");
+			
+		}else {
 		 
         SimpleDateFormat sim = new SimpleDateFormat("dd MMM, yyyy");
         String day = sim.format(date);
@@ -87,10 +92,12 @@ public class TeamActivityPage {
         dateChange.click();
         String Date=dateChange.getText();
         System.out.println("Clicked on "+Date);
+		   }
 		}
 		catch (Exception e) {
 			System.out.println("Not able to click on chage "+e);
 		}
+		
 	}
 	
 	 LocalDate today = LocalDate.now(ZoneId.of("Asia/Kolkata"));
@@ -133,7 +140,7 @@ public class TeamActivityPage {
 	        LocalDateTime now = LocalDateTime.now();
 	        LocalDateTime targetTime = now.plusMinutes(10);
 	        
-	        System.out.println("Please wit for 30 minutes ; download is under process");
+	        System.out.println("Please wit for 10 minutes ; download is under process");
 
 	        System.out.println("Current Time: " + now.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
 	        System.out.println("Will click at: " + targetTime.format(DateTimeFormatter.ofPattern("HH:mm:ss")));

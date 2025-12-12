@@ -24,7 +24,7 @@ public class AF_ReportTest extends BaseClassAF{
         loginPage_AF.sendkeyToPasswordTextField(paswrd);
         loginPage_AF.clickOnLoginButton();
         driverUtility.threadWait(2);
-        teamActivityPage.errorMessageDisplay();
+//        teamActivityPage.errorMessageDisplay();
         driverUtility.threadWait(2);
         teamActivityPage.clickOnChangedate();
         driverUtility.threadWait(2);
@@ -64,7 +64,7 @@ public class AF_ReportTest extends BaseClassAF{
 
     	// Step 2: Check if any .tmp files exist
     	if (tmpFiles == null || tmpFiles.length == 0) {
-    	    System.out.println("❌ No .tmp file found in folder: " + localFolder);
+    	    System.out.println(" No .tmp file found in folder: " + localFolder);
     	    return;
     	}
 
@@ -76,7 +76,7 @@ public class AF_ReportTest extends BaseClassAF{
     	    }
     	}
 
-    	System.out.println("📄 Found latest .tmp file: " + latestTmpFile.getName());
+    	System.out.println(" Found latest .tmp file: " + latestTmpFile.getName());
 
     	// Step 4: Define the final CSV file name
     	String newFileName = "Beatroute_AF_" + today + ".csv";
@@ -87,7 +87,7 @@ public class AF_ReportTest extends BaseClassAF{
     	long currentSize = latestTmpFile.length();
     	int stableCount = 0;
 
-    	System.out.println("⏳ Waiting for download to complete...");
+    	System.out.println(" Waiting for download to complete...");
     	while (stableCount < 3) { // Check stability 3 times in a row
     	    try { Thread.sleep(1000); } catch (InterruptedException e) { e.printStackTrace(); }
     	    previousSize = currentSize;
@@ -95,27 +95,27 @@ public class AF_ReportTest extends BaseClassAF{
     	    if (currentSize == previousSize) stableCount++;
     	    else stableCount = 0;
     	}
-    	System.out.println("✅ Download seems complete.");
+    	System.out.println(" Download seems complete.");
 
     	// Step 6: Rename file to CSV format
     	boolean renamed = latestTmpFile.renameTo(renamedFile);
 
     	if (renamed) {
-    	    System.out.println("✅ File renamed successfully to: " + renamedFile.getAbsolutePath());
+    	    System.out.println(" File renamed successfully to: " + renamedFile.getAbsolutePath());
     	} else {
-    	    System.out.println("❌ Failed to rename file: " + latestTmpFile.getName());
+    	    System.out.println(" Failed to rename file: " + latestTmpFile.getName());
     	    return;
     	}
 
     	// Step 7: Proceed with FTP upload using renamedFile
     	// (Example placeholder)
-    	System.out.println("📤 Ready to upload: " + renamedFile.getName());
+    	System.out.println(" Ready to upload: " + renamedFile.getName());
 
 
 
    	 // Latest file path
    	 String localFilePath = renamedFile.getAbsolutePath();
-   	 System.out.println("✅ Found today's file: " + localFilePath);
+   	 System.out.println(" Found today's file: " + localFilePath);
         String remoteFilePath = "/Powerbi_Analytics/Beatroute/Animal Feed/Activity Log/" + renamedFile.getName();
         String userId ="powerbi.admin";
         String password ="Pbianalyts@456#";
