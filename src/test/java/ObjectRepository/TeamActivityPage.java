@@ -78,11 +78,11 @@ public class TeamActivityPage {
     
 	public void clickOnChangedate() {
 		try {
-			if(errorMessage.isDisplayed()) {
-				closeButton.click();
-				System.out.println("Pop Up closed");
-			
-		}else {
+//			if(errorMessage.isDisplayed()) {
+//				closeButton.click();
+//				System.out.println("Pop Up closed");
+//			
+//		}else {
 		 
         SimpleDateFormat sim = new SimpleDateFormat("dd MMM, yyyy");
         String day = sim.format(date);
@@ -92,7 +92,7 @@ public class TeamActivityPage {
         dateChange.click();
         String Date=dateChange.getText();
         System.out.println("Clicked on "+Date);
-		   }
+//		   }
 		}
 		catch (Exception e) {
 			System.out.println("Not able to click on chage "+e);
