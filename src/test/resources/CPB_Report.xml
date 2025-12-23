@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="1" name="Test">
     <classes>
-      <class name="test.CPB_Report">
+      <class name="test.CPB_ReportTest">
        <methods>
           <include name="UploadToFTP"/>
           <include name="reportGeneration"/>
