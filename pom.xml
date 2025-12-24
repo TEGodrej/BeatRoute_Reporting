@@ -80,11 +80,8 @@
                 <version>3.2.5</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/Reporting.xml</suiteXmlFile>
-                        <suiteXmlFile>src/test/resources/AF_Report.xml</suiteXmlFile>
-                        <suiteXmlFile>src/test/resources/AF_UserListReport.xml</suiteXmlFile>
-                        <suiteXmlFile>src/test/resources/CPB_Report.xml</suiteXmlFile>
-                        <suiteXmlFile>src/test/resources/CPB_UserListReport.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/Rgression.xml</suiteXmlFile>
+                        
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
