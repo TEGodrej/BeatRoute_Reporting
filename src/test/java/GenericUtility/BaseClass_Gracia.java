@@ -52,10 +52,10 @@ public class BaseClass_Gracia {
 		
 		
   }
-//	@AfterClass
-//	
-//	public void closeApp() {
-//		driver.close();
-//		driver.quit();
-//	}
+	@AfterClass
+	
+	public void closeApp() {
+		driver.close();
+		driver.quit();
+	}
 }

@@ -56,7 +56,7 @@ public class LiquidationReportTest extends BaseClass{
 	}
 	
 	 	
-	     @Test //(dependsOnMethods = {"liquidationReport"})
+	     @Test (dependsOnMethods = {"liquidationReport"})
 	     public void upload(){
 	    	// Get workspace path dynamically (works for both local and Jenkins)
 	    	 String workspacePath = System.getProperty("user.dir");

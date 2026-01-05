@@ -38,7 +38,7 @@ public class GraciaReportTest extends BaseClass_Gracia{
 		driverutility.threadWait(15);
 	}
 	
-	@Test //(dependsOnMethods = "report_Gracia")
+	@Test (dependsOnMethods = "report_Gracia")
 	public void gracia_Report_Upload() {
 		String workspacePath = System.getProperty("user.dir");
 		

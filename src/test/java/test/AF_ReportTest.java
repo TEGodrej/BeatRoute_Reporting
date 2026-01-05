@@ -45,7 +45,7 @@ public class AF_ReportTest extends BaseClassAF{
 
     }
     
-    @Test // (dependsOnMethods = {"reportGeneration"})
+    @Test  (dependsOnMethods = {"reportGeneration"})
     public void UploadBR_ReportToFTP() {
     	// Get workspace path dynamically (works for both local and Jenkins)
     	String workspacePath = System.getProperty("user.dir");
