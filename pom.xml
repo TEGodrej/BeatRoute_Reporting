@@ -15,11 +15,11 @@
    
 
     <dependencies>
-        <!-- Selenium all modules aligned to 4.20.0 -->
+        <!-- Selenium all modules aligned to 4.21.0 -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.36.0</version>
+            <version>4.21.0</version>
         </dependency>
 
         <!-- TestNG -->
@@ -88,3 +88,5 @@
     </build>
     
 </project>
+
+
