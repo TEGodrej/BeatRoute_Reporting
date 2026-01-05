@@ -24,7 +24,7 @@ public class AF_ReportTest extends BaseClassAF{
         loginPage_AF.sendkeyToPasswordTextField(paswrd);
         loginPage_AF.clickOnLoginButton();
         driverUtility.threadWait(2);
-//        teamActivityPage.errorMessageDisplay();
+        teamActivityPage.errorMessageDisplay();
         driverUtility.threadWait(2);
         teamActivityPage.clickOnChangedate();
         driverUtility.threadWait(2);
@@ -45,7 +45,7 @@ public class AF_ReportTest extends BaseClassAF{
 
     }
     
-    @Test (dependsOnMethods = {"reportGeneration"})
+    @Test // (dependsOnMethods = {"reportGeneration"})
     public void UploadBR_ReportToFTP() {
     	// Get workspace path dynamically (works for both local and Jenkins)
     	String workspacePath = System.getProperty("user.dir");

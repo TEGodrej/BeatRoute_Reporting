@@ -38,7 +38,7 @@ public class CPB_UserListReportTest extends BaseClassCPB_UserList{
         
 	}
 	
-	@Test (dependsOnMethods = {"userListReport"})
+	@Test //(dependsOnMethods = {"userListReport"})
 	public void uploadToFTP_User() {
 		// Get workspace path dynamically (works for both local and Jenkins)
     	String workspacePath = System.getProperty("user.dir");

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+  <test name="Test" thread-count="1">
+    <classes>
+
+      <class name="test.AF_ReportTest">
+        <methods>
+          <include name="UploadBR_ReportToFTP"/>
+          <include name="reportGeneration"/>
+        </methods>
+      </class>
+
+      <class name="test.AF_UserListReportTest">
+        <methods>
+          <include name="uploadToFTP_AF_User"/>
+          <include name="AF_userListReport"/>
+        </methods>
+      </class>
+
+      <class name="test.CPB_ReportTest">
+        <methods>
+          <include name="UploadToFTP"/>
+          <include name="reportGeneration"/>
+        </methods>
+      </class>
+
+      <class name="test.CPB_UserListReportTest">
+        <methods>
+          <include name="uploadToFTP_User"/>
+          <include name="userListReport"/>
+        </methods>
+      </class>
+
+      <class name="test.LiquidationReportTest">
+        <methods>
+          <include name="upload"/>
+          <include name="liquidationReport"/>
+        </methods>
+      </class>
+      
+      <class name="test.GraciaReportTest">
+        <methods>
+          <include name="gracia_Report_Upload"/>
+          <include name="report_Gracia"/>
+        </methods>
+      </class>
+      
+
+    </classes>
+  </test>
+</suite>

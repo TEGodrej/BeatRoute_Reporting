@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.AF_ReportTest">
+      <class name="test.GraciaReportTest">
         <methods>
-          <include name="reportGeneration"/>
-          <include name="UploadBR_ReportToFTP"/>
-          <include name="Login"/>
-          <include name="closeInstance"/>
+          <include name="report_Gracia"/>
         </methods>
-      </class> <!-- test.AF_ReportTest -->
+      </class> <!-- test.GraciaReportTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
