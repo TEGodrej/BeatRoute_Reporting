@@ -25,15 +25,15 @@ public class CPB_UserListReportTest extends BaseClassCPB_UserList{
         loginPage_AF.clickOnProceedButton();
         loginPage_AF.sendkeyToPasswordTextField(paswrd);
         loginPage_AF.clickOnLoginButton();
-        driverUtility.threadWait(2);
+        driverUtility.threadWait(10);
         teamActivityPage.clickOnUserTab();
-        driverUtility.threadWait(4);
+        driverUtility.threadWait(10);
         teamActivityPage.clickOnUserDownload();
-        driverUtility.threadWait(4);
+        driverUtility.threadWait(10);
         driverUtility.allowAlertPopUp();
         driverUtility.threadWait(60);
         loginPage_AF.clickOnDropDownButton();
-        driverUtility.threadWait(2);
+        driverUtility.threadWait(10);
         loginPage_AF.clickOnLogoutButton();
         
 	}

@@ -23,23 +23,25 @@ public class AF_ReportTest extends BaseClassAF{
         loginPage_AF.clickOnProceedButton();
         loginPage_AF.sendkeyToPasswordTextField(paswrd);
         loginPage_AF.clickOnLoginButton();
-        driverUtility.threadWait(2);
-//        teamActivityPage.errorMessageDisplay();
-        driverUtility.threadWait(2);
+        driverUtility.threadWait(10);
+        teamActivityPage.errorMessageDisplay();
+        driverUtility.threadWait(10);
         teamActivityPage.clickOnChangedate();
-        driverUtility.threadWait(2);
+        driverUtility.threadWait(10);
         teamActivityPage.clickOnFromDate();
-        driverUtility.threadWait(2);
+        driverUtility.threadWait(10);
         teamActivityPage.clickOnToDate();
-        driverUtility.threadWait(2);
+        driverUtility.threadWait(10);
         teamActivityPage.clickOnactivityLogTab();
-        driverUtility.threadWait(2);
+        driverUtility.threadWait(10);
         teamActivityPage.clickOngenerateFileButton();
         driverUtility.allowAlertPopUp();
+        driverUtility.threadWait(10);
         teamActivityPage.clickOnactivityLogTab();
         teamActivityPage.downloadFile();
+        driverUtility.threadWait(10);
         loginPage_AF.clickOnDropDownButton();
-        driverUtility.threadWait(2);
+        driverUtility.threadWait(10);
         loginPage_AF.clickOnLogoutButton();
         
 

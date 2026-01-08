@@ -21,14 +21,17 @@ public class AF_UserListReportTest extends BaseClassAFUserList{
 		
 		driverUtility.implicitlyWait(10);
 		loginPage_AF.sendkeyToUserNameTextField(user);
+		  driverUtility.threadWait(10);
         loginPage_AF.clickOnProceedButton();
+        driverUtility.threadWait(10);
         loginPage_AF.sendkeyToPasswordTextField(paswrd);
+        driverUtility.threadWait(10);
         loginPage_AF.clickOnLoginButton();
-        driverUtility.threadWait(2);
+        driverUtility.threadWait(10);
         teamActivityPage.clickOnUserTab();
-        driverUtility.threadWait(4);
+        driverUtility.threadWait(10);
         teamActivityPage.clickOnUserDownload();
-        driverUtility.threadWait(4);
+        driverUtility.threadWait(10);
         driverUtility.allowAlertPopUp();
 	}
 	

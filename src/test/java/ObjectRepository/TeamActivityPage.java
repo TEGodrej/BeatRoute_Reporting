@@ -48,6 +48,10 @@ public class TeamActivityPage {
 	@FindBy(xpath = "//a[@href='/download/CSV/getLast/type/attendanceSummary']")
 	private WebElement attendanceDownloadTab;
 	
+	public WebElement getcloseButton() {
+		return closeButton;
+	}
+	
 	public void clickOnTeamActivityTab() {
 		try {
 			teamActivityTab.click();
@@ -155,12 +159,13 @@ public class TeamActivityPage {
 	
 	public void errorMessageDisplay() {
 		
-			if(errorMessage.isDisplayed()) {
-				closeButton.click();
-				System.out.println("Pop Up closed");
-			
-		} else {
-			System.out.println("Pop-up not displayed ");
+		try {
+		    if (closeButton.isDisplayed()) {
+		        closeButton.click();
+		        System.out.println("Pop Up closed");
+		    }
+		} catch (Exception e) {
+		    System.out.println("Pop-up not displayed");
 		}
 	}
 	
