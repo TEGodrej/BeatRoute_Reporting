@@ -45,6 +45,8 @@ public class TeamActivityPage {
 	@FindBy(xpath = "//a[@href='/team/user/downloadUserList']")
 	private WebElement userDownload;
 	
+	@FindBy(xpath = "//a[@href='/download/CSV/getLast/type/attendanceSummary']")
+	private WebElement attendanceDownloadTab;
 	
 	public void clickOnTeamActivityTab() {
 		try {
@@ -75,24 +77,16 @@ public class TeamActivityPage {
 	
 	// Handle date
     Date date = new Date();
-    
+    SimpleDateFormat sim = new SimpleDateFormat("dd MMM, yyyy");
+    String day1 = sim.format(date);
 	public void clickOnChangedate() {
 		try {
-//			if(errorMessage.isDisplayed()) {
-//				closeButton.click();
-//				System.out.println("Pop Up closed");
-//			
-//		}else {
-		 
-        SimpleDateFormat sim = new SimpleDateFormat("dd MMM, yyyy");
-        String day = sim.format(date);
 
         WebElement dateChange = driver.findElement(By.xpath(
-            "//div[@id='activityDateFilterTrigger1']//span[@class='printDate'][normalize-space()='" + day + "']"));
+            "//div[@id='activityDateFilterTrigger1']//span[@class='printDate'][normalize-space()='" + day1 + "']"));
         dateChange.click();
         String Date=dateChange.getText();
         System.out.println("Clicked on "+Date);
-//		   }
 		}
 		catch (Exception e) {
 			System.out.println("Not able to click on chage "+e);
@@ -185,6 +179,60 @@ public class TeamActivityPage {
 			System.out.println("clicked on userDownload");
 		} catch (Exception e) {
 			System.out.println("Not abke to click on userDownload "+e);
+		}
+	}
+	
+	public void clickOnAttendanceDateChange() {
+		try {
+			WebElement date=driver.findElement(By.xpath("//div[@class='fromdate date']//span[text()='"+day1+"']"));
+			date.click();
+			System.out.println("Clicked on date change");
+		} catch (Exception e) {
+			System.out.println("Not able to click on date change "+e);
+		}
+	}
+	public void select_FromDate() {
+		try {
+			WebElement FromDate=driver.findElement(By.xpath("//a[text()='"+day+"']"));
+			FromDate.click();
+			System.out.println("selcted "+day+" as from-date");
+		} catch (Exception e) {
+			System.out.println("Not able to select from date "+e);
+		}
+	}
+	
+	public void select_ToDate() {
+		try {
+			WebElement ToDate=driver.findElement(By.xpath("//a[text()='"+day+"']"));
+			ToDate.click();
+			System.out.println("selcted "+day+" as To-date");
+		} catch (Exception e) {
+			System.out.println("Not able to select To date "+e);
+		}
+	}
+	
+	public void attendanceFileDownload() {
+		try {
+			// Wait until 50 minutes later
+//	        LocalDateTime now = LocalDateTime.now();
+//	        LocalDateTime targetTime = now.plusMinutes(10);
+//	        
+//	        System.out.println("Please wit for 10 minutes ; download is under process");
+//
+//	        System.out.println("Current Time: " + now.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
+//	        System.out.println("Will click at: " + targetTime.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
+//
+//	        while (LocalDateTime.now().isBefore(targetTime)) {
+//	            Thread.sleep(1000);
+//	        }
+	        
+//	        activityLogTab.click();
+
+	        // Click to download (file goes to /downloads inside project)
+	        attendanceDownloadTab.click();
+	        System.out.println("clicked on download button");
+		} catch (Exception e) {
+			System.out.println("File has not been downloaded "+e);
 		}
 	}
 }

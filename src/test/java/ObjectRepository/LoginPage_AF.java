@@ -31,6 +31,12 @@ public class LoginPage_AF {
 	@FindBy(xpath = "//a[contains(text(),'Log Off')]")
 	private WebElement logoutButton;
 	
+	@FindBy(xpath = "//img[@src='/assets/analytics/assets/arrow_icon.png']")
+	private WebElement logoutDropDown;
+	
+	@FindBy(xpath = "//span[text()='Logout']")
+	private WebElement adherenceLogOutButton;
+	
 	public void sendkeyToUserNameTextField(String key) {
 		try {
 			userNameTextField.sendKeys(key);
@@ -82,6 +88,24 @@ public class LoginPage_AF {
 			System.out.println("Clicked on logoutButton");
 		} catch (Exception e) {
 			System.out.println("Not able to click on logoutButton "+e);
+		}
+	}
+	
+	public void clickOnLogoutDropDown() {
+		try {
+			logoutDropDown.click();
+			System.out.println("Clicked on logout DropDown");
+		} catch (Exception e) {
+			System.out.println("Not able to click on logout DropDown "+e);
+		}
+	}
+	
+	public void clickOnAdherenceLogOutButton() {
+		try {
+			adherenceLogOutButton.click();
+			System.out.println("Clicked on LogOut Button ");
+		} catch (Exception e) {
+			System.out.println("Not able to click on LogOut Button "+e);
 		}
 	}
 	

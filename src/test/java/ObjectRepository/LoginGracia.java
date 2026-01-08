@@ -22,6 +22,9 @@ public class LoginGracia {
 	@FindBy(xpath = "//button[@type='submit']")
 	private WebElement submitButton;
 	
+	@FindBy(xpath = "//span[text()='Logout']")
+	private WebElement logoutButton;
+	
 	public void sendkeyToUserNameTextField(String key) {
 		try {
 			userNameTextField.click();
@@ -49,6 +52,15 @@ public class LoginGracia {
 			System.out.println("Click on submitButton");
 		} catch (Exception e) {
 			System.out.println("Not able to click on submitButton "+e);
+		}
+	}
+	
+	public void ClickOnLogoutButton() {
+		try {
+			logoutButton.click();
+			System.out.println("Clicked on logoutButton");
+		} catch (Exception e) {
+			System.out.println("Not able to click on logoutButton "+e);
 		}
 	}
 }

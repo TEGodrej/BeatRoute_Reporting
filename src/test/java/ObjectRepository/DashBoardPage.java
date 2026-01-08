@@ -3,6 +3,9 @@ package ObjectRepository;
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.ZoneId;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Locale;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -52,9 +55,51 @@ public class DashBoardPage extends BaseClass{
 	@FindBy(xpath = "//button[text()='Download ']")
 	private WebElement downloadButton;
 	
-    LocalDate today = LocalDate.now(ZoneId.of("Asia/Kolkata"));
+	@FindBy(xpath = "//a[@class='dropdown-toggle']//span[text()='Reports']")
+	private WebElement reportTab;
 	
+	@FindBy(xpath = "//span[text()='Team Productivity & Adherence']")
+	private WebElement adherenceTab;
+	
+	@FindBy(xpath = "//div[contains(@class,'layout-date-filter')]//select[contains(@class,'daterange-dropdown')]")
+	private WebElement dateChangeDropDown;
+	
+	@FindBy(xpath = "//option[text()='Custom Date Range']")
+	private WebElement customDateOption;
+	
+	@FindBy(xpath = "//mat-icon[@fonticon='file_download']")
+	private WebElement fileDownloadButton;
+	
+	@FindBy(xpath = "//span[text()='Attendance']")
+	private WebElement attendanceTab;
+	
+	@FindBy(xpath = "//span[text()='Check-In/Out and Attendance ']")
+	private WebElement checkInTab;
+	
+	@FindBy(xpath = "//li[3]//div[1]//div[1]")
+	private WebElement attendanceSummaryDownloadTab;
+	
+	@FindBy(xpath = "//div[@class='btn-group layout-actionbtn open']//a[@title='Click To Generate File'][normalize-space()='Generate File']")
+	private WebElement gen_File;
+	
+	public WebElement getdateChangeDropDown() {
+		return dateChangeDropDown;
+	}
+	
+	
+    LocalDate today = LocalDate.now(ZoneId.of("Asia/Kolkata"));
     LocalDate yesterday = today.minusDays(1);
+    
+    ZoneId indiaZone = ZoneId.of("Asia/Kolkata");
+
+    LocalDate today1 = ZonedDateTime.now(indiaZone).toLocalDate();
+    LocalDate targetDate = today.minusMonths(1).plusDays(1);
+
+    DateTimeFormatter formatter =
+            DateTimeFormatter.ofPattern("MMM d, yyyy", Locale.ENGLISH);
+
+    String formattedDate = targetDate.format(formatter);
+    
     
     LocalDate firstDayOfMonth = today.withDayOfMonth(1);
     int day=yesterday.getDayOfMonth();
@@ -117,6 +162,26 @@ public class DashBoardPage extends BaseClass{
              yesterdays1.click();
              System.out.println(yesterdays1.getText());
          }
+    }
+    
+    public void AdherenceFromDate() {
+//    	SimpleDateFormat sim= new SimpleDateFormat("MMM dd ,yyyy");
+//    	String date = sim.format(new Date()); 
+    	System.out.println("Looking for: " + formattedDate);
+    	WebElement F_date=driver.findElement(By.xpath("//span[text()='"+formattedDate+"']"));
+    	F_date.click();
+    }
+    
+    public void adherence_FromDate() {
+    	WebElement fdate=driver.findElement(By.xpath("//span[text()=' "+day+" ']"));
+    	fdate.click();
+    	System.out.println("selected " +day);
+    }
+    
+    public void adherence_ToDate() {
+    	WebElement Tdate=driver.findElement(By.xpath("//button[@aria-label='January 6, 2026']"));
+    	Tdate.click();
+    	System.out.println("selected " +day);
     }
     
     public WebElement getToDateButton() {
@@ -267,6 +332,88 @@ public class DashBoardPage extends BaseClass{
     		System.out.println("Clicked on download Button");
     	}catch (Exception e) {
 			System.out.println("Not able to click on downloadButton "+ e);
+		}
+    }
+    
+    public void clickOnReportTab() {
+    	try {
+    		reportTab.click();
+    		System.out.println("clicked on reportTab");
+		} catch (Exception e) {
+			System.out.println("Not able to click on reportTab "+e);
+		}
+    }
+    
+    public void clickOnAdherenceTab() {
+    	try {
+    		adherenceTab.click();
+    		System.out.println("Clicked on adherenceTab ");
+		} catch (Exception e) {
+			System.out.println("Not able to click on adherenceTab "+e);
+		}
+    }
+    
+    public void clickOnDateChangeDropDown() {
+    	try {
+    		dateChangeDropDown.click();
+    		System.out.println("Clicked on dateChangeDropDown");
+		} catch (Exception e) {
+			System.out.println("Not able to click on dateChangeDropDown "+e);
+		}
+    }
+    
+    public void clickOnCustomDateOption() {
+    	try {
+    		customDateOption.click();
+    		System.out.println("clicked on customDateOption");
+		} catch (Exception e) {
+			System.out.println("Not able to click on customDateOption "+e);
+		}
+    }
+    
+    public void clickOnFileDownloadButton() {
+    	try {
+    		fileDownloadButton.click();
+    		System.out.println("Clicked on fileDownloadButton ");
+		} catch (Exception e) {
+			System.out.println("Not able to click on fileDownloadButton "+e);
+		}
+    }
+    
+    public void clickOnAttendanceTab() {
+    	try {
+    		attendanceTab.click();
+    		System.out.println("Clicked on Attendance Tab");
+		} catch (Exception e) {
+			System.out.println("Not able to click on Attendance Tab "+e);
+		}
+    }
+    
+    public void clickOncheckInTab() {
+    	try {
+    		checkInTab.click();
+    		System.out.println("Clicked on checkIn Tab");
+		} catch (Exception e) {
+			System.out.println("Not able to click on checkIn Tab");
+		}
+    }
+    
+    public void clickOnAttendanceSummaryDownloadTab() {
+    	try {
+    		attendanceSummaryDownloadTab.click();
+    		System.out.println("Clicked on Attendance Summary Download Tab ");
+		} catch (Exception e) {
+			System.out.println("Not able to click on Attendance Summary Download Tab "+e);
+		}
+    }
+    
+    
+    public void clickOnGenerate_File() {
+    	try {
+    		gen_File.click();
+    		System.out.println("Clicked on generate file Tab");
+		} catch (Exception e) {
+			System.out.println("Not able to click on generate file Tab "+e);
 		}
     }
 }

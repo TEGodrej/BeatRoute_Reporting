@@ -10,71 +10,79 @@ import org.apache.commons.net.ftp.FTP;
 import org.apache.commons.net.ftp.FTPClient;
 import org.testng.annotations.Test;
 
-import GenericUtility.BaseClass_Gracia;
+import GenericUtility.BaseClassAF2;
 
-public class GraciaReportTest extends BaseClass_Gracia{
+public class BR_Adherence_AF extends BaseClassAF2{
 
-	@Test          
-	public void report_Gracia() {
-		String username="admin";
-		String password="admin@gracia";
-		driverutility.threadWait(4);
-		loginGracia.sendkeyToUserNameTextField(username);
-		loginGracia.sendkeyToPasswordTextField(password);
-		loginGracia.clickOnSubmitButton();
-		driverutility.threadWait(6);
-		homePageGracia.clickOnTransactionButton();
-		driverutility.threadWait(4);
-		homePageGracia.clickOnCalenderButton();
-		driverutility.threadWait(10);
-		homePageGracia.fromDate();
-		driverutility.threadWait(2);
-		homePageGracia.select_To_Date();
-		driverutility.threadWait(4);
-		homePageGracia.clickOnApplyFilter();
-		driverutility.threadWait(40);
-		homePageGracia.clickOnDownloadButton();
-		driverutility.threadWait(8);
-		driverutility.allowAlertPopUp();
-		driverutility.threadWait(60);
-		loginGracia.ClickOnLogoutButton();
+	@Test
+	public void animalFeedAdherenceReport() {
+		String user = "ajit.sahu@godrejagrovet.com";
+        String paswrd = "Ganpati@123456";
+		
+		driverUtility.implicitlyWait(10);
+		loginPage_AF.sendkeyToUserNameTextField(user);
+        loginPage_AF.clickOnProceedButton();
+        loginPage_AF.sendkeyToPasswordTextField(paswrd);
+        loginPage_AF.clickOnLoginButton();
+        driverUtility.threadWait(2);
+        dashboardPage.clickOnReportTab();
+        driverUtility.threadWait(2);
+        dashboardPage.clickOnAdherenceTab();
+        driverUtility.threadWait(30);
+        dashboardPage.clickOnDateChangeDropDown();
+        driverUtility.threadWait(2);
+        dashboardPage.clickOnCustomDateOption();
+        driverUtility.threadWait(2);
+        dashboardPage.AdherenceFromDate();
+        driverUtility.threadWait(2);
+        dashboardPage.adherence_FromDate();
+        driverUtility.threadWait(10);
+        dashboardPage.adherence_ToDate();
+        driverUtility.threadWait(30);
+        dashboardPage.clickOnFileDownloadButton();
+        driverUtility.threadWait(10);
+        driverUtility.allowAlertPopUp();
+        driverUtility.threadWait(15);
+        loginPage_AF.clickOnLogoutDropDown();
+        driverUtility.threadWait(6);
+        loginPage_AF.clickOnAdherenceLogOutButton();
 	}
 	
-	@Test (dependsOnMethods = "report_Gracia")
-	public void gracia_Report_Upload() {
-		String workspacePath = System.getProperty("user.dir");
-		
-		// Local folder where reports are stored (inside workspace)
-    	String localFolder = workspacePath + File.separator + "Reports_Gracia";
-    	
+	@Test
+	public void upload_AF_AdherenceReport() {
+		// Get workspace path dynamically (works for both local and Jenkins)
+    	String workspacePath = System.getProperty("user.dir");
+
+    	// Local folder where reports are stored (inside workspace)
+    	String localFolder = workspacePath + File.separator + "AdherenceReports_AF";
+
+    	// Get today’s date in the same format as file name
     	String today = new SimpleDateFormat("dd-MM-yyyy").format(new Date());
-    	
+
     	// Create folder object
     	File folder = new File(localFolder);
-    	
-    	 // Get all files starting with "Liquidation_Log_<today>" and ending with ".xlsx"
-   	 File[] todayFiles = folder.listFiles((dir, name) ->
-   	     name.startsWith("budget" + today) && name.endsWith(".csv")
-   	 );
-    	// Step 2: Check if any .tmp files exist
-    	if (todayFiles == null || todayFiles.length == 0) {
-    	    System.out.println(" No .tmp file found in folder: " + localFolder);
+
+    	// Step 1: Get all UserList files (downloaded by driver)
+    	File[] UserListFiles = folder.listFiles((dir, name) -> name.startsWith("team-activity") && name.endsWith(".xlsx"));
+
+    	// Step 2: Check if any UserList files exist
+    	if (UserListFiles == null || UserListFiles.length == 0) {
+    	    System.out.println("❌ No UserList file found in folder: " + localFolder);
     	    return;
     	}
 
-    	// Step 3: Pick the most recent .tmp file
-    	File latestTmpFile = todayFiles[0];
-    	for (File f : todayFiles) {
+    	// Step 3: Pick the most recent UserList file
+    	File latestTmpFile = UserListFiles[0];
+    	for (File f : UserListFiles) {
     	    if (f.lastModified() > latestTmpFile.lastModified()) {
     	        latestTmpFile = f;
     	    }
-    	} 
-    	
-    	System.out.println("Found latest .csv file: " + latestTmpFile.getName());
-    	
+    	}
 
+    	System.out.println("📄 Found latest team-activity-report file: " + latestTmpFile.getName());
+    	
     	// Step 4: Define the final CSV file name
-    	String newFileName = "Gracia_Budget_Data" + today + ".csv";
+    	String newFileName = "Adherence_Report_AF_" + today + ".csv";
     	File renamedFile = new File(folder, newFileName);
 
     	// Step 5: Wait until file is fully downloaded (optional but safer)
@@ -94,22 +102,22 @@ public class GraciaReportTest extends BaseClass_Gracia{
 
     	// Step 6: Rename file to CSV format
     	boolean renamed = latestTmpFile.renameTo(renamedFile);
-    	
+
     	if (renamed) {
     	    System.out.println(" File renamed successfully to: " + renamedFile.getAbsolutePath());
     	} else {
     	    System.out.println(" Failed to rename file: " + latestTmpFile.getName());
     	    return;
     	}
-
-    	// Step 7: Proceed with FTP upload using renamedFile
     	
+    	// Step 7: Proceed with FTP upload using renamedFile
+    	// (Example placeholder)
     	System.out.println(" Ready to upload: " + renamedFile.getName());
     	
     	 // Latest file path
       	 String localFilePath = renamedFile.getAbsolutePath();
       	 System.out.println(" Found today's file: " + localFilePath);
-           String remoteFilePath = "/Powerbi_Analytics/CPB/Gracia Spinwheel/" + renamedFile.getName();
+           String remoteFilePath = "/Powerbi_Analytics/Beatroute/Animal Feed/Team Productivity Adherence/" + renamedFile.getName();
            String userId ="powerbi.admin";
            String password ="Pbianalyts@456#";
 
@@ -143,7 +151,5 @@ public class GraciaReportTest extends BaseClass_Gracia{
                ex.printStackTrace();
            }
        
-
-
 	}
 }
