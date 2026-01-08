@@ -48,6 +48,9 @@ public class TeamActivityPage {
 	@FindBy(xpath = "//a[@href='/download/CSV/getLast/type/attendanceSummary']")
 	private WebElement attendanceDownloadTab;
 	
+	@FindBy(xpath = "(//i[@class='action-icon link-text fa fa-arrow-down'])[2]")
+	private WebElement download_act;
+	
 	public WebElement getcloseButton() {
 		return closeButton;
 	}
@@ -238,6 +241,15 @@ public class TeamActivityPage {
 	        System.out.println("clicked on download button");
 		} catch (Exception e) {
 			System.out.println("File has not been downloaded "+e);
+		}
+	}
+	
+	public void clickOnDownload_act() {
+		try {
+			download_act.click();
+			System.out.println("Clicked on download Activity");
+		} catch (Exception e) {
+			System.out.println("Not able to click on download_activity "+e);
 		}
 	}
 }

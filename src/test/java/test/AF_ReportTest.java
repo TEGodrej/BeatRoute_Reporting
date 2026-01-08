@@ -37,7 +37,8 @@ public class AF_ReportTest extends BaseClassAF{
         teamActivityPage.clickOngenerateFileButton();
         driverUtility.allowAlertPopUp();
         driverUtility.threadWait(10);
-        teamActivityPage.clickOnactivityLogTab();
+        teamActivityPage.clickOnDownload_act();
+        
         teamActivityPage.downloadFile();
         driverUtility.threadWait(10);
         loginPage_AF.clickOnDropDownButton();

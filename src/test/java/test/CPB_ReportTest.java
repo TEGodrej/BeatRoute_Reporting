@@ -39,7 +39,7 @@ import GenericUtility.BaseClass_CPB;
 	        teamActivityPage.clickOngenerateFileButton();
 	        driverUtility.allowAlertPopUp();
 	        driverUtility.threadWait(10);
-	        teamActivityPage.clickOnactivityLogTab();
+	        teamActivityPage.clickOnDownload_act();
 	        driverUtility.threadWait(10);
 	        teamActivityPage.downloadFile();
 	        driverUtility.threadWait(20);
