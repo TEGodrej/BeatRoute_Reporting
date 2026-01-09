@@ -51,6 +51,9 @@ public class TeamActivityPage {
 	@FindBy(xpath = "(//i[@class='action-icon link-text fa fa-arrow-down'])[2]")
 	private WebElement download_act;
 	
+	@FindBy(xpath = "//i[@class='action-icon link-text fa fa-arrow-down']")
+	private WebElement cbp_DownloadActivity;
+	
 	public WebElement getcloseButton() {
 		return closeButton;
 	}
@@ -245,11 +248,19 @@ public class TeamActivityPage {
 	}
 	
 	public void clickOnDownload_act() {
-		try {
-			download_act.click();
-			System.out.println("Clicked on download Activity");
-		} catch (Exception e) {
-			System.out.println("Not able to click on download_activity "+e);
+		try { 
+			if(download_act.isDisplayed()) {
+				download_act.click();
+				System.out.println("Clicked on download Activity");
+		}else {
+				
+			cbp_DownloadActivity.click();
+			
 		}
+		 
+	}catch (Exception e) {
+		System.out.println("Not able to click on download_activity "+e);
 	}
+		
+	}	
 }

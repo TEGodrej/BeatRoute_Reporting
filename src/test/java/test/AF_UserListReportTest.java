@@ -1,14 +1,15 @@
 package test;
 
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Properties;
 
-import org.apache.commons.net.ftp.FTP;
-import org.apache.commons.net.ftp.FTPClient;
 import org.testng.annotations.Test;
+
+import com.jcraft.jsch.ChannelSftp;
+import com.jcraft.jsch.JSch;
+import com.jcraft.jsch.Session;
 
 import GenericUtility.BaseClassAFUserList;
 
@@ -109,6 +110,7 @@ public class AF_UserListReportTest extends BaseClassAFUserList{
         String remoteFilePath = "/Powerbi_Analytics/Beatroute/Animal Feed/Users/" + renamedFile.getName();
         String userId ="powerbi.admin";
         String password ="Pbianalyts@456#";
+        String host="10.9.111.212";
 
 //        FTPClient ftpClient = new FTPClient();
 //        try {
@@ -142,45 +144,73 @@ public class AF_UserListReportTest extends BaseClassAFUserList{
 //    
 //    }
         
-        FTPClient ftpClient = new FTPClient();
-        try {
-            String host = "10.9.111.212";   // FTP server
-            int port = 22;               // <-- FTP port (change if needed)
+//        FTPClient ftpClient = new FTPClient();
+//        try {
+//            String host = "10.9.111.212";   // FTP server
+//            int port = 22;               // <-- FTP port (change if needed)
+//
+//            ftpClient.connect(host, port);
+//
+//            boolean login = ftpClient.login(userId, password);
+//
+//            if (login) {
+//                System.out.println("Connected to FTP server");
+//
+//                ftpClient.enterLocalPassiveMode(); // Passive mode
+//                ftpClient.setFileType(FTP.BINARY_FILE_TYPE); // For Excel file
+//
+//                try (FileInputStream inputStream = new FileInputStream(localFilePath)) {
+//                    boolean done = ftpClient.storeFile(remoteFilePath, inputStream);
+//                    if (done) {
+//                        System.out.println("File uploaded successfully to " + remoteFilePath);
+//                    } else {
+//                        System.out.println("Failed to upload file.");
+//                    }
+//                }
+//
+//                ftpClient.logout();
+//            } else {
+//                System.out.println("Failed to login to FTP server.");
+//            }
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        } finally {
+//            try {
+//                if (ftpClient.isConnected()) {
+//                    ftpClient.disconnect();
+//                }
+//            } catch (IOException ex) {
+//                ex.printStackTrace();
+//            }
+//    }
+        
+        Session session = null;
+		ChannelSftp channel = null;
+		try {
+            JSch jsch = new JSch();
+            session = jsch.getSession(userId, host, 22);
+            session.setPassword(password);
 
-            ftpClient.connect(host, port);
+            Properties config = new Properties();
+            config.put("StrictHostKeyChecking", "no");
+            session.setConfig(config);
 
-            boolean login = ftpClient.login(userId, password);
+            session.connect(15000); // 15 sec timeout
 
-            if (login) {
-                System.out.println("Connected to FTP server");
+            channel = (ChannelSftp) session.openChannel("sftp");
+            channel.connect(15000);
 
-                ftpClient.enterLocalPassiveMode(); // Passive mode
-                ftpClient.setFileType(FTP.BINARY_FILE_TYPE); // For Excel file
+            channel.cd(remoteFilePath);
+            channel.put(localFilePath, new java.io.File(localFilePath).getName());
 
-                try (FileInputStream inputStream = new FileInputStream(localFilePath)) {
-                    boolean done = ftpClient.storeFile(remoteFilePath, inputStream);
-                    if (done) {
-                        System.out.println("File uploaded successfully to " + remoteFilePath);
-                    } else {
-                        System.out.println("Failed to upload file.");
-                    }
-                }
+            System.out.println("SFTP upload successful");
 
-                ftpClient.logout();
-            } else {
-                System.out.println("Failed to login to FTP server.");
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
+        } catch (Exception e) {
+            throw new RuntimeException("SFTP upload failed", e);
         } finally {
-            try {
-                if (ftpClient.isConnected()) {
-                    ftpClient.disconnect();
-                }
-            } catch (IOException ex) {
-                ex.printStackTrace();
-            }
-    }
+            if (channel != null) channel.disconnect();
+            if (session != null) session.disconnect();
+        }
   }
 
 }
