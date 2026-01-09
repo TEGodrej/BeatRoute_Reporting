@@ -123,81 +123,11 @@ import GenericUtility.BaseClass_CPB;
 	   	 // Latest file path
 	   	 String localFilePath = renamedFile.getAbsolutePath();
 	   	 System.out.println("✅ Found today's file: " + localFilePath);
-	        String remoteFilePath = "/Powerbi_Analytics/Beatroute/CPB/Activity Log/" + renamedFile.getName();
+	        String remoteFilePath = "/Powerbi_Analytics/Beatroute/CPB/Activity Log/" ;
 	        String userId ="powerbi.admin";
 	        String password ="Pbianalyts@456#";
 	        String host ="10.9.111.212";
 
-//	        FTPClient ftpClient = new FTPClient();
-//	        try {
-//	        	ftpClient.connect("10.9.111.212");
-//	            boolean login = ftpClient.login(userId, password);
-//
-//	            if (login) {
-//	                System.out.println("Connected to FTP server");
-//
-//	                ftpClient.enterLocalPassiveMode(); // Passive mode
-//	                ftpClient.setFileType(FTP.BINARY_FILE_TYPE); // For Excel file
-//
-//	                try (FileInputStream inputStream = new FileInputStream(localFilePath)) {
-//	                    boolean done = ftpClient.storeFile(remoteFilePath, inputStream);
-//	                    if (done) {
-//	                        System.out.println("File uploaded successfully to " + remoteFilePath);
-//	                    } else {
-//	                        System.out.println("Failed to upload file.");
-//	                    }
-//	                }
-//
-//	                ftpClient.logout();
-//	            } else {
-//	                System.out.println("Failed to login to FTP server.");
-//	            }
-//
-//	            ftpClient.disconnect();
-//	        } catch (IOException ex) {
-//	            ex.printStackTrace();
-//	        }
-//	    
-	        
-//	        FTPClient ftpClient = new FTPClient();
-//	        try {
-//	            String host = "10.9.111.212";   // FTP server
-//	            int port = 22;               // <-- FTP port (change if needed)
-//
-//	            ftpClient.connect(host, port);
-//
-//	            boolean login = ftpClient.login(userId, password);
-//
-//	            if (login) {
-//	                System.out.println("Connected to FTP server");
-//
-//	                ftpClient.enterLocalPassiveMode(); // Passive mode
-//	                ftpClient.setFileType(FTP.BINARY_FILE_TYPE); // For Excel file
-//
-//	                try (FileInputStream inputStream = new FileInputStream(localFilePath)) {
-//	                    boolean done = ftpClient.storeFile(remoteFilePath, inputStream);
-//	                    if (done) {
-//	                        System.out.println("File uploaded successfully to " + remoteFilePath);
-//	                    } else {
-//	                        System.out.println("Failed to upload file.");
-//	                    }
-//	                }
-//
-//	                ftpClient.logout();
-//	            } else {
-//	                System.out.println("Failed to login to FTP server.");
-//	            }
-//	        } catch (IOException e) {
-//	            e.printStackTrace();
-//	        } finally {
-//	            try {
-//	                if (ftpClient.isConnected()) {
-//	                    ftpClient.disconnect();
-//	                }
-//	            } catch (IOException ex) {
-//	                ex.printStackTrace();
-//	            }
-//	    }
 	        
 	        Session session = null;
 			ChannelSftp channel = null;
@@ -216,7 +146,7 @@ import GenericUtility.BaseClass_CPB;
 	            channel.connect(15000);
 
 	            channel.cd(remoteFilePath);
-	            channel.put(localFilePath, new java.io.File(localFilePath).getName());
+	            channel.put(localFilePath, renamedFile.getName());
 
 	            System.out.println("SFTP upload successful");
 

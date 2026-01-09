@@ -36,7 +36,7 @@ public class AF_UserListReportTest extends BaseClassAFUserList{
         driverUtility.allowAlertPopUp();
 	}
 	
-	@Test //(dependsOnMethods = {"AF_userListReport"})
+	@Test (dependsOnMethods = {"AF_userListReport"})
 	public void uploadToFTP_AF_User() {
 		// Get workspace path dynamically (works for both local and Jenkins)
     	String workspacePath = System.getProperty("user.dir");
