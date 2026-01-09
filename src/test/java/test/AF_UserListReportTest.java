@@ -36,7 +36,7 @@ public class AF_UserListReportTest extends BaseClassAFUserList{
         driverUtility.allowAlertPopUp();
 	}
 	
-	@Test (dependsOnMethods = {"AF_userListReport"})
+	@Test //(dependsOnMethods = {"AF_userListReport"})
 	public void uploadToFTP_AF_User() {
 		// Get workspace path dynamically (works for both local and Jenkins)
     	String workspacePath = System.getProperty("user.dir");
@@ -188,6 +188,9 @@ public class AF_UserListReportTest extends BaseClassAFUserList{
 		ChannelSftp channel = null;
 		try {
             JSch jsch = new JSch();
+            JSch.setConfig("StrictHostKeyChecking", "no");
+
+            
             session = jsch.getSession(userId, host, 22);
             session.setPassword(password);
 
@@ -195,10 +198,10 @@ public class AF_UserListReportTest extends BaseClassAFUserList{
             config.put("StrictHostKeyChecking", "no");
             session.setConfig(config);
 
-            session.connect(15000); // 15 sec timeout
+            session.connect(90000); // 15 sec timeout
 
             channel = (ChannelSftp) session.openChannel("sftp");
-            channel.connect(15000);
+            channel.connect(90000);
 
             channel.cd(remoteFilePath);
             channel.put(localFilePath, new java.io.File(localFilePath).getName());

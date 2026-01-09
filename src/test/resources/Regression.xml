@@ -5,17 +5,17 @@
   <test name="Test" thread-count="1">
     <classes>
 
-      <class name="test.AF_ReportTest">
-        <methods>
-          <include name="UploadBR_ReportToFTP"/>
-          <include name="reportGeneration"/>
-        </methods>
-      </class>
-
       <class name="test.AF_UserListReportTest">
         <methods>
           <include name="uploadToFTP_AF_User"/>
           <include name="AF_userListReport"/>
+        </methods>
+      </class>
+      
+      <class name="test.AF_ReportTest">
+        <methods>
+          <include name="UploadBR_ReportToFTP"/>
+          <include name="reportGeneration"/>
         </methods>
       </class>
 
