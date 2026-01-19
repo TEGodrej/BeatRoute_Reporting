@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.AF_UserListReportTest">
+      <class name="test.AttendanceReport_AF">
         <methods>
-          <include name="Login"/>
+          <include name="upload_AF_AdherenceReport"/>
           <include name="closeInstance"/>
-          <include name="uploadToFTP_AF_User"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- test.AF_UserListReportTest -->
+      </class> <!-- test.AttendanceReport_AF -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

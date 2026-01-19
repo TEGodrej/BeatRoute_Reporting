@@ -2,23 +2,23 @@
 <testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-09T12:39:01 IST" name="Default suite" finished-at="2026-01-09T12:39:33 IST" duration-ms="32366">
+  <suite started-at="2026-01-19T17:52:43 IST" name="Default suite" finished-at="2026-01-19T17:53:14 IST" duration-ms="30457">
     <groups>
     </groups>
-    <test started-at="2026-01-09T12:39:01 IST" name="Default test" finished-at="2026-01-09T12:39:33 IST" duration-ms="32366">
-      <class name="test.AF_UserListReportTest">
-        <test-method is-config="true" signature="Login()[pri:0, instance:test.AF_UserListReportTest@5fbe4146]" started-at="2026-01-09T12:39:01 IST" name="Login" finished-at="2026-01-09T12:39:04 IST" duration-ms="2933" status="PASS">
+    <test started-at="2026-01-19T17:52:43 IST" name="Default test" finished-at="2026-01-19T17:53:14 IST" duration-ms="30457">
+      <class name="test.AttendanceReport_AF">
+        <test-method is-config="true" signature="Login()[pri:0, instance:test.AttendanceReport_AF@5fbe4146]" started-at="2026-01-19T17:52:43 IST" name="Login" finished-at="2026-01-19T17:52:49 IST" duration-ms="6117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="uploadToFTP_AF_User()[pri:0, instance:test.AF_UserListReportTest@5fbe4146]" started-at="2026-01-09T12:39:04 IST" name="uploadToFTP_AF_User" finished-at="2026-01-09T12:39:28 IST" duration-ms="24104" status="FAIL">
+        <test-method signature="upload_AF_AdherenceReport()[pri:0, instance:test.AttendanceReport_AF@5fbe4146]" started-at="2026-01-19T17:52:49 IST" name="upload_AF_AdherenceReport" finished-at="2026-01-19T17:53:13 IST" duration-ms="24082" status="FAIL">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[SFTP upload failed]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.RuntimeException: SFTP upload failed
-at test.AF_UserListReportTest.uploadToFTP_AF_User(AF_UserListReportTest.java:209)
+at test.AttendanceReport_AF.upload_AF_AdherenceReport(AttendanceReport_AF.java:149)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -48,7 +48,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 Caused by: com.jcraft.jsch.JSchException: java.net.ConnectException: Connection timed out: connect
 at com.jcraft.jsch.Util.createSocket(Util.java:394)
 at com.jcraft.jsch.Session.connect(Session.java:215)
-at test.AF_UserListReportTest.uploadToFTP_AF_User(AF_UserListReportTest.java:198)
+at test.AttendanceReport_AF.upload_AF_AdherenceReport(AttendanceReport_AF.java:138)
 ... 26 more
 Caused by: java.net.ConnectException: Connection timed out: connect
 at java.base/sun.nio.ch.Net.connect0(Native Method)
@@ -67,12 +67,12 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- uploadToFTP_AF_User -->
-        <test-method is-config="true" signature="closeInstance()[pri:0, instance:test.AF_UserListReportTest@5fbe4146]" started-at="2026-01-09T12:39:28 IST" name="closeInstance" finished-at="2026-01-09T12:39:33 IST" duration-ms="5303" status="PASS">
+        </test-method> <!-- upload_AF_AdherenceReport -->
+        <test-method is-config="true" signature="closeInstance()[pri:0, instance:test.AttendanceReport_AF@5fbe4146]" started-at="2026-01-19T17:53:13 IST" name="closeInstance" finished-at="2026-01-19T17:53:14 IST" duration-ms="225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeInstance -->
-      </class> <!-- test.AF_UserListReportTest -->
+      </class> <!-- test.AttendanceReport_AF -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

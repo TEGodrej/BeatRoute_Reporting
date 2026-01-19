@@ -1,14 +1,15 @@
 package test;
 
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Properties;
 
-import org.apache.commons.net.ftp.FTP;
-import org.apache.commons.net.ftp.FTPClient;
 import org.testng.annotations.Test;
+
+import com.jcraft.jsch.ChannelSftp;
+import com.jcraft.jsch.JSch;
+import com.jcraft.jsch.Session;
 
 import GenericUtility.BaseClassAF2;
 
@@ -48,7 +49,7 @@ public class BR_Adherence_AF extends BaseClassAF2{
         loginPage_AF.clickOnAdherenceLogOutButton();
 	}
 	
-	@Test
+	@Test(dependsOnMethods = "animalFeedAdherenceReport")
 	public void upload_AF_AdherenceReport() {
 		// Get workspace path dynamically (works for both local and Jenkins)
     	String workspacePath = System.getProperty("user.dir");
@@ -117,38 +118,38 @@ public class BR_Adherence_AF extends BaseClassAF2{
     	 // Latest file path
       	 String localFilePath = renamedFile.getAbsolutePath();
       	 System.out.println(" Found today's file: " + localFilePath);
-           String remoteFilePath = "/Powerbi_Analytics/Beatroute/Animal Feed/Team Productivity Adherence/" + renamedFile.getName();
+           String remoteFilePath = "/Powerbi_Analytics/Beatroute/Animal Feed/Team Productivity Adherence/";
            String userId ="powerbi.admin";
            String password ="Pbianalyts@456#";
+           String host="10.9.111.212";
 
-           FTPClient ftpClient = new FTPClient();
-           try {
-           	ftpClient.connect("10.9.111.212");
-               boolean login = ftpClient.login(userId, password);
 
-               if (login) {
-                   System.out.println("Connected to FTP server");
+           Session session = null;
+   		ChannelSftp channel = null;
+   		try {
+               JSch jsch = new JSch();
+               session = jsch.getSession(userId, host, 22);
+               session.setPassword(password);
 
-                   ftpClient.enterLocalPassiveMode(); // Passive mode
-                   ftpClient.setFileType(FTP.BINARY_FILE_TYPE); // For Excel file
+               Properties config = new Properties();
+               config.put("StrictHostKeyChecking", "no");
+               session.setConfig(config);
 
-                   try (FileInputStream inputStream = new FileInputStream(localFilePath)) {
-                       boolean done = ftpClient.storeFile(remoteFilePath, inputStream);
-                       if (done) {
-                           System.out.println("File uploaded successfully to " + remoteFilePath);
-                       } else {
-                           System.out.println("Failed to upload file.");
-                       }
-                   }
+               session.connect(90000); // 90 sec timeout
 
-                   ftpClient.logout();
-               } else {
-                   System.out.println("Failed to login to FTP server.");
-               }
+               channel = (ChannelSftp) session.openChannel("sftp");
+               channel.connect(90000);
 
-               ftpClient.disconnect();
-           } catch (IOException ex) {
-               ex.printStackTrace();
+               channel.cd(remoteFilePath);
+               channel.put(localFilePath, renamedFile.getName());
+
+               System.out.println("SFTP upload successful");
+
+           } catch (Exception e) {
+               throw new RuntimeException("SFTP upload failed", e);
+           } finally {
+               if (channel != null) channel.disconnect();
+               if (session != null) session.disconnect();
            }
        
 	}

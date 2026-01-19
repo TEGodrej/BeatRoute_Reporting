@@ -22,7 +22,7 @@ public class AF_UserListReportTest extends BaseClassAFUserList{
 		
 		driverUtility.implicitlyWait(10);
 		loginPage_AF.sendkeyToUserNameTextField(user);
-		  driverUtility.threadWait(10);
+		driverUtility.threadWait(10);
         loginPage_AF.clickOnProceedButton();
         driverUtility.threadWait(10);
         loginPage_AF.sendkeyToPasswordTextField(paswrd);
@@ -51,17 +51,18 @@ public class AF_UserListReportTest extends BaseClassAFUserList{
     	File folder = new File(localFolder);
 
     	// Step 1: Get all UserList files (downloaded by driver)
-    	File[] UserListFiles = folder.listFiles((dir, name) -> name.startsWith("UserList"));
+    	File[] tmpFiles = folder.listFiles((dir, name) -> name.endsWith(".csv"));
 
     	// Step 2: Check if any UserList files exist
-    	if (UserListFiles == null || UserListFiles.length == 0) {
-    	    System.out.println("❌ No UserList file found in folder: " + localFolder);
+    	if (tmpFiles == null || tmpFiles.length == 0) {
+    	    System.out.println(" No .tmp file found in folder: " + localFolder);
     	    return;
     	}
 
+
     	// Step 3: Pick the most recent UserList file
-    	File latestTmpFile = UserListFiles[0];
-    	for (File f : UserListFiles) {
+    	File latestTmpFile = tmpFiles[0];
+    	for (File f : tmpFiles) {
     	    if (f.lastModified() > latestTmpFile.lastModified()) {
     	        latestTmpFile = f;
     	    }
@@ -198,7 +199,7 @@ public class AF_UserListReportTest extends BaseClassAFUserList{
             config.put("StrictHostKeyChecking", "no");
             session.setConfig(config);
 
-            session.connect(90000); // 15 sec timeout
+            session.connect(90000); // 90 sec timeout
 
             channel = (ChannelSftp) session.openChannel("sftp");
             channel.connect(90000);

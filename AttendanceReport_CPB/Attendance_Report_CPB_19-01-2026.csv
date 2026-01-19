@@ -1,0 +1,1183 @@
+beatroute_id,name,email_id,role,employee_role_id,reports_to_br_id,reports_to_name,date_of_joining,date_of_leaving,1/6/2026
+231713,"vacant RMM-South East Region",sireesha.k@godrejagrovet.com,"Sales Manager",,273958,"Madhu CR South Zone",2024-06-04,,AB
+231714,Yogeshappa-SWR2,yogeshappa.b@godrejagrovet.com,"Sales Manager",300583,273958,"Madhu CR South Zone",2023-07-06,,AB
+231716,"HariHara MurthyN-BANGALOR",harihara.murthyn@godrejagrovet.com,"Sales Manager",G108454,250341,vacant_amm,2023-07-06,,07:19:25
+231717,Vacant-WRG2,hra@godrejagrovt.com,"Sales Manager",,249966,"Dipak tengale_RMM",2023-07-06,,AB
+231718,D.DHOMSE_Nashik,D.DHOMSE@GODREJAGROVET.COM,"Sales Manager",310,238579,"prajkta patil ",2023-07-06,,00:00:00
+231719,"RAVIKUMAR BASANNA _bagalkot",RAVIKUMAR.AWATI@GODREJAGROVET.COM,"Territory Manager",I6,240319,"Vishwaradhya Biradar-HUBLI",2023-07-06,,11:59:43
+231720,"Amit reddy_CHIKKABALLAPURA",amit.reddy@godrejagrovet.com,"Territory Manager",A46,231716,"HariHara MurthyN-BANGALOR",2023-07-06,,09:14:22
+231721,"Mahesh R_KOLAR",mahesh.r@godrejagrovet.com,"Territory Manager",C15,231716,"HariHara MurthyN-BANGALOR",2023-07-06,,02:24:40
+231722,"Pushpa B P_MYSORE",pushpa.bp@godrejagrovet.com,"Territory Manager",D8,231716,"HariHara MurthyN-BANGALOR",2023-07-06,,00:00:00
+231723,"Vacant PO ",Sidharam@brgavl.io,"Territory Manager",2574874,245385,"Vacant SO_Devanagere",2023-07-06,,AB
+231724,"Shubham Shinde_NIPHAD",shubham.shinde1@godrejagrovet.com,"Territory Manager",A21,231718,D.DHOMSE_Nashik,2023-07-06,,12:47:38
+231725,"Dhananjay Ushir_PIMPALGAON BASVANT",dhananjay.ushir@godrejagrovet.com,"Territory Manager",B40,231718,D.DHOMSE_Nashik,2023-07-06,,08:12:40
+231726,"Yogesh Bharti_Satana",yogesh.bharti@godrejagrovet.com,"Territory Manager",C58,231718,D.DHOMSE_Nashik,2023-07-06,,00:00:00
+231727,"BHAVNESH NANDKISHORE TAMORE",BHAVNESH@brgavl.io,"Sales Rep",2617906,232909,"Sachin Fakirrao Labhade _Nashik",2023-07-06,,08:41:54
+231730,"Nilesh Nehete",nileshnehate6@gmail.com,"Sales Rep",3455878,232909,"Sachin Fakirrao Labhade _Nashik",2023-07-06,,15:45:28
+231735,"Akshay Prakash Dhomse",akshaydhomse7@gmail.com,"Sales Rep",2617762,231725,"Dhananjay Ushir_PIMPALGAON BASVANT",2023-07-06,,00:00:00
+231738,"Nikhil Ragunath Niphade",nikhilnifade@gmail.com,"Sales Rep",2617801,231725,"Dhananjay Ushir_PIMPALGAON BASVANT",2023-07-06,,00:00:04
+232901,"Rajavelu NK",rajavelu.nk@godrejagrovet.com,"Sales Manager",,,,2023-08-16,,AB
+232902,"Vishal Bhutani",vishal.bhutani@godrejagrovet.com,"Sales Manager",,232901,"Rajavelu NK",2023-08-16,,AB
+232909,"Sachin Fakirrao Labhade _Nashik",sachin.labhade@godrejagrovet.com,"Territory Manager",A26,231718,D.DHOMSE_Nashik,2023-08-16,,03:25:44
+232915,"Dinesh Nanaji Chavan",dineshc19798@gmail.com,"Sales Rep",3086141,231726,"Yogesh Bharti_Satana",2023-08-16,,05:30:46
+232916,"Gaurav Santosh Kond",kondgavrav@gmail.com,"Sales Rep",3086142,231726,"Yogesh Bharti_Satana",2023-08-16,,SL
+234166,"Vacant CA Yogesh Bharti",ybv@gavl.com,"Sales Rep",,231726,"Yogesh Bharti_Satana",2023-09-25,,AB
+235974,"Amol Dikhale ",dhikaleamol7@gmail.com,"Sales Rep",3165724,232909,"Sachin Fakirrao Labhade _Nashik",2023-11-07,,07:24:13
+235975,"Bharat Harale ",haralebharat87@gmail.com,"Sales Rep",3170564,231724,"Shubham Shinde_NIPHAD",2023-11-07,,09:52:36
+237068,"Vacant _pawan",Vacantpawan@gavl.com,"Sales Rep",,231721,"Mahesh R_KOLAR",2023-11-23,,AB
+237113,"Rakshith H S",143rakshithgowda@gmail.com,"Sales Rep",3172163,231721,"Mahesh R_KOLAR",2023-11-24,,06:40:01
+237867,"vinayaka shidenur_davengere",Vinayaka.shidenur@godrejagrovet.com,"Territory Manager",C05,263313,"SURESH BIRADAR_Davengere",2023-11-20,,10:18:20
+238060,"vacant UH - NORTH1",aj@godregrovet.com,"Sales Manager",361229,246632,"Brajesh Kumar Sharma_RFH north",2023-12-13,,AB
+238095,"Arun Kumar Pathak (RJ)",arun.pathak@godrejagrovet.com,"Sales Manager",,241682,"Rajat Sharma_AMM_North2",2023-12-13,,AB
+238096,"vacant _ west UP ",dp@gavl.com,"Sales Manager",,239601,"Vasundhara_AMM UP ",2023-12-13,,AB
+238098,"Vacant-TL-North Rajasthan",vtl@nrraj.com,"Sales Manager",,238095,"Arun Kumar Pathak (RJ)",2023-12-13,,AB
+238099,"Vacant TL",vacant.n2@godrejagrovet.com,"Sales Manager",,238095,"Arun Kumar Pathak (RJ)",2023-12-13,,AB
+238100,"Adarsh Kumar_Bundi",adarsh.kumar@godrejagrovet.com,"Territory Manager",B55,238099,"Vacant TL",2023-12-13,,14:14:46
+238101,"naveen sanodiya_JODHPUR",Naveen.sanodiya@godrejagrovet.com,"Territory Manager",B53,238098,"Vacant-TL-North Rajasthan",2023-12-13,,01:22:31
+238102,"Manohar Bhargav _Ajmer",manohar.bhargav@godrejagrovet.com,"Territory Manager",B37,238099,"Vacant TL",2023-12-13,,10:15:26
+238103,vacant_Baran,vek@godrejagrvet.com,"Territory Manager",B54,238099,"Vacant TL",2023-12-13,,AB
+238104,"shashikant maury_Jaipur",,"Territory Manager",A73,238098,"Vacant-TL-North Rajasthan",2023-12-13,,06:39:08
+238105,"Madhuri Gupta _Jhalawar",madhuri.gupta1@godrejagrovet.com,"Territory Manager",B56,238099,"Vacant TL",2023-12-13,,05:51:14
+238106,"Vacant_Sawai Madhopur",mar@godrejgrovet.com,"Territory Manager",A68,238098,"Vacant-TL-North Rajasthan",2023-12-13,,AB
+238107,"Jagat pal_Sumerpur",jagat.pal@godrejagrovet.com,"Territory Manager",B52,238099,"Vacant TL",2023-12-13,,10:35:01
+238108,"Dheeraj  singh_Hanumangarh",dheeraj.singh1@godrejagrovet.com,"Territory Manager",B24,238098,"Vacant-TL-North Rajasthan",2023-12-13,,01:26:47
+238109,"Vishvendra Singh _Bhilwara",vishvendra.singh@godrejagrovet.com,"Territory Manager",B35,238099,"Vacant TL",2023-12-13,,06:42:07
+238110,"Pawan kumar solanki_sikar",pawan.solanki@godrejagrovet.com,"Territory Manager",B36,238098,"Vacant-TL-North Rajasthan",2023-12-20,,14:20:51
+238111,"Davinder Singh_Sri Ganganagar",singh.davinder@godrejagrovet.com,"Territory Manager",A78,238098,"Vacant-TL-North Rajasthan",2023-12-13,,11:58:20
+238112,"vacant central",acd@gavl.com,"Sales Manager",,238096,"vacant _ west UP ",2023-12-13,,AB
+238113,"vacant-TL-Western UP",h@godrejgrovet.com,"Sales Manager",,238096,"vacant _ west UP ",2024-10-28,,AB
+238114,"Digvijay Singh-East UP",Singh.digvijay@godrejagrovet.com,"Sales Manager",,239601,"Vasundhara_AMM UP ",2023-12-13,,00:03:11
+238116,"Shailendra Pratap Singh_BAREILLY",shailendra.pratap@godrejagrovet.com,"Territory Manager",F8,238113,"vacant-TL-Western UP",2023-12-13,,00:00:00
+238117,Vacant_PILIBHIT,R@godejagrovet.com,"Territory Manager",B47,238113,"vacant-TL-Western UP",2023-12-13,,AB
+238118,"Rohit Kharwar _ALIGARH",Rohit.kharwar@godrejagrovet.com,"Territory Manager",A56,238113,"vacant-TL-Western UP",2023-12-13,,00:00:00
+238119,Vacant-SO-HARDOI,vacanthardoi@gavl.com,"Territory Manager",F7,238114,"Digvijay Singh-East UP",2023-12-13,,AB
+238120,"shubham Gupta_KICHHA",shubham.sgupta@godrejagrovet.com,"Territory Manager",A15,238113,"vacant-TL-Western UP",2023-12-13,,AB
+238121,"Jai Prakash mishra_Faizabad",Jai.mishra@godrejagrovet.com,"Territory Manager",B51,238114,"Digvijay Singh-East UP",2023-12-13,,14:22:09
+238122,"Ankit Singh _MORADABAD",ankit.singh1@godrejagrovet.com,"Territory Manager",A65,238113,"vacant-TL-Western UP",2023-12-13,,00:00:00
+238123,"Manish Singh_VARANASI",singh.manish@godrejagrovet.com,"Territory Manager",B46,238114,"Digvijay Singh-East UP",2023-12-13,,06:07:36
+238124,"Madan Verma_LUCKNOW",madan.verma@godrejagrovet.com,"Territory Manager",A81,238114,"Digvijay Singh-East UP",2023-12-13,,03:40:44
+238125,"Raghvendra Singh_KANPUR",Singh.raghvendra@godrejagrovet.com,"Territory Manager",G4,238114,"Digvijay Singh-East UP",2023-12-13,,00:01:28
+238127,"Rohit Gaur_Agra",rohit.gaur@godrejagrovet.com,"Territory Manager",A55,238113,"vacant-TL-Western UP",2024-11-23,,00:00:11
+238128,"Devendra Pundir_Muzaffarnagar",devendra.pundir@godrejagrovet.com,"Territory Manager",A89,238113,"vacant-TL-Western UP",2023-12-14,,00:00:34
+238129,"Vacant-SO-BULLANDSHAHAR ",vso@bulnd.shr,"Territory Manager",A63,238113,"vacant-TL-Western UP",2023-12-14,,AB
+238130,"Mohit Kumar Tomar_Hapur",k.mohit@godrejagrovet.com,"Territory Manager",A69,238113,"vacant-TL-Western UP",2023-12-14,,AB
+238136,"Sandeep Kumar_BHATINDA",sandeep.kumar06@godrejagrovet.com,"Sales Manager",,238179,"PRADEEP SHARMA- PB J&K",2023-12-14,,AB
+238137,"Vacant SO JAGRAON",gttbr@evrv.com,"Territory Manager",A85,238136,"Sandeep Kumar_BHATINDA",2023-12-14,,AB
+238138,"ATUL KUMAR PANDEY_KHANNA",atulkumar.pandey@godrejagrovet.com,"Territory Manager",A61,238136,"Sandeep Kumar_BHATINDA",2023-12-14,,02:06:01
+238139,"Sachin Kumar_MOGA",sachin.kumar03@godrejagrovet.com,"Territory Manager",A87,238136,"Sandeep Kumar_BHATINDA",2024-11-20,,10:55:49
+238141,"kapil Tyagi_Amritsar",kapil.tyagi@godrejagrovet.com,"Territory Manager",A75,238136,"Sandeep Kumar_BHATINDA",2023-12-14,,00:01:12
+238142,"vacant SO_Ludhiana",vacantludhiyana@gavl.com,"Territory Manager",A59,238136,"Sandeep Kumar_BHATINDA",2023-12-14,,AB
+238147,"Shelendra kumar_MUKTSAR",shelendra.kumar@godrejagrovet.com,"Territory Manager",A88,239596,"Vacant TL_Punjab",2024-09-09,,03:21:13
+238148,"ZIAUL HAQUE _MANSA",ziaul.haque@godrejagrovet.com,"Territory Manager",A94,239596,"Vacant TL_Punjab",2024-07-19,,14:17:04
+238149,"Vinod Kumar Chaubey_PATIALA",vinodkumar.chaubey@godrejagrovet.com,"Territory Manager",A92,238136,"Sandeep Kumar_BHATINDA",2023-12-14,,06:51:02
+238151,"Yatendera Rana_BARNALA",yatendra.kumar@godrejagrovet.com,"Territory Manager",A64,239596,"Vacant TL_Punjab",2023-12-14,,03:08:55
+238153,"Vacant(HP J&K)",HPJK@gavl.com,"Sales Manager",,238179,"PRADEEP SHARMA- PB J&K",2023-12-14,,AB
+238154,"Vacant SO_SHIMLA",vacant.shimla@godrejagrovet.com,"Territory Manager",B58,241604,"Sandeep Kasnia_AMM_HR & HP",2023-12-14,,AB
+238155,"Peerzada Mussadiq_JAMMU & KASHMIR",Mohamad.mussadiq@godrejagrovet.com,"Territory Manager",A06,238153,"Vacant(HP J&K)",2023-12-14,,00:00:00
+238157,"Indravesh (HR & HP )",indravesh.01@godrejagrovet.com,"Sales Manager",8103951,238582,"Vacant RMM ",2023-12-14,,AB
+238159,Mohit_TL,Mohit.chauhan@godrejagrovet.com,"Sales Manager",,241604,"Sandeep Kasnia_AMM_HR & HP",2023-12-14,,AB
+238162,"Tej Pratap Singh _Karnal",tej.singh1@godrejagrovet.com,"Territory Manager",B25,238247,"Vacant TL-Krishan Kumar Pathak",2023-12-14,,AB
+238163,"Mukesh lohani_AMBALA",mukesh.lohani@godrejagrovet.com,"Territory Manager",A12,238247,"Vacant TL-Krishan Kumar Pathak",2023-12-14,,00:01:33
+238164,"Vacant _Panipat",Vacantkal@gavl.com,"Territory Manager",A91,238247,"Vacant TL-Krishan Kumar Pathak",2023-12-14,,AB
+238170,"Kuldeep Godara  _Hissar",kuldeep.godara@godrejagrovet.com,"Territory Manager",A71,238159,Mohit_TL,2023-12-14,,AB
+238171,"ANIL KUMAR _Fatehabad",anil.kumar03@godrejagrovet.com,"Territory Manager",B33,238159,Mohit_TL,2023-12-14,,00:01:19
+238173,"Vacant _Sirsa",vacant.sirsa@gmail.com,"Territory Manager",B48,238159,Mohit_TL,2023-12-14,,AB
+238174,"Vishnu tiwari _Rohtak",vishnu.tiwari@godrejagrovet.com,"Territory Manager",A09,238159,Mohit_TL,2023-12-14,,00:00:05
+238175,Vacant_Dawbali,VacantM@gavl.com,"Territory Manager",A62,238159,Mohit_TL,2023-12-14,,AB
+238179,"PRADEEP SHARMA- PB J&K",pradeep.sharma1@godrejagrovet.com,"Sales Manager",,241092,"Arun Bishnoi_AMM_PB",2023-12-14,,AB
+238196,"Narendra Singh",narendrasingh7409658895@gmail.com,"Sales Rep",2619165,238120,"shubham Gupta_KICHHA",2023-12-14,,10:28:59
+238198,"Manoj Kumar",manojkumarpt180@gmail.com,"Sales Rep",2619137,238122,"Ankit Singh _MORADABAD",2023-12-14,,00:21:06
+238210,"Suraj Singh",8299surajsingh@gmail.com,"Sales Rep",2942030,238123,"Manish Singh_VARANASI",2023-12-14,,10:57:56
+238219,"Rajendra Bhanwriya",RAJENDRA@gmail.com,"Sales Rep",2839947,238101,"naveen sanodiya_JODHPUR",2023-12-14,,04:28:11
+238229,"Roshan Lunia",,"Sales Rep",2621389,238110,"Pawan kumar solanki_sikar",2023-12-14,,12:45:37
+238236,"SHYAM LAL KUMAWAT",shyamlalkumpng11@gmail.com,"Sales Rep",2621386,238102,"Manohar Bhargav _Ajmer",2023-12-14,,11:26:49
+238247,"Vacant TL-Krishan Kumar Pathak",wd@gm.com,"Sales Manager",,241604,"Sandeep Kasnia_AMM_HR & HP",2023-12-15,,AB
+238254,"Vacant SO-Krishan Kumar Pathak",cs@gm.com,"Territory Manager",,238247,"Vacant TL-Krishan Kumar Pathak",2023-12-15,,AB
+238260,"Vacant_PO_KANINA_Cotton Belt",VacantPOKanina@gmail.com,"Sales Rep",,238170,"Kuldeep Godara  _Hissar",2023-12-15,,AB
+238264,"Mahendra Singh",mehenderbishnoi971@gmail.com,"Sales Rep",3186201,238171,"ANIL KUMAR _Fatehabad",2023-12-15,,09:49:48
+238265,"Vacant SO - Showkat J&K HP",cwc@gm.com,"Territory Manager",,238153,"Vacant(HP J&K)",2023-12-15,,AB
+238273,"Durgesh Yadav",dshyadav2016@gmail.com,"Sales Rep",3185486,238138,"ATUL KUMAR PANDEY_KHANNA",2023-12-15,,12:02:47
+238278,"Ashutosh kumar",ashutoshchaubey0406@gmail.com,"Sales Rep",2639137,238138,"ATUL KUMAR PANDEY_KHANNA",2023-12-15,,08:47:38
+238279,"GURJEET SINGH",Gurjeet@gmail.com,"Sales Rep",2630863,238138,"ATUL KUMAR PANDEY_KHANNA",2023-12-15,,05:47:52
+238293,"Jasvir Singh",jasvir@gavl.com,"Sales Rep",2621376,238151,"Yatendera Rana_BARNALA",2023-12-15,,11:10:54
+238308,"Sandeep Kumar",sandeepagarwal54461@gmail.com,"Sales Rep",2619159,238173,"Vacant _Sirsa",2023-12-16,,11:05:20
+238319,"Vacant-CA-HOSHIYAR SINGH",vca@hos.yars,"Sales Rep",,238154,"Vacant SO_SHIMLA",2023-12-16,,AB
+238398,Vacant-ManoharBhargav,vmb@mnds.com,"Sales Rep",,238102,"Manohar Bhargav _Ajmer",2023-12-20,,AB
+238399,"Vacant CA-BHARAT SINGH",vca-br@mddjfk.com,"Sales Rep",,238101,"naveen sanodiya_JODHPUR",2023-12-20,,AB
+238400,"Vacant CA-VINOD KUMAR",vakjdv@fkjvf.com,"Sales Rep",,238107,"Jagat pal_Sumerpur",2023-12-20,,AB
+238401,"Vacant CA-DHARMENDRA SINGH",dkjs@tie.com,"Sales Rep",,238104,"shashikant maury_Jaipur",2023-12-20,,AB
+238402,"Vacant CA-LAVKESH",hdsj359@fhs.hf,"Sales Rep",,238104,"shashikant maury_Jaipur",2023-12-20,,AB
+238403,"Vacant CA-SARVESH ASTHANA",dks@fkre.fjk,"Sales Rep",,238111,"Davinder Singh_Sri Ganganagar",2023-12-20,,AB
+238404,"Vacant CA-vivek kumar",fjkhsh@fjks.ck4,"Sales Rep",,238103,vacant_Baran,2023-12-20,,AB
+238405,"Vacant CA-KRISHAN PAL",fkjj@jflks.nmb,"Sales Rep",,238100,"Adarsh Kumar_Bundi",2023-12-20,,AB
+238407,"Vacant CA-SHIVRAJ YADUVANSHI",ewikc@oyrp.oteiu,"Sales Rep",,238105,"Madhuri Gupta _Jhalawar",2023-12-20,,AB
+238408,"Vacant CA-MANOJ TRIPATHI",nmewoi@mnm.ri,"Sales Rep",,238108,"Dheeraj  singh_Hanumangarh",2023-12-20,,AB
+238410,"Vacant CA-VISHNU TIWARI",ewit@retio.ryei,"Sales Rep",,238174,"Vishnu tiwari _Rohtak",2023-12-20,,AB
+238420,"Ramakant Baghel",ramakantbaghel299@gmail.com,"Sales Rep",2949856,238107,"Jagat pal_Sumerpur",2023-05-19,,11:41:19
+238477,"Vacant CA-AMIT KUMAR SHARMA",vca@amtrtr.kmr,"Sales Rep",,238118,"Rohit Kharwar _ALIGARH",2023-12-22,,AB
+238478,"Vacant CA-Vacant-SO-BULLANDSHAHAR",vaa@sjkkjet.weo,"Sales Rep",,238118,"Rohit Kharwar _ALIGARH",2023-12-22,,AB
+238479,"Vacant CA-BRIJESH KUMAR SINGH",wmer@reoi.f80d,"Sales Rep",,238120,"shubham Gupta_KICHHA",2023-12-22,,AB
+238480,"Vacant CA-DHARMENDRA PACHAURI",adjf@5380.rjeo,"Sales Rep",,238122,"Ankit Singh _MORADABAD",2023-12-22,,AB
+238481,"Vacant CA-Vacant-SO-Muzaffarnagar",cnx@dfmv.zml,"Sales Rep",,238128,"Devendra Pundir_Muzaffarnagar",2023-12-22,,AB
+238482,"Vacant CA-ATUL KUMAR SHARMA",mnvcz@xnvmx.oruet,"Sales Rep",,238116,"Shailendra Pratap Singh_BAREILLY",2023-12-22,,AB
+238483,"Vacant CA-IQBAL KUMAR",jakfd@dkld.mkoe,"Sales Rep",,238117,Vacant_PILIBHIT,2023-12-22,,AB
+238484,"Vacant CA-PRASHANT SHARMA",oeo@gfl.ryio,"Sales Rep",,238125,"Raghvendra Singh_KANPUR",2023-12-22,,AB
+238485,"Vacant CA-NITIN KUMAR",niotlpfd@eoet.ior,"Sales Rep",,238124,"Madan Verma_LUCKNOW",2023-12-22,,AB
+238486,"Vacant CA-Dhiraj Mishra",ourelml@roer.reioq,"Sales Rep",,238123,"Manish Singh_VARANASI",2023-12-22,,AB
+238579,"prajkta patil ",prajakta.patil@godrejagrovet.com,"Sales Manager"," G108720 ",231717,Vacant-WRG2,2023-12-27,,10:11:49
+238580,"Manjunatha V",manjunatha.v@godrejagrovet.com,"Sales Manager",,240378,"vacant _AMM SWR2",2023-12-27,,06:56:54
+238582,"Vacant RMM ",ramesh.goyal@godrejagrovet.com,"Sales Manager",,238060,"vacant UH - NORTH1",2023-12-27,,AB
+238669,"Vacant CA-Arun Kumar Tiwari",vcaar@ijw435.mvt48,"Sales Rep",,238171,"ANIL KUMAR _Fatehabad",2024-01-03,,AB
+238670,"Vacant CA-Chander Shekhar",vcaha@rjw435.mvt48,"Sales Rep",,238162,"Tej Pratap Singh _Karnal",2024-01-03,,AB
+238671,"Vacant CA-HOSHIYAR SINGH",vcaGHjw@435.mvt48,"Sales Rep",,238154,"Vacant SO_SHIMLA",2024-01-03,,AB
+238673,"Vacant CA-LOKESH GUJJAR",vcaA@Rjw435.mvt48,"Sales Rep",,238139,"Sachin Kumar_MOGA",2024-01-03,,AB
+238674,"Vacant CA-MIR MOHD SYED",vcaYE@Djw435.mvt48,"Sales Rep",,238155,"Peerzada Mussadiq_JAMMU & KASHMIR",2024-01-03,,AB
+238675,"Vacant CA-Nitin Choudhary",vcayj@w435.mvt48,"Sales Rep",,238141,"kapil Tyagi_Amritsar",2024-01-03,,AB
+238676,"Vacant CA-PRAHALAD BANWARI",vca4tAR@Ijw435.mvt48,"Sales Rep",,238147,"Shelendra kumar_MUKTSAR",2024-01-03,,AB
+238677,"Vacant CA-RAHUL KUMAR",vcaM@ARjw435.mvt48,"Sales Rep",,238170,"Kuldeep Godara  _Hissar",2024-01-03,,AB
+238679,"Vacant CA-RAVI KUMAR",vcaR@jw435.mvt48,"Sales Rep",,238148,"ZIAUL HAQUE _MANSA",2024-01-03,,AB
+238680,"Vacant CA-Shailesh Tiwari",vca@ijw435.mvt48,"Sales Rep",,238175,Vacant_Dawbali,2024-01-03,,AB
+238681,"Vacant CA-UDAYBEER SINGH",vcaN@GHjw435.mvt48,"Sales Rep",,238173,"Vacant _Sirsa",2024-01-03,,AB
+238682,"Vacant CA-Vinod Kumar Chaubey",vcay@jw435.mvt48,"Sales Rep",,238149,"Vinod Kumar Chaubey_PATIALA",2024-01-03,,AB
+238684,"Vacant CA-Yatendera Rana",vcaR@anajw435.mvt48,"Sales Rep",,238151,"Yatendera Rana_BARNALA",2024-01-03,,AB
+238685,"Vacant CA-ATUL KUMAR PANDEY",vcakjds@pnaf.fdlreo,"Sales Rep",,238138,"ATUL KUMAR PANDEY_KHANNA",2024-01-03,,AB
+238686,"Vacant CA-DEVENDRA KUMAR",vcakjds@hypnaf.fdlyreo,"Sales Rep",,238163,"Mukesh lohani_AMBALA",2024-01-03,,AB
+238694,"Saif SO_ABOHAR",Vacantabove@gmail.com,"Territory Manager",A54,282500,"Saif _ABOHAR",2024-06-25,,AB
+238697,"Jitendra Kumar",maurlucky4@gmail.com,"Sales Rep",2806715,238148,"ZIAUL HAQUE _MANSA",2024-01-03,,00:00:00
+238741,"Vacant SO Palwal",vacantsopalwal@gavl.com,"Territory Manager",A11,238159,Mohit_TL,2024-01-04,,AB
+238750,"Vacant CA-Pawan Kumar",vcapawn@kmr.sppy,"Sales Rep",,238694,"Saif SO_ABOHAR",2024-01-05,,AB
+238814,"Vacant SO GURDASPUR",vac.so@gjreo.grps,"Territory Manager",A84,238136,"Sandeep Kumar_BHATINDA",2024-01-08,,AB
+238816,"Pranshu Verma_HOSHIARPUR",Pranshu.verma@godrejagrovet.com,"Territory Manager",A66,238136,"Sandeep Kumar_BHATINDA",2024-07-15,,00:07:05
+238817,"Vacant CA HOSHIARPUR ",ncdw@iok.roejck,"Sales Rep",,238816,"Pranshu Verma_HOSHIARPUR",2024-01-08,,AB
+238819,"Vacant SO Ropar",Vaca@SO.Ropar,"Territory Manager",A14,239596,"Vacant TL_Punjab",2024-01-08,,AB
+238820,"Vacant CA JAGRAON",voire@mvgfo.wrougre,"Sales Rep",,238141,"kapil Tyagi_Amritsar",2024-01-08,,AB
+238821,"Vacant SO KAPURTHALA",Vacantk@gavl.com,"Territory Manager",A93,238136,"Sandeep Kumar_BHATINDA",2024-01-08,,AB
+238822,"VACANT SO KOTKAPURA",VACANT@KOTKAPURA.so,"Territory Manager",A04,239596,"Vacant TL_Punjab",2024-01-08,,AB
+238823,"Vacant CA KAPURTHALA",e0rpie@jkvdl.308skm,"Sales Rep",,238141,"kapil Tyagi_Amritsar",2024-01-08,,AB
+238824,"Vacant CA Kotkapura",Vacant@CA.Kotkapura,"Sales Rep",,238822,"VACANT SO KOTKAPURA",2024-01-08,,AB
+238825,"Vacant SO NAWANSHAHR",reigwtepo@sckpo.coirm,"Territory Manager",A90,238136,"Sandeep Kumar_BHATINDA",2024-01-08,,AB
+238826,"Vacant CA NAWANSHAHR",reiore@38t03.vefnoa,"Sales Rep",,238825,"Vacant SO NAWANSHAHR",2024-01-08,,AB
+238827,"Vacant SO TARN TARAN",foerww@evutroi.pocvrw,"Territory Manager",A95,238136,"Sandeep Kumar_BHATINDA",2024-01-08,,AB
+238828,"Vacant CA TARN TARAN",verivowrj@vtro.njcii,"Sales Rep",,238827,"Vacant SO TARN TARAN",2024-01-08,,AB
+238829,"Ankit _Bathinda",,"Territory Manager",B60,282500,"Saif _ABOHAR",2024-11-21,,AB
+238957,"Ketan Garg-WRG1-Head (VMK)",ketan.garg@godrejagrovet.com,"Sales Manager",,249966,"Dipak tengale_RMM",2024-01-09,,AB
+238961,"Akshay Yeware _Vidarbha",akshay.yeware@godrejagrovet.com,"Sales Manager",,239088,"ROSHAN PRABHAKARRAO GORE_AMM_VMK",2024-01-09,,AB
+238962,"Kunal Gawande _Nagpur",kunal.gawande@godrejagrovet.com,"Territory Manager",A24,238961,"Akshay Yeware _Vidarbha",2024-01-09,,00:51:53
+238965,"Vacant SO _Chandrapur",vacant.anandambule1@gmail.com,"Sales Manager",,238961,"Akshay Yeware _Vidarbha",2024-01-09,,AB
+238966,"Vacant Swapnil Mahesh Jangam",vacant_Swapnil@gmail.com,"Territory Manager",,238965,"Vacant SO _Chandrapur",2024-01-09,,AB
+238967,"sandip phopase_Yavatmal",Sandip.phopase@godrejagrovet.com,"Sales Manager",,239170,"Nilesh kankewar_Marathwada",2024-01-09,,12:22:36
+238969,"Vacant Po _Mukutban",mukutban@gavl.com,"Territory Manager",C56,238967,"sandip phopase_Yavatmal",2024-01-09,,AB
+238970,"vacant PO  _Ghatanji",ss@gavl.com,"Territory Manager",,238967,"sandip phopase_Yavatmal",2024-01-09,,AB
+238972,"Yuvraj Haribhau Bhuyar",bhuyaryuvaraj071@gmail.com,"Sales Rep",,238962,"Kunal Gawande _Nagpur",2024-01-09,,08:22:22
+238974,"Bhushan Sainath Shende",bspatansaongi@gmail.com,"Sales Rep",3009674,238962,"Kunal Gawande _Nagpur",2024-01-09,,00:00:00
+238987,"Vacant CA Chandrapur",nveoru@hirereo.veot,"Sales Rep",,242911,"Akshay Ingole_Chandrapur",2024-01-09,,AB
+238988,"Vacant CA Yavatmal",ajhperh@nvslmm.ruoe,"Sales Rep",,238969,"Vacant Po _Mukutban",2024-01-09,,AB
+238991,"Pradip Khapre_Washim",pradip.khapre@godrejagrovet.com,"Sales Manager",,239170,"Nilesh kankewar_Marathwada",2024-01-09,,00:03:23
+238994,"Shekh Mohiddin Shekh Shahabuddin",mohiddinshekh5891@gmail.com,"Sales Rep",3079770,243756," vacant Pradip Khapre_Washim",2024-01-09,,14:54:54
+238995,"Amol Kherde_Amravati",amol.kherde@godrejagrovet.com,"Sales Manager",,238961,"Akshay Yeware _Vidarbha",2024-01-09,,12:08:35
+238996,"Vacant PO_Karanja-Arvi",VacantPO@Karanja.arvi,"Territory Manager",C73,238995,"Amol Kherde_Amravati",2024-01-09,,AB
+239000,"Vacant _Amravati",ky@gmail.com,"Territory Manager",,238995,"Amol Kherde_Amravati",2024-01-09,,AB
+239008,"Sujit Pangate_Paratwada",sujit.panghate@godrejagrovet.com,"Sales Manager",,239170,"Nilesh kankewar_Marathwada",2024-01-09,,00:00:40
+239009,"Vacant PO_Paratwada",Vacant@POAnjangaon.Daryapur,"Territory Manager",H11,239008,"Sujit Pangate_Paratwada",2024-01-09,,AB
+239013,"Rahul Dorle_Pusad",rahul.dorle@godrejagrovet.com,"Territory Manager",H3,239170,"Nilesh kankewar_Marathwada",2024-01-09,,00:00:19
+239014,"Vacant CA_Pusad",Vacant@CA.Pusadac,"Sales Rep",,239013,"Rahul Dorle_Pusad",2024-01-09,,AB
+239035,"Vacant CA Nagpur",fdjfalk@ehierl.reou,"Sales Rep",,238962,"Kunal Gawande _Nagpur",2024-01-10,,AB
+239043,"Vacant CA_Washim",Vacant@CA.WashimforDealerData,"Sales Rep",,243756," vacant Pradip Khapre_Washim",2024-01-10,,AB
+239044,"Vacant CA_Amravati",Vacant@CA.AmravatiForDealer,"Sales Rep",,239000,"Vacant _Amravati",2024-01-10,,AB
+239078,"Vacant CA Paratwada",Vacant@CA.ParatwadaForDealer,"Sales Rep",,239009,"Vacant PO_Paratwada",2024-01-10,,AB
+239088,"ROSHAN PRABHAKARRAO GORE_AMM_VMK",roshan.gore@godrejaagrovet.com,"Sales Manager",,238957,"Ketan Garg-WRG1-Head (VMK)",2024-01-11,,AB
+239165,"Rahul Singh_Allahabad",Singh.rahul@godrejagrovet.com,"Territory Manager",A16,238114,"Digvijay Singh-East UP",2024-01-13,,03:31:49
+239166,Vacant-Allahabad-CA,vacantallCA@godrej.com,"Sales Rep",,239165,"Rahul Singh_Allahabad",2024-01-13,,AB
+239167,Vacant-Gorakhpur,vacantgorakhpur@godrej.com,"Territory Manager",A57,238114,"Digvijay Singh-East UP",2024-01-13,,AB
+239168,Vacant-Gorakhpur-CA,vacantgorakhpurca@godrej.com,"Sales Rep",,239167,Vacant-Gorakhpur,2024-01-13,,AB
+239170,"Nilesh kankewar_Marathwada",nilesh.kankewar@godrejagrovet.com,"Sales Manager",,239088,"ROSHAN PRABHAKARRAO GORE_AMM_VMK",2024-01-13,,AB
+239172,vacant_SILLOD,hav1@godrejagovet.com,"Territory Manager",H10,239170,"Nilesh kankewar_Marathwada",2024-01-13,,AB
+239174,"Sachin Pandav_Parbhani",sachin.pandav@godrejagrovet.com,"Territory Manager",C75,263562,"Bikash Raymohpatra",2024-01-13,,00:00:00
+239175,"Shivkumar shete_Nanded",shivkumar.shete@godrejagrovet.com,"Territory Manager",H12,238961,"Akshay Yeware _Vidarbha",2024-01-13,,01:15:39
+239176,"Aniket Sarnaik_JALNA",aniket.sarnaik@godrejagrovet.com,"Territory Manager",C64,263562,"Bikash Raymohpatra",2024-01-13,,AB
+239177,"Vacant Vishnu Dudhate",Vacantvd@gavl.com,"Sales Rep",,239174,"Sachin Pandav_Parbhani",2024-01-13,,AB
+239184,"NIKHIL YALCHAWAR",Yalchalwarnikhil321@Gmail.Com,"Sales Rep",2617775,239175,"Shivkumar shete_Nanded",2024-01-13,,AB
+239186,Vacant_Chittepimplgaon,Vacant_Chittepimplgaon@Gmail.Com,"Sales Rep",,239176,"Aniket Sarnaik_JALNA",2024-01-13,,AB
+239187,"Vacant_Chatrapati Sambhaji Nagar",Vacant_Chatrapatisambhajinagar@Gmail.Com,"Sales Rep",,239176,"Aniket Sarnaik_JALNA",2024-01-13,,AB
+239188,Vacant_Jalna,Vacant_Jalna@Gmail.Com,"Sales Rep",,239176,"Aniket Sarnaik_JALNA",2024-01-13,,AB
+239189,Vacant_Vaijapur,Vacant_Vaijapur@Gmail.Com,"Sales Rep",,239176,"Aniket Sarnaik_JALNA",2024-01-13,,AB
+239190,Vacant_Gangapur,Vacant_Gangapur@Gmail.Com,"Sales Rep",,239176,"Aniket Sarnaik_JALNA",2024-01-13,,AB
+239191,Vacant_Kannad,Vacant_Kannad@Gmail.Com,"Sales Rep",,239176,"Aniket Sarnaik_JALNA",2024-01-13,,AB
+239192,Vacant_Ambad,Vacant_Ambad@Gmail.Com,"Sales Rep",,239176,"Aniket Sarnaik_JALNA",2024-01-13,,AB
+239193,Vacant_Mantha,Vacant_Mantha@Gmail.Com,"Sales Rep",,239176,"Aniket Sarnaik_JALNA",2024-01-13,,AB
+239194,"vacant girish bule",vacantSachin@gavl.com,"Sales Rep",,239175,"Shivkumar shete_Nanded",2024-01-13,,AB
+239195,"Vikas nagre _BULDHANA",Vikas.nagre@godrejagrovet.com,"Territory Manager",C57,239170,"Nilesh kankewar_Marathwada",2024-01-14,,AB
+239196,"Mahadeo Ramdas Nayse_Akola",mahadeo.nayse@godrejagrovet.com,"Territory Manager",A98,239170,"Nilesh kankewar_Marathwada",2024-01-14,,04:53:18
+239212,"Vacant CA_DEULGAON RAJA",VacantCA_DEULGAONRAJA@h.dassk,"Sales Rep",,239195,"Vikas nagre _BULDHANA",2024-01-15,,AB
+239213,"Vacant CA_MEHKAR",VacantCA_MEHKAR@h.dassk,"Sales Rep",,239195,"Vikas nagre _BULDHANA",2024-01-15,,AB
+239215,"Vacant CA_BULDHANA",VacantCA_BULDHANA@h.dassk,"Sales Rep",,239195,"Vikas nagre _BULDHANA",2024-01-15,,AB
+239216,"Vacant CA_MALKAPUR",VacantCA_MALKAPUR@h.dassk,"Sales Rep",,239195,"Vikas nagre _BULDHANA",2024-01-15,,AB
+239217,"Vacant CA_KHAMGAON",VacantCA_KHAMGAON@h.dassk,"Sales Rep",,239195,"Vikas nagre _BULDHANA",2024-01-15,,AB
+239218,"Vacant CA_JALGAON JAMOD",VacantCA_JALGAONJAMOD@h.dassk,"Sales Rep",,239195,"Vikas nagre _BULDHANA",2024-01-15,,AB
+239230,"Purushottam Ghatode-Pune",purushottam.ghatode@godrejagrovet.com,"Sales Manager",G101504,238579,"prajkta patil ",2024-01-15,,AB
+239231,"Yogesh Kadam_Narayangaon",kadam.yogesh@godrejagrovet.com,"Territory Manager",C65,239230,"Purushottam Ghatode-Pune",2024-01-15,,AB
+239233,"Sanjay Sadashiv Dhamale  _Peth",sanjaydhamale88@gmail.com,"Sales Rep",2617905,239231,"Yogesh Kadam_Narayangaon",2024-01-15,,00:00:03
+239247,"Dhiraj Kate_Aalephata",dkate0897@gmail.com,"Sales Rep",2617894,239231,"Yogesh Kadam_Narayangaon",2024-01-15,,00:00:00
+239249,prashant_Sangamner,prashant.shinde@godrejagrovet.com,"Territory Manager",C71,239230,"Purushottam Ghatode-Pune",2024-01-15,,AB
+239250,"Bhushan Gaikwad_Ahmednagar",bhushan.gaikwad@godrejagrovet.com,"Territory Manager",A00,239230,"Purushottam Ghatode-Pune",2024-01-15,,08:03:05
+239255,"abhishek Sanap_Rahuri",sanapabhishek80@gmail.com,"Sales Rep",3324637,239250,"Bhushan Gaikwad_Ahmednagar",2024-01-15,,14:13:43
+239259,"Chetanbhai Prajapati_Gujarat",chetanbhai.prajapati@godrejagrovet.com,"Sales Manager",,278100,"Jayesh Karamta",2024-01-15,,AB
+239260,"Ajit Shipte_gandhinagar",ajit.shipte@godrejagrovet.com,"Territory Manager",B21,239425,"Nhanu Jadhav_ahmedabad",2024-01-15,,AB
+239261,"Manoj Singh_vadodara",manoj.s@godrejagrovet.com,"Territory Manager",B20,239425,"Nhanu Jadhav_ahmedabad",2024-01-15,,12:17:10
+239263,"mahek amreliya_Rajkot",mahek.amreliya@godrejagrovet.com,"Territory Manager",B22,239259,"Chetanbhai Prajapati_Gujarat",2024-01-15,,02:18:05
+239264,"Deepak Chaturvedi_Bhavnagar",deepak.chaturvedi@godrejagrovet.com,"Territory Manager",H6,239259,"Chetanbhai Prajapati_Gujarat",2024-01-15,,09:47:36
+239265,"Jaywant Wable_Surendranagar",jaywant.wable@godrejagrovet.com,"Territory Manager",D53,239259,"Chetanbhai Prajapati_Gujarat",2024-01-15,,AB
+239266,"vacant  SO_South Gujarat",rahul.patil@godrejagrovet.com,"Territory Manager",H13,239259,"Chetanbhai Prajapati_Gujarat",2024-01-15,,AB
+239267,"Ashishkumar B. Bhanderi _Jamnagar",ashishkumar.b@godrejagrovet.com,"Territory Manager",B06,239259,"Chetanbhai Prajapati_Gujarat",2024-01-15,,04:01:34
+239268,"Karan Hadvani_Junagdh",karan.hadvani@godrejagrovet.com,"Territory Manager",C60,239259,"Chetanbhai Prajapati_Gujarat",2024-01-15,,AB
+239275,"Rana Dixitkumar Gopalkrushna_CA_Vadodar",dixitrana018@gmail.com,"Sales Rep",3455509,239261,"Manoj Singh_vadodara",2024-01-15,,07:49:42
+239277,"SUDANI PRADIPKUMAR ARVINDBHAI _DHORAJI",sudanipradip86@gmail.com,"Sales Rep",3401379,239263,"mahek amreliya_Rajkot",2024-06-03,,10:31:25
+239280,"PANALIYA NIRMAL DASRATHBHAI_rajkot",panaliyanirmal6@gmail.com,"Sales Rep",2617876,239263,"mahek amreliya_Rajkot",2024-01-15,,03:54:44
+239283,"Parmar Gaurangkumar Dineshbhai_CA_Halvad",gaurangparmar126@gmail.com,"Sales Rep",3370042,239265,"Jaywant Wable_Surendranagar",2024-01-15,,15:51:56
+239284,"Kalubhai Bhayabhai Kapdiya_CA_Mahuva",kalubhaikapdiya56@gmail.com,"Sales Rep",3274035,239264,"Deepak Chaturvedi_Bhavnagar",2024-01-15,,13:34:43
+239285,"Pateliya Sureshbhai Dayabhai_CA_Talaja",Sureshpateliya062402@gmail.com,"Sales Rep",3370045,239264,"Deepak Chaturvedi_Bhavnagar",2024-01-15,,00:00:00
+239392,"sadanand kamale_JALGAON",sadanand.kamale@godrejagrovet.com,"Territory Manager",A97,263562,"Bikash Raymohpatra",2024-01-17,,AB
+239405,"Vacant CA Parbhani",sachin@vacant.io,"Sales Rep",,239174,"Sachin Pandav_Parbhani",2024-01-17,,AB
+239407,"Vacant ShriKrishna Bhosale",shrikrishna@vacant.io,"Sales Rep",,239172,vacant_SILLOD,2024-01-17,,AB
+239425,"Nhanu Jadhav_ahmedabad",nhanu.jadhav@godrejagrovet.com,"Sales Manager",,278100,"Jayesh Karamta",2024-01-17,,AB
+239426,"Vijay Babar_TL Sangli",vijay.babar@godrejagrovet.com,"Sales Manager",,238579,"prajkta patil ",2024-01-17,,AB
+239440,"MAHESH JADHAV_KAVTHEMAHNKAL",mahesh.jadhav@godrejagrovet.com,"Territory Manager",C77,239426,"Vijay Babar_TL Sangli",2024-01-18,,10:06:09
+239441,"Kiran Sansare_Satara",kiran.sansare@godrejagrovet.com,"Territory Manager",C81,239426,"Vijay Babar_TL Sangli",2024-01-18,,00:00:00
+239442,"Mangesh Bhosale_Pandharpur",mangesh.bhosale@godrejagrovet.com,"Territory Manager",A22,239426,"Vijay Babar_TL Sangli",2024-01-18,,10:01:02
+239443,"Satyajit Todkar_Kolhapur",satyjit.todkar@godrejagrovet.com,"Territory Manager",A23,239426,"Vijay Babar_TL Sangli",2024-01-18,,07:46:21
+239444,"Shivaji Mane",shivaji5015@gmail.com,"Sales Rep",3072286,239440,"MAHESH JADHAV_KAVTHEMAHNKAL",2024-01-18,,10:15:53
+239448,"PRAMOD DHAYARKAR",dhayarkarpramod@gmail.com,"Sales Rep",3166167,239440,"MAHESH JADHAV_KAVTHEMAHNKAL",2024-01-18,,00:02:07
+239450,"Indrajeet Jagadish Patil",indrajeetpatil2312@gmail.com,"Sales Rep",2617897,239441,"Kiran Sansare_Satara",2024-01-18,,00:00:28
+239454,"Samdhan devkatte _Osmanabad",SAMADHAN.DEVKATE@GODREJAGROVET.COM,"Territory Manager",H4,239426,"Vijay Babar_TL Sangli",2023-08-16,,11:16:34
+239455,"Sachin Shinde_Latur",Sachin.shinde@godrejagrovet.com,"Territory Manager",C51,239426,"Vijay Babar_TL Sangli",2024-01-18,,13:59:21
+239456,"Akash Hanumant Giri",akashgiri7171@gmail.com,"Sales Rep",3020129,239441,"Kiran Sansare_Satara",2024-01-18,,00:00:00
+239458,"Pruthviraj Chandrakant Mane",purthvim143@gmail.com,"Sales Rep",2617835,239442,"Mangesh Bhosale_Pandharpur",2024-01-18,,02:27:50
+239459,"Kerappa Sukhadev Metkari",metkariks82@gmail.com,"Sales Rep",2617843,239442,"Mangesh Bhosale_Pandharpur",2024-01-18,,08:10:10
+239464,"Vikas Pawar",vikaspowar38@gmail.com,"Sales Rep",,239443,"Satyajit Todkar_Kolhapur",2024-01-18,,11:09:27
+239470,"Firoj shaikh",firojshaikh9683@gmail.com,"Sales Rep",2617903,239454,"Samdhan devkatte _Osmanabad",2024-01-18,,14:15:02
+239483,"vacant _karan",VK@GAVL.COM,"Sales Rep",,239441,"Kiran Sansare_Satara",2024-01-18,,AB
+239565,"Vacant CA-Wadner_Wardha",VacantCA@Wadner.Wardhaaa,"Sales Rep",,243467,"Rushikesh Mante_Wardha",2024-01-22,,AB
+239567,"Vacant CA washim khapre ",VacantCA@Ibrahim.Washim,"Sales Rep",,243756," vacant Pradip Khapre_Washim",2024-01-22,,AB
+239568,"Vacant CA_Swapnil Khade_Yavatmal",VacantCA@SwapnilKhade.Yavatmalll,"Sales Rep",,238970,"vacant PO  _Ghatanji",2024-01-22,,AB
+239589,"Vacant SO Ladwa",vjv@jtrk.rtoihdkj,"Territory Manager",A76,238247,"Vacant TL-Krishan Kumar Pathak",2024-01-23,,AB
+239590,"Vacant SO KAITHAL",vacant.kaithal@gmail.com,"Territory Manager",B32,238247,"Vacant TL-Krishan Kumar Pathak",2024-01-23,,AB
+239591,"VACANT SO NARWANA",vnjrkrek@bmtjo.eireo,"Territory Manager",A79,238247,"Vacant TL-Krishan Kumar Pathak",2024-01-23,,AB
+239592,"Vacant CA Kaithal",rejoo@guoteereoi.vioen,"Sales Rep",,239590,"Vacant SO KAITHAL",2024-01-23,,AB
+239593,"Vacant CA Ladwa",vnjkre@jveil.iroen,"Sales Rep",,239589,"Vacant SO Ladwa",2024-01-23,,AB
+239596,"Vacant TL_Punjab",vrjek@tro.ivnoe,"Sales Manager",,238136,"Sandeep Kumar_BHATINDA",2024-01-23,,AB
+239597,"Prashant Singh-North2",prashant.vsingh@godrejagrovet.com,"Sales Manager",,246632,"Brajesh Kumar Sharma_RFH north",2024-01-23,,AB
+239601,"Vasundhara_AMM UP ",vasundhara.jha@godrejagrovet.com,"Sales Manager",,239597,"Prashant Singh-North2",2024-01-23,,AB
+239609,"Salman Hussain _Lakhimpur",salman.husain@godrejagrovet.com,"Territory Manager",A58,238114,"Digvijay Singh-East UP",2024-01-24,,AB
+239610,"Vacant CA Lakhimpur",djfvdol@jtro.myoyt,"Sales Rep",,239609,"Salman Hussain _Lakhimpur",2024-01-24,,AB
+239614,"Vacant CA Hardoi",jvreiou@mypjto.vcpmo,"Sales Rep",,238119,Vacant-SO-HARDOI,2024-01-24,,AB
+239656,"Vacant CA Narwana",fijreogt@vlkmtrrto.vnrto,"Sales Rep",,239591,"VACANT SO NARWANA",2024-01-25,,AB
+239685,"Vacant SO-BARAMATI",Vacant@SO.BARAMATI,"Territory Manager",C86,239230,"Purushottam Ghatode-Pune",2024-01-27,,AB
+239751,"Vacant_SWR1 (TN, KL)",U.CR@GODREJGROVET.COM,"Sales Manager",,273958,"Madhu CR South Zone",2024-01-29,,AB
+239753,"SOLAIRAJA SUBRAMANI -Madurai",solairaja.s@godrejagrovet.com,"Territory Manager",C13,239800,"MUTHUMANI K-TRICHY",2024-01-29,,06:57:19
+239760,"Vacant AMM_SWR1 (TN, KL)",vacant.amm@godrejagrovet.com,"Sales Manager",,239751,"Vacant_SWR1 (TN, KL)",2024-01-29,,AB
+239762,"KISHOKAR P_KANCHEEPURAM",KISHOKAR.P@GODREJAGROVET.COM,"Sales Manager",8105677,239760,"Vacant AMM_SWR1 (TN, KL)",2024-01-29,,02:15:21
+239763,"JAYAKUMAR C_VILLUPURAM",JAYAKUMAR.C@GODREJAGROVET.COM,"Territory Manager",A43,239762,"KISHOKAR P_KANCHEEPURAM",2024-01-29,,17:01:40
+239764,"Vacant SO_Vellore",velloreso@godrejagrovet.com,"Territory Manager",D6,239762,"KISHOKAR P_KANCHEEPURAM",2024-01-29,,AB
+239765,"Sakthivel B _Kancheepuram",B.SAKTHIVEL@GODREJAGROVET.COM,"Territory Manager",A49,239762,"KISHOKAR P_KANCHEEPURAM",2024-01-29,,09:56:30
+239769,MOHAN.S,smohan2587@gmail.com,"Sales Rep",3185484,239763,"JAYAKUMAR C_VILLUPURAM",2024-01-29,,13:34:25
+239774,"K SATHISH",yaminidilip1979@gmail.com,"Sales Rep",3194563,239764,"Vacant SO_Vellore",2024-01-29,,12:08:12
+239775,"BALAMURUGAN N",balajagan25051997@gmail.com,"Sales Rep",3064243,239765,"Sakthivel B _Kancheepuram",2024-01-29,,13:00:47
+239776,"AJITH KUMAR",ajithreddy204@gmail.com,"Sales Rep",3079907,239765,"Sakthivel B _Kancheepuram",2024-01-29,,15:25:57
+239778,"PURUSHOTHAMAN S",purushothamanp@gmail.com,"Sales Rep",3185482,239765,"Sakthivel B _Kancheepuram",2024-01-29,,11:56:50
+239779,"KEERTHIKESWARAN J",keerthikeswaran06@gmail.com,"Sales Rep",3185485,239765,"Sakthivel B _Kancheepuram",2024-01-29,,11:54:37
+239791,Vetrivel.G_ERODE,vetrivel.g@godrejagrovet.com,"Territory Manager",C04,239807,"JEEVA RAMALINGAM_SALEM",2024-01-29,,14:49:29
+239800,"MUTHUMANI K-TRICHY",MUTHUMANI.K@GODREJAGROVET.COM,"Sales Manager",8105438,270521,"Vacant AMM_SWR1 (TN, KL)",2024-01-30,,13:50:05
+239801,"Sonymon K V _Thrissur",SONYMON.VARGHESE@GODREJAGROVET.COM,"Territory Manager",A42,239800,"MUTHUMANI K-TRICHY",2024-01-30,,09:42:49
+239802,"BALAKUMARAN _THANJAVUR",BALAKUMARAN.B@GODREJAGROVET.COM,"Territory Manager",A47,239800,"MUTHUMANI K-TRICHY",2024-01-30,,14:49:14
+239803,"Sowenderrajan L _Tirunelveli",RAJAN.SOWENDER@GODREJAGROVET.COM,"Territory Manager",D7,239800,"MUTHUMANI K-TRICHY",2024-01-30,,03:47:11
+239804,"Senthil Kumar _Trichy",senthil.kumar@godrejagrovet.com,"Territory Manager",A41,239800,"MUTHUMANI K-TRICHY",2024-01-30,,12:48:35
+239805,"MUTHU IRULAPPAN_Dindigul",muthu.irulappan@godrejagrovet.com,"Territory Manager",B29,239800,"MUTHUMANI K-TRICHY",2024-01-30,,01:40:55
+239807,"JEEVA RAMALINGAM_SALEM",JEEVA.RAMALINGAM@GODREJAGROVET.COM,"Sales Manager",8104244,239760,"Vacant AMM_SWR1 (TN, KL)",2024-01-30,,14:24:08
+239808,"Varshini Kumar_SALEM",varshini.kumar@godrejagrovet.com,"Territory Manager",C36,239807,"JEEVA RAMALINGAM_SALEM",2024-08-14,,01:12:59
+239809,"BALACHANDAR B_DHARMAPURI",BALACHANDAR.BUPALAN@GODREJAGROVET.COM,"Territory Manager",D4,239807,"JEEVA RAMALINGAM_SALEM",2024-01-30,,12:19:44
+239811,"M SIVAKUMAR _Coimbatore",M.SIVAKUMAR@GODREJAGROVET.COM,"Territory Manager",I9,239807,"JEEVA RAMALINGAM_SALEM",2024-01-30,,09:51:58
+239812,"Vinu Kumar S _Pallakad",VINU.KUMAR@GODREJAGROVET.COM,"Territory Manager",B05,239800,"MUTHUMANI K-TRICHY",2024-01-30,,00:00:00
+239813,"KARTHIKEYAN P",karthijee02@gmail.com,"Sales Rep",3074950,239791,Vetrivel.G_ERODE,2024-01-30,,12:39:59
+239818,"S Balasuburamani",baluvasanth1983@gmail.com,"Sales Rep",3185479,239805,"MUTHU IRULAPPAN_Dindigul",2024-01-30,,12:46:15
+239822,"Manikandan Arumugam",mani1997arumugam@gmail.com,"Sales Rep",3223844,239804,"Senthil Kumar _Trichy",2024-01-30,,11:38:14
+239826,Senthil.S,sendhilsupramaniyan1976@gmail.com,"Sales Rep",3195924,239802,"BALAKUMARAN _THANJAVUR",2024-01-30,,11:56:52
+239830,ESWARAN,eswaran0022@gmail.com,"Sales Rep",3052680,239803,"Sowenderrajan L _Tirunelveli",2024-01-30,,12:28:59
+239832,RATHINAKUMAR,rathinakumar1967@gmail.com,"Sales Rep",3052682,239803,"Sowenderrajan L _Tirunelveli",2024-01-30,,14:09:48
+239834,"vacant SONYMON",Vacantsonymon@gmail.com,"Sales Rep",,239801,"Sonymon K V _Thrissur",2024-01-30,,AB
+239836,"R Vignesh",vigneshnila777@gmail.com,"Sales Rep",3177735,239808,"Varshini Kumar_SALEM",2024-01-30,,09:22:12
+239841,S.Sabari,sabarimani347@gmail.com,"Sales Rep",2581160,239809,"BALACHANDAR B_DHARMAPURI",2024-01-30,,11:11:02
+239863,"Vacant CA (MOHAN S)",VacantCA.MOHANS@gmail.com,"Sales Rep",,239764,"Vacant SO_Vellore",2024-01-30,,AB
+239864,"Vacant CA (PALANIVELRAJAN T)",VacantCA.PALANIVELRAJANT@gmail.com,"Sales Rep",,239805,"MUTHU IRULAPPAN_Dindigul",2024-01-30,,AB
+239865,"Vacant CA (SAKTHIVEL B)",VacantCA.SAKTHIVELB@gmail.com,"Sales Rep",,239765,"Sakthivel B _Kancheepuram",2024-01-30,,AB
+239866,"Vacant CA (SENTHIL KUMAR)",VacantCA.SENTHILKUMAR@gmail.com,"Sales Rep",,239804,"Senthil Kumar _Trichy",2024-01-30,,AB
+239867,"Vacant CA (SONYMON K V)",VacantCA.SONYMONKV@gmail.com,"Sales Rep",,239801,"Sonymon K V _Thrissur",2024-01-30,,AB
+239868,"Vacant CA (SOWENDERRAJAN L)",VacantCA.SOWENDERRAJANL@gmail.com,"Sales Rep",,239803,"Sowenderrajan L _Tirunelveli",2024-01-30,,AB
+239869,"Vacant CA (SRINATH R)",VacantCA.SRINATHR@gmail.com,"Sales Rep",,239811,"M SIVAKUMAR _Coimbatore",2024-01-30,,AB
+240063,"vacant Mangesh",a22@gmai.com,"Sales Rep",,239442,"Mangesh Bhosale_Pandharpur",2024-02-02,,AB
+240064,"Vacant Satyajit",A23@gmail.com,"Sales Rep",,239443,"Satyajit Todkar_Kolhapur",2024-02-02,,AB
+240117,"Vacant Manoj",B20@gmail.com,"Sales Rep",,239261,"Manoj Singh_vadodara",2024-02-05,,AB
+240118,"Vacant Jaywant",D53@gmail.com,"Sales Rep",,239265,"Jaywant Wable_Surendranagar",2024-02-05,,AB
+240125,"Vacant CHETAN P",B22@gmail.com,"Sales Rep",,239263,"mahek amreliya_Rajkot",2024-02-05,,AB
+240126,"Vacant Dipak Chaturvedi",H6@gmail.com,"Sales Rep",,239264,"Deepak Chaturvedi_Bhavnagar",2024-02-05,,AB
+240127,"Vacant Rahul Patil",H13@gmail.com,"Sales Rep",,239266,"vacant  SO_South Gujarat",2024-02-05,,AB
+240128,"Vacant Tukaram Hamand",C60@gmail.com,"Sales Rep",,239268,"Karan Hadvani_Junagdh",2024-02-05,,AB
+240188,S.SARAVANAKUMAR,saravanasvs81@gmail.com,"Sales Rep",3250692,239803,"Sowenderrajan L _Tirunelveli",2024-02-07,,14:46:20
+240189,"Bhuvaneswaran R",bhuvameswaran@gmail.com,"Sales Rep",3253085,239805,"MUTHU IRULAPPAN_Dindigul",2024-02-07,,11:29:25
+240300,"Yankappa - Bellary",yankappa.y@godrejagrovet.com,"Sales Manager",G108544,250341,vacant_amm,2024-02-12,,13:01:10
+240301,"Vacant SO_Bellary",vacant.bellary@godrejagrovet.com,"Territory Manager",C35,240300,"Yankappa - Bellary",2024-02-12,,AB
+240303,"Kattamuri S V N S S Bhaskar Mani Sekhar_Raichur",mani.k@godrejagrovet.com,"Territory Manager",C34,240300,"Yankappa - Bellary",2024-02-12,,15:09:58
+240304,"GARAPATI RAMESH SO-Kurugodu",sobellary@gmail.com,"Territory Manager",A44,282379,"GARAPATI RAMESH_Bellary & Gangavati",2024-02-12,,AB
+240319,"Vishwaradhya Biradar-HUBLI",vishwaradhya.biradar@godrejagrovet.com,"Sales Manager",,250341,vacant_amm,2024-02-12,,00:09:07
+240320,"Laxman Salagar_bijapur",laxman.salagar@godrejagrovet.com,"Territory Manager",A45,240319,"Vishwaradhya Biradar-HUBLI",2024-08-14,,08:47:36
+240321,"Vinod Sankari_Shahapur",vinod.sankari@godrejagrovet.com,"Territory Manager",D9,240319,"Vishwaradhya Biradar-HUBLI",2024-02-12,,02:49:15
+240322,"Sachin Tammaraya_BELGAUM",sachin.biradar@godrejagrovet.com,"Territory Manager",A52,240319,"Vishwaradhya Biradar-HUBLI",2024-08-14,,04:14:11
+240323,"Basavaraj Biradar _GULBERGA",basavaraj.01@godrejagrovet.com,"Territory Manager",A34,240319,"Vishwaradhya Biradar-HUBLI",2024-07-12,,13:53:53
+240326,"Vacant Rajshekhar",o04@gmail.com,"Territory Manager",,240319,"Vishwaradhya Biradar-HUBLI",2024-02-13,,AB
+240331,"VACANT PO",VH8@gmail.com,"Sales Rep",,240326,"Vacant Rajshekhar",2024-02-13,,AB
+240332,"Vacant Kalyanrao",VacantKalyanrao@gmail.com,"Sales Rep",,240321,"Vinod Sankari_Shahapur",2024-02-13,,AB
+240341,"VARUN M_davengere 2",varun.m@godrejagrovet.com,"Territory Manager",A51,263313,"SURESH BIRADAR_Davengere",2024-02-13,,12:22:50
+240378,"vacant _AMM SWR2",vacs@gavl.com,"Sales Manager",,231714,Yogeshappa-SWR2,2024-07-09,,AB
+240475,"vacant_TN BL ",gav@gavl.com,"Sales Manager",,240505,"Vacant AMM_TG",2024-02-16,,AB
+240476,"U chandrasekhar_warangal",u.shekhar@godrejagrovet.com,"Sales Manager",,240475,"vacant_TN BL ",2024-02-16,,11:49:48
+240478,"Annasamudram Nandan kamesh _Mahabubabad",nandan.kamesh@godrejagrovet.com,"Territory Manager",C30,240476,"U chandrasekhar_warangal",2024-02-16,,11:20:54
+240479,"TALARI SUBHADRA_Warangal",subhadra.talari@godrejagrovet.com,"Territory Manager",J4,240476,"U chandrasekhar_warangal",2024-02-16,,04:31:52
+240480,"Karru Shiroj Kumar_Badrachalam",shiroj.karru@godrejagrovet.com,"Territory Manager",B30,240476,"U chandrasekhar_warangal",2024-08-29,,03:49:57
+240481,"Vacant SO_parkala",parkala@gmail.com,"Territory Manager",A37,240476,"U chandrasekhar_warangal",2024-02-16,,AB
+240482,"PARISE VENKATA CHALAPATHI RAO_Vijayawada",CHALAPATHI.PARISE@GODREJAGROVET.COM,"Sales Manager",,240507,"Vacant BL_Vijayawada",2024-02-16,,07:50:10
+240483,"Vacant _Mylavaram",vacantmylavaram@godrejagrovet.com,"Territory Manager",D3,279547,"PRASANTH KONJETI_Khammam",2024-02-16,,AB
+240484,anuhya_Eluru,anuhya.pavuluri@godrejagrovet.com,"Territory Manager",B04,240482,"PARISE VENKATA CHALAPATHI RAO_Vijayawada",2024-02-16,,13:47:42
+240485,K.PRASANTH_KHAMMAM,prasant.konjeti@godrejagrovet.com,"Territory Manager",C11,279547,"PRASANTH KONJETI_Khammam",2024-02-16,,AB
+240486,"JARUPULA NAGARAJU _Kothagudem",JARUPULA.NAGARAJU@GODREJAGROVET.COM,"Territory Manager",E3,240482,"PARISE VENKATA CHALAPATHI RAO_Vijayawada",2024-02-16,,AB
+240487,"Lakshman Nallapati_TADEPALLIGUDEM",lakshman.nallapati@godrejagrovet.com,"Territory Manager",A36,240482,"PARISE VENKATA CHALAPATHI RAO_Vijayawada",2024-10-29,,12:38:26
+240505,"Vacant AMM_TG",vacantammtg@godrejagrovet.com,"Sales Manager",,231713,"vacant RMM-South East Region",2024-02-15,,AB
+240506,"Vacant AMM_AP",mounika.vooda@godrejagrovet.com,"Sales Manager",,231713,"vacant RMM-South East Region",2024-02-17,,AB
+240507,"Vacant BL_Vijayawada",vacantvijayawada@godrejagrovet.com,"Sales Manager",G102187,240506,"Vacant AMM_AP",2024-02-18,,AB
+240508,"Murali G _guntur",murali.g@godrejagrovet.com,"Sales Manager",,240507,"Vacant BL_Vijayawada",2024-02-18,,06:06:38
+240509,"Bareddy Venkateswarlu _Guntur",venkateswarlu.b@godrejagrovet.com,"Territory Manager",C33,240508,"Murali G _guntur",2024-02-18,,02:19:08
+240510,"P Yeswanth Reddy _Sattenapalli",yeswanth.punuri@godrejagrovet.com,"Territory Manager",C03,240508,"Murali G _guntur",2024-02-18,,AB
+240511,"Kishore Reddy _Piduguralla",kishore.reddy@godrejagrovet.com,"Territory Manager",C37,240508,"Murali G _guntur",2024-02-18,,13:51:10
+240512,"Atla Siva Krishnareddy_Macherla",atla.krishnareddy@godrejagrovet.com,"Territory Manager",C09,240508,"Murali G _guntur",2024-02-18,,00:07:34
+240513,"Bijjam Siva Krishnareddy_Addanki",sivakrishnareddy.b@godrejagrovet.com,"Territory Manager",E2,240508,"Murali G _guntur",2024-02-18,,14:02:07
+240514," BINGINIPALLI SADIK_Markapuram",BINGINIPALLI.SADIK@GODREJAGROVET.COM,"Territory Manager",Z48,240508,"Murali G _guntur",2024-09-22,,14:22:38
+240515,"KARRI VINAY KUMAR SO_tenali",VINAYKUMAR.KARRI@GODREJAGROVET.COM,"Territory Manager",C38,240508,"Murali G _guntur",2024-02-18,,13:42:48
+240516,"Levidi Manikya Reddy_Kurnool",manikya.reddy@godrejagrovet.com,"Sales Manager",G104901,240660,"Pothireddy Narasimha reddy - Hyderabad",2024-02-18,,00:00:00
+240517,"Pamidi Jabiullah_ananthpur",pamidi.jabiullah@godrejagrovet.com,"Territory Manager",I5,240516,"Levidi Manikya Reddy_Kurnool",2024-02-18,,12:24:40
+240518,Bhanuprakash_Adoni,bhanuprakash.reddy@godrejagrovet.com,"Territory Manager",C08,240516,"Levidi Manikya Reddy_Kurnool",2024-02-18,,04:42:05
+240519,"M SUBBA REDDY_proddatur",mudiam.reddy@godrejagrovet.com,"Territory Manager",C31,240516,"Levidi Manikya Reddy_Kurnool",2024-02-18,,08:26:13
+240520,"C.MADANNA _YEMMIGANUR",madanna.chakali@godrejagrovet.com,"Territory Manager",C27,240516,"Levidi Manikya Reddy_Kurnool",2024-02-18,,10:51:20
+240521,"M Chandrasekhar_Madanapalle",chandrasekhar.motte@Godrejagrovet.com,"Territory Manager",C32,240516,"Levidi Manikya Reddy_Kurnool",2024-02-18,,00:05:59
+240522,"Thanrunkumar reddy_kurnool",Tharun.reddy@godrejagrovet.com,"Territory Manager",C01,240516,"Levidi Manikya Reddy_Kurnool",2024-02-18,,07:21:27
+240526,Ramesh,mitikalaramesh@gmail.com,"Sales Rep",2632836,240509,"Bareddy Venkateswarlu _Guntur",2024-02-18,,02:47:07
+240547,"vacant _ chandrashekhar",QWE@GAVL.COM,"Sales Rep",,240518,Bhanuprakash_Adoni,2024-02-18,,AB
+240550,"DASANGA HIMA KUMAR",dhimakumar@gmail.com,"Sales Rep",2692939,262124,"Kottinto Sitarami Reddy_NANDAYAL",2024-02-18,,14:26:47
+240551,"M SURYYA PRAKASH",prakashsurya11953@gmail.com,"Sales Rep",3065477,262124,"Kottinto Sitarami Reddy_NANDAYAL",2024-02-18,,13:34:36
+240566,"Kurhini Sai charan",kurnicharan89@gmail.com,"Sales Rep",3200025,240478,"Annasamudram Nandan kamesh _Mahabubabad",2024-02-19,,10:25:43
+240570,"Dubaku Suresh",vinodhadsuresh@gmail.com,"Sales Rep",2575757,240478,"Annasamudram Nandan kamesh _Mahabubabad",2024-02-19,,00:00:03
+240573,"KORE RAMU",ramu.honey12@gmail.com,"Sales Rep",2574943,240479,"TALARI SUBHADRA_Warangal",2024-02-19,,00:00:00
+240575,KORNAPAKA.VISHNU,kornapakavishnu@gmail.com,"Sales Rep",2583035,240479,"TALARI SUBHADRA_Warangal",2024-02-19,,11:57:08
+240581,"D Govaradan",govardhan1427@gmail.com,"Sales Rep",2990045,240480,"Karru Shiroj Kumar_Badrachalam",2024-02-19,,12:56:10
+240587,"Md Arisf",mdareef326@gmail.com,"Sales Rep",3373797,240481,"Vacant SO_parkala",2024-02-19,,14:35:06
+240589,"G Raju",gundeboinaraju93@gmail.com,"Sales Rep",2575736,240481,"Vacant SO_parkala",2024-02-19,,10:53:09
+240599,"vacant _veluru",vacantvel@gavl.com,"Sales Rep",,240484,anuhya_Eluru,2024-02-19,,AB
+240611,"GARIDEPALLI HARISH",garidepallihareesh085@gmail.com,"Sales Rep",2575748,281890,"LOKANTHU LOKESH Vacant SO_Vijayawada",2024-02-19,,14:53:22
+240615,"M Satesh",itsursatish9948@gmail.com,"Sales Rep",3114053,240485,K.PRASANTH_KHAMMAM,2024-02-19,,14:32:01
+240629,"KAVURI SRINIVASU",srinivasu.s123@gmail.com,"Sales Rep",2572734,240487,"Lakshman Nallapati_TADEPALLIGUDEM",2024-02-19,,04:23:27
+240634,"BODAPATI . KRISHNA SAI",krish.bodapatichowdary@gmail.com,"Sales Rep",3067983,281890,"LOKANTHU LOKESH Vacant SO_Vijayawada",2024-02-19,,15:14:56
+240635,"D. RAGHU RAM",dharavathuraghuram@gmail.com,"Sales Rep",2572687,281890,"LOKANTHU LOKESH Vacant SO_Vijayawada",2024-02-19,,14:27:10
+240636,"KORAMPALLI MALLIKHARJUNA",korampalli1979@gmail.com,"Sales Rep",2574908,281890,"LOKANTHU LOKESH Vacant SO_Vijayawada",2024-02-19,,14:36:03
+240637,"VEESAM . GOPI",employeegopi18@gmail.com,"Sales Rep",,281890,"LOKANTHU LOKESH Vacant SO_Vijayawada",2024-02-19,,00:00:02
+240660,"Pothireddy Narasimha reddy - Hyderabad",narasimha.reddy@godrejagrovet.com,"Sales Manager",715857,240505,"Vacant AMM_TG",2024-02-19,,00:00:43
+240661,"GANESH MALLEPULA _KARIMNAGAR",GANESH.MALLEPULA@GODREJAGROVET.COM,"Sales Manager",,240475,"vacant_TN BL ",2024-02-19,,12:03:11
+240662,"naveen katla _Mancherial",naveen.katla@godrejagrovet.com,"Territory Manager",C07,240661,"GANESH MALLEPULA _KARIMNAGAR",2024-02-19,,09:14:59
+240663,"Rohan Tate_Adilabad",rohan.tate@godrejagrovet.com,"Territory Manager",C10,240661,"GANESH MALLEPULA _KARIMNAGAR",2024-02-19,,10:40:44
+240664,"AKULA ASHOK SO _Karimnagar",ASHOK.AKULA@GODREJAGROVET.COM,"Territory Manager",C18,240661,"GANESH MALLEPULA _KARIMNAGAR",2024-02-19,,13:49:23
+240666,"Bera Sharath Chandra Kiran",sharath.chandra@godrejagrovet.com,"Sales Manager",,240660,"Pothireddy Narasimha reddy - Hyderabad",2024-02-19,,02:28:09
+240667,"Sivatejswar reddy _Gajwel",sivatejeswar.reddy@godrejagrovet.com,"Territory Manager",C26,240666,"Bera Sharath Chandra Kiran",2024-02-19,,05:45:38
+240668,"Lavudya Raju _Jadcharla",raju.lavudya@godrejagrovet.com,"Territory Manager",A35,240666,"Bera Sharath Chandra Kiran",2024-02-19,,05:01:39
+240669,"Yerraguntla Rudra Reddy _Vikarabad",yerraguntla.reddy@godrejagrovet.com,"Territory Manager",B31,240666,"Bera Sharath Chandra Kiran",2024-02-19,,12:45:25
+240670,"sushma Chigurupati_Nalgonda",sushma.chigurupati@godrejagrovet.com,"Territory Manager",C17,240666,"Bera Sharath Chandra Kiran",2024-02-19,,06:03:39
+240671,"Sayyad Sabeer",SABEERSAYYAD03@GMAIL.COM,"Sales Rep",2574916,240664,"AKULA ASHOK SO _Karimnagar",2024-02-19,,00:00:18
+240672,"ALLAM GANESH KUMAR",GANESH.ALLAM123@GMAIL.COM,"Sales Rep",2575733,240664,"AKULA ASHOK SO _Karimnagar",2024-02-19,,15:29:31
+240675,"M.Anand Rao (D#240675)",240675#anandmummadi12@gmail.com,"Sales Rep",2586098,240663,"Rohan Tate_Adilabad",2024-02-19,2026-01-06,00:00:05
+240689,"SOPPARI RAJESH",rajeshmba021@gmail.com,"Sales Rep",2575739,240668,"Lavudya Raju _Jadcharla",2024-02-19,,10:27:30
+241025,"Vacant RAJU LAVUDYA",A35@gmail.com,"Sales Rep",,240668,"Lavudya Raju _Jadcharla",2024-02-27,,AB
+241026,"Vacant RAGHU REDDY",A36@gmail.com,"Sales Rep",,240487,"Lakshman Nallapati_TADEPALLIGUDEM",2024-02-27,,AB
+241029,"Vacant VENKATA REDDY",B30@gmail.com,"Sales Rep",,240480,"Karru Shiroj Kumar_Badrachalam",2024-02-27,,AB
+241030,"Vacant SIVATEJESWAR REDDY",C10@gmail.com,"Sales Rep",,240663,"Rohan Tate_Adilabad",2024-02-27,,AB
+241031,"Vacant GUGULOTH KUMAR",C12@gmail.com,"Sales Rep",,240479,"TALARI SUBHADRA_Warangal",2024-02-27,,AB
+241032,"Vacant SUNILKUMAR REDDY",C17@gmail.com,"Sales Rep",,240670,"sushma Chigurupati_Nalgonda",2024-02-27,,AB
+241033,"Vacant TALARI SUNIL",C18@gmail.com,"Sales Rep",,240664,"AKULA ASHOK SO _Karimnagar",2024-02-27,,AB
+241034,"Vacant CA_vijayawada",D3@gmail.com,"Sales Rep",,281890,"LOKANTHU LOKESH Vacant SO_Vijayawada",2024-02-27,,AB
+241035,"Vacant KODARI THIRUPATHI",J4@gmail.com,"Sales Rep",,240481,"Vacant SO_parkala",2024-02-27,,AB
+241036,"Vacant GANGURI ASHOK KUMAR",B04@gmail.com,"Sales Rep",,240484,anuhya_Eluru,2024-02-27,,AB
+241037,"Vacant Jitendar Reddy",B31@gmail.com,"Sales Rep",,240669,"Yerraguntla Rudra Reddy _Vikarabad",2024-02-27,,AB
+241039,"Vacant ROHAN TATE",C26@gmail.com,"Sales Rep",,240667,"Sivatejswar reddy _Gajwel",2024-02-27,,AB
+241040,"Vacant GOPI MALLARAPU",E3@gmail.com,"Sales Rep",,240486,"JARUPULA NAGARAJU _Kothagudem",2024-02-27,,AB
+241041,"Vacant RAKESH PANGILWAR",C07-1@gmail.com,"Sales Rep",,240662,"naveen katla _Mancherial",2024-02-27,,AB
+241042,"Vacant Nandan Kames",C30@gmail.com,"Sales Rep",,240478,"Annasamudram Nandan kamesh _Mahabubabad",2024-02-27,,AB
+241043,"Vacant Rakesh Pangilwar",vacant_Rakesh@gmail.com,"Sales Rep",,240662,"naveen katla _Mancherial",2024-02-27,,AB
+241090,"Amit chakraborty_East (BR, WB, NE)",amit.chakraborty@godrejagrovet.com,"Sales Manager",,246629,"Debabrata Chatterjee RFH_EAST",2024-03-01,,AB
+241091,"vacant RMM_EAST",b@godreagrovet.com,"Sales Manager",,241090,"Amit chakraborty_East (BR, WB, NE)",2024-03-01,,AB
+241092,"Arun Bishnoi_AMM_PB",arun.bishnoi@godrejagrovet.com,"Sales Manager",,238582,"Vacant RMM ",2024-03-01,,AB
+241093,"Amit Kumar_Patna",amit.kumar9@godrejagrovet.com,"Sales Manager",,241196,"SAPTARSI CHAKRABORTY_AMM",2024-03-01,,07:31:43
+241094,"Rahul Kumar_Bihar Sharif",rahul.rkumar@godrejagrovet.com,"Territory Manager",K2,241093,"Amit Kumar_Patna",2024-03-01,,10:36:08
+241095,"Vacant SO _Purnia",vacant.purnia@godrejagrovet.com,"Territory Manager",G5,241093,"Amit Kumar_Patna",2024-03-01,,AB
+241096,"Vacant D16_Samastipur",d16@gmail.com,"Territory Manager",D16,241093,"Amit Kumar_Patna",2024-03-01,,AB
+241097,"Krishna Kumar_Muzaffarpur",krishna.k@godrejagrovet.com,"Territory Manager",D26,241093,"Amit Kumar_Patna",2024-03-01,,11:53:14
+241098,"Sumit Sarkar_South Bengal",sumit.sarkar@godrejagrovet.com,"Sales Manager",G104308,241248,"Suman Dutta",2024-03-01,,10:45:26
+241099,"Sribash Kumar Mallick_krishnanagar",sribash.mallick@godrejagrovet.com,"Territory Manager",D05,241098,"Sumit Sarkar_South Bengal",2024-03-01,,08:56:32
+241100,"Subrata Chakraborty_Burdwan",subrata.chakraborty@godrejagrovet.com,"Territory Manager",D13,241098,"Sumit Sarkar_South Bengal",2024-03-01,,AB
+241101,"Susovan Ghosh_West Medinipur",susovan.ghosh@godrejagrovet.com,"Territory Manager",B19,241098,"Sumit Sarkar_South Bengal",2024-03-01,,00:04:24
+241102,"Snehasish Chakraborty_East Medinipur",Snehasish.c@godrejagrovet.com,"Territory Manager",D30,241098,"Sumit Sarkar_South Bengal",2024-03-01,,AB
+241103,"Pritam Dey_Hooghly",pritam.dey@godrejagrovet.com,"Territory Manager",D03,241098,"Sumit Sarkar_South Bengal",2024-03-01,,04:08:32
+241109,"Mohit Kumar Saha_Corporate Tea",mohitkumar.saha@godrejagrovet.com,"Sales Manager",G103680,241196,"SAPTARSI CHAKRABORTY_AMM",2024-03-01,,AB
+241110,"Rajib Dey_Dibrugarh",rajib.dey@godrejagrovet.com,"Territory Manager",D29,241109,"Mohit Kumar Saha_Corporate Tea",2024-03-01,,02:59:33
+241111,"Vacant SO_Jalpaiguri",jalpaiguri@godrejagrovet.com,"Territory Manager",B17,241115,"SANDIP CHOWDHURY_Guwahati",2024-03-01,,AB
+241112,"Sanjib dutta_JORHAT",sanjib.dutta@godrejagrovet.com,"Territory Manager",B43,241109,"Mohit Kumar Saha_Corporate Tea",2024-03-01,,00:00:20
+241113,"Ratnadeep dhar_Siliguri",ratnadeep.dhar@godrejagrovet.com,"Territory Manager",B16,241109,"Mohit Kumar Saha_Corporate Tea",2024-03-01,,AB
+241114,"Arnab Halder_Kolkata",arnab.haldar@godrejagrovet.com,"Territory Manager",K3,241109,"Mohit Kumar Saha_Corporate Tea",2024-03-01,,09:17:46
+241115,"SANDIP CHOWDHURY_Guwahati",Sandip.chowdhury@godrejagrovet.com,"Sales Manager",708831,241196,"SAPTARSI CHAKRABORTY_AMM",2024-03-01,,00:01:56
+241116,"Mithun Roy_Kharupetia",mithun.roy@godrejagrovet.com,"Territory Manager",D10,241115,"SANDIP CHOWDHURY_Guwahati",2024-03-01,,02:49:45
+241117,"Gonik Sarkar_Barpeta Road ",gonik.sarkar@godrejagrovet.com,"Territory Manager",B45,241115,"SANDIP CHOWDHURY_Guwahati",2024-03-01,,AB
+241118,"Vacant Agartala_Agartala",d12@gmail.com,"Territory Manager",D12,241115,"SANDIP CHOWDHURY_Guwahati",2024-03-01,,AB
+241119,"Vacant Manipur_Imphal",d11@gmail.com,"Territory Manager",D11,241115,"SANDIP CHOWDHURY_Guwahati",2024-03-01,,AB
+241125,"Mukesh Kumar",mukeshkrcb@gmail.com,"Sales Rep",3167563,241094,"Rahul Kumar_Bihar Sharif",2024-03-01,,07:29:32
+241128,"Prasanta Bhakta",prashantabhaktanirmal@gmail.com,"Sales Rep",2617885,241099,"Sribash Kumar Mallick_krishnanagar",2024-03-01,,00:00:04
+241129,"Anup Biswas",anupbiswas20.1978@gmail.com,"Sales Rep",2617883,241099,"Sribash Kumar Mallick_krishnanagar",2024-03-01,,07:14:24
+241131,"Shouvik Pramanik",shouvik.kulanandapur@gmail.com,"Sales Rep",2936105,245026,"Sabuj Maiti_Barasat",2024-03-01,,00:00:00
+241132,"Abhijit Podder",abhijitpodder149@gmail.com,"Sales Rep",2996334,241099,"Sribash Kumar Mallick_krishnanagar",2024-03-01,,04:43:56
+241135,"Md Kaif Ahamed",kaifahamed123456@gmail.com,"Sales Rep",3145497,245026,"Sabuj Maiti_Barasat",2024-03-01,,00:00:00
+241139,"Subrata Sasmal",subratasasmal2021@gmail.com,"Sales Rep",2617779,241101,"Susovan Ghosh_West Medinipur",2024-03-01,,00:00:00
+241142,"Krishnendu Samanta",krishnendu.samanta2018@gmail.com,"Sales Rep",2617910,241101,"Susovan Ghosh_West Medinipur",2024-03-01,,05:49:07
+241143,"Santanu Roy",godrej.santanu1996@gmail.com,"Sales Rep",2621392,241101,"Susovan Ghosh_West Medinipur",2024-03-01,,00:00:00
+241147,"Sibu Jana",sibujana046@gmail.com,"Sales Rep",2617901,241102,"Snehasish Chakraborty_East Medinipur",2024-03-01,,13:33:58
+241150,"vacant Po",p99@gmail.com,"Sales Rep",2718317,241103,"Pritam Dey_Hooghly",2024-03-01,,AB
+241152,"Sandip Kumar Mahata",sandipdudhya87@gmail.com,"Sales Rep",3189958,241103,"Pritam Dey_Hooghly",2024-03-01,,14:20:50
+241153,"Nayan Sharma",,"Sales Rep",2617926,241110,"Rajib Dey_Dibrugarh",2024-03-01,,10:16:19
+241157,"Vacant Ratnadeep",B16@gmail.com,"Sales Rep",,241113,"Ratnadeep dhar_Siliguri",2024-03-01,,AB
+241160,"Dipjyoti Nath",DIPJYOTI365@GMAIL.COM,"Sales Rep",3156694,241116,"Mithun Roy_Kharupetia",2024-03-01,,05:54:23
+241161,"Akbar Ali",alkarihussain0948@gmail.com,"Sales Rep",3170941,241116,"Mithun Roy_Kharupetia",2024-03-01,,AB
+241165,"Biplab Kar",biplabkar88@gmail.com,"Sales Rep",2617856,241118,"Vacant Agartala_Agartala",2024-03-01,,11:21:20
+241166,"Arun Kumar Ningombam",arunoibros@gmail.com,"Sales Rep",2617763,241119,"Vacant Manipur_Imphal",2024-03-01,,00:00:06
+241167,"Vacant Chintamani",752@gmail.com,"Sales Rep",,240341,"VARUN M_davengere 2",2024-03-01,,AB
+241196,"SAPTARSI CHAKRABORTY_AMM",saptarsi.c@godrejagrovet.com,"Sales Manager",717729,241091,"vacant RMM_EAST",2024-03-04,,AB
+241197,"Masud Rijwan_BERHAMPORE",masud.rijwan@godrejagrovet.com,"Territory Manager",D18,241098,"Sumit Sarkar_South Bengal",2024-03-04,,AB
+241198,"MD HAFIJUR RAHAMAN_MALDA",hafijur.rahaman@godrejagrovet.com,"Territory Manager",K1,241109,"Mohit Kumar Saha_Corporate Tea",2024-03-04,,05:21:57
+241199,"GAUTAM  CHAUDHURI_ISLAMPUR",goutam.chaudhuri@godrejagrovet.com,"Territory Manager",D15,241109,"Mohit Kumar Saha_Corporate Tea",2024-03-04,,00:00:00
+241200,Vacant_CoochBihar_JALPAIGURI,Vacant_CoochBihar@godrejagrovet.com,"Territory Manager",D14,241196,"SAPTARSI CHAKRABORTY_AMM",2024-03-04,,AB
+241201,"Vacant JAYANTA HALDER",vacant_JAYANTA@godrejagrovet.com,"Sales Rep",,241197,"Masud Rijwan_BERHAMPORE",2024-03-04,,AB
+241206,"Vacant MD HAFIJUR RAHAMAN",vacant_MDHAFIJUR@godrejagrovet.com,"Sales Rep",,241198,"MD HAFIJUR RAHAMAN_MALDA",2024-03-04,,AB
+241207,"BIMAN KUMAR SINGHA",biman234@gmail.com,"Sales Rep",3112652,241198,"MD HAFIJUR RAHAMAN_MALDA",2024-03-04,,03:09:41
+241208,"REZAUL ISLAM",rezaulislam781@gmail.com,"Sales Rep",2617858,241198,"MD HAFIJUR RAHAMAN_MALDA",2024-03-04,,00:00:00
+241210,"Vacant GAUTAM  CHAUDHURI",vacant_GAUTAM@godrejagrovet.com,"Sales Rep",,241199,"GAUTAM  CHAUDHURI_ISLAMPUR",2024-03-04,,AB
+241211,"KAMAL SINGHA",kamalsingha.kr@gmail.com,"Sales Rep",2621373,241199,"GAUTAM  CHAUDHURI_ISLAMPUR",2024-03-04,,14:37:29
+241212,"ANANTA SINGHA",anatasingha089@gmail.com,"Sales Rep",2617786,241199,"GAUTAM  CHAUDHURI_ISLAMPUR",2024-03-04,2024-11-18,01:06:56
+241213,"Vacant Vacant_CoochBihar",vacant_Vacant@godrejagrovet.com,"Sales Rep",,241200,Vacant_CoochBihar_JALPAIGURI,2024-03-04,,AB
+241226,"Vacant Gonik Sarkar",B45@gmail.com,"Sales Rep",,241117,"Gonik Sarkar_Barpeta Road ",2024-03-04,,AB
+241227,"Vacant Krishna Kumar",D26@gmail.com,"Sales Rep",,241097,"Krishna Kumar_Muzaffarpur",2024-03-04,,AB
+241228,"Vacant Mithun Roy",D10@gmail.com,"Sales Rep",,241116,"Mithun Roy_Kharupetia",2024-03-04,,AB
+241229,"Vacant Rahul Kumar",K2@gmail.com,"Sales Rep",,241094,"Rahul Kumar_Bihar Sharif",2024-03-04,,AB
+241230,"Vacant Ravindrakumar Mishra",G5@gmail.com,"Sales Rep",,241095,"Vacant SO _Purnia",2024-03-04,,AB
+241231,"Vacant Sanjib Dutta",B43@gmail.com,"Sales Rep",,241112,"Sanjib dutta_JORHAT",2024-03-04,,AB
+241232,"Vacant Snehasish Chakrabort",D30@gmail.com,"Sales Rep",,241102,"Snehasish Chakraborty_East Medinipur",2024-03-04,,AB
+241233,"Vacant Sribash Kumar Mallic",D05@gmail.com,"Sales Rep",,241099,"Sribash Kumar Mallick_krishnanagar",2024-03-04,,AB
+241234,"Vacant Subrata Chakraborty",D13@gmail.com,"Sales Rep",,241100,"Subrata Chakraborty_Burdwan",2024-03-04,,AB
+241235,"Vacant Sandip Barman",sandip.barman@godrejagrovet.com,"Sales Rep",G116887,241111,"Vacant SO_Jalpaiguri",2024-03-04,,00:00:00
+241236,"Vacant Susovan Ghosh",B19@gmail.com,"Sales Rep",,241101,"Susovan Ghosh_West Medinipur",2024-03-04,,AB
+241238,"Vacant Manipur",vacantD11@gmail.com,"Sales Rep",,241119,"Vacant Manipur_Imphal",2024-03-04,,AB
+241239,"Vacant Samastipur",vacantD16@gmail.com,"Sales Rep",,241096,"Vacant D16_Samastipur",2024-03-04,,AB
+241247,vacant_amm,nit@godrejagroet.com,"Sales Manager",,241091,"vacant RMM_EAST",2024-03-04,,AB
+241248,"Suman Dutta",suman.dutta@godrejagrovet.com,"Sales Manager",,241091,"vacant RMM_EAST",2024-03-04,,AB
+241578,Ezhumalai.s_,,"Sales Rep",3274116,239765,"Sakthivel B _Kancheepuram",2024-03-29,,14:08:19
+241604,"Sandeep Kasnia_AMM_HR & HP",sandeep.kasnia@godrejagrovet.com,"Sales Manager",G108741,238157,"Indravesh (HR & HP )",2024-07-01,,AB
+241682,"Rajat Sharma_AMM_North2",rajat.sharma@godrejagrovet.com,"Sales Manager",,239597,"Prashant Singh-North2",2024-03-11,,AB
+242252,"Vacant CA-BARAMATI",cabaramati@gavl.com,"Sales Rep",,239685,"Vacant SO-BARAMATI",2024-03-11,,AB
+242253,"Vacant CA Pratap Reddy",capratap@gavl.com,"Sales Rep",,240522,"Thanrunkumar reddy_kurnool",2024-03-11,,AB
+242321,"VEDANSH DESHAWAR_CENTRAL",vedansh.deshawar@godrejagrovet.com,"Sales Manager",8103733,246630," Atul Sadavrutti_RFH Central",2024-03-13,,AB
+242322,"Nazhat kittur_CENTRAL",nazhat.kittur@godrejagrovet.com,"Sales Manager",,242321,"VEDANSH DESHAWAR_CENTRAL",2024-10-03,,AB
+242323,"SHAILENDRA SOLANKHI_INDORE",SHAILENDRA.SOLANKI@GODREJAGROVET.COM,"Sales Manager",712949,242322,"Nazhat kittur_CENTRAL",2024-03-13,,AB
+242324,"Javed Khan Nimar_KHARGONE",javed.skhan@godrejagrovet.com,"Sales Manager",8104474,242322,"Nazhat kittur_CENTRAL",2024-03-13,,AB
+242325,"Gaurav Kandpal_BHOPAL",gaurav.kandpal@godrejagrovet.com,"Sales Manager",8104727,242322,"Nazhat kittur_CENTRAL",2024-03-13,,00:00:05
+242326,"JAY SINGH SISODIYA_JABALPUR",jay.sisodiya@godrejagrovet.com,"Sales Manager",8104160,242328,"ADITYA KUMAR_RAIPUR",2024-03-13,,AB
+242327,Vacant_BARGARH,S@gavl.com,"Sales Manager",G101516,242416,"BIDHU KALYANKAR_BHUBANESHWAR",2024-03-13,,AB
+242328,"ADITYA KUMAR_RAIPUR",kumar.aditya@godrejagrovet.com,"Sales Manager",G106811,242322,"Nazhat kittur_CENTRAL",2024-03-13,,00:00:00
+242329,Vacant_RAIPUR,Vacant12@gavl.com,"Sales Manager",,242328,"ADITYA KUMAR_RAIPUR",2024-03-13,,AB
+242330,"Vacant BIDHU KALYANKAR_BHUBNESHWAR",A39@gmail.com,"Territory Manager",A39,242416,"BIDHU KALYANKAR_BHUBANESHWAR",2024-03-13,,AB
+242396,"CHANDRAPAL SHEKHAWAT_INDORE",CHANDRAPAL.S@GODREJAGROVET.COM,"Territory Manager",D69,242323,"SHAILENDRA SOLANKHI_INDORE",2024-03-13,,00:01:24
+242397,"RAJKUMAR MEENA_UJJAIN",RAJKUMAR.MEENA@GODREJAGROVET.COM,"Territory Manager",D60,242323,"SHAILENDRA SOLANKHI_INDORE",2024-03-13,,07:55:26
+242399,"VISHAL R_RATLAM",vishal.r@godrejagrovet.com,"Territory Manager",D73,242323,"SHAILENDRA SOLANKHI_INDORE",2024-03-13,,03:00:06
+242400,"Dinesh singh ginnare_KHARGONE",dinesh.singh2@godrejagrovet.com,"Territory Manager",D90,242324,"Javed Khan Nimar_KHARGONE",2024-03-13,,02:41:21
+242401,"Manoj Chouhan_KHANDWA",manoj.chouhan@godrejagrovet.com,"Territory Manager",B02,242324,"Javed Khan Nimar_KHARGONE",2024-03-13,,10:56:19
+242402,"AMIT TIWARI_DHAR",amit.stiwari@godrejagrovet.com,"Territory Manager",D56,242324,"Javed Khan Nimar_KHARGONE",2024-03-13,,00:01:21
+242403,"Chetan Singh_BHOPAL",chetan.singh@godrejagrovet.com,"Territory Manager",D64,242325,"Gaurav Kandpal_BHOPAL",2024-03-13,,01:42:03
+242404,"Pankaj Singh Bisht_SHIVPURI",pankaj.bisht@godrejagrovet.com,"Territory Manager",B27,242325,"Gaurav Kandpal_BHOPAL",2024-03-13,,AB
+242405,"Soumya Sawaran_SAGAR",soumya.sawaran@godrejagrovet.com,"Territory Manager",D71,242325,"Gaurav Kandpal_BHOPAL",2024-03-13,,00:00:00
+242406,"Sonu Dhakad_JABALPUR",sonu.dhakad@godrejagrovet.com,"Territory Manager",D59,242326,"JAY SINGH SISODIYA_JABALPUR",2024-03-13,,AB
+242407,"Naveen Bopache_CHHINDWARA",naveen.bopche@godrejagrovet.com,"Territory Manager",D72,242326,"JAY SINGH SISODIYA_JABALPUR",2024-03-13,,00:00:00
+242408,"Deepesh Tyagi_CHHATARPUR",deepesh.tyagi@godrejagrovet.com,"Territory Manager",J3,242326,"JAY SINGH SISODIYA_JABALPUR",2024-03-13,,03:49:28
+242409,"DEBADATTA SAMAL_BARGARH",debadatta.samal@godrejagrovet.com,"Territory Manager",A40,242327,Vacant_BARGARH,2024-03-13,,00:01:58
+242410,"Roshani Bisen_MAHASAMUND",bisenroshani@gmail.com,"Territory Manager",A27,271703,"Dharmendra Malviya",2024-03-13,,11:42:06
+242411,"Lokesh Bhairam_DURG",Lokesh.bhairam@godrejagrovet.com,"Territory Manager",D78,271703,"Dharmendra Malviya",2024-03-13,,00:00:00
+242412,"kamal hassan_DHAMTARI",kamal.khan@godrejagrovet.com,"Territory Manager",D75,271703,"Dharmendra Malviya",2024-03-13,,00:00:00
+242413,Deepak_BEMETAR,Deepak.bangre@godrejagrovet.com,"Territory Manager",H8,271703,"Dharmendra Malviya",2024-11-18,,14:36:46
+242414,"Vinay Kumar Singh_Bilaspur",vinay.singh@godrejagrovet.com,"Territory Manager",D76,271703,"Dharmendra Malviya",2024-03-13,,08:38:19
+242416,"BIDHU KALYANKAR_BHUBANESHWAR",BIDHUKALYAN.KAR@GODREJAGROVET.COM,"Sales Manager",702430,241248,"Suman Dutta",2024-03-13,,07:24:58
+242418,"Nirbhay Singh",gurjarnirbhu@gmail.com,"Sales Rep",3133482,242396,"CHANDRAPAL SHEKHAWAT_INDORE",2024-03-13,,00:00:32
+242420,"ISHWAR SINGH",ishearsinghm@gmail.com,"Sales Rep",3084544,242399,"VISHAL R_RATLAM",2024-03-13,,12:26:21
+242423,"AJAY PATEL",ajayp@gmail.com,"Sales Rep",2583024,242400,"Dinesh singh ginnare_KHARGONE",2024-03-13,,12:10:01
+242426,"Shubham Patel",,"Sales Rep",2990405,242401,"Manoj Chouhan_KHANDWA",2024-03-13,,13:38:30
+242427,"Kapil Barche",kapilbarche@gmail.com,"Sales Rep",3065164,242402,"AMIT TIWARI_DHAR",2024-03-13,,11:35:16
+242428,"Sawan Panchole",sawankushwah944@gmail.com,"Sales Rep",3038702,242402,"AMIT TIWARI_DHAR",2024-03-13,,07:45:24
+242435,"Lokesh Mahadule",lokeshmahadule27@gmail.com,"Sales Rep",2988018,242407,"Naveen Bopache_CHHINDWARA",2024-03-13,,03:07:44
+242436,"Rupendra Kumar Napit",rupendra@gmail.com,"Sales Rep",3050453,242408,"Deepesh Tyagi_CHHATARPUR",2024-03-13,,00:00:00
+242444,"UMA KANTH MISHRA",u.mishra@rediffmail.com,"Sales Rep",2581328,242330,"Vacant BIDHU KALYANKAR_BHUBNESHWAR",2024-03-13,,09:08:22
+242445,"MANAS RANJAN JENA",manas@gmail.com,"Sales Rep",2570476,242330,"Vacant BIDHU KALYANKAR_BHUBNESHWAR",2024-03-13,,11:39:22
+242486,"CHINMAYA KUMAR PATTANAYAK",maatarinigmtsukt@gmail.com,"Sales Rep",2570507,268133,"PARAMITA PRIYADARSHANI_Jeypore",2024-03-14,,00:00:00
+242525,"Vacant Chandrapal Shekhawat",D69@gmail.com,"Sales Rep",,242396,"CHANDRAPAL SHEKHAWAT_INDORE",2024-03-14,,AB
+242526,"Vacant Rajkumar Meena",D60@gmail.com,"Sales Rep",,242397,"RAJKUMAR MEENA_UJJAIN",2024-03-14,,AB
+242527,"Vacant Vishal R",D73@gmail.com,"Sales Rep",,242399,"VISHAL R_RATLAM",2024-03-14,,AB
+242528,"Vacant Shubham Gupta",D90@gmail.com,"Sales Rep",,242400,"Dinesh singh ginnare_KHARGONE",2024-03-14,,AB
+242529,"Vacant Dharmendra Birla",B02@gmail.com,"Sales Rep",,242401,"Manoj Chouhan_KHANDWA",2024-03-14,,AB
+242531,"Vacant Chetan Singh",D64@gmail.com,"Sales Rep",,242403,"Chetan Singh_BHOPAL",2024-03-14,,AB
+242532,"Vacant Pankaj Singh Bisht",B27@gmail.com,"Sales Rep",,242404,"Pankaj Singh Bisht_SHIVPURI",2024-03-14,,AB
+242534,"Vacant Swapnil Sanjay Khetre",D59@gmail.com,"Sales Rep",,242406,"Sonu Dhakad_JABALPUR",2024-03-14,,AB
+242535,"Vacant Pravesh Kumar Bisen",D72@gmail.com,"Sales Rep",,242407,"Naveen Bopache_CHHINDWARA",2024-03-14,,AB
+242536,"Vacant Deepesh Tyagi",J3@gmail.com,"Sales Rep",,242408,"Deepesh Tyagi_CHHATARPUR",2024-03-14,,AB
+242537,"Vacant Vacant Krushna Chandra Sethi",vacant-A40@gmail.com,"Sales Rep",,242409,"DEBADATTA SAMAL_BARGARH",2024-03-14,,AB
+242538,"Vacant Lokesh Bhairam",D78@gmail.com,"Sales Rep",,242411,"Lokesh Bhairam_DURG",2024-03-14,,AB
+242539,"Vacant Deepak Bhairam",D75@gmail.com,"Sales Rep",,242412,"kamal hassan_DHAMTARI",2024-03-14,,AB
+242540,"Vacant _ bemetara",H8@gmail.com,"Sales Rep",,242413,Deepak_BEMETAR,2024-03-14,,AB
+242542,"Vacant Vacant Bidhu Kalyankar",vacant-A39@gmail.com,"Sales Rep",,242330,"Vacant BIDHU KALYANKAR_BHUBNESHWAR",2024-03-14,,AB
+242689,"chakali laxmanna",claxmanna7194@gmail.com,"Sales Rep",2952149,245002,"M SUNEEL KUMAR_Gadwal",2024-03-18,,12:58:48
+242911,"Akshay Ingole_Chandrapur",akshay.ingole@godrejagrovet.com,"Territory Manager",B07,238961,"Akshay Yeware _Vidarbha",2024-03-16,,00:00:35
+243065,"Rama Avdhut Wanare",ramawanare@gmail.com,"Sales Rep",3321821,239195,"Vikas nagre _BULDHANA",2024-03-29,,01:26:23
+243088,"Vacant CA_Davangere",Vctdvg@dvngr.com,"Sales Rep",,237867,"vinayaka shidenur_davengere",2024-04-01,,AB
+243404,"Vacant Ashok umar",vacantashok@gmail.com,"Sales Rep",,240323,"Basavaraj Biradar _GULBERGA",2024-04-06,,AB
+243467,"Rushikesh Mante_Wardha",rushikesh.mante@godrejagrovet.com,"Territory Manager",,238961,"Akshay Yeware _Vidarbha",2024-04-09,,AB
+243550,"Vacant Shrigonda",Vacant_shrigonda@gmail.com,"Sales Rep",,239250,"Bhushan Gaikwad_Ahmednagar",2024-04-11,,AB
+243562,"Jit Mete",,"Sales Rep",3307159,241103,"Pritam Dey_Hooghly",2024-04-09,,00:00:00
+243585,M.Srikanth,srikanth345.sk@gmail.com,"Sales Rep",3309024,239809,"BALACHANDAR B_DHARMAPURI",2024-04-12,,12:01:54
+243632,"Alla Prakash Reddy",apreddy2290@gmail.com,"Sales Rep",3402969,240668,"Lavudya Raju _Jadcharla",2024-04-08,,00:00:05
+243634,"Nakka Prabhakar",prabhakar793@gmail.com,"Sales Rep",3378738,240667,"Sivatejswar reddy _Gajwel",2024-04-08,,11:45:18
+243645,"Pramod Kumar",pkmauryamsdpc@gmail.com,"Sales Rep",3299070,239165,"Rahul Singh_Allahabad",2024-03-27,,08:06:32
+243753,"vacant sunil kumar",um@gmail.com,"Sales Rep",,241095,"Vacant SO _Purnia",2024-04-15,,AB
+243756," vacant Pradip Khapre_Washim",Vacant-Pradeep@godrej.com,"Territory Manager",C52,238991,"Pradip Khapre_Washim",2024-04-18,,AB
+243869,"Muniyapillai A",munikow@gmail.com,"Sales Rep",3299238,239763,"JAYAKUMAR C_VILLUPURAM",2024-03-27,,13:23:27
+243872,"Basymon M G",basymonmg@gmail.com,"Sales Rep",3308123,239812,"Vinu Kumar S _Pallakad",2024-04-23,,SL
+243873,"Aneesh P M",aneeshallingchode@gmail.com,"Sales Rep",3308122,239812,"Vinu Kumar S _Pallakad",2024-04-23,,10:14:32
+243964,"Sailendra Sharma",sailendrasharma2100@gmail.com,"Sales Rep",3325118,242406,"Sonu Dhakad_JABALPUR",2024-04-21,,06:14:57
+243965,"Mohit Suryawanshi",mohitsuryawanshi41@gmail.com,"Sales Rep",3325119,242407,"Naveen Bopache_CHHINDWARA",2024-04-21,,09:43:12
+243966,"MOHAN MAROTI PAL",badalpal2525@gmail.com,"Sales Rep",3324641,238970,"vacant PO  _Ghatanji",2024-04-21,,15:28:11
+244051,Vacant_Gangavathi,vacantgangavati@godrejagrovet.com,"Territory Manager",A50,282379,"GARAPATI RAMESH_Bellary & Gangavati",2024-04-29,,AB
+244058,"Arun kumar",arunkumar3870@gmail.com,"Sales Rep",3290603,238130,"Mohit Kumar Tomar_Hapur",2024-03-27,,04:47:25
+244202,"Pratik Anil Bhurande",,"Sales Rep",3284340,242911,"Akshay Ingole_Chandrapur",2024-05-02,,00:01:26
+244484,"Bhoala Jat",Jaatbhola710@gmail.com,"Sales Rep",3333688,242404,"Pankaj Singh Bisht_SHIVPURI",2024-04-21,,06:31:28
+244505,"Vacant CA_MACHERLA",VACANTCA15@GOREJAGROVET.COM,"Sales Rep",,240512,"Atla Siva Krishnareddy_Macherla",2024-05-07,,AB
+244528,"Vacant CA _KAVALI",G1@GOREJAGRVET.COM,"Sales Rep",,240513,"Bijjam Siva Krishnareddy_Addanki",2024-05-07,,AB
+244529,"VACANT CA _SATTENAPALLE",G2@GOREJAGRVET.COM,"Sales Rep",,240510,"P Yeswanth Reddy _Sattenapalli",2024-05-07,,AB
+244530,"VACANT CA_MADANAPALLE",G3@GOREJAGRVET.COM,"Sales Rep",,240521,"M Chandrasekhar_Madanapalle",2024-05-07,,AB
+244531,"VACANT CA_Pulivendula_ALLAGADDA",G4@GOREJAGRVET.COM,"Sales Rep",,240519,"M SUBBA REDDY_proddatur",2024-05-07,,AB
+244532,"VACANT CA_rly.koduru_ALLAGADDA",G5@GOREJAGRVET.COM,"Sales Rep",,240519,"M SUBBA REDDY_proddatur",2024-05-07,,AB
+244533,"Vacant CA_Kurnool",G6@GOREJAGRVET.COM,"Sales Rep",,240522,"Thanrunkumar reddy_kurnool",2024-05-07,,AB
+244534,"VACANT CA_Gadwal_KURNOOL",G7@GOREJAGRVET.COM,"Sales Rep",,245002,"M SUNEEL KUMAR_Gadwal",2024-05-07,,AB
+244535,VACANT_KAGAZNAGER_MANCHERIAL,S9@GOREJAGRVET.COM,"Sales Rep",,240662,"naveen katla _Mancherial",2024-05-07,,AB
+244536,"VACANT CA _PIDUGURALLA",S10@GOREJAGRVET.COM,"Sales Rep",,240511,"Kishore Reddy _Piduguralla",2024-05-07,,AB
+244538,"Vacant SO_NIZAMABAD",vacantso1@godrejarovet.com,"Territory Manager",,240661,"GANESH MALLEPULA _KARIMNAGAR",2024-05-07,,AB
+244539,"VACANT CA_BODHAN_NIZAMABAD",S8@GOREJAGRVET.COM,"Sales Rep",,244538,"Vacant SO_NIZAMABAD",2024-05-07,,AB
+244540,"VACANT CA_Atmakur_KURNOOL",S11@GOREJAGRVET.COM,"Sales Rep",,240522,"Thanrunkumar reddy_kurnool",2024-05-07,,AB
+244541,"VACANT CA_ADONI",S12@GOREJAGRVET.COM,"Sales Rep",,240518,Bhanuprakash_Adoni,2024-05-07,,AB
+244542,"VACANT CA _YEMMIGANUR",S13@GOREJAGRVET.COM,"Sales Rep",,240520,"C.MADANNA _YEMMIGANUR",2024-05-07,,AB
+244546,"VACANT CA_DEVANAKONDA_ADONI",S15@GOREJAGRVET.COM,"Sales Rep",,240518,Bhanuprakash_Adoni,2024-05-07,,AB
+244547,"VACANT CA_Shanthinagar_KURNOOL",S16@GOREJAGRVET.COM,"Sales Rep",,245002,"M SUNEEL KUMAR_Gadwal",2024-05-07,,AB
+244548,"VACANT CA _ANANTHAPUR_ANANTAPUR",S17@GOREJAGRVET.COM,"Sales Rep",,240517,"Pamidi Jabiullah_ananthpur",2024-05-07,,AB
+244549,"VACANT CA _DHARMAVARAM_ANANTAPUR",S18@GOREJAGRVET.COM,"Sales Rep",,240517,"Pamidi Jabiullah_ananthpur",2024-05-07,,AB
+244550,"VACANT CA _TADIPATRI_ANANTAPUR",S19@GOREJAGRVET.COM,"Sales Rep",,240517,"Pamidi Jabiullah_ananthpur",2024-05-07,,AB
+244552,"VACANT CA_Nandikotkur_KURNOOL",S21@GOREJAGRVET.COM,"Sales Rep",,240522,"Thanrunkumar reddy_kurnool",2024-05-07,,AB
+244553,"VACANT CA _RAYADURGAM_ANANTAPUR",S22@GOREJAGRVET.COM,"Sales Rep",,240517,"Pamidi Jabiullah_ananthpur",2024-05-07,,AB
+244554,"VACANT CA_KOSIGI_ADONI",S23@GOREJAGRVET.COM,"Sales Rep",,240518,Bhanuprakash_Adoni,2024-05-07,,AB
+244555,"VACANT CA_Dhone_KURNOOL",S24@GOREJAGRVET.COM,"Sales Rep",,240522,"Thanrunkumar reddy_kurnool",2024-05-07,,AB
+244556,"VACANT CA _GOOTHY_ANANTAPUR",S25@GOREJAGRVET.COM,"Sales Rep",,240517,"Pamidi Jabiullah_ananthpur",2024-05-07,,AB
+244558,"VACANT CA _KADIRI_ANANTAPUR",S26@GOREJAGRVET.COM,"Sales Rep",,240517,"Pamidi Jabiullah_ananthpur",2024-05-07,,AB
+244559,"VACANT CA_GUNTAKAL_ADONI",S27@GOREJAGRVET.COM,"Sales Rep",,240518,Bhanuprakash_Adoni,2024-05-07,,AB
+244560,"VACANT CA_allagadda",S28@GOREJAGRVET.COM,"Sales Rep",,240519,"M SUBBA REDDY_proddatur",2024-05-07,,AB
+244561,"VACANT CA_koilakuntla_ALLAGADDA",S29@GOREJAGRVET.COM,"Sales Rep",,240519,"M SUBBA REDDY_proddatur",2024-05-07,,AB
+244563,"VACANT CA _TADEPALLIGUDEM",S31@GOREJAGRVET.COM,"Sales Rep",,240487,"Lakshman Nallapati_TADEPALLIGUDEM",2024-05-07,,AB
+244564,"VACANT CA _ NIZAMABAD",S20@GOREJAGRVET.COM,"Sales Rep",,262716,"Bommareddy Satyanarayana Reddy_nizamabad",2024-05-07,,AB
+244565,"VACANT CA_GUNTUR",S32@godregagrivet.com,"Sales Rep",,240509,"Bareddy Venkateswarlu _Guntur",2024-05-07,,AB
+244589,"Ajith kumar .E ",,"Sales Rep",3321355,239765,"Sakthivel B _Kancheepuram",2024-05-07,,05:20:34
+244590,BHOOPATHY,,"Sales Rep",3322421,239765,"Sakthivel B _Kancheepuram",2024-05-07,,10:04:31
+244840,"Pandurang Pavan Bhutekar_Ramnagar",pandurangbhutekar2151@gmail.com,"Sales Rep",3333188,239176,"Aniket Sarnaik_JALNA",2024-05-13,,12:57:55
+244841,"Dnyaneshwar sahadev Misal_Rajur",dnyaneshwarmisal25@gmail.com,"Sales Rep",3333187,239176,"Aniket Sarnaik_JALNA",2024-04-29,,06:37:12
+244942,"Sushil mandal_Rajganj",,"Sales Rep",3350092,241199,"GAUTAM  CHAUDHURI_ISLAMPUR",2024-05-14,,00:01:28
+245002,"M SUNEEL KUMAR_Gadwal",SUNEEL.KUMAR@GODREJAGROVET.COM,"Territory Manager",I4,240666,"Bera Sharath Chandra Kiran",2025-10-15,,12:21:51
+245026,"Sabuj Maiti_Barasat",sabuj.maiti@godrejagrovet.com,"Territory Manager",D92,241098,"Sumit Sarkar_South Bengal",2024-05-16,,11:53:12
+245042,"Naresh Ramdas Farkade_Amthana",farkadenaresh@gmail.com,"Sales Rep",3316788,246702,"ajay jadhav_Aurangabad",2024-05-17,,00:38:46
+245074,"Vacant ca palwal ",ABC1@GODRJAGROVET.COM,"Sales Rep",,238174,"Vishnu tiwari _Rohtak",2024-05-17,,AB
+245095,"Amit Kumar Upadhyay_Ghazipur",amitkup1999@gmail.com,"Sales Rep",3346688,238123,"Manish Singh_VARANASI",2024-05-20,,14:09:41
+245118,"Jay Dogaya_Boruth",jaydogaya626176@gmail.com,"Sales Rep",3357416,242400,"Dinesh singh ginnare_KHARGONE",2024-05-15,,12:45:06
+245148,NIKHIL_SOLAN,,"Sales Rep",3327065,238154,"Vacant SO_SHIMLA",2024-05-21,,10:20:08
+245185,"Bidhan Das_Jamalpur",bidhandas88426@gmail.com,"Sales Rep",3362957,241197,"Masud Rijwan_BERHAMPORE",2024-05-21,,14:16:45
+245321,"Shekhar Saini_Sumerpur",shekharkumarbtp2001@gmail.com,"Sales Rep",3363417,238107,"Jagat pal_Sumerpur",2024-05-23,,11:58:40
+245352,"vacant ca_nanded",z12@godrjagvt.com,"Sales Rep",,239175,"Shivkumar shete_Nanded",2024-05-24,,AB
+245353,"vacant ca_Gangavathi",Z34@gorejagrv.com,"Sales Rep",,244051,Vacant_Gangavathi,2024-05-24,,AB
+245354,"Vacant ca_KAVTHEMAHNKAL",e23@gorejagvt.com,"Sales Rep",,239440,"MAHESH JADHAV_KAVTHEMAHNKAL",2024-05-24,,AB
+245355,"Vacant ca _Washim",Z1@GOREJAGRVT.COM,"Sales Rep",,243756," vacant Pradip Khapre_Washim",2024-05-24,,AB
+245356,"Vacant ca _Ludhiana",Z2@GOREJAGRVT.COM,"Sales Rep",,238142,"vacant SO_Ludhiana",2024-05-24,,AB
+245357,"Vacant ca _Barasat",Z3@GOREJAGRVT.COM,"Sales Rep",,245026,"Sabuj Maiti_Barasat",2024-05-24,,AB
+245358,"Vacant ca _  Showkat J&K HP",Z4@GOREJAGRVT.COM,"Sales Rep",,238265,"Vacant SO - Showkat J&K HP",2024-05-24,,AB
+245360,"Vacant ca _Washim",abcd1@GOREJAGRVT.COM,"Sales Rep",,243756," vacant Pradip Khapre_Washim",2024-05-24,,AB
+245361,"Vacant ca _Ludhiana",abcd2@GOREJAGRVT.COM,"Sales Rep",,238142,"vacant SO_Ludhiana",2024-05-24,,AB
+245362,"Vacant ca _Barasat",abcd3@GOREJAGRVT.COM,"Sales Rep",,245026,"Sabuj Maiti_Barasat",2024-05-24,,AB
+245363,"Vacant ca _  Showkat J&K HP",abcd4@GOREJAGRVT.COM,"Sales Rep",,238265,"Vacant SO - Showkat J&K HP",2024-05-24,,AB
+245364,"Vacant ca _ JAGRAON",abcd6@GOREJAGRVT.COM,"Sales Rep",,238137,"Vacant SO JAGRAON",2024-05-24,,AB
+245365,"Vacant ca _ KAPURTHALA",abcd7@GOREJAGRVT.COM,"Sales Rep",,238821,"Vacant SO KAPURTHALA",2024-05-24,,AB
+245367,"Vacant ca _ Ropar",abcd9@GOREJAGRVT.COM,"Sales Rep",,238819,"Vacant SO Ropar",2024-05-24,,AB
+245368,"Vacant ca _Gorakhpur",abcd10@GOREJAGRVT.COM,"Sales Rep",,238254,"Vacant SO-Krishan Kumar Pathak",2024-05-24,,AB
+245385,"Vacant SO_Devanagere",vacant.d@godrejagrovet.com,"Sales Manager",,231716,"HariHara MurthyN-BANGALOR",2024-03-05,,AB
+245416,Vacant_rambabu,vacantcaramp@gavl.com,"Sales Rep",,242397,"RAJKUMAR MEENA_UJJAIN",2024-05-27,,AB
+245433,Yogesh Sanjay Desale_Shahada,yogeshdesale218@gmail.com,"Sales Rep",,263845,"Ananta Mankar_dhule",2024-05-27,,SL
+245463,"Shivraj Dhakar_bareli",Shivrajdhakad1970@gmail.com,"Sales Rep",3370027,242403,"Chetan Singh_BHOPAL",2024-05-28,,12:55:42
+245526,"Nidamanuri kodan saheb_Medikonduru",kodansahebn@gmail.com,"Sales Rep",3375942,240510,"P Yeswanth Reddy _Sattenapalli",2024-05-30,,00:00:04
+245534,"NARENDRA BABU PAGADALA_DACHEPALLI",P.narendra223@gmail.com,"Sales Rep",3373799,240511,"Kishore Reddy _Piduguralla",2024-05-30,,15:14:47
+245783,"Dilip sharma_Allahabad",dilip4k87@gmail.com,"Sales Rep",3363563,239165,"Rahul Singh_Allahabad",2024-06-04,,00:44:24
+245793,"Babu Lal Mali_khandar",babusaini183@gmail.com,"Sales Rep",3370111,238104,"shashikant maury_Jaipur",2024-06-04,,AB
+245928,"vacant ca_bijapur",bijapur@gavl.com,"Sales Rep",,240320,"Laxman Salagar_bijapur",2024-06-06,,AB
+246056,"Rajat Kumar-rania",rajatmomi60@gmail.com,"Sales Rep",3378190,238173,"Vacant _Sirsa",2024-06-06,,AB
+246086,"Ritesh Batholiya_Dewas",gurjarritesh91@gmail.com,"Sales Rep",3379709,242396,"CHANDRAPAL SHEKHAWAT_INDORE",2024-06-05,,15:02:11
+246093,"Arunkumar Ambleppanavar_Hirekerur",arunkumarka92@gmail.com,"Sales Rep",3375986,237867,"vinayaka shidenur_davengere",2024-06-07,,13:15:27
+246361,"B MUNISWAMY_NAGALADINNE",muniswamyboya157@gmail.com,"Sales Rep",3409236,240520,"C.MADANNA _YEMMIGANUR",2024-06-10,,15:03:58
+246404,"Arun Harinkhede_Raipur",,"Sales Rep",3379643,242411,"Lokesh Bhairam_DURG",2024-06-11,,08:06:42
+246438,"AKIB DILAWAR MUJAWAR_ISLAMPUR",akibmujawar8738@gmail.com,"Sales Rep",3334238,239443,"Satyajit Todkar_Kolhapur",2024-05-24,,00:00:04
+246465,"SOUMEN DEY_RERIPUR",deysoumen388@gmail.com,"Sales Rep",3389481,241101,"Susovan Ghosh_West Medinipur",2024-06-13,,09:16:50
+246547,"Mahesh Soni_RFH WEST",mahesh.soni@godrejagrovet.com,"Sales Manager",,232902,"Vishal Bhutani",2024-06-14,,AB
+246629,"Debabrata Chatterjee RFH_EAST",debabrata.chatterjee@godrejagrovet.com,"Sales Manager",,232902,"Vishal Bhutani",2024-06-17,,AB
+246630," Atul Sadavrutti_RFH Central",atul.sadavrutti@godrejagrovet.com,"Sales Manager",,232902,"Vishal Bhutani",2024-06-17,,AB
+246631," Kondala rao_RFH South Zone",Kondala.rao@godrejagrovet.com,"Sales Manager",,232902,"Vishal Bhutani",2024-06-17,,AB
+246632,"Brajesh Kumar Sharma_RFH north",Brajesh.sharma@godrejagrovet.com,"Sales Manager",,232902,"Vishal Bhutani",2024-06-17,,AB
+246641,"Sangramsing Sunil Dhomse_Palkhed Mirchi",sangramdhomse007d@gmail.com,"Sales Rep",3357469,231725,"Dhananjay Ushir_PIMPALGAON BASVANT",2024-06-17,,09:01:47
+246702,"ajay jadhav_Aurangabad",ajay.jadhav1@godrejagrovet.com,"Territory Manager",D08,263562,"Bikash Raymohpatra",2024-06-18,,AB
+246771,"Ramesh Gaikwad_chandori",rameshgaikwad97579@gmail.com,"Sales Rep",3155107,231724,"Shubham Shinde_NIPHAD",2024-06-20,,09:48:36
+246798,"Rahul pandya_Goutampura",rpandya860@gmail.com,"Sales Rep",3379326,242396,"CHANDRAPAL SHEKHAWAT_INDORE",2024-06-22,,10:15:25
+246826,"Asheesh Temre_Betul",ashishtemre109@gmail.com,"Sales Rep",3401182,242407,"Naveen Bopache_CHHINDWARA",2024-06-24,,06:15:19
+246865,"Rajesh Patidar_Jaora",,"Sales Rep",3401077,242399,"VISHAL R_RATLAM",2024-06-24,,11:47:19
+246866,"POKURI THIRUPATHI RAO_KARAMPUDI",thirupathipokuri@gmail.com,"Sales Rep",3415556,240512,"Atla Siva Krishnareddy_Macherla",2024-06-24,,AB
+247060,"Pagadala amruthababu_Sattenapalli",pagadalaamr29@gmail.com,"Sales Rep",3416184,240510,"P Yeswanth Reddy _Sattenapalli",2024-06-25,,00:00:00
+247063,"J Venkateswara reddy_Markapuram",,"Sales Rep",3416186,240514," BINGINIPALLI SADIK_Markapuram",2024-06-25,,09:47:22
+247064,"vacant _narsampeta",NL@gavl.com,"Territory Manager",C12,261524,"VACANT TADEPALLIGUDEM",2024-06-25,,AB
+247108,"Sushil kumar_Fatehabad 2",sushilgurditta874@gmail.com,"Sales Rep",3400328,238171,"ANIL KUMAR _Fatehabad",2024-06-24,,05:28:11
+247468,"vacant ca _ faizabad ",atz@gavl.com,"Sales Rep",,238121,"Jai Prakash mishra_Faizabad",2024-06-29,,AB
+247488,"Amol Borse_Satana",amolborse1234@gmail.com,"Sales Rep",3365391,231726,"Yogesh Bharti_Satana",2024-07-01,,07:59:58
+248603,Chintala Mahesh,Chintalamahesh4318@gmail.com,"Sales Rep",3421656,240483,"Vacant _Mylavaram",2024-06-21,,AB
+248605,"vacant ca _ Aurangabad",sk@gavl.com,"Sales Rep",,246702,"ajay jadhav_Aurangabad",2024-07-16,,AB
+248669,"Manas Pramanik",manaspramanik7363@gmail.com,"Sales Rep",3384149,241102,"Snehasish Chakraborty_East Medinipur",2024-07-17,,00:00:20
+248952,"vacant so_ Kannauj",vacantkanauj@gavl.com,"Territory Manager",,238114,"Digvijay Singh-East UP",2024-07-19,,AB
+248953,"Shashi Kumar",shashissm222@gmail.com,"Sales Rep",3437773,238119,Vacant-SO-HARDOI,2024-07-01,,SL
+249024,Vacant_Tenali,VT@gavl.com,"Sales Rep",,240515,"KARRI VINAY KUMAR SO_tenali",2024-07-23,,AB
+249358,"Deepak Nagar",deepaknagar1842@gmail.com,"Sales Rep",3435076,238100,"Adarsh Kumar_Bundi",2024-07-23,,12:35:38
+249419,"Sushant Shantaram Hingane",sushanthingane52@gmail.com,"Sales Rep",3324690,239231,"Yogesh Kadam_Narayangaon",2024-07-24,,09:38:46
+249442,"vacant b ",Vacantv@gmail.com,"Sales Rep",,242410,"Roshani Bisen_MAHASAMUND",2024-07-27,,AB
+249445,"Vacant Shivam Mishra",abc@gavl.com,"Sales Rep",,238121,"Jai Prakash mishra_Faizabad",2024-07-20,,AB
+249447,"S TAMILSELVAN",tamilselvan761998@gmail.com,"Sales Rep",3433670,239763,"JAYAKUMAR C_VILLUPURAM",2024-07-17,,14:15:13
+249634,"GURJEET SINGH",gurjeet9781686700@gmail.com,"Sales Rep",3511827,238694,"Saif SO_ABOHAR",2024-08-02,,00:35:57
+249966,"Dipak tengale_RMM",dipak.tengale@godrejagrovet.com,"Sales Manager",705271,246547,"Mahesh Soni_RFH WEST",2024-03-13,,AB
+249968,"Omkar Sudhakar Gaikwad",og220412@gmail.com,"Sales Rep",3437430,239454,"Samdhan devkatte _Osmanabad",2024-07-27,,11:32:06
+249972,"ABHISHEK SINGH",joshisingh05@gmail.com,"Sales Rep",3435079,238120,"shubham Gupta_KICHHA",2024-07-24,,09:36:21
+250341,vacant_amm,ali@gorejagrovet.com,"Sales Manager",,238580,"Manjunatha V",2024-08-07,,AB
+250517,"Akash Pandurang Kaldate",kaldateakash73@gmail.com,"Sales Rep",3437569,239455,"Sachin Shinde_Latur",2024-07-26,,14:20:45
+250600,"Nitin Singh_Moosanagar",Ns8604025810@gmail.com,"Sales Rep",3454089,238125,"Raghvendra Singh_KANPUR",2024-08-12,,00:00:26
+250603,"Md Maruf  Billah_Pakapole",bmaruf985@gmail.com,"Sales Rep",3453115,245026,"Sabuj Maiti_Barasat",2024-08-08,,00:00:00
+250987,"MAVILLA RAMAKRISHNA_NAGARKURNOOL",ramyadavramyadav40402@gmail.com,"Sales Rep",3464939,240668,"Lavudya Raju _Jadcharla",2024-08-10,,14:20:41
+251116,"Thangamariappan M_ARUPPUKOTTAI",goldrainsmsp@gmail.com,"Sales Rep",3466396,239753,"SOLAIRAJA SUBRAMANI -Madurai",2024-08-17,,13:16:42
+251169,Chockalingam,20choku17@gmail.com,"Sales Rep",3466410,239753,"SOLAIRAJA SUBRAMANI -Madurai",2024-08-17,,10:01:47
+251428,"Atul Sadashiv More",moreatul77@gmail.com,"Sales Rep",3224356,239442,"Mangesh Bhosale_Pandharpur",2024-08-14,,13:00:31
+251478,"DIVID PL_ANTHIYUR",kongudivid@gmail.com,"Sales Rep",3466378,239791,Vetrivel.G_ERODE,2024-08-12,,09:36:19
+251538,"Vacnt ca jalgaon",Vacantjalgaon@gavl.com,"Sales Rep",,239392,"sadanand kamale_JALGAON",2024-08-28,,AB
+251539,"Vacnt osmnabad",Vacantosmanabad@gavl.com,"Sales Rep",,239454,"Samdhan devkatte _Osmanabad",2024-08-28,,AB
+251540,"Vacant ca _ latur",Vacantlatur@gavl.com,"Sales Rep",,239455,"Sachin Shinde_Latur",2024-08-28,,AB
+251541,"Vacant ca raichur",vacantraichur@gavl.com,"Sales Rep",,240303,"Kattamuri S V N S S Bhaskar Mani Sekhar_Raichur",2024-08-28,,AB
+251542,"Vacant ca NARSAMPET",vacantnarsampeta@gavl.com,"Sales Rep",,247064,"vacant _narsampeta",2024-08-28,,AB
+251543,"Vacant ca kurugodu",vacantkurugodu@gavl.com,"Sales Rep",,240304,"GARAPATI RAMESH SO-Kurugodu",2024-08-28,,AB
+251819,"Sagar Ghawde_Arvi",sagarghawde1@gmail.com,"Sales Rep",3452972,243467,"Rushikesh Mante_Wardha",2024-08-12,,12:50:27
+251859,"Diwakar Sharma_",Sharmadiwakar373@gmail.com,"Sales Rep",3441255,242406,"Sonu Dhakad_JABALPUR",2024-09-01,,04:50:21
+252380,"Ram Kumar_Sri Vijaynagar",ramkumarb325@gmail.com,"Sales Rep",3476176,238111,"Davinder Singh_Sri Ganganagar",2024-08-26,,09:56:31
+252476,"ARIVAZHAGAN CHANDRASEKAR_Thanjavur",arivazhaganece94@gmail.com,"Sales Rep",3511372,239802,"BALAKUMARAN _THANJAVUR",2024-09-11,,13:55:45
+252719,"KUSHAL DEY_Birnagar",kushaldey.bagula@gmail.com,"Sales Rep",3510478,241099,"Sribash Kumar Mallick_krishnanagar",2024-09-18,,AB
+252737,Santosh_Sindhnur,santosh.1@godrejagrovet.com,"Territory Manager",c14,240300,"Yankappa - Bellary",2024-09-29,,09:12:42
+252751,"Vacant CA _sangamner ",Vacant@gavl.com,"Sales Rep",,239249,prashant_Sangamner,2024-09-19,,AB
+252938,"Moolagiri vishnu",moolagirivishnu@gmail.com,"Sales Rep",3526504,240521,"M Chandrasekhar_Madanapalle",2024-08-22,,00:00:00
+252943,"MANDEEP SINGH",mandeepsinghmalout9662@gmail.co,"Sales Rep",3519137,238173,"Vacant _Sirsa",2024-09-13,,09:14:45
+252944,"RAVINDER SINGH",ravisama530@gmail.com,"Sales Rep",3519005,238173,"Vacant _Sirsa",2024-09-13,,AB
+252980,"ATTANTI VIOLET",attantiviolet@gmail.com,"Sales Rep",3484648,261949,"Janga. Deepthi sai",2024-09-11,,AB
+252987,"Pratiksha Ashok Kolhe",pkolhe236@gmail.com,"Sales Rep",3484759,238962,"Kunal Gawande _Nagpur",2024-09-23,,11:25:54
+252992,"Chhakuli Vinodrao Ughade",chhakuughade@gmail.com,"Sales Rep",3499478,239440,"MAHESH JADHAV_KAVTHEMAHNKAL",2024-09-18,,13:20:10
+253000,"Vacant ID ",s@godrejagroet.com,"Sales Rep",,238151,"Yatendera Rana_BARNALA",2024-09-10,,AB
+253002,"Janapriya J",janapriya.j@godrejagrovet.com,"Sales Rep",3509229,239809,"BALACHANDAR B_DHARMAPURI",2024-09-09,,12:25:22
+253016,"Rajendran B",velammal9361860834@gmail.com,"Sales Rep",3545573,239803,"Sowenderrajan L _Tirunelveli",2024-09-21,,12:23:52
+253024,"vacant Roshani Bisen",a@gmail.com,"Sales Rep",,242410,"Roshani Bisen_MAHASAMUND",2024-10-09,,AB
+253104,"Tejas Ramesh Birajdar",birajdartejraj@gmail.com,"Sales Rep",3546804,239454,"Samdhan devkatte _Osmanabad",2024-09-24,,07:22:26
+253210,"Anupama  Pandey",anupama.pandey@godrejagrovet.com,"Sales Rep",3484949,242400,"Dinesh singh ginnare_KHARGONE",2024-09-10,,07:43:04
+253404,"BANOTHU VEERANNA",banothuveeranna333@gmail.com,"Sales Rep",3559208,240478,"Annasamudram Nandan kamesh _Mahabubabad",2024-09-14,,08:14:59
+253415,"Vacant subrata SA ",ai@godrejgrovet.com,"Sales Rep",3484753,240479,"TALARI SUBHADRA_Warangal",2024-09-10,,AB
+253506,"Shivam Mishra",shivamelex@gmail.com,"Sales Rep",3435077,238116,"Shailendra Pratap Singh_BAREILLY",2024-07-20,,10:35:28
+253538,"Vacant Naveen ",n@gavl.com,"Sales Rep",,238127,"Rohit Gaur_Agra",2024-10-07,,AB
+253556,AKSHATHA.MV,akshatha.mv@godrejagrovet.com,"Sales Rep",3484755,231721,"Mahesh R_KOLAR",2024-09-10,,07:59:29
+253558,Vacant_PUSHPA.BP,UJ@gavl.com,"Sales Rep",,231720,"Amit reddy_CHIKKABALLAPURA",2024-09-10,,AB
+253600,"Komal Kishor Gajbhiye",komal.gajbhiye@godrejagrovet.com,"Territory Manager",3484756,238967,"sandip phopase_Yavatmal",2024-09-11,,12:25:47
+253601,"Vacant _Sales associate ",SA@GAVL.COM,"Sales Rep",,253600,"Komal Kishor Gajbhiye",2024-10-08,,AB
+253691,"Ajay Singh",ajaysingh00588@gmail.com,"Sales Rep",3561161,238116,"Shailendra Pratap Singh_BAREILLY",2024-10-09,,11:12:55
+253744,Vacant_sindhanur,sid@gavl.com,"Sales Rep",,252737,Santosh_Sindhnur,2024-10-14,,AB
+253746,vacant_belgaum,belgaum@gavl.com,"Sales Rep",,240322,"Sachin Tammaraya_BELGAUM",2024-10-14,,AB
+253772,"Thigulla Vinod",jaishanavivinod9582@gmail.com,"Sales Rep",3560944,240480,"Karru Shiroj Kumar_Badrachalam",2024-07-10,,11:11:42
+253773,"Challuri Venkatesh ",challurivenkatesh47@gmail.com,"Sales Rep",3561002,240480,"Karru Shiroj Kumar_Badrachalam",2024-07-10,,14:00:00
+253981,"Ganesh Balaji Mane",ganeshmane7437@gmail.com,"Sales Rep",3573791,239455,"Sachin Shinde_Latur",2024-10-17,,15:47:41
+254044,"Omkar Sanjay Mali",omkarmali810@gmail.com,"Sales Rep",3576964,239443,"Satyajit Todkar_Kolhapur",2024-10-21,,13:03:58
+254097,"vacant_SA rani ",rani@godrejagovet.com,"Sales Rep",,240514," BINGINIPALLI SADIK_Markapuram",2024-09-11,,AB
+254332,"Sager Puri",srpuri281@gmail.com,"Sales Rep",3561257,231726,"Yogesh Bharti_Satana",2024-10-05,,05:48:58
+254365,"ABIN ANIL",abinanil123@gmail.com,"Sales Rep",3582301,239801,"Sonymon K V _Thrissur",2024-10-21,,10:41:43
+254413,Busi Reddy Sai Tejaswar Reddy,saitejareddy17763@gmail.com,"Sales Rep",3586339,240519,"M SUBBA REDDY_proddatur",2024-11-04,,08:12:10
+254627,"SENAUL SK",senaulsk555@gmail.com,"Sales Rep",3588994,241198,"MD HAFIJUR RAHAMAN_MALDA",2024-11-11,,15:25:05
+254794,"RAMACHANDRAN P",ramachandiranragul@gmail.com,"Sales Rep",3592079,239763,"JAYAKUMAR C_VILLUPURAM",2024-11-12,,11:40:01
+254869,"Suvendu Sarkar ",sarkarsuvendu53@gmail.com,"Sales Rep",3592057,241197,"Masud Rijwan_BERHAMPORE",2024-11-14,,13:17:53
+255215,"NITESH MADHUKAR DHOKANE",dhokanenitesh1996@gmail.com,"Sales Rep",3602554,239013,"Rahul Dorle_Pusad",2024-11-26,,04:02:37
+255356,GOWTHAM,gowthemgowthem568@gmail.com,"Sales Rep",3599944,239803,"Sowenderrajan L _Tirunelveli",2024-11-20,,12:43:57
+255689,"Rohit Kumar",Rohitfpsaini@gmail.com,"Sales Rep",3609479,238163,"Mukesh lohani_AMBALA",2024-12-01,,05:12:37
+255690,"Napinder Singh Dhillon",napinder.matchbox.singh@gmail.com,"Sales Rep",,238175,Vacant_Dawbali,2024-12-01,,11:18:17
+255835,"Erda Nileshkumar Kanabhai",eradanilesh2183@gmail.com,"Sales Rep",3621074,239268,"Karan Hadvani_Junagdh",2024-12-16,,11:24:39
+255837,"Ashok Kushwaha",ashokkushwaha1239@gmail.com,"Sales Rep",3622412,242408,"Deepesh Tyagi_CHHATARPUR",2024-10-12,,08:21:53
+255959,"RAJKUMAR PAUL",rajkumarpzul2021@gmail.com,"Sales Rep",3625444,241198,"MD HAFIJUR RAHAMAN_MALDA",2024-12-20,,06:07:20
+256149,"SUNDAREESHWARAN L",lsundareeshwaran@gmail.com,"Sales Rep",3626955,239791,Vetrivel.G_ERODE,2024-12-21,,14:33:06
+256159,"Hazik Hussain Khan",khanhazu11@gmail.com,"Sales Rep",3622708,238155,"Peerzada Mussadiq_JAMMU & KASHMIR",2024-12-18,,10:21:04
+256732,"M SANKAR (D#256732)",256732#pmsankar1998@gmail.com,"Sales Rep",3636698,239791,Vetrivel.G_ERODE,2025-01-03,2026-01-05,02:55:58
+257695,SRINATH,,"Sales Rep",,231720,"Amit reddy_CHIKKABALLAPURA",2025-01-25,,14:23:31
+257788,"Ajay Kushvah",ajay9179024918@gmail.com,"Sales Rep",3655961,242402,"AMIT TIWARI_DHAR",2025-01-27,,07:43:23
+258634," veerappa kivudanavar_Hubli",veerappa.kivudanavar@godrejagrovet.com,"Territory Manager",D5,263313,"SURESH BIRADAR_Davengere",2025-02-11,,10:57:10
+259378,"VIJAY S",vijay7373129626@gmail.com,"Sales Rep",,239763,"JAYAKUMAR C_VILLUPURAM",2025-02-07,,12:11:19
+259528,Rameshwar Sheshrao Rathod,rathodram378@gmail.com,"Sales Rep",3653541,239231,"Yogesh Kadam_Narayangaon",2025-01-22,,00:00:00
+259580,SARAVANAKUMAR.S,vijaysaravana797@gmail.com,"Sales Rep",3681767,239804,"Senthil Kumar _Trichy",2025-02-21,,12:54:59
+259600,"Parthiban B",b.parthiban781990@gmail.com,"Sales Rep",3681716,239763,"JAYAKUMAR C_VILLUPURAM",2025-02-21,,00:00:00
+259672,Gurumurthyreddy.R,gurumurthy657@gmail.com,"Sales Rep",3666606,231721,"Mahesh R_KOLAR",2025-02-06,,05:41:18
+259702,"c k Nagaraj Naik ",agunagrajnagu1@gmail.com,"Sales Rep",3674751,237867,"vinayaka shidenur_davengere",2025-02-06,,00:06:02
+259703,"Malhari tukaram shingade",malharishingade@gmail.com,"Sales Rep",3672616,240320,"Laxman Salagar_bijapur",2025-02-06,,12:08:06
+259961,"Md. Phool Babu",phoolhasanpurkirat@gmail.com,"Sales Rep",3674861,241096,"Vacant D16_Samastipur",2025-02-15,,03:54:10
+260595,sivasakthi,sivasakthis438@gmail.com,"Sales Rep",3693833,239765,"Sakthivel B _Kancheepuram",2025-03-01,,12:03:19
+260718,"Mohan Maragale",mohanmaragale2001@gmail.com,"Sales Rep",3695893,240322,"Sachin Tammaraya_BELGAUM",2025-03-10,,10:32:09
+260835,"SANJAY KUMAR PODDAR",sanjaypoddar.kadepur@gmail.com,"Sales Rep",3706495,241095,"Vacant SO _Purnia",2025-03-21,,00:00:00
+261002,"SHAHADATT  SHANKARGIR GIRI",shahadattgiri@gmail.com,"Sales Rep",3699342,239175,"Shivkumar shete_Nanded",2025-03-21,,12:50:01
+261004,"Naresh Madhukarao Sardar",nareshsardar1977@gmail.com,"Sales Rep",3708467,239196,"Mahadeo Ramdas Nayse_Akola",2025-03-21,,13:11:30
+261460,"Rahul Kamalsing Balode",rahulbalode.99@gmail.com,"Sales Rep",3709407,239196,"Mahadeo Ramdas Nayse_Akola",2025-03-21,,13:48:04
+261524,"VACANT TADEPALLIGUDEM",Tadepalligudem@gavl.com,"Sales Manager",,240507,"Vacant BL_Vijayawada",2025-04-02,,AB
+261737,"ANKIT KUMAR",ankitkumar260390@gmail.com,"Sales Rep",,238128,"Devendra Pundir_Muzaffarnagar",2025-04-04,,08:42:01
+261793,"HARINDER SINGH",Harindersingh0445@gmail.com,"Sales Rep",,238147,"Shelendra kumar_MUKTSAR",2025-04-07,,10:38:36
+261947,"Bhoopendra Singh",bhoopendra1992singh@gmail.com,"Sales Rep",3710704,242402,"AMIT TIWARI_DHAR",2025-04-06,,12:25:35
+261949,"Janga. Deepthi sai",deepthi.sai@godrejagrovet.com,"Territory Manager",C20,240508,"Murali G _guntur",2025-04-09,,14:57:50
+261952,"vacant Nellore ",nellore@gavl.com,"Sales Rep",,261949,"Janga. Deepthi sai",2025-04-09,,AB
+262124,"Kottinto Sitarami Reddy_NANDAYAL",Sitarami.reddy@godrejagrovet.com,"Territory Manager",C21,240516,"Levidi Manikya Reddy_Kurnool",2025-04-11,,14:18:52
+262125,"Vacant Nizamabad",Nizamabad@Gavl.com,"Territory Manager",,240661,"GANESH MALLEPULA _KARIMNAGAR",2025-04-11,,AB
+262131,"LOGESH K S",logeshkarun@gmail.com,"Sales Rep",3722809,239804,"Senthil Kumar _Trichy",2025-04-05,,SL
+262132,"GOKULKANNAN KARUPPAIYAN",gokulkannan431@gmail.com,"Sales Rep",3722848,239802,"BALAKUMARAN _THANJAVUR",2025-04-05,,SL
+262133,"DINESH S",sdinesh10001@gmail.com,"Sales Rep",3723092,239802,"BALAKUMARAN _THANJAVUR",2025-04-05,,12:55:04
+262197,Nishu,nishu703799@gmail.com,"Sales Rep",3728171,238122,"Ankit Singh _MORADABAD",2025-04-14,,07:05:27
+262484,Pankaj,sainpankaj343@gmail.com,"Sales Rep",3730822,238108,"Dheeraj  singh_Hanumangarh",2025-04-17,,14:20:56
+262486,Jaipal,jpmoyal9@gmail.com,"Sales Rep",3730895,238108,"Dheeraj  singh_Hanumangarh",2025-04-17,,08:10:35
+262503,"Bhupindre Singh",pappuvig973@gmail.com,"Sales Rep",3729824,238141,"kapil Tyagi_Amritsar",2025-04-16,,00:00:00
+262614,"Ankit Kumar",ankitkumar06071997@gmail.com,"Sales Rep",3731667,238125,"Raghvendra Singh_KANPUR",2025-04-17,,04:20:22
+262618,"Tarun Sharma",tarun3lc@gmail.com,"Sales Rep",3730037,238111,"Davinder Singh_Sri Ganganagar",2025-04-17,,09:55:03
+262619,"Ram karan singh",ramkaransingh150@gmail.com,"Sales Rep",3731181,238151,"Yatendera Rana_BARNALA",2025-04-17,,13:18:48
+262621,"VIGNESH GOBALAKRISHNAN",gobalvikeyprabu82@gmail.com,"Sales Rep",3730418,239802,"BALAKUMARAN _THANJAVUR",2025-04-12,,14:48:25
+262654,"Akash baghel",vb01062002@gmail.com,"Sales Rep",3733233,242402,"AMIT TIWARI_DHAR",2025-04-21,,04:41:00
+262716,"Bommareddy Satyanarayana Reddy_nizamabad",bommareddy.reddy@godrejagrovet.com,"Territory Manager",C22,240661,"GANESH MALLEPULA _KARIMNAGAR",2025-04-23,,01:19:01
+262717,"Chaitanya Pitchala_Kaligiri",chaitanya.pitchala@godrejagrovet.com,"Territory Manager",C19,240507,"Vacant BL_Vijayawada",2025-04-23,,11:12:13
+262721,"Vacant Kaligiri",Kaligiri@gavl.com,"Sales Rep",,262717,"Chaitanya Pitchala_Kaligiri",2025-04-23,,AB
+262722,"vacant ca_nandiyal",Nandiyal@gavl.com,"Sales Rep",,262124,"Kottinto Sitarami Reddy_NANDAYAL",2025-04-23,,AB
+262786,"Vivek Sembekar",viveksembekar7@gmail.com,"Sales Rep",3727834,242407,"Naveen Bopache_CHHINDWARA",2025-04-16,,11:40:55
+262787,"Abhinav likhare",abhinavlikhare1@gmail.com,"Sales Rep",,242407,"Naveen Bopache_CHHINDWARA",2025-04-13,,AB
+262898,"SACHIN C_HASSAN",sachin.c@godrejagrovet.com,"Territory Manager",C06,231716,"HariHara MurthyN-BANGALOR",2025-04-26,,07:59:43
+262900,"Vacant Ca hassan",CA@gavl.com,"Sales Rep",,262898,"SACHIN C_HASSAN",2025-04-26,,AB
+263080,"Gurpreet singh",preetdhaliwal973@gmail.com,"Sales Rep",3720858,238173,"Vacant _Sirsa",2025-04-07,,00:10:14
+263084,"Pavinder Singh",parvindersingh.baroula@gmail.com,"Sales Rep",3720820,238163,"Mukesh lohani_AMBALA",2025-04-07,,12:48:07
+263088,Amarjeet,amarjitsheoran91216@gmail.com,"Sales Rep",3720949,238170,"Kuldeep Godara  _Hissar",2025-04-07,,13:03:53
+263089,Dilpreet,dilpreetsinghvirk59@gmail.com,"Sales Rep",3728300,238171,"ANIL KUMAR _Fatehabad",2025-04-14,,00:00:00
+263091,"PANKAJ KUMAR",mittalsboy3430@gmail.com,"Sales Rep",3735139,238149,"Vinod Kumar Chaubey_PATIALA",2025-04-21,,06:40:30
+263163,"Lovepreet Singh",lovepreet318504@gmail.com,"Sales Rep",3743271,238148,"ZIAUL HAQUE _MANSA",2025-04-28,,08:38:12
+263164,"prakhar kumar singh ",Prakharsigh882@gmail.com,"Sales Rep",,242410,"Roshani Bisen_MAHASAMUND",2025-04-29,,06:54:47
+263201,"Malik Yasir Iqbal",,"Sales Rep",3738106,238155,"Peerzada Mussadiq_JAMMU & KASHMIR",2025-04-30,,09:08:59
+263292,"Sudarshan Uddhav Bade",sudarshanbade28@gmail.com,"Sales Rep",3743520,239250,"Bhushan Gaikwad_Ahmednagar",2025-05-02,,01:10:12
+263293,"DOBARIYA KEYUSH KISHORBHAI",dobariyakeyush@gmail.com,"Sales Rep",3740114,239263,"mahek amreliya_Rajkot",2025-05-01,,13:33:00
+263294,"Mahesh Singh Rajput",mahesrajrajput@gmail.com,"Sales Rep",3740222,242397,"RAJKUMAR MEENA_UJJAIN",2025-05-01,,04:16:17
+263313,"SURESH BIRADAR_Davengere",SURESH.BIRADAR@GODREJAGROVET.COM,"Sales Manager",,238580,"Manjunatha V",2025-05-02,,11:45:47
+263341,"VENKATA CHALAPATHI_SHIVMOGGA",venkatachalapathi.n@godrejagrovet.com,"Territory Manager",I7,263313,"SURESH BIRADAR_Davengere",2025-05-05,,12:52:54
+263342,"Vacant CA SHIVAMOGGA",SHIVAMOGGA@gavl.com,"Sales Rep",,263341,"VENKATA CHALAPATHI_SHIVMOGGA",2025-05-05,,AB
+263370,"Gajinder kansal",kansalgaggi@gmail.com,"Sales Rep",3745183,238151,"Yatendera Rana_BARNALA",2025-05-02,,00:03:12
+263420,"CHAKALI PRAKASH",gpprakash1008@gmail.com,"Sales Rep",3747571,240518,Bhanuprakash_Adoni,2025-05-03,,12:24:28
+263421,"M.BASI REDDY",banavasibasireddy@gmail.com,"Sales Rep",3747572,240518,Bhanuprakash_Adoni,2025-05-03,,15:44:59
+263422,"KYADIGI RAVI KUMAR",kyadigi.ravikumar8184@gmail.com,"Sales Rep",3747229,240518,Bhanuprakash_Adoni,2025-05-03,,13:58:09
+263423,"Golla udey anand",prabhasanand60@gmail.com,"Sales Rep",3747560,240518,Bhanuprakash_Adoni,2025-05-03,,00:00:00
+263424,"KS kiran kumar",kskiran32@gmail.com,"Sales Rep",3747576,240518,Bhanuprakash_Adoni,2025-05-03,,10:32:29
+263425,"kuruva sreedhar",sreedhark815@gmail.com,"Sales Rep",3747196,240518,Bhanuprakash_Adoni,2025-05-03,,10:04:20
+263438,"Manish Verma_jhansi",manish.verma@godrejagrovet.com,"Territory Manager",B59,238114,"Digvijay Singh-East UP",2025-05-06,,00:00:00
+263439,vacant_jhansi,Jhansi@gavl.com,"Sales Rep",,263438,"Manish Verma_jhansi",2025-05-06,,AB
+263497,"SHYAMSUDAR MAURYA",mauryashyamsunder089@gmail.com,"Sales Rep",3740097,239265,"Jaywant Wable_Surendranagar",2025-05-01,,09:46:18
+263554,"Rahul Maurya",rahulmauryamaurya52@gmail.com,"Sales Rep",3748009,263438,"Manish Verma_jhansi",2025-05-05,,10:41:44
+263558,"Dasi Rajendra Prasad",chinnudasi11@gmail.com,"Sales Rep",3749913,240521,"M Chandrasekhar_Madanapalle",2025-05-05,,10:49:40
+263559," G Mahesh babu",gmaheshmahesh47@gmail.com,"Sales Rep",3749870,240521,"M Chandrasekhar_Madanapalle",2025-05-05,,12:42:08
+263562,"Bikash Raymohpatra",bikash.raymohapatra@godrejagrovet.com,"Sales Manager",,239088,"ROSHAN PRABHAKARRAO GORE_AMM_VMK",2025-05-08,,AB
+263668,"Amit Gupta",amitgupta74123@gmail.com,"Sales Rep",3752279,242411,"Lokesh Bhairam_DURG",2025-05-10,,02:20:27
+263695,"MIRALA CHANDRASHEKHAR",CHANDUMIRALACHANDUMIRALA@GMAIL.COM,"Sales Rep",,240664,"AKULA ASHOK SO _Karimnagar",2025-05-02,,12:05:03
+263696,"MANTHANI SHIVA SAI",shivasaibng143@gmail.com,"Sales Rep",,240664,"AKULA ASHOK SO _Karimnagar",2025-05-02,,13:41:14
+263705,"Jaskaranpreet singh",jaskaranub@gmail.com,"Sales Rep",3752514,238151,"Yatendera Rana_BARNALA",2025-05-15,,00:00:01
+263712,"Sahab Singh Rajput",,"Sales Rep",,242405,"Soumya Sawaran_SAGAR",2025-05-12,,14:18:15
+263752,"Ravindra kumar pal ",ravindra7704895345@gmail.com,"Sales Rep",3744915,238121,"Jai Prakash mishra_Faizabad",2025-05-05,,07:19:55
+263821,"NAVEENKUMAR M",naveen1400442@gmail.com,"Sales Rep",3725177,239809,"BALACHANDAR B_DHARMAPURI",2025-04-10,,14:06:26
+263822,M.ARAVINTH,aaravinthagro@gmail.com,"Sales Rep",3725229,239809,"BALACHANDAR B_DHARMAPURI",2025-04-10,,12:23:04
+263845,"Ananta Mankar_dhule",Ananta.mankar@godrejagrovet.com,"Territory Manager",C88,263562,"Bikash Raymohpatra",2025-09-10,,12:22:58
+263848,"Narule Ranjith",ranjeethnarule@gmail.com,"Sales Rep",3749843,240662,"naveen katla _Mancherial",2025-05-05,,14:38:26
+263865,"DHARAJIYA ASHVIN BHAI SEGHA BHAI",dharjiyaashvin33@gmail.com,"Sales Rep",3753510,239264,"Deepak Chaturvedi_Bhavnagar",2025-05-14,,14:50:42
+263871,"BALVINDER SINGH",30BALVINDER@GMAIL.COM,"Sales Rep",3750499,238111,"Davinder Singh_Sri Ganganagar",2025-05-14,,10:18:01
+263872,"GOBBEM RAMAKANTH",Grkanth635@gmail.com,"Sales Rep",,240663,"Rohan Tate_Adilabad",2025-05-14,,13:19:46
+263873,"ANKATHWAR RUTHIK",ruthikvarma1122@gmail.com,"Sales Rep",,240663,"Rohan Tate_Adilabad",2025-05-14,,00:00:03
+263879,"Devbrat Singh",devbrats108@gmail.com,"Sales Rep",3745158,238123,"Manish Singh_VARANASI",2025-05-14,,04:07:32
+263880,"kota ramanjaneyulu",kotaram125@gmail.com,"Sales Rep",3752120,240522,"Thanrunkumar reddy_kurnool",2025-05-05,,04:57:10
+263881,"Ediga keshavaiah",keshavaiah96@gmail.com,"Sales Rep",3752091,240522,"Thanrunkumar reddy_kurnool",2025-05-05,,12:59:12
+267960,"KACHHAD HIREN RAGHAV BHAI	",hirenahir4018@gmail.com,"Sales Rep",3753396,239264,"Deepak Chaturvedi_Bhavnagar",2025-05-09,,00:00:03
+268091,"Nikhil Pratap Singh ",nikhil9455933571@gmail.com,"Sales Rep",3756911,239165,"Rahul Singh_Allahabad",2025-05-15,,08:07:07
+268133,"PARAMITA PRIYADARSHANI_Jeypore",paramita.p01@godrejagrovet.com,"Territory Manager",D79,242416,"BIDHU KALYANKAR_BHUBANESHWAR",2025-05-20,,00:00:00
+268134,"vacant_raygada ",rg@gavl.com,"Sales Rep",,268133,"PARAMITA PRIYADARSHANI_Jeypore",2025-05-20,,AB
+268141,"CHINMAYA DAS",chinmaydas816@gmail.com,"Sales Rep",,242330,"Vacant BIDHU KALYANKAR_BHUBNESHWAR",2025-05-20,,06:50:44
+268299,"BASAVARAJ BADAMI",basavarajbadami06@gmail.com,"Sales Rep",,240304,"GARAPATI RAMESH SO-Kurugodu",2025-05-10,,11:44:13
+268302,"Ediga Mahendra Babu",mahendraediga248@gmail.com,"Sales Rep",3767448,240522,"Thanrunkumar reddy_kurnool",2025-05-22,,12:52:34
+268303,"Karthik R",KARTHIKSACHIN035@GMAIL.COM,"Sales Rep",3767412,239811,"M SIVAKUMAR _Coimbatore",2025-05-21,,13:18:36
+268305,"Naidi Sai Vardhan",naidisaivardhan@gmail.com,"Sales Rep",3755205,240662,"naveen katla _Mancherial",2025-05-21,,00:00:00
+268306,"Sangram Bhagwan Patil",patilsangram943@gmail.com,"Sales Rep",3762092,239443,"Satyajit Todkar_Kolhapur",2025-05-21,,00:00:02
+268308,"Chittimodula Chandrasekhar",chandrashekarchittimodula@gmail.com,"Sales Rep",3760490,281890,"LOKANTHU LOKESH Vacant SO_Vijayawada",2025-05-21,,14:57:05
+268309,"Nallapu Ashoke",ashoknallapu36@gmail.com,"Sales Rep",3760514,240485,K.PRASANTH_KHAMMAM,2025-05-21,,15:08:54
+268359,"ISAHAK ALI",ishak182.ia@gmail.com,"Sales Rep",3767541,241198,"MD HAFIJUR RAHAMAN_MALDA",2025-05-23,,09:16:35
+268360,"Garidepalli Upendra",garidepalliupendra773099@gmail.com,"Sales Rep",3760621,240485,K.PRASANTH_KHAMMAM,2025-05-21,,15:18:03
+268383,"Chakradhara Sahu",chakradharasahu61@gmail.com,"Sales Rep",3762048,242409,"DEBADATTA SAMAL_BARGARH",2025-05-17,,07:12:52
+268388,"RITURAJ PARMAR",riturajparmar62@gmail.com,"Sales Rep",3769771,242397,"RAJKUMAR MEENA_UJJAIN",2025-05-26,,07:56:45
+268410,"Pawan Patidar",pawan9617224412@gmail.com,"Sales Rep",3766187,242399,"VISHAL R_RATLAM",2025-05-21,,12:11:42
+269077,"Vinay Kumar",vinayverma99000@gmail.com,"Sales Rep",3762518,239609,"Salman Hussain _Lakhimpur",2025-05-19,,08:49:37
+269082,"Bhubana Thapa",bhubanathapa67905@gmail.com,"Sales Rep",376206,242409,"DEBADATTA SAMAL_BARGARH",2025-05-17,,08:18:57
+269487,"Deepanshu Mishra ",deepuabm09@gmail.com,"Sales Rep",3366921,238118,"Rohit Kharwar _ALIGARH",2025-05-26,,10:15:24
+269488,"Arvind Kushwaha",airvindkushwah788@gmail.com,"Sales Rep",3775523,242408,"Deepesh Tyagi_CHHATARPUR",2025-05-29,,AB
+269490,"GURIJALA PRAVEEN",gurijalapraveen07@gmail.com,"Sales Rep",3775366,240481,"Vacant SO_parkala",2025-05-28,,12:24:16
+269491,"NIKHIL SANJAY JADHAV",nj768292@gmail.com,"Sales Rep",3768646,232909,"Sachin Fakirrao Labhade _Nashik",2025-05-23,,10:11:21
+269492,"NIVRUTTI BHIKULAL BODKE",nivruttibodke007@gmail.com,"Sales Rep",3768615,232909,"Sachin Fakirrao Labhade _Nashik",2025-05-23,,09:50:24
+269558,"SALEEM KHAN",saleemkhan7935@gmail.com,"Sales Rep",3777089,238104,"shashikant maury_Jaipur",2025-06-02,,04:29:48
+269559,"INDRAJIT MONDAL",indrajitmd2000@gmail.com,"Sales Rep",3779883,241101,"Susovan Ghosh_West Medinipur",2025-06-02,,AB
+269562,"Kapil Sharma",kapil642004@gmail.com,"Sales Rep",3749233,238163,"Mukesh lohani_AMBALA",2025-05-06,,10:34:13
+269563,"Mandeep ",deepsr44@gmail.com,"Sales Rep",3747552,238163,"Mukesh lohani_AMBALA",2025-05-02,,15:12:14
+269567,Deepak Ashok Kale ,kaledeepak911@gmail.com,"Sales Rep",3768650,231725,"Dhananjay Ushir_PIMPALGAON BASVANT",2025-05-23,,03:37:35
+269603,"UPPARA SURESH",sureshpenubadipenubadisuresh@gmail.com,"Sales Rep",3778426,240520,"C.MADANNA _YEMMIGANUR",2025-06-02,,00:00:00
+269606,"Ganesh Kisan Phalke",ganeshphalke4414@gmail.com,"Sales Rep",3766035,246702,"ajay jadhav_Aurangabad",2025-05-21,,AB
+269752,"Ravinder Sharma",rickalande@gmail.com,"Sales Rep",37733973,238139,"Sachin Kumar_MOGA",2025-06-04,,15:25:26
+269786,"Tula Nishanth",tulanishanth43869@gmail.com,"Sales Rep",3781199,240662,"naveen katla _Mancherial",2025-06-04,,00:00:00
+269941,"Indrajeet Meena",sahilmeena6131@gmail.com,"Sales Rep",3782753,242397,"RAJKUMAR MEENA_UJJAIN",2025-06-05,,13:44:55
+269959,Pratik Sanjay Shirsath ,pratikshirsath29@gmail.com,"Sales Rep",3768596,231725,"Dhananjay Ushir_PIMPALGAON BASVANT",2025-05-23,,13:29:50
+269961,Shubham Fakirrao Jadhav ,shubhamjadhav271099@gmail.com,"Sales Rep",3768543,231725,"Dhananjay Ushir_PIMPALGAON BASVANT",2025-05-23,,00:00:00
+270078,"Kajal patel",kajalptel6@gmail.com,"Sales Rep",3776538,238130,"Mohit Kumar Tomar_Hapur",2025-06-02,,05:12:44
+270202,"PAGILLA NAGARAJU",pagillanagaraju997@gmail.com,"Sales Rep",3780538,240478,"Annasamudram Nandan kamesh _Mahabubabad",2025-06-02,,00:00:16
+270203,"DHARAVATH NAVEEN KUMAR",dharavathnaveen.366@gmail.com,"Sales Rep",3780268,240478,"Annasamudram Nandan kamesh _Mahabubabad",2025-06-02,,12:33:10
+270209,"Deepak Rajendra Dhakare",Dipakdhakare73@gmail.com,"Sales Rep",3766055,239392,"sadanand kamale_JALGAON",2025-05-18,,AB
+270213,PARSHANT,PARSHANTDELUDELU@GMAIL.COM,"Sales Rep",3782529,238111,"Davinder Singh_Sri Ganganagar",2025-06-05,,02:39:40
+270215,"Shanvir Uttam Ingale",,"Sales Rep",,239455,"Sachin Shinde_Latur",2025-06-09,,14:30:44
+270266,"Vivek M",vivekjanani142@gmail.com,"Sales Rep",3785350,239791,Vetrivel.G_ERODE,2025-06-09,,13:12:05
+270267,"Ganji.Sai babu",saiganji3111@gmail.com,"Sales Rep",3780544,240670,"sushma Chigurupati_Nalgonda",2025-06-03,,11:27:40
+270268,"Bhanu Pratap Singh ",bhanuthakur4067@gmail.com,"Sales Rep",3783183,238118,"Rohit Kharwar _ALIGARH",2025-06-05,,09:34:29
+270271,Sk.Nabeesha,nabeeshashaik@gmail.com,"Sales Rep",3785679,240509,"Bareddy Venkateswarlu _Guntur",2025-05-07,,14:32:32
+270277,"Puralal makwana (CA)",puralalmakwana98@gmail.com,"Sales Rep",3784401,242396,"CHANDRAPAL SHEKHAWAT_INDORE",2025-06-07,,01:08:20
+270281,"Rajkumar Babruwan Mane",rajkumarmane6993@gmail.com,"Sales Rep",3785917,239454,"Samdhan devkatte _Osmanabad",2025-06-07,,11:29:25
+270283,"ERRAM RAJU",reddy.mba0659@gmail.com,"Sales Rep",3784362,240667,"Sivatejswar reddy _Gajwel",2025-06-09,,11:26:27
+270389,Mangadhudla.Janardhan,janardhanyadav.m@gmail.com,"Sales Rep",3789237,240670,"sushma Chigurupati_Nalgonda",2025-06-10,,00:00:00
+270391,"TALARLA BHUMAIAH",bunnythalarla@gmail.com,"Sales Rep",3778499,240663,"Rohan Tate_Adilabad",2025-06-12,,00:00:00
+270393,"Vemunoori Sravan",sravanvemunoori59@gmail.com,"Sales Rep",3782413,240479,"TALARI SUBHADRA_Warangal",2025-06-03,,06:56:40
+270521,"Vacant AMM_SWR1 (TN, KL)",tnvacant@godrejagrovet.com,"Sales Manager",,239751,"Vacant_SWR1 (TN, KL)",2025-06-13,,AB
+270561,Yuvraj Vishwas Jadhav,yuvijadhav2001@gmail.com,"Sales Rep", 3768520,231724,"Shubham Shinde_NIPHAD",2025-05-23,,09:44:36
+270569,"ISHWAR CHAND",ISHWARCHANDPAL0009@GMAIL.COM,"Sales Rep",3784179,239609,"Salman Hussain _Lakhimpur",2025-06-13,,08:54:46
+270570,"Mr. Aditya Sambhaji Aher",adityaaher8856@gmail.com,"Sales Rep",3791843,239250,"Bhushan Gaikwad_Ahmednagar",2025-06-13,,12:40:58
+271116,"Jaydeep Patel	",Jaydeeppatel716@gmail.com,"Sales Rep",3788114,242404,"Pankaj Singh Bisht_SHIVPURI",2025-06-09,,00:00:46
+271120,"Sudarshan Chauhan",sudrashan169@gmail.com,"Sales Rep",3791932,238141,"kapil Tyagi_Amritsar",2025-06-13,,10:42:16
+271122,"Ajay Patel",ap8650536564@gmail.com,"Sales Rep",3786447,238127,"Rohit Gaur_Agra",2025-06-09,,05:40:59
+271141,"Mocharla china babu",mocherlachina77@gmail.com,"Sales Rep", 3785647,240510,"P Yeswanth Reddy _Sattenapalli",2025-05-07,,00:00:04
+271171,"MADIKI RAMA KISHORE BABU",mrkishore211@gmail.com,"Sales Rep",3785801,240487,"Lakshman Nallapati_TADEPALLIGUDEM",2025-05-25,,13:36:30
+271200,"SUKUMAR SAR",sukumarsar3758@gmail.com,"Sales Rep",3792798,241101,"Susovan Ghosh_West Medinipur",2025-06-16,,00:00:04
+271206,"Ravindra Tanvar",ravindratanvar882@gmail.com,"Sales Rep",3782872,242400,"Dinesh singh ginnare_KHARGONE",2025-06-05,,03:55:13
+271270,"KHILAN MEHULBHAI PATEL",khilanp1@gmail.com,"Sales Rep",3792170,239260,"Ajit Shipte_gandhinagar",2025-06-14,,12:27:18
+271271,"AKASHKUMAR VAGHELA",vishalrathod87590@gmail.com,"Sales Rep",3792058,239260,"Ajit Shipte_gandhinagar",2025-06-14,,00:00:30
+271310,"Raghvendra Pratap singh",manusinghjari@gmail.com,"Sales Rep",3793130,242414,"Vinay Kumar Singh_Bilaspur",2025-06-13,,12:11:14
+271314,Venkateshwarulu,venkyvenkateshwarlu492@gmail.com,"Sales Rep",3773433,245002,"M SUNEEL KUMAR_Gadwal",2025-05-28,,12:39:20
+271315,"N Jagadeesh",jagadeeshn898@gmail.com,"Sales Rep",3795369,245002,"M SUNEEL KUMAR_Gadwal",2025-06-16,,15:49:06
+271316,"Kurva Jayanna",jayannas852@gmail.com,"Sales Rep",3784209,245002,"M SUNEEL KUMAR_Gadwal",2025-06-05,,15:08:43
+271317,"TEJPAL SANDIIP KHATKE",tejpalkhatke2016@gmail.com,"Sales Rep",3788082,239231,"Yogesh Kadam_Narayangaon",2025-06-10,,13:26:19
+271318,"GANDLA RAJASHEKHAR",gandlarajashekhar9088@gmail.com,"Sales Rep",3789178,262716,"Bommareddy Satyanarayana Reddy_nizamabad",2025-06-11,,13:30:27
+271320,"Shaik Rafi",shaikrafipvc1993@gmail.com,"Sales Rep",3780100,240480,"Karru Shiroj Kumar_Badrachalam",2025-06-02,,10:44:01
+271338,"Vacant SO_palanpur",Vacant21@godrejagrovet.com,"Territory Manager",C89,239425,"Nhanu Jadhav_ahmedabad",2025-06-05,,AB
+271340,"NETHA PRAKASH P",agriprakashprabu@gmail.com,"Sales Rep",3797416,239808,"Varshini Kumar_SALEM",2025-06-18,,05:47:45
+271497,"ANIL KIRAD",ANILKIRAD444@GMAIL.COM,"Sales Rep",3794730,238105,"Madhuri Gupta _Jhalawar",2025-05-17,,08:07:02
+271507,"SUBHADIP HAZRA",hazrasubhadip33@gmail.com,"Sales Rep",3792770,241103,"Pritam Dey_Hooghly",2025-06-16,,10:09:37
+271508,"TANMAY MAL",tanmaymal90@gmail.com,"Sales Rep",3783364,241103,"Pritam Dey_Hooghly",2025-06-06,,00:00:03
+271510,Robin,robinkarwasra0@gmail.com,"Sales Rep",3798723,238108,"Dheeraj  singh_Hanumangarh",2025-06-20,,00:00:26
+271514,"LODDU VARAHALU NAIDU",lvnaidu.222@gmail.com,"Sales Rep",3801118,240487,"Lakshman Nallapati_TADEPALLIGUDEM",2025-06-24,,11:28:58
+271524,"BOLAGANI BHUPATHI",bhupathi.bolagani@gmail.com,"Sales Rep",3800366,240486,"JARUPULA NAGARAJU _Kothagudem",2025-06-23,,12:59:18
+271525,"MALAKAM RAMARAO",malakamramarao@gmail.com,"Sales Rep",3800400,240486,"JARUPULA NAGARAJU _Kothagudem",2025-06-23,,13:42:50
+271526,"BHUKYA VINAYKUMAR",vinay.bhukya225@gmail.com,"Sales Rep",3800381,240486,"JARUPULA NAGARAJU _Kothagudem",2025-06-23,,13:27:51
+271529,"Sanu Ali",shanuali89588@gmail.com,"Sales Rep",3800468,238120,"shubham Gupta_KICHHA",2025-06-23,,07:34:03
+271531,Annamalai.s,annamalaiag504@gmail.com,"Sales Rep",3795276,239765,"Sakthivel B _Kancheepuram",2025-06-16,,00:00:00
+271617,"ASHUTOSH SARATHE	",Sarathee1999@gmail.com,"Sales Rep",3792197,242403,"Chetan Singh_BHOPAL",2025-06-14,,00:00:00
+271623,"SHAIK BABA HUSSAIN",,"Sales Rep",3801102,240512,"Atla Siva Krishnareddy_Macherla",2025-06-20,,13:57:25
+271628,rangappa,rangurangi@gmail.com,"Sales Rep",3796874,252737,Santosh_Sindhnur,2025-06-15,,13:23:22
+271699,"ERANAGAPPA MALLIKARJUNA",malleshlucky2023@gmail.com,"Sales Rep",3803271,240518,Bhanuprakash_Adoni,2025-06-25,,14:48:33
+271700,"DESAI SREENIVASULU",SRINIVASULUSEENU25@GMAIL.COM,"Sales Rep",3803283,240518,Bhanuprakash_Adoni,2025-06-25,,00:00:00
+271702,"Yogesh T R ",yogeshtr417@gmail.com,"Sales Rep",3801916,237867,"vinayaka shidenur_davengere",2025-06-23,,09:43:27
+271703,"Dharmendra Malviya",dharmendra.malviya@godrejagrovet.com,"Sales Manager",,242328,"ADITYA KUMAR_RAIPUR",2025-06-27,,AB
+271713,"Bhuteesha A",bhutesh9988@gmail.com,"Sales Rep",3796079,240341,"VARUN M_davengere 2",2025-06-17,,11:26:06
+271721,Ravichandra,ravichandrakampi@gmail.com,"Sales Rep",3802413,252737,Santosh_Sindhnur,2025-06-27,,11:46:12
+271738,"SETAMONI PRAKASH",prakash.setamoni@gmail.com,"Sales Rep",3807457,240668,"Lavudya Raju _Jadcharla",2025-06-28,,10:48:34
+271740,"Ankit Tiwari",ankittiwari951919@gmail.com,"Sales Rep",3801985,263438,"Manish Verma_jhansi",2025-06-24,,AB
+271841,"Ratheesha H E",rathishhehe@gmail.com,"Sales Rep",3796708,231722,"Pushpa B P_MYSORE",2025-05-16,,08:58:47
+271928,"MENIYA JAYDEEP THAKARSHIBHAI	",meniyajaydeep605@gmail.com,"Sales Rep",3797489,239263,"mahek amreliya_Rajkot",2025-07-01,,00:01:06
+271943,"Jagdeesh Singh Rigwar",jagdeeshsinghpaikra@gmail.com,"Sales Rep",3802264,242414,"Vinay Kumar Singh_Bilaspur",2025-07-24,,00:04:06
+272250,M.GANESH,ganeshmangala9@gmail.com,"Sales Rep",3795207,240517,"Pamidi Jabiullah_ananthpur",2025-06-17,,15:44:01
+272354,"P.vinod kumar Reddy",vinodkumarreddy028@gmail.com,"Sales Rep",3813464,240522,"Thanrunkumar reddy_kurnool",2025-07-04,,13:13:58
+273403,"Deepak kumar",deepakkumar99etw@gmail.com,"Sales Rep",3816738,238127,"Rohit Gaur_Agra",2025-07-07,,AB
+273415," bhavesh bhikhubhai barvadiya",bb.patel958@gmail.com,"Sales Rep",3797480,239268,"Karan Hadvani_Junagdh",2025-07-01,,00:00:03
+273416,"KOKKRA SINGARAIAH",singaraiahkokkera999@gmail.com,"Sales Rep",3814352,240511,"Kishore Reddy _Piduguralla",2025-07-03,,14:39:47
+273417,"GRANDHE VIJAY KUMAR",vijaygrandhe@gmail.com,"Sales Rep",3814538,240511,"Kishore Reddy _Piduguralla",2025-07-03,,15:43:29
+273421,"Laga srinu  ",smartsrinu6216@gmail.com,"Sales Rep",3814337,240513,"Bijjam Siva Krishnareddy_Addanki",2025-07-03,,AB
+273426,"SUKHDEEP SINGH",ss9120272@gmail.com,"Sales Rep",3816679,238138,"ATUL KUMAR PANDEY_KHANNA",2025-07-07,,10:26:23
+273431,"Nagaraja Naik",nagarajnaik1983nagaraj@gmail.com,"Sales Rep",3814167,263341,"VENKATA CHALAPATHI_SHIVMOGGA",2025-06-15,,11:21:06
+273443,"Kallayya M",kallayyamathapati53@gmail.com,"Sales Rep",3796526,258634," veerappa kivudanavar_Hubli",2025-06-27,,14:21:14
+273446,"BEANT SINGH",sekhon1394@gmail.com,"Sales Rep",3804724,238138,"ATUL KUMAR PANDEY_KHANNA",2025-06-27,,02:17:53
+273482,"SANTOSH KUMAR",santoshnsk187@gmail.com,"Sales Rep",3816708,238109,"Vishvendra Singh _Bhilwara",2025-07-05,,13:42:55
+273495,"Mahipal Latiyal",mahipallatiyal2244@gmai.com,"Sales Rep",3814640,238102,"Manohar Bhargav _Ajmer",2025-07-04,,00:12:15
+273499,"Swarn Singh",swarnsingh7129@gmail.com,"Sales Rep",3816647,238147,"Shelendra kumar_MUKTSAR",2025-07-05,,00:00:04
+273958,"Madhu CR South Zone",madhu.cr@godrejagrovet.com,"Sales Manager",,246631," Kondala rao_RFH South Zone",2025-07-11,,14:42:30
+273961,"MYLE PRAKASH KUMAR",mailekumar@gmail.com,"Sales Rep",3819691,240520,"C.MADANNA _YEMMIGANUR",2025-07-08,,13:35:24
+273962,"GOLLA NARESH CHANDRA YADAV",nareshchandra3597@gmail.com,"Sales Rep",3819723,240520,"C.MADANNA _YEMMIGANUR",2025-07-08,,13:02:33
+273964,Hanumanth,hanumanth09615@gmail.com,"Sales Rep",3822409,240303,"Kattamuri S V N S S Bhaskar Mani Sekhar_Raichur",2025-07-12,,11:11:19
+273968,"S.M.Mohamed idries ",idriesismail3@gmail.com,"Sales Rep",3822323,239805,"MUTHU IRULAPPAN_Dindigul",2025-07-09,,11:00:48
+273971,"Satheeshkumar M",satheeshragava2@gmail.com,"Sales Rep",3822280,239753,"SOLAIRAJA SUBRAMANI -Madurai",2025-07-09,,13:25:27
+273974,"KULDEEP KUMAR",kkuldeep5470@gmail.com,"Sales Rep",3819200,238694,"Saif SO_ABOHAR",2025-07-10,,08:05:13
+274095,"MANOJ KUMAR",mk5377564@gmail.com,"Sales Rep",3823801,238109,"Vishvendra Singh _Bhilwara",2025-07-12,,12:30:16
+274158,"Shrikant chindhu halade",shrikanthalde@gmail.com,"Sales Rep",3805592,239249,prashant_Sangamner,2025-06-25,,AB
+274159,"Utkarsh sudhir lokhande",utkarshlokhande599@gmail.com,"Sales Rep",3810824,239249,prashant_Sangamner,2025-07-01,,06:48:55
+274160,"GUNDEKARI RAHUL",gundekarirahul146@gmail.com,"Sales Rep",3823783,240481,"Vacant SO_parkala",2025-07-09,,00:00:00
+274161,"Koppula.Srinivasa Rao",srinivaskoppula34644@gmail.com,"Sales Rep",3823490,240484,anuhya_Eluru,2025-07-10,,13:06:37
+274162,Payyavula.Mallikarjuna,Payyavula6666@gmail.com,"Sales Rep",3823475,240484,anuhya_Eluru,2025-07-10,,00:05:21
+274164,"HARDEEP SINGH",dr971688@gmail.com,"Sales Rep",3821309,238149,"Vinod Kumar Chaubey_PATIALA",2025-07-10,,06:27:55
+274172,"S Bhaskara",sangalabhaskar7@gmail.com,"Sales Rep",3813510,240517,"Pamidi Jabiullah_ananthpur",2025-07-02,,11:52:25
+274223,"JATOTH VEERANNA",malothswarnabharathi@gmail.com,"Sales Rep",3823528,240486,"JARUPULA NAGARAJU _Kothagudem",2025-07-10,,13:06:13
+274227,"HARSHA D M",harshagowdadacchu@gmail.com,"Sales Rep",3822345,231722,"Pushpa B P_MYSORE",2025-07-10,,10:02:53
+274230,"Gaddam Yashwanth ",yashwanthgaddam123@gmail.com,"Sales Rep",3823723,240485,K.PRASANTH_KHAMMAM,2025-07-10,,12:48:39
+274240,"Kattoju.Sai Tarun",kottojusaitarun@gmail.com,"Sales Rep",3827047,240484,anuhya_Eluru,2025-07-10,,09:09:36
+274241,"KURUVA THIRUMALESH",thirumalesh4@gmail.com,"Sales Rep",3827433,240520,"C.MADANNA _YEMMIGANUR",2025-07-14,,12:13:02
+274243,"KATIKE FARUK",farukkatike@gmail.com,"Sales Rep",3827464,240520,"C.MADANNA _YEMMIGANUR",2025-07-14,,13:28:29
+274310,"kariyada prashanth",kariyadaprashanthreddy1234@gmail.com,"Sales Rep",3814282,240664,"AKULA ASHOK SO _Karimnagar",2025-07-04,,12:38:43
+274312,"Vipin Kumar",bipin2933@gmail.com,"Sales Rep",3826405,263438,"Manish Verma_jhansi",2025-07-16,,09:05:37
+274318,"M SUMAN",mekalasuman2093@gmail.com,"Sales Rep",3820913,262716,"Bommareddy Satyanarayana Reddy_nizamabad",2025-07-08,,11:56:58
+274325,"Yogbal Lodhi",janghelyogi@gmail.com,"Sales Rep",3827504,242411,"Lokesh Bhairam_DURG",2025-07-17,,12:10:54
+274371,"Hanumanta Gangadhar Wankhede",hanumantawankhede0099@gmail.com,"Sales Rep",3477205,246702,"ajay jadhav_Aurangabad",2025-07-18,,12:13:24
+274384,"UJJWAL GHOSH",ujjwalghosh1232001@gmail.com,"Sales Rep",3826185,241100,"Subrata Chakraborty_Burdwan",2025-07-15,,00:00:00
+274386,"RAVI RANJAN",RAVILSINGH952@GMAIL.COM,"Sales Rep",3826158,241097,"Krishna Kumar_Muzaffarpur",2025-07-14,,13:03:13
+274463,"Jadhav Dhiraj Sandip ",dhirajjadhav350@gmail.com,"Sales Rep",3823435,231724,"Shubham Shinde_NIPHAD",2025-07-11,,10:04:40
+274474,"Prasul patel",prasulppatel93@gmail.con,"Sales Rep",3830267,242406,"Sonu Dhakad_JABALPUR",2025-07-17,,09:22:05
+274481,"Kandakatla Koteshwar",kotikoti54970@gmail.com,"Sales Rep",3825904,240479,"TALARI SUBHADRA_Warangal",2025-07-14,,00:00:00
+274482,"Enkapuri Ganesh",ganeshenkpuri@gmail.com,"Sales Rep",3825868,240479,"TALARI SUBHADRA_Warangal",2025-07-14,,09:58:46
+274518,"Uppala pavan kumar",uppalapavankumar143@gmail.com,"Sales Rep",3833501,240487,"Lakshman Nallapati_TADEPALLIGUDEM",2025-06-01,,AB
+274527,"SHIJU S",shijuonline90@gmail.com,"Sales Rep",3831729,239812,"Vinu Kumar S _Pallakad",2025-07-11,,13:40:30
+274609,"Katagoni Ramesh Goud",rameshgoudkatagoni0807@gmail.com,"Sales Rep",3827157,245002,"M SUNEEL KUMAR_Gadwal",2025-06-21,,00:39:46
+274610,"Shubham Uttereshwar Swami",swamishubham5511@gmail.com,"Sales Rep",3834897,239442,"Mangesh Bhosale_Pandharpur",2025-07-22,,12:41:49
+274616,"Parvathaneni Vamsivamshi",vamshichowdary18@gmail.com,"Sales Rep",3827014,262124,"Kottinto Sitarami Reddy_NANDAYAL",2025-07-24,,14:42:37
+274658,"PREM KUMAR.S",Premmerp333@gmail.com,"Sales Rep",3837490,239765,"Sakthivel B _Kancheepuram",2025-07-24,,15:36:41
+274707,"K Santosh Patra",k.santosh.patra@gmail.com,"Sales Rep",3807920,268133,"PARAMITA PRIYADARSHANI_Jeypore",2025-07-01,,11:21:29
+274712,"Chitimi lokesh Reddy",lr2675189@gmail.com,"Sales Rep",3836692,240518,Bhanuprakash_Adoni,2025-07-25,,11:07:03
+274713,"KARRI RAMACHANDRA RAO",ramyadavrc8@gmail.com,"Sales Rep",3827095,240486,"JARUPULA NAGARAJU _Kothagudem",2025-07-28,,09:29:59
+274840,"SHANKAR KONNUR ",shankarkonnur1998@gmail.com,"Sales Rep",3826903,231721,"Mahesh R_KOLAR",2025-07-10,,14:11:52
+275219,"KESHAV KUMAR",KESHAVRAJARYA2000@GMAIL.COM,"Sales Rep",3841920,241097,"Krishna Kumar_Muzaffarpur",2025-08-01,,12:12:39
+275342,"Paluchani Sushakar Reddy",paluchanisudha123@gmail.com,"Sales Rep",3837439,262124,"Kottinto Sitarami Reddy_NANDAYAL",2025-07-24,,00:00:00
+275350,"PEDASANI HARSHAVARDAN",harshavardanp108@gmail.com,"Sales Rep",3834773,240520,"C.MADANNA _YEMMIGANUR",2025-08-05,,12:36:41
+275362,"Baliram Pandari Lambe",lambebaliram1998@gmail.com,"Sales Rep",3699330,239195,"Vikas nagre _BULDHANA",2025-03-17,,11:41:24
+275969,PANDEESWARAN.S,manopandi94@gmail.com,"Sales Rep",3849784,239805,"MUTHU IRULAPPAN_Dindigul",2025-07-09,,15:34:26
+276015,Jagadeesha.k,kjagadeesha179@gmail.com,"Sales Rep",3796284,240304,"GARAPATI RAMESH SO-Kurugodu",2025-08-12,,11:14:25
+276051,"Budhewar Sunil Dilip",Budhewarsunil@gmail.com,"Sales Rep",3699341,239175,"Shivkumar shete_Nanded",2025-08-12,,12:39:36
+276052,"Deepak Maroti Petkule",Deepakpetkule@gmail.com,"Sales Rep",3790432,239175,"Shivkumar shete_Nanded",2025-08-12,,00:00:10
+276053,"Prashant Panjabrao Toley",prashant.toley@gmail.com,"Sales Rep",3699329,238996,"Vacant PO_Karanja-Arvi",2025-08-12,,14:05:45
+276054,"Harish Shivshankar Charde",harishcharde123@gmail.com,"Sales Rep",3733159,238996,"Vacant PO_Karanja-Arvi",2025-08-12,,01:36:58
+276055,"Duyash Vilasrao Dudhe",dudheduyash123@gmail.com,"Sales Rep",2959938,238996,"Vacant PO_Karanja-Arvi",2025-08-12,,01:28:38
+276057,"Ankit Sanjayrao Sayankar",aniktsayankar@gmail.com,"Sales Rep",3754743,238962,"Kunal Gawande _Nagpur",2025-08-12,,12:23:09
+276059,"Mahesh Ganpat Bobade",maheshbobade4731@gmail.com,"Sales Rep",3710699,242911,"Akshay Ingole_Chandrapur",2025-08-12,,12:37:20
+276060,"Swapnil Mahesh Jangam",swapniljangam567@gmail.com,"Sales Rep",2617797,242911,"Akshay Ingole_Chandrapur",2025-08-12,,11:47:19
+276061,"Yogesh ambedare",yogshwarambedare6@gmail.com,"Sales Rep",3821451,242911,"Akshay Ingole_Chandrapur",2025-08-12,,13:57:03
+276062,"Shaikh Shafik vahab",shaikhshafeek313@gmail.com,"Sales Rep",3699325,239174,"Sachin Pandav_Parbhani",2025-08-12,,10:55:13
+276067,"Chetan Jadhav",jadhaocmj@gmail.com,"Sales Rep",2617761,239196,"Mahadeo Ramdas Nayse_Akola",2025-08-12,,11:39:05
+276068,"Yogesh Gulabrao Salve",yogeshsalve1707@gmail.com,"Sales Rep",3699331,263845,"Ananta Mankar_dhule",2025-08-12,,11:06:30
+276069,"Kishor Rajdhar Patil",patilkishor468@gmail.com,"Sales Rep",3732336,263845,"Ananta Mankar_dhule",2025-08-12,,10:28:06
+276071,"Ravindra choubey",Ravindrachobey123@gmail.com,"Sales Rep",3813036,239009,"Vacant PO_Paratwada",2025-08-12,,13:57:32
+276072,"Swapnil Khade",sswaapp@gmail.com,"Sales Rep",2617865,238969,"Vacant Po _Mukutban",2025-08-12,,09:37:43
+276073,"Suraj Ramesh Bajanlawar",surajbajanlawar143@gmail.com,"Sales Rep",2617925,238969,"Vacant Po _Mukutban",2025-08-12,,11:52:57
+276074,"Akash Prakash Thakare",akash9thakare@gmail.com,"Sales Rep",3752197,238969,"Vacant Po _Mukutban",2025-08-12,,12:57:50
+276075,"Ashish Chandrashekhar Chakule",ashishchakule@gmail.com,"Sales Rep",3752187,238969,"Vacant Po _Mukutban",2025-08-12,,08:39:27
+276076,"Akshay Hage",Akshu.hage3@gmail.com,"Sales Rep",2629931,239009,"Vacant PO_Paratwada",2025-08-12,,02:39:14
+276077,"Yuvraj Mulchand Chavan",chavanyuvraj957@gmail.com,"Sales Rep",3699328,239392,"sadanand kamale_JALGAON",2025-08-12,,13:30:55
+276080,"ESLAVATH SRINU",eslavathsrinu955@gmail.com,"Sales Rep",3855341,240668,"Lavudya Raju _Jadcharla",2025-08-12,,10:44:33
+276082,"Haesh Dewangan",harshdewangan1975@gmail.com,"Sales Rep",3854105,242411,"Lokesh Bhairam_DURG",2025-08-12,,02:45:16
+276084,"MANPREET SINGH",mani7770001@gmail.com,"Sales Rep",3851332,238149,"Vinod Kumar Chaubey_PATIALA",2025-08-12,,09:45:56
+276086,"KEVAL PATEL",kevalp3435@gmail.com,"Sales Rep",3852288,239261,"Manoj Singh_vadodara",2025-08-12,,00:00:00
+276087,"Sahab Uddin",sahabuddin2761567@gmail.com,"Sales Rep",3843263,241117,"Gonik Sarkar_Barpeta Road ",2025-08-12,,AB
+276219,"Tejinder singh",tejindersinghdhanoa96@gmail.com,"Sales Rep",3851351,238816,"Pranshu Verma_HOSHIARPUR",2025-08-11,,11:00:11
+276240,"GOKULSELVAM S",gokulselvams2004@gmail.com,"Sales Rep",3854180,239808,"Varshini Kumar_SALEM",2025-08-14,,12:55:00
+276296,"SASIKUMAR G",ssasi3042@gmail.com,"Sales Rep",3854200,239808,"Varshini Kumar_SALEM",2025-08-14,,07:06:54
+276458,"Arajagopal reddy",,"Sales Rep",3849874,240304,"GARAPATI RAMESH SO-Kurugodu",2025-08-05,,11:28:34
+276460,"Devareddy Rajasekhar",rajasekhardevareddy@gmail.com,"Sales Rep",3860872,261949,"Janga. Deepthi sai",2025-08-20,,12:54:15
+276471,"Santhoshgowda K M",santugowda76@gmail.com,"Sales Rep",3858993,231722,"Pushpa B P_MYSORE",2025-08-13,,10:13:46
+276472,"Suresh reddy",sureshreddy1502@gmail.com,"Sales Rep",3796655,240321,"Vinod Sankari_Shahapur",2025-06-20,,13:33:50
+276473,"SOMNATH SUBHASH JADHAV",Somnathjadhav4147@gmail.com,"Sales Rep",3852973,239440,"MAHESH JADHAV_KAVTHEMAHNKAL",2025-08-11,,08:28:06
+276475,"Anil Muralidhar Rathod",anilr3503@gmail.com,"Sales Rep",3858927,239174,"Sachin Pandav_Parbhani",2025-08-19,,14:24:30
+276622,"Md Milon Hossain",msk96476@gmail.com,"Sales Rep",,241197,"Masud Rijwan_BERHAMPORE",2025-08-04,,00:00:00
+276651,Dharmender,yadavdharmender493@gmail.com,"Sales Rep",3792929,238174,"Vishnu tiwari _Rohtak",2025-06-16,,08:06:57
+276657,"Naveen kumar",knaveen13052000@gmail.com,"Sales Rep",3818149,238174,"Vishnu tiwari _Rohtak",2025-07-08,,11:49:19
+276757,"Amit Charandas Wasnik",amitwasnikom@gmail.com,"Sales Rep",3858972,238962,"Kunal Gawande _Nagpur",2025-08-16,,10:21:50
+276761,"TAMILARASAN S",tamilarasanraak@gmail.com,"Sales Rep",3864489,239763,"JAYAKUMAR C_VILLUPURAM",2025-08-21,,12:08:20
+276778,Jitendra Singh Dhanga,jb3331559@gmail.com,"Sales Rep",3862384,238101,"naveen sanodiya_JODHPUR",2025-08-22,,17:22:35
+276805,"JIBAN KRISNO SAHA ",jibonkrisnosaha@gmail.com,"Sales Rep",3860958,241111,"Vacant SO_Jalpaiguri",2025-08-21,,14:05:05
+276825,"KANNELURU VASU",vasuk5321@gmail.com,"Sales Rep",3854234,240519,"M SUBBA REDDY_proddatur",2025-08-26,,10:09:07
+276826,"Gopal Patidar",gopalpatidar1978@gmail.com,"Sales Rep",3863577,242400,"Dinesh singh ginnare_KHARGONE",2025-08-21,,14:08:48
+277082,"SHREEPAD KASAR",shreepadkasar463@gmail.com,"Sales Rep",3861966,231719,"RAVIKUMAR BASANNA _bagalkot",2025-06-22,,09:47:51
+277414,"atul verma",atulbbk8960@gmail.com,"Sales Rep",3864541,238124,"Madan Verma_LUCKNOW",2025-08-25,,10:51:03
+277416,"Jalli Jagadeesh",jallijagadeesh7@gmail.com,"Sales Rep",3861050,262124,"Kottinto Sitarami Reddy_NANDAYAL",2025-08-14,,14:03:58
+277444,"Abhishek Kumar",abhichoudhary292@gmail.com,"Sales Rep",3872401,238139,"Sachin Kumar_MOGA",2025-09-01,,11:23:29
+277445,"PANDIAN C",psekar563@gmail.com,"Sales Rep",3875773,239753,"SOLAIRAJA SUBRAMANI -Madurai",2025-09-01,,12:35:31
+277446,"Ashutosh Mishra",ashutoshmishra945050@gmail.com,"Sales Rep",3875341,242410,"Roshani Bisen_MAHASAMUND",2025-09-02,,12:13:38
+277447,"DIGAMBAR PRAKASH KOLI",koli9172@gmail.com,"Sales Rep",3862045,239440,"MAHESH JADHAV_KAVTHEMAHNKAL",2025-09-01,,11:09:51
+277546,Rajagopalan,rajagopalrajagopal69767@gmail.com,"Sales Rep",3875401,239802,"BALAKUMARAN _THANJAVUR",2025-09-01,,13:07:43
+277567,Chandan Prakash Thete,chandanthete2000@gmail.com,"Sales Rep",3872179,231725,"Dhananjay Ushir_PIMPALGAON BASVANT",2025-09-01,,14:10:17
+277568,"Dharampal singh",chouhandharampal77@gmail.com,"Sales Rep",3849818,238829,"Ankit _Bathinda",2025-08-11,,10:48:26
+277583,"RAMU G",meetramu19@gmail.com,"Sales Rep",3875455,239805,"MUTHU IRULAPPAN_Dindigul",2025-09-01,,13:38:28
+277681,Shruti Santosh Jadhav,shrutijuricm@gmail.com,"Sales Rep",3875226,238107,"Jagat pal_Sumerpur",2025-09-04,,00:00:00
+277761,"NITHIS KUMAR",nithisrana4k@gmail.com,"Sales Rep",3880358,239805,"MUTHU IRULAPPAN_Dindigul",2025-09-01,,14:34:47
+277762,"KARNA BHANU MAHENDAR REDDY",mahireddykarna7@gmail.com,"Sales Rep",3881682,240517,"Pamidi Jabiullah_ananthpur",2025-08-18,,14:28:26
+277763,"Chayan Bag",chayan2022agri@gmail.com,"Sales Rep",3880440,241102,"Snehasish Chakraborty_East Medinipur",2025-09-04,,15:09:51
+277764,Bhimadolu.Nagendra,nagendrabhimadolu319@gmail.com,"Sales Rep",3880725,240484,anuhya_Eluru,2025-09-05,,12:18:34
+277765,"Brihma Datta",bholapandit97196@gmail.com,"Sales Rep",3872701,238127,"Rohit Gaur_Agra",2025-09-01,,11:58:07
+277772,"MOHIT SINGH",mohitsingh11119863@gmail.com,"Sales Rep",3872626,242413,Deepak_BEMETAR,2025-09-01,,13:34:41
+277793,"SARANRAJ C",saranmrbb187@gmail.com,"Sales Rep",3880627,239763,"JAYAKUMAR C_VILLUPURAM",2025-09-04,,12:13:56
+277848,"H M Vinayaka Swamy",vinayakahm99@gmail.com,"Sales Rep",3884124,244051,Vacant_Gangavathi,2025-09-11,,09:43:36
+277850,"Prashant Raghatate",pbraghatate@gmail.com,"Sales Rep",3868239,243467,"Rushikesh Mante_Wardha",2025-08-25,,15:01:22
+277851,Basavaraj,bhovidurga593@gmail.com,"Sales Rep",3833161,244051,Vacant_Gangavathi,2025-09-11,,09:26:15
+277862,Domalapalli.Nagesh,nageshd3210@gmail.com,"Sales Rep",3882776,240670,"sushma Chigurupati_Nalgonda",2025-09-10,,11:09:04
+278023,"Bahgyashri Rangnath Ugale",bhaghyashri@godrejagrovet.com,"Sales Rep",3873526,231725,"Dhananjay Ushir_PIMPALGAON BASVANT",2025-09-08,,AB
+278024,Amardeep,amardeepsa1998@gmail.com,"Sales Rep",3889234,242412,"kamal hassan_DHAMTARI",2025-09-15,,12:08:45
+278026,"Vikash Giri",Vikash642152@gmail.com,"Sales Rep",3887659,242403,"Chetan Singh_BHOPAL",2025-09-11,,01:42:09
+278027," Ravi Tiwari",rt865590@gmail.com,"Sales Rep",3889186,242406,"Sonu Dhakad_JABALPUR",2025-09-16,,07:08:56
+278058,"SARAVANAKUMAR S",sk2767943@gmail.com,"Sales Rep",3893138,239753,"SOLAIRAJA SUBRAMANI -Madurai",2025-09-17,,12:48:37
+278059,"Lina Ramesh Budhe",linabudhe7@gmail.com,"Sales Rep",3880562,239442,"Mangesh Bhosale_Pandharpur",2025-09-17,,15:18:58
+278089,"SANGITA PATRA",sangita.patra@godrejagrovet.com,"Sales Rep",3864982,241103,"Pritam Dey_Hooghly",2025-09-18,,11:59:46
+278091,"Sangamesh kohlar",mksangu34728@gmail.com,"Sales Rep",3892785,240320,"Laxman Salagar_bijapur",2025-09-16,,09:35:08
+278092,"Malakarisidda Pujari",pujarimalakarisidda@gmail.com,"Sales Rep",3892746,240320,"Laxman Salagar_bijapur",2025-09-16,,08:03:20
+278095,"Onkar Sanjay Varpe",omkarvarpe46@gmail.com,"Sales Rep",3885602,239249,prashant_Sangamner,2025-09-11,,00:00:00
+278100,"Jayesh Karamta",jayesh.karamta@godrejagrovet.com,"Sales Manager",,242322,"Nazhat kittur_CENTRAL",2025-09-17,,AB
+278101,"Nikita Jivansing Dumale",Nikita.dumale@godrejagrovet.com,"Sales Rep",3872536,239392,"sadanand kamale_JALGAON",2025-09-08,,10:38:10
+278336,JAYASURYA,jayasuryakathiravan0704@gmail.com,"Sales Rep",3897963,239804,"Senthil Kumar _Trichy",2025-09-19,,10:34:43
+278338,"Anbumani R",anbumani26052001@gmail.com,"Sales Rep",3891479,239811,"M SIVAKUMAR _Coimbatore",2025-09-18,,13:25:40
+278372,"Vishnu Balu Pawar",vishnup1256@gmail.com,"Sales Rep",,239250,"Bhushan Gaikwad_Ahmednagar",2025-09-19,,11:19:14
+278673,"DEGA MADHAN",degamadhan@gmail.com,"Sales Rep",3880741,262717,"Chaitanya Pitchala_Kaligiri",2025-09-24,,12:24:19
+278786,"PRAKASH. V",prakash.v.agrian@gmail.com,"Sales Rep",3880931,239808,"Varshini Kumar_SALEM",2025-09-08,,12:23:02
+278807,"Sunil Kumar Sharma",sksharmao422@gmail.com,"Sales Rep",3896688,238104,"shashikant maury_Jaipur",2025-09-25,,10:10:58
+278809,"ALLAMASETTI SOMASEKHAR",sekharallamsetti1@gmail.com,"Sales Rep",3903361,240487,"Lakshman Nallapati_TADEPALLIGUDEM",2025-09-20,,11:09:31
+278810,"NELAPUDI VENKATA RAMANA KUMAR",nelapudikumar535@gmail.com,"Sales Rep",3903302,240487,"Lakshman Nallapati_TADEPALLIGUDEM",2025-09-20,,00:00:00
+278822,"Ajay Dwivedi",dwivediajay9999@gmail.com,"Sales Rep",3895132,238125,"Raghvendra Singh_KANPUR",2025-09-18,,13:12:01
+278825,"PRITHIV RAJ S",prithivsekars94@gmail.com,"Sales Rep",3899506,239805,"MUTHU IRULAPPAN_Dindigul",2025-09-21,,AB
+278826,"MANI .V",manivaipuri157@gmail.com,"Sales Rep",3899566,239805,"MUTHU IRULAPPAN_Dindigul",2025-09-21,,12:14:26
+278846,"KUHAN A",kuhankuhan333@gmail.com,"Sales Rep",3897953,239804,"Senthil Kumar _Trichy",2025-09-24,,09:40:31
+278847,SUNDARAPANDI.K,sundarapandichanakya@gmail.com,"Sales Rep",3896516,239803,"Sowenderrajan L _Tirunelveli",2025-09-17,,07:25:45
+278849,"THURUMELLA HANUMANTHU RAO",honnyhanuman111@gmail.com,"Sales Rep",3895404,240513,"Bijjam Siva Krishnareddy_Addanki",2025-09-17,,15:06:03
+278851,"VENNAPUSA SRIDHAR REDDY",sridharreddyvennapusa48@gmail.com,"Sales Rep",3895443,240513,"Bijjam Siva Krishnareddy_Addanki",2025-09-17,,13:39:21
+278852,Linganagouda,linganagouda900@gmail.com,"Sales Rep",3903589,240304,"GARAPATI RAMESH SO-Kurugodu",2025-09-23,,11:33:27
+279068,"SOWMIYA KANAGARAJ",sowmiyakanagaraj06@gmail.com,"Sales Rep",3891052,239804,"Senthil Kumar _Trichy",2025-09-22,,14:01:52
+279069,"TIRUVALLAPATI VENKATA SUBBARAO",venkatsubbarao12345@gmail.com,"Sales Rep",3903402,240513,"Bijjam Siva Krishnareddy_Addanki",2025-09-25,,12:50:59
+279070,"MUBARAK BEE SILARSAHEBGARI",Shaikmubarak2057@gmail.com,"Sales Rep",3890557,240487,"Lakshman Nallapati_TADEPALLIGUDEM",2025-09-15,,04:27:21
+279071,R.MADHAVI,rmadhavi8888@gmail.com,"Sales Rep",3890551,240487,"Lakshman Nallapati_TADEPALLIGUDEM",2025-09-15,,09:55:10
+279299,SINEKA.K,sinekakannan@gmail.com,"Sales Rep",,239803,"Sowenderrajan L _Tirunelveli",2025-09-15,,10:25:06
+279381,Vacant_Wardha,vacantwardha@gavl.com,"Sales Rep",,243467,"Rushikesh Mante_Wardha",2025-10-07,,AB
+279493,"Bommi Ramakrishna",ramak08418@gmail.com,"Sales Rep",3910473,261949,"Janga. Deepthi sai",2025-10-07,,12:25:55
+279494,"V. Mahesh",maheshvattikundala35@gmail.com,"Sales Rep",3910148,261949,"Janga. Deepthi sai",2025-10-07,,16:07:01
+279495,"RABI BASAK",rabibasak054@gmail.com,"Sales Rep",3906861,241111,"Vacant SO_Jalpaiguri",2025-09-25,,11:15:19
+279547,"PRASANTH KONJETI_Khammam",PRASANTH.KONJETI@GODREJAGROVET.COM,"Sales Manager",,240482,"PARISE VENKATA CHALAPATHI RAO_Vijayawada",2025-10-09,,09:27:58
+279552,"C.DHARINATH REDDY",DNRREDDY504@GMAIL.COM,"Sales Rep",,240517,"Pamidi Jabiullah_ananthpur",2025-10-06,,13:23:44
+279553,"PARIMI ANIL KUMAR",parimianilkumar2@gmail.com,"Sales Rep",3912552,240509,"Bareddy Venkateswarlu _Guntur",2025-10-01,,01:32:48
+279561,"Gogulamudi.Venkata Subbarao",gogulamudivenkat8@gmail.com,"Sales Rep",3910111,240484,anuhya_Eluru,2025-10-08,,07:56:02
+279563,"Sai Chennakesh Yanamadala",saiyanamadala5@gmail.com,"Sales Rep",,240484,anuhya_Eluru,2025-10-09,,15:41:44
+279564,"Kastala kiran kumar",kiran.kastala@gmail.com,"Sales Rep",3910095,240510,"P Yeswanth Reddy _Sattenapalli",2025-10-08,,12:06:17
+279565,"TUMMETI SRIKANTH",srikanthtummeti0001@gmail.com,"Sales Rep",3909092,240509,"Bareddy Venkateswarlu _Guntur",2025-10-06,,12:04:03
+279579,"Galam Teja",galamteja@gmail.com,"Sales Rep",3913151,240514," BINGINIPALLI SADIK_Markapuram",2025-10-10,,16:06:26
+279580,"RAYALA VEERANJANEYULU",RAYALACHINNAANJI@GMAIL.COM,"Sales Rep",,240514," BINGINIPALLI SADIK_Markapuram",2025-10-10,,15:23:58
+279624,"Cibisuthan D",cibisuthan47@gmail.com,"Sales Rep",,239811,"M SIVAKUMAR _Coimbatore",2025-10-09,,11:39:53
+279625,"Kaushik Jeyakumar",kaushikjk14@gmail.com,"Sales Rep",3911729,239811,"M SIVAKUMAR _Coimbatore",2025-10-09,,08:14:41
+279626,"Devarakonda Manikanta",manikantadevarakonda7724@gmail.com,"Sales Rep",3912493,240514," BINGINIPALLI SADIK_Markapuram",2025-10-13,,12:42:30
+279837,"Movva Meghana",meghanamovva41@gmail.com,"Sales Rep",,240515,"KARRI VINAY KUMAR SO_tenali",2025-10-15,,10:17:25
+279996,"Balaji E",balajiebalajie410@gmail.com,"Sales Rep",,239763,"JAYAKUMAR C_VILLUPURAM",2025-10-15,,12:27:40
+279997,"KOLLIPAKULA SALAIAH",kollipakulasalaiah@gmail.com,"Sales Rep",,240512,"Atla Siva Krishnareddy_Macherla",2025-09-15,,14:55:33
+279998,"A NARAYANA REDDY",narayanareddyannapureddy55@gmail.com,"Sales Rep",,240512,"Atla Siva Krishnareddy_Macherla",2025-10-03,,11:48:04
+280001,"Suresh Simhadri",suresureshs741@gmail.com,"Sales Rep",,252737,Santosh_Sindhnur,2025-10-16,,12:05:34
+280003,"DASARI SRINIVAS",srinudasari998@gmail.com,"Sales Rep",,240513,"Bijjam Siva Krishnareddy_Addanki",2025-10-18,,00:00:00
+280224,"Narendra Reddy",narendrareddyb.2000@gmail.com,"Sales Rep",,231720,"Amit reddy_CHIKKABALLAPURA",2025-09-20,,08:19:48
+280225,"NITHIYASELVI. A",nithiyaananth20@gmail.com,"Sales Rep",,239763,"JAYAKUMAR C_VILLUPURAM",2025-07-17,,00:00:44
+280226,"KAVIYARASAN RAJKUMAR",kuttykavi255@gmail.com,"Sales Rep",,239808,"Varshini Kumar_SALEM",2025-10-20,,08:42:55
+280254,"Sannilla Naresh",sannillanaresh@gmail.com,"Sales Rep",,240479,"TALARI SUBHADRA_Warangal",2025-10-24,,13:43:21
+280323,"RAMESH ALAGUMUTHU",rameshalagumuthu1@gmail.com,"Sales Rep",,239803,"Sowenderrajan L _Tirunelveli",2025-10-27,,14:42:14
+280324,VIGNESH,vj578747@gmail.com,"Sales Rep",,239803,"Sowenderrajan L _Tirunelveli",2025-10-27,,00:00:00
+280339,"Abhinash Kumar",abhilashkumar290@gmail.com,"Sales Rep",,240480,"Karru Shiroj Kumar_Badrachalam",2025-10-20,,12:22:22
+280351,"RAJIV KUMAR",rboora81@gmail.com,"Sales Rep",,238170,"Kuldeep Godara  _Hissar",2025-10-20,,AB
+280352,"RAM NIWAS",ramniwasbishnoi323@gmail.com,"Sales Rep",,238170,"Kuldeep Godara  _Hissar",2025-10-20,,10:17:32
+280354,"Sheggari Narsimulu",narsimulushggari01@gmail.com,"Sales Rep",,240667,"Sivatejswar reddy _Gajwel",2025-10-27,,13:33:52
+280453,"B CHOWDAPPA",beerechowdappa880@gmail.com,"Sales Rep",,240517,"Pamidi Jabiullah_ananthpur",2025-10-20,,00:00:00
+280454,"VINOTHKUMAR R",drvinoth48@gmail.com,"Sales Rep",,239763,"JAYAKUMAR C_VILLUPURAM",2025-10-29,,14:05:13
+280455,"CHADIPIRALLA MUNIREDDYGARI VEERA REDDY",cveerareddy111@gmail.com,"Sales Rep",,240519,"M SUBBA REDDY_proddatur",2025-10-21,,12:09:48
+280556,"Anupama Chaturvedi",anupama.chaturvedi@godrejagrovet.com,"Sales Rep",,241095,"Vacant SO _Purnia",2025-10-06,,10:18:38
+280557,"Vinod Sugdeo Wankhede",wvinod28@gmail.com,"Sales Rep",,239176,"Aniket Sarnaik_JALNA",2025-10-06,,02:09:22
+280598,"Talasila Venkata Sai Krishna",talasilasai82@gmail.com,"Sales Rep",,240515,"KARRI VINAY KUMAR SO_tenali",2025-11-03,,16:08:22
+280599,"Satyam Parashar",satyamparasharjts@gmail.com,"Sales Rep",,242401,"Manoj Chouhan_KHANDWA",2025-10-29,,12:59:43
+280759,"Ragu S",raguvenn004@gmail.com,"Sales Rep",,239791,Vetrivel.G_ERODE,2025-11-08,,14:05:49
+280760,"BILTU ACHARYA",biltuacharya88@gmail.com,"Sales Rep",,241099,"Sribash Kumar Mallick_krishnanagar",2025-11-05,,AB
+280886,"Sarita Patel",sarita.patel@godrejagrovet.com,"Sales Rep",3919244,239261,"Manoj Singh_vadodara",2025-10-27,,11:49:46
+280921,"RAHUL GADHAWAL",rahulghdhwal93@gmail.com,"Sales Rep",3934887,238170,"Kuldeep Godara  _Hissar",2025-11-06,,05:32:02
+280922,"RAJ KUMAR",rajlamboria777@gmail.com,"Sales Rep",3934904,238170,"Kuldeep Godara  _Hissar",2025-11-07,,05:50:04
+281040,"Shaik Pondugula Anwar",annuanwar40205@gmail.com,"Sales Rep",3936828,240485,K.PRASANTH_KHAMMAM,2025-11-10,,07:18:52
+281041,"GANDHI T",gandhithiru47@gmail.com,"Sales Rep",3940618,239763,"JAYAKUMAR C_VILLUPURAM",2025-11-13,,12:10:10
+281042,JEGADEESAN M,jegadeesan1062000@gmail.com,"Sales Rep",3940650,239765,"Sakthivel B _Kancheepuram",2025-11-13,,13:04:15
+281127,"CHALLA KOTESWARA RAO",koteswaraochalla27@gmail.com,"Sales Rep",3934965,240512,"Atla Siva Krishnareddy_Macherla",2025-11-06,,11:27:54
+281128,Ayushi,ayushi.1@godrejagrovet.com,"Sales Rep",3932647,242396,"CHANDRAPAL SHEKHAWAT_INDORE",2025-11-10,,08:42:46
+281187,"Vivek Dhakad",Vivekdhakad210@gmail.com,"Sales Rep",3944878,242404,"Pankaj Singh Bisht_SHIVPURI",2025-11-18,,11:29:52
+281280,"KANKANALA BALAVEERAIAH",kankanalabalaveeraiah69@gmail.com,"Sales Rep",3938302,262716,"Bommareddy Satyanarayana Reddy_nizamabad",2025-11-10,,AB
+281283,KUNIPOGU PENCHALA NARSIMHULU,mrmajunumrmajunu@gmail.com,"Sales Rep",3945447,262717,"Chaitanya Pitchala_Kaligiri",2025-11-20,,10:31:04
+281284,"Chinta Anjaneyulu",9908214400a@gmail.com,"Sales Rep",3941494,240511,"Kishore Reddy _Piduguralla",2025-11-17,,12:37:58
+281285,"YAMARTHI SIVA SAI",yamarthivasai36@gmail.com,"Sales Rep",3944430,240511,"Kishore Reddy _Piduguralla",2025-11-20,,12:35:33
+281325,"Sudhanshu Asati",sudhanshuasati98@gmail.com,"Sales Rep",3948646,242405,"Soumya Sawaran_SAGAR",2025-11-19,,00:00:03
+281511,"B Srinu",bolleddusrinu9@gmail.com,"Sales Rep",3950758,240485,K.PRASANTH_KHAMMAM,2025-11-24,,13:06:54
+281528,"Ankit kumar Patel",ankitkumarpatel73@gmail.com,"Sales Rep",,242412,"kamal hassan_DHAMTARI",2025-11-24,,AB
+281561,"Loganathan T",Logumani0204@gmail.com,"Sales Rep",,239809,"BALACHANDAR B_DHARMAPURI",2025-11-24,,09:37:10
+281670,Sundarlal,Sundardangode@gmail.com,"Sales Rep",,242401,"Manoj Chouhan_KHANDWA",2025-11-27,,09:41:18
+281671,"MANDA SATEESH KUMAR",msateeshkumar7690@gmail.com,"Sales Rep",,262717,"Chaitanya Pitchala_Kaligiri",2025-11-27,,14:36:30
+281780,"Vaibhav Vaman Mohite",mohitevaibhav153@gmail.com,"Sales Rep",,239392,"sadanand kamale_JALGAON",2025-11-06,,07:30:06
+281781,"Godugu Srinivasulu",gsr7710@gmail.com,"Sales Rep",,240514," BINGINIPALLI SADIK_Markapuram",2025-11-28,,13:58:12
+281862,"PRASHANS DILIPBHAI KARABNGIYA",prashanskarangiya372@gmail.com,"Sales Rep",,239267,"Ashishkumar B. Bhanderi _Jamnagar",2025-11-25,,00:00:00
+281863,NAKUMUMANG,umangakum28425@gmail.com,"Sales Rep",,239267,"Ashishkumar B. Bhanderi _Jamnagar",2025-11-25,,AB
+281884,"THONDEPU NANDINI",nandini.thondepu@godrejagrovet.com,"Sales Rep",,240487,"Lakshman Nallapati_TADEPALLIGUDEM",2025-11-17,,02:27:11
+281885,"NIKITA MANCHALWAR",nikita.manchalwar@godrejagrovet.com,"Sales Rep",,240487,"Lakshman Nallapati_TADEPALLIGUDEM",2025-11-17,,02:59:32
+281890,"LOKANTHU LOKESH Vacant SO_Vijayawada",LANKOTHU.LOKESH@GODREJAGROVET.COM,"Territory Manager",,279547,"PRASANTH KONJETI_Khammam",2025-12-03,,AB
+281891,"Harshitha Agnes",harshita.agnes@godrejagrovet.com,"Sales Rep",,281890,"LOKANTHU LOKESH Vacant SO_Vijayawada",2025-10-10,,07:46:48
+281909,karamvir,,"Sales Rep",,238174,"Vishnu tiwari _Rohtak",2025-12-03,,10:03:21
+281985,"Sayananda sahu",jitusahu92@gmail.com,"Sales Rep",,242409,"DEBADATTA SAMAL_BARGARH",2025-11-22,,00:00:00
+282110,"Karthik Darepgol",kd.dharepgol98@gmail.com,"Sales Rep",,240323,"Basavaraj Biradar _GULBERGA",2025-12-09,,10:40:48
+282244,"Kapil poonia",,"Sales Rep",,238171,"ANIL KUMAR _Fatehabad",2025-12-10,,09:14:25
+282341,"Uma Jyoti",uma.jyoti@godrejagrovet.com,"Sales Rep",,241096,"Vacant D16_Samastipur",2025-12-13,,01:17:14
+282379,"GARAPATI RAMESH_Bellary & Gangavati",garapati.ramesh@godrejagrovet.com,"Sales Manager",,240300,"Yankappa - Bellary",2025-12-15,,13:03:58
+282422,"shaik masthan velli ",shaikkhaja92317@gmail.com,"Sales Rep",,240515,"KARRI VINAY KUMAR SO_tenali",2025-12-16,,15:20:33
+282469,"Dilip Das",dasd41378@gmail.com,"Sales Rep",,241102,"Snehasish Chakraborty_East Medinipur",2025-12-17,,08:12:29
+282500,"Saif _ABOHAR",saif.01@godrejagrovet.com,"Sales Manager",,239596,"Vacant TL_Punjab",2025-12-17,,06:28:10
+282617,"Dade ranga suresh",sureshdade@gmail.com,"Sales Rep",,240515,"KARRI VINAY KUMAR SO_tenali",2025-12-23,,10:44:14
+282721,"PARMAR PRADIPKUMAR ",pradipsinh2098@gmail.com,"Sales Rep",,239261,"Manoj Singh_vadodara",2025-12-29,,00:19:25
+282725,"solanki kashish",kashishsolanki20122002@gmail.com,"Sales Rep",,239263,"mahek amreliya_Rajkot",2025-12-29,,10:40:50
+282726,"Nandana Nair",nnair8238@gmail.com,"Sales Rep",,239267,"Ashishkumar B. Bhanderi _Jamnagar",2025-12-29,,00:00:00
+282727,"Birari Avani",avanibirari@gmail.com,"Sales Rep",,239268,"Karan Hadvani_Junagdh",2025-12-29,,09:34:02
+282888,"Ramesh Kumar",rameshlegha00@gmail.com,"Sales Rep",,238101,"naveen sanodiya_JODHPUR",2026-01-06,,09:11:27
+282891,"Harshit Gurjar",Gurjarmadhav043@gmail.com,"Sales Rep",,242404,"Pankaj Singh Bisht_SHIVPURI",2026-01-06,,AB

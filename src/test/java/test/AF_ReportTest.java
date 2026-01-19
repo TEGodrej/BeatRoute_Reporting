@@ -137,10 +137,10 @@ public class AF_ReportTest extends BaseClassAF{
             config.put("StrictHostKeyChecking", "no");
             session.setConfig(config);
 
-            session.connect(15000); // 15 sec timeout
+            session.connect(90000); // 90 sec timeout
 
             channel = (ChannelSftp) session.openChannel("sftp");
-            channel.connect(15000);
+            channel.connect(90000);
 
             channel.cd(remoteFilePath);
             channel.put(localFilePath, renamedFile.getName());

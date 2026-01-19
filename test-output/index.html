@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\testing.engineer\AppData\Local\Temp\testng-eclipse-1611452333\testng-customsuite.xml</span>
+                    <span>C:\Users\testing.engineer\AppData\Local\Temp\testng-eclipse--516963867\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.AF_UserListReportTest" class="method navigator-link" hash-for-method="uploadToFTP_AF_User">uploadToFTP_AF_User</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="test.AttendanceReport_AF" class="method navigator-link" hash-for-method="upload_AF_AdherenceReport">upload_AF_AdherenceReport</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -121,16 +121,16 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">test.AF_UserListReportTest</span>
+              <span class="class-name">test.AttendanceReport_AF</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="uploadToFTP_AF_User">
-                  </a> <!-- uploadToFTP_AF_User -->
-                  <span class="method-name">uploadToFTP_AF_User</span>
+                  <a name="upload_AF_AdherenceReport">
+                  </a> <!-- upload_AF_AdherenceReport -->
+                  <span class="method-name">upload_AF_AdherenceReport</span>
                   <div class="stack-trace">java.lang.RuntimeException: SFTP upload failed
-	at test.AF_UserListReportTest.uploadToFTP_AF_User(AF_UserListReportTest.java:209)
+	at test.AttendanceReport_AF.upload_AF_AdherenceReport(AttendanceReport_AF.java:149)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -160,7 +160,7 @@
 Caused by: com.jcraft.jsch.JSchException: java.net.ConnectException: Connection timed out: connect
 	at com.jcraft.jsch.Util.createSocket(Util.java:394)
 	at com.jcraft.jsch.Session.connect(Session.java:215)
-	at test.AF_UserListReportTest.uploadToFTP_AF_User(AF_UserListReportTest.java:198)
+	at test.AttendanceReport_AF.upload_AF_AdherenceReport(AttendanceReport_AF.java:138)
 	... 26 more
 Caused by: java.net.ConnectException: Connection timed out: connect
 	at java.base/sun.nio.ch.Net.connect0(Native Method)
@@ -183,7 +183,7 @@ Caused by: java.net.ConnectException: Connection timed out: connect
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\testing.engineer\AppData\Local\Temp\testng-eclipse-1611452333\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\testing.engineer\AppData\Local\Temp\testng-eclipse--516963867\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -192,11 +192,11 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;test.AF_UserListReportTest&quot;&gt;
+      &lt;class name=&quot;test.AttendanceReport_AF&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;uploadToFTP_AF_User&quot;/&gt;
+          &lt;include name=&quot;upload_AF_AdherenceReport&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- test.AF_UserListReportTest --&gt;
+      &lt;/class&gt; &lt;!-- test.AttendanceReport_AF --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -238,9 +238,9 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'uploadToFTP_AF_User')
-data.setCell(0, 2, 'test.AF_UserListReportTest')
-data.setCell(0, 3, 24104);
+data.setCell(0, 1, 'upload_AF_AdherenceReport')
+data.setCell(0, 2, 'test.AttendanceReport_AF')
+data.setCell(0, 3, 24082);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -264,9 +264,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">test.AF_UserListReportTest</span>
+              <span class="ignored-class-name">test.AttendanceReport_AF</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">AF_userListReport</span>
+                <span class="ignored-method-name">attendanceReport_AF</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -278,7 +278,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test.AF_UserListReportTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test.AttendanceReport_AF</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Login</span>
                 <span class="method-start">0 ms</span>
@@ -286,12 +286,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">uploadToFTP_AF_User</span>
-                <span class="method-start">2940 ms</span>
+                <span class="method-name">upload_AF_AdherenceReport</span>
+                <span class="method-start">6123 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeInstance</span>
-                <span class="method-start">27048 ms</span>
+                <span class="method-start">30212 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -52,7 +52,7 @@ import GenericUtility.BaseClass_CPB;
 
 	    }
 	    
-	    @Test //(dependsOnMethods = {"reportGeneration"})
+	    @Test (dependsOnMethods = {"reportGeneration"})
 	    public void UploadToFTP() {
 	    	// Get workspace path dynamically (works for both local and Jenkins)
 	    	String workspacePath = System.getProperty("user.dir");

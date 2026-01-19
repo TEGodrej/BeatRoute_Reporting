@@ -54,17 +54,17 @@ public class CPB_UserListReportTest extends BaseClassCPB_UserList{
     	File folder = new File(localFolder);
 
     	// Step 1: Get all UserList files (downloaded by driver)
-    	File[] UserListFiles = folder.listFiles((dir, name) -> name.startsWith("UserList"));
+    	File[] tmpFiles = folder.listFiles((dir, name) -> name.endsWith(".csv"));
 
     	// Step 2: Check if any UserList files exist
-    	if (UserListFiles == null || UserListFiles.length == 0) {
+    	if (tmpFiles == null || tmpFiles.length == 0) {
     	    System.out.println(" No UserList file found in folder: " + localFolder);
     	    return;
     	}
 
     	// Step 3: Pick the most recent .UserList file
-    	File latestTmpFile = UserListFiles[0];
-    	for (File f : UserListFiles) {
+    	File latestTmpFile = tmpFiles[0];
+    	for (File f : tmpFiles) {
     	    if (f.lastModified() > latestTmpFile.lastModified()) {
     	        latestTmpFile = f;
     	    }

@@ -1,0 +1,598 @@
+beatroute_id,name,email_id,role,employee_role_id,reports_to_br_id,reports_to_name,date_of_joining,date_of_leaving,1/6/2026
+233569,"A Y Rajendra",ay.rajendra@godrejagrovet.com,Manager,,,,2023-09-05,,AB
+234168,"Pradeep Kumar Hegde",pk.hegde@godrejagrovet.com,Manager,,270326,"RME South",2023-09-25,,AB
+234176,"Direct Reports Chocklingam",direct_reportchocklingam@godrejagrovet.com,"Team Leader",,234880,"Chocklingam S",2023-09-25,,AB
+234178,"Vacant_Prashant Arvind Phoujadar",vacantprashantphoujdar@gmail.com,"Team Leader",,280723,"SADUM KAVITHA",2023-09-25,,AB
+234181,"Y. Ramarao",y.ramarao@godrejagrovet.com,"Sales Rep",,239020,"Nageshwararao Posina",2023-09-25,,08:35:33
+234187,"Manjesh Nr",manjesh.nr@godrejagrovet.com,"Sales Rep",708216,234178,"Vacant_Prashant Arvind Phoujadar",2023-09-25,,09:11:13
+234188,"Vacant - Joseph Robert",dummyjoseph@gmai.com,"Sales Rep",717753,234178,"Vacant_Prashant Arvind Phoujadar",2023-09-25,,AB
+234189,"H M Ravish Math",ravish.math@godrejagrovet.com,"Sales Rep",G102865,234178,"Vacant_Prashant Arvind Phoujadar",2023-09-25,,AB
+234191,"Rajesh D Md",rajesh.md@godrejagrovet.com,"Sales Rep",703872,234176,"Direct Reports Chocklingam",2023-09-25,,09:43:35
+234192,"A Arockia doss",a.arockiadoss@godrejagrovet.com,"Sales Rep",,234881,"Gopalakrishnan K",2023-09-25,,13:10:12
+234194,"S Anbarasan",anbarasan.s@godrejagrovet.com,"Sales Rep",,234881,"Gopalakrishnan K",2023-09-25,,07:28:25
+234196,"Nidhin Surendran",nidhin.surendran@godrejagrovet.com,"Sales Rep",718045,234176,"Direct Reports Chocklingam",2023-09-25,,12:04:29
+234198,"IC_Gopalakrishnan K",ic_gopalakrishnan.k@godrejagrovet.com,"Sales Rep",,234881,"Gopalakrishnan K",2023-09-25,,AB
+234200,"Muneer M",muneer.m@godrejagrovet.com,"Sales Rep",G104420,234176,"Direct Reports Chocklingam",2023-09-25,,04:33:42
+234238,"Rahul Girisan",rahul.girisan@godrejagrovet.com,Manager,G10003,240773,"VACANT_RME Central",2024-07-04,,AB
+234247,"Deep Chandra Verma",deep.verma@godrejagrovet.com,"Sales Rep",8102802,234321,"Direct Reports - Mukund",2023-09-26,,13:58:10
+234263,"Mukund Prachand",mukund.prachand@godrejagrovet.com,Manager,710418,255547,"Dr Praveen Nage",2023-09-26,,13:46:12
+234321,"Direct Reports - Mukund",drm@jkgg.com,"Team Leader",,234263,"Mukund Prachand",2023-09-27,,AB
+234322,"IC_Mukund Prachand",ic_mukund@kshbfs.com,"Sales Rep",,234321,"Direct Reports - Mukund",2023-09-27,,AB
+234324,"Sandeep Agrahari",sandeep.agrahari@godrejagrovet.com,"Sales Rep",8103138,234321,"Direct Reports - Mukund",2023-09-27,,05:00:32
+234326,"Jayant Saini",jayant.saini@godrejagrovet.com,"Sales Rep",716776,234321,"Direct Reports - Mukund",2023-09-27,,08:31:55
+234327,"Asit Kumar Das",asitkumar.das@godrejagrovet.com,"Sales Rep",717396,234321,"Direct Reports - Mukund",2023-09-27,,04:08:05
+234329,"Direct Reports - Akhilesh Rajput",directreportsakhilesh@gmail.com,"Team Leader",,240337,"Akhilesh Rajput",2023-09-27,,AB
+234335,"Awanish Shukla",awnish.shukla@godrejagrovet.com,"Sales Rep",8103180,280230,"Amit Singh",2023-09-27,,09:44:25
+234336,"Vacant_Varanasi_Tapan Singh",vacanttapan@gmail.com,"Sales Rep",,280230,"Amit Singh",2023-09-27,,AB
+234341,"Saiyad Badshah",saiyad.badshah@godrejagrovet.com,"Sales Rep",8105301,253350,"Direct Reports to Sushil Kakkar",2023-09-27,,10:58:27
+234343,"Prodyut Pratim Baruah",prodyot.baruah@godrejagrovet.com,Manager,702594,240772,"RME East",2023-09-27,,AB
+234344,"Amulya Tanwar",amulya.tanwar@godrejagrovet.com,Manager,702957,240771,"RME North",2023-09-27,,AB
+234345,"Direct Reports - Amulya",dra@kfsh.com,"Team Leader",,255541,"Dr. Gaurav Singh",2023-09-27,,AB
+234346,"Mithilesh Tiwari",mithilesh.tiwari@godrejagrovet.com,"Team Leader",702443,255542,"Vacant_Dr. Aashish kumar",2023-09-27,,09:30:50
+234348,"Pritam Singh",singh.pritam@godrejagrovet.com,"Team Leader",703070,255542,"Vacant_Dr. Aashish kumar",2023-09-27,,09:10:30
+234349,"Satish Kumar",kumar.satish@godrejagrovet.com,"Team Leader",GFF1072,277686,"Dr. Arman Ahmad",2023-09-27,,10:58:33
+234350,"Ramakanta Behera",ramakanta.behera@godrejagrovet.com,"Team Leader",G102165,255544,"Dr. Mizanur Rahman Molla",2023-09-27,,11:41:13
+234352,IC_Mithilesh,ic_mithilesh@kjfvfdsl.com,"Sales Rep",,234346,"Mithilesh Tiwari",2023-09-27,,AB
+234353,"Satyajeet Choudhary",satyajeet.choudhary@godrejagrovet.com,"Sales Rep",271269,234346,"Mithilesh Tiwari",2006-04-01,,07:49:05
+234354,"Sheikh Mohiuddin Ali",sheikhmohiuddin.ali@godrejagrovet.com,"Sales Rep",711513,234346,"Mithilesh Tiwari",2016-09-26,,10:26:48
+234355,IC_Pritam,ic_pritam@kfjnvfdl.com,"Sales Rep",,234348,"Pritam Singh",2023-09-27,,AB
+234356,"Asheesh Kumar",asheesh.kumar@godrejagrovet.com,"Sales Rep",G103546,234348,"Pritam Singh",2023-01-11,,11:11:37
+234357,"Narayan Prasad Pradhan",narayan.pradhan@godrejagrovet.com,"Sales Rep",712753,234348,"Pritam Singh",2017-08-17,,09:50:57
+234358,IC_Satish,ic_satish@kjfdd.com,"Sales Rep",,234349,"Satish Kumar",2023-09-27,,AB
+234359,"Nitesh Thakur",nitesh.thakur@godrejagrovet.com,"Sales Rep",706841,234349,"Satish Kumar",2013-04-08,,09:45:16
+234360,"Alok Ranjan",alok.ranjan@godrejagrovet.com,"Sales Rep",713548,234349,"Satish Kumar",2018-04-03,,10:54:40
+234361,"Bhartendu Singh",bhartendu.singh@godrejagrovet.com,"Sales Rep",717968,234349,"Satish Kumar",2021-01-04,,10:34:08
+234362,"Vishwnath Gupta",vishwnath.gupta@godrejagrovet.com,"Sales Rep",708836,234345,"Direct Reports - Amulya",2015-03-16,,SL
+234363,"Md Shahzad Alam",mdshahzad.alam@godrejagrovet.com,"Sales Rep",714979,234345,"Direct Reports - Amulya",2018-12-06,,10:01:28
+234364,"Bapuji Malik",bapuji.malik@godrejagrovet.com,"Sales Rep",257284,234350,"Ramakanta Behera",2000-06-01,,11:04:55
+234365,"Prakash Chandra Rout",prakash.rout@godrejagrovet.com,"Sales Rep",703343,234350,"Ramakanta Behera",2009-11-16,,11:45:55
+234367,"Syam Maharana",s.maharana@godrejagrovet.com,"Sales Rep",K00257,234350,"Ramakanta Behera",2006-08-01,,AB
+234369,"Direct Reports - Prodyot",drp@kjfdvfd.com,"Team Leader",,267983,"Ankur Protim Borah",2023-09-27,,AB
+234371,"Mubin Ahmed",mubin.ahmed@godrejagrovet.com,"Team Leader",706471,267983,"Ankur Protim Borah",2023-09-27,,08:55:03
+234372,"Ashit Dutta",ashit.dutta@godrejagrovet.com,"Team Leader",706962,267983,"Ankur Protim Borah",2023-09-27,,11:12:09
+234374,"Direct Reports to Diganta Kalita",abcdef@gmail.com,"Team Leader",,251586,"Diganta Kalita",2023-09-27,,AB
+234376,"IC_Sajal Karmakar",dummysajal@gmail.com,"Sales Rep",,279305,"Sajal Karmakar",2013-12-17,,AB
+234377,"IC_Prasanta Changmai",dgwfwf@efwfjhrw.com,"Sales Rep",,249402,"Prasanta Changmai",2016-10-25,,AB
+234378,"Ruusalie Nakhro",ruusalie.nakhro@godrejagrovet.com,"Sales Rep",714108,234369,"Direct Reports - Prodyot",2018-06-25,,09:02:19
+234380,IC_Mubin,ic_mubin@dskjvs.com,"Sales Rep",,234371,"Mubin Ahmed",2023-09-27,,AB
+234381,"Shyam Ningthoujam",shyam.ningthoujam@godrejagrovet.com,"Sales Rep",711233,234371,"Mubin Ahmed",2016-07-20,,11:33:00
+234384,"Deepjyoti Borah",deepjyoti.borah@godrejagrovet.com,"Sales Rep",G101038,234372,"Ashit Dutta",2021-11-08,,08:57:06
+234385,IC_Diganta,ic_diganta@skkjf.com,"Sales Rep",,234374,"Direct Reports to Diganta Kalita",2023-09-27,,AB
+234386,"Goutam Kalita",goutam.kalita@godrejagrovet.com,"Sales Rep",711049,234374,"Direct Reports to Diganta Kalita",2016-06-01,,13:10:47
+234387,"Milan Mahajan",milan.mahajan@godrejagrovet.com,"Sales Rep",716948,234374,"Direct Reports to Diganta Kalita",2020-01-21,,10:28:03
+234388,"IC_Pradyumna Pathak",aabbcc@gmail.com,"Sales Rep",,251590,"Pradyumna Pathak",2020-09-01,,AB
+234445,"Dipti Kumar",dipti.kumar@godrejagrovet.com,"Sales Rep",702893,240008,"Avilash Chowdhury",2023-09-29,,11:03:11
+234446,"Bijay Sharma",bijay.sharma@godrejagrovet.com,"Sales Rep",713035,240008,"Avilash Chowdhury",2023-09-29,,06:43:52
+234449,"Sujit Mukherjee",sujit.mukherjee@godrejagrovet.com,"Sales Rep",G100593,240008,"Avilash Chowdhury",2023-09-29,,13:56:30
+234456,"IC_Ashit Dutta",ic.ashit.dutta@godrejagrovet.com,"Sales Rep",,234372,"Ashit Dutta",2023-09-29,,AB
+234528,"Abhimanyu M Dhole",am.dhole@godrejagrovet.com,Manager,257143,240775,"RME West",2023-10-03,,AB
+234529,"Direct Reports- Maheshkumar N Kansagara",khfzjhf@zd.com,"Team Leader",371062,245476,"PF- Mahesh Kansagra",2023-10-03,,AB
+234531,"Bipin Patanwadiya",bipin.patanwadiya@godrejagrovet.com,"Sales Rep",G113733,245477,"J P. Godhat",2023-10-03,,09:02:01
+234532,"Lokendra Singh Chauhan",lokendra.chauhan@godrejagrovet.com,"Sales Rep",705422,234818,"PF-Nanasaheb Laxman Kote",2023-10-03,,09:59:30
+234534,"Ketan Patel",ketan.patel@godrejagrovet.com,"Sales Rep",GFF1385,245477,"J P. Godhat",2023-10-03,,10:06:38
+234535,"Mehul Prajapati",mehulkumar.prajapati@godrejagrovet.com,"Sales Rep",711034,245477,"J P. Godhat",2023-10-03,,08:36:36
+234539,"Direct Reports - PF-Sambhaji C Tari",dummysambhaji@gmail.com,"Team Leader",,263180,"PF-Sambhaji C Tari",2023-10-03,,AB
+234540,"Manik Kamble",manik.kamble@godrejagrovet.com,"Sales Rep",704375,262889,"Direct Reports - Narsing Pawale",2023-10-03,,12:41:55
+234541,"B M Dawale",bm.dawale@godrejagrovet.com,"Sales Rep",258021,262889,"Direct Reports - Narsing Pawale",2023-10-03,,05:19:36
+234543,"Tanaji Mortale",tanaji.mortale@godrejagrovet.com,"Sales Rep",708175,262890,"Mangesh Kolge",2023-10-03,,06:55:25
+234544,"Devidas Kahandal",devidas.kahandal@godrejagrovet.com,"Sales Rep",711658,262888,"Sunil Bhamare",2023-10-03,,09:44:05
+234546,"Rahul Bhaladhare",r.bhaladhare@godrejagrovet.com,"Sales Rep",257366,262888,"Sunil Bhamare",2023-10-03,,AB
+234547,"IC_Sunil Bhamare",dummysunilbhamare@gmail.com,"Sales Rep",,262888,"Sunil Bhamare",2023-10-03,,AB
+234813,"Sushim Sonawane",sushim.sonawane@godrejagrovet.com,"Sales Rep",706387,262889,"Direct Reports - Narsing Pawale",2023-10-10,,07:17:49
+234814,"IC_Mangesh Kolge",dummymangesh@gmail.com,"Sales Rep",,262890,"Mangesh Kolge",2023-10-10,,AB
+234816,"Direct Report to PF-Raj Kumar Singh Bhullar  ",lke@jfefj.com,"Team Leader",,249240,"PF-Raj Kumar Singh Bhullar",2000-05-02,,AB
+234817,"PF-Rakesh Sharma",sharma.rakesh@godrejagrovet.com,"Team Leader",GFF221,255447,"Dr Ouwesh Ansari",1992-12-14,,10:49:50
+234818,"PF-Nanasaheb Laxman Kote",nana.kote@godrejagrovet.com,"Team Leader",GFF270,255444,"Dr Vilas Pal",2023-10-10,,13:27:38
+234820,IC_RAVIKANT,slskwdj@dkd.com,"Sales Rep",,249241,RAVIKANT,2005-08-01,,AB
+234821,"RAMESH CHAND VERMA",ramesh.verma@godrejagrovet.com,"Sales Rep",701390,234816,"Direct Report to PF-Raj Kumar Singh Bhullar  ",2007-07-13,,12:58:29
+234823,"SHAILENDER SAINI",shailender.saini@godrejagrovet.com,"Sales Rep",702264,234816,"Direct Report to PF-Raj Kumar Singh Bhullar  ",2008-05-05,,10:02:23
+234824,"VIKRAM SINGH",vikram.lalotra@godrejagrovet.com,"Sales Rep",363466,249241,RAVIKANT,2008-04-01,,09:55:45
+234825,"IC_Arun Sharma",dummyarunsharma@gmail.com,"Sales Rep",,253951,"Arun Sharma",2004-06-23,,AB
+234826,POONAM,poonam.sagar@godrejagrovet.com,"Sales Rep",714426,234816,"Direct Report to PF-Raj Kumar Singh Bhullar  ",2018-08-13,,07:42:41
+234828,"KRISHAN DEV",krishan.dev@godrejagrovet.com,"Sales Rep",704470,253951,"Arun Sharma",2011-05-19,,10:01:06
+234829,"Ashish Garg",ashish.garg@godrejagrovet.com,"Sales Rep",707185,234816,"Direct Report to PF-Raj Kumar Singh Bhullar  ",2014-01-01,,06:04:38
+234830,"Dharampal Asija",dp.asija@godrejagrovet.com,"Sales Rep",361126,242679,"Direct Reports CF-Harjeet Singh",1997-01-10,,11:28:51
+234831,"Dilbagh Singh",dilbagh.singh@godrejagrovet.com,"Sales Rep",364330,234817,"PF-Rakesh Sharma",2007-04-24,,11:35:51
+234833,"SATPAL BEWAL",satpal.bewal@godrejagrovet.com,"Sales Rep",708472,234817,"PF-Rakesh Sharma",2014-12-10,,07:17:39
+234834,"Goga Ram Kumhar",gogaram.k@godrejagrovet.com,"Sales Rep",703640,234818,"PF-Nanasaheb Laxman Kote",2010-03-13,,11:03:46
+234837,"HARSA RAM SAINI",harsa.saini@godrejagrovet.com,"Sales Rep",713699,234818,"PF-Nanasaheb Laxman Kote",2018-04-07,,10:41:16
+234880,"Chocklingam S",chockalingam.s@godrejagrovet.com,Manager,G10000,255452,"Anoop Kumar T",2023-10-11,,11:14:34
+234881,"Gopalakrishnan K",gopalakrishnan.k@godrejagrovet.com,"Team Leader",G100477,234880,"Chocklingam S",2023-10-11,,10:24:03
+235608,"Sehid Ahmed",sehid.ahmed@godrejagrovet.com,"Sales Rep",713904,234374,"Direct Reports to Diganta Kalita",2018-06-01,,10:15:17
+238145,"Megha S",s.megha@godrejagrovet.com,"Sales Rep",G106110,234176,"Direct Reports Chocklingam",2023-12-14,,06:07:42
+239020,"Nageshwararao Posina",nageswararao.posina@godrejagrovet.com,"Team Leader",G106109,263180,"PF-Sambhaji C Tari",2024-01-10,,15:44:34
+239896,"Vacant_ TL WUP_CF - Amit Kumar",vacantamitkumar@gmail.com,"Team Leader",,253945,"Jitendra Pal Singh",2024-01-31,,AB
+239899,"CF - Bhoopendra Singh",bhoopendra.singh@godrejagrovet.com,"Team Leader",715544,253945,"Jitendra Pal Singh",2024-01-31,,00:00:04
+239900,"CF - Dinesh Kumar Sharma",d.sharma@godrejagrovet.com,"Team Leader",362329,253945,"Jitendra Pal Singh",2024-01-31,,10:02:04
+239901,"Vacant_Raipur_PF - Jitendra Kumar",vacantjitendra@gmail.com,"Sales Rep",,234321,"Direct Reports - Mukund",2024-01-31,,AB
+239904,"IC_CF - Sudhashu Sikadar",vacantsudhanshu@gmail.com,"Sales Rep",,278691,"CF - Sudhashu Sikadar",2024-01-31,,AB
+239905,"Divyanshi Gupta",divyanshi.gupta@godrejagrovet.com,"Sales Rep",G113073,253890,"CF - Yogendra Gurjar",2024-01-31,,13:37:59
+239907,"CF - Rahul Badwaya",rahul.badwaya1@godrejagrovet.com,"Sales Rep",6100356,253890,"CF - Yogendra Gurjar",2024-01-31,,09:56:58
+239908,"CF - Manish Kumar",manish.skumar@godrejagrovet.com,"Sales Rep",104495,253353,"Sunil Malviya",2024-01-31,,12:12:40
+239909,"CF - keshav Baghel",Keshav.Baghel@Godrejagrovet.Com,"Sales Rep",713759,253352,"Direct Reports to Sandip Yadav",2024-01-31,,12:46:55
+239910,"IC_Sunil Malviya",dummysunil@gmail.com,"Sales Rep",,253353,"Sunil Malviya",2024-01-31,,AB
+239911,"CF - Omkar Pandey",omkar.pandey@godrejagrovet.com,"Sales Rep",G101086,253353,"Sunil Malviya",2024-01-31,,09:52:55
+239913,"CF - Sonu Gupta",sonu.gupta@godrejagrovet.com,"Sales Rep",714692,253352,"Direct Reports to Sandip Yadav",2024-01-31,,00:03:20
+239914,"Vijay Prakash",vijay.prakash@godrejagrovet.com,"Sales Rep",G103750,255111,"Direct Reports Punit Srivastav",2024-01-31,,00:00:00
+239926,"CF - Ritesh Shukla",Rudrashukla955@gmail.com,"Sales Rep",370343,255111,"Direct Reports Punit Srivastav",2024-01-31,,00:00:12
+239931,"CF - Jagdamba Verma",jagdamba.verma@godrejagrovet.com,"Sales Rep",713131,239896,"Vacant_ TL WUP_CF - Amit Kumar",2024-01-31,,12:58:26
+239934,"Vikash Sharma",s.vikash@godrejagrovet.com,"Sales Rep",G102962,239896,"Vacant_ TL WUP_CF - Amit Kumar",2024-01-31,,12:34:00
+239935,"Vacant Muzaffarnagar_CF - Shashank Sharma",vacantshashanksharma@gmail.com,"Sales Rep",,239896,"Vacant_ TL WUP_CF - Amit Kumar",2024-01-31,,AB
+239938,"Vacant_ Aligarh_CF - Dharmraj Singh",vacantdharamraj@gmail.com,"Sales Rep",G102052,239896,"Vacant_ TL WUP_CF - Amit Kumar",2024-01-31,,AB
+239941,"CF - Shiv Kumar",shivhydric@gmail.com,"Sales Rep",370350,262144,"Direct Reports - Jitendra Pal Singh",2024-01-31,,11:48:02
+239947,"CF  - Abhishek Tiwari",abhishek.tiwari@godrejagrovet.com,"Sales Rep",713364,239899,"CF - Bhoopendra Singh",2024-01-31,,00:00:04
+239955,"VACANT_CF - Shakti Singh",dummyshakti@gmail.com,"Sales Rep",F100223,239900,"CF - Dinesh Kumar Sharma",2024-01-31,,AB
+239978,"IC_Shashank Gaur",wdhfh@fejwfj.com,"Sales Rep",,247139,"CF - Shashank Gaur",2024-02-01,,AB
+239979,"CF - Prashant K",prashant.k@godrejagrovet.com,"Sales Rep",714561,247125,"Direct Report to Surya Yadav",2024-02-01,,10:10:58
+239980,"IC_Vinit Kumar",pefjfk@ljrgrg.com,"Sales Rep",,247143,"Direct Reports_Vinit Kumar",2024-02-01,,AB
+239981,"CF - Pankaj Singh",pankajkumar.singh@godrejagrovet.com,"Sales Rep",G103443,274178,"Panchanand Kumar Pandey",2024-02-01,,09:55:15
+239982,"IC_CF - Mayank Gaur",dummymayankgaur@gmail.com,"Sales Rep",,274566,"CF - Mayank Gaur",2024-02-01,,AB
+239986,"CF - Bhawesh Kumar Singh",bhawesh.kumar@godrejagrovet.com,"Sales Rep",F100203,247139,"CF - Shashank Gaur",2024-02-01,,07:37:35
+239987,"CF - Akhilesh Kumar Yadava",akhilesh01.kumar@godrejagrovet.com,"Sales Rep",F100372,247143,"Direct Reports_Vinit Kumar",2024-02-01,,09:38:59
+239988,"CF - Karan Kumar",karan.kumar01@godrejagrovet.com,"Sales Rep",F100211,247139,"CF - Shashank Gaur",2024-02-01,,05:06:41
+239989,"CF - Manish Kumar(KHAGARIA)",manish01.kumar@godrejagrovet.com,"Sales Rep",F100476,247143,"Direct Reports_Vinit Kumar",2024-02-01,,12:17:18
+239993,"CF - Sachin Pandey",sachin.pandey@godrejagrovet.com,"Sales Rep",G107895,247125,"Direct Report to Surya Yadav",2024-02-01,,SL
+239994,"CF - Radheshyam Pandey",pandeyradheshyam2790@gmail.com,"Sales Rep",F100290,247125,"Direct Report to Surya Yadav",2024-02-01,,09:44:33
+239995,"CF - Anubhav Singh",anubhav.singh@godrejagrovet.com,"Sales Rep",F100286,247125,"Direct Report to Surya Yadav",2024-02-01,,AB
+240007,"Direct Reports_CF - Manas Nayak",dummymanasnayak@gmail.com,"Team Leader",,270131,"CF - Manas Nayak",2024-02-01,,AB
+240008,"Avilash Chowdhury",avilash.chowdhury@godrejagrovet.com,"Team Leader",G106339,255544,"Dr. Mizanur Rahman Molla",2024-02-01,,00:00:00
+240010,"CF - JAGANNATH BEHERA",jagannath.behera@godrejagrovet.com,"Sales Rep",F100166,240007,"Direct Reports_CF - Manas Nayak",2024-02-01,,10:26:15
+240011,"CF - Sameer Kahal",sameer.kahal@godrejagrovet.com,"Sales Rep",F100334,240007,"Direct Reports_CF - Manas Nayak",2024-02-01,,11:26:22
+240012,"CF - Sanjib Panigrahi",sanjib.panigrahi@godrejagrovet.com,"Sales Rep",G103212,240007,"Direct Reports_CF - Manas Nayak",2024-02-01,,12:36:32
+240014,"CF - Mridul Saikia",mridul.saikia@godrejagrovet.com,"Sales Rep",G104559,234371,"Mubin Ahmed",2024-02-01,,11:33:37
+240253,"Pawan Pandey",pawan.pandey@godrejagrovet.com,"Sales Rep",106313,234321,"Direct Reports - Mukund",2024-02-09,,06:23:16
+240273,"CF - Amar Kumar Das",amar.das@godrejagrovet.com,"Sales Rep",8100379,270130,"Girish Rajpurohit",2024-02-10,,14:04:21
+240337,"Akhilesh Rajput",rajput.akhilesh@godrejagrovet.com,Manager,705533,253893,"Shivendra Singh",2024-02-13,,12:21:40
+240694,"Direct Reports to Biju P Menon",Assjwd@gmail.com,"Team Leader",,249233,"CF - Biju P Menon",2024-02-19,,AB
+240697,"CF - Sunil B V",sunil.bv@godrejagrovet.com,"Team Leader",,255451,"Sharath M R",2024-02-19,,10:40:14
+240699,"CF - Gunasekaran Y",y.gunasekaran@godrejagrovet.com,"Team Leader",,255451,"Sharath M R",2024-02-19,,CL
+240700,"CF - Nataraju N",nataraju.n@godrejagrovet.com,"Team Leader",600123,255451,"Sharath M R",2024-02-19,,10:47:30
+240702,"Vacant_CF - Bhaskara Babu",vacantbhaskarbabu@gmail.com,"Sales Rep",,271536,"Direct Reports - A VIJAYA SHEKHAR",2024-02-19,,AB
+240703,"CF - Kanagaraj",kanagaraj.k@godrejagrovet.com,"Sales Rep",712872,247054,"Direct report to Arul Antony",2024-02-19,,10:08:15
+240704,"CF - Selvakumar",selvakumar.k@godrejagrovet.com,"Sales Rep",712877,247054,"Direct report to Arul Antony",2024-02-19,,09:06:32
+240705,"IC_R. Venkatesan",amdk@gmasksil.com,"Sales Rep",,249235,"VACANT_CF - R. Venkatesan",2024-02-19,,AB
+240706,Veerapandian,veerapandian.r@godrejagrovet.com,"Sales Rep",705454,240694,"Direct Reports to Biju P Menon",2024-02-19,,12:29:03
+240709,"CF - Basangowda Malvalli",bn.malavalli@godrejagrovet.com,"Sales Rep",706885,281908,"Naveen RV",2024-02-19,,11:12:27
+240710,"CF - Govind Joshi",govind.joshi@godrejagrovet.com,"Sales Rep",708323,247781,"CF - Manoj Kumar Harge",2024-02-19,,12:40:40
+240712,"CF - mahadevaswamy.m",mahadevaswamy.m@godrejagrovet.com,"Sales Rep",712875,240700,"CF - Nataraju N",2024-02-19,,07:54:38
+240714,"CF - Rajkumar R",r.rajkumar@godrejagrovet.com,"Sales Rep",716339,240699,"CF - Gunasekaran Y",2024-02-19,,12:08:32
+240715,"CF - Nagarajan M",nagarajan.m@godrejagrovet.com,"Sales Rep",G104304,240699,"CF - Gunasekaran Y",2024-02-19,,09:35:04
+240716,"CF - P.SOORIYAPRAKASH",p.sooriyaprakash@godrejagrovet.com,"Sales Rep",713896,240699,"CF - Gunasekaran Y",2024-02-19,,11:07:44
+240717,"Vacant_CF - BABU",vacantcfbabu@gmail.com,"Sales Rep",,240699,"CF - Gunasekaran Y",2024-02-19,,AB
+240718,"CF  - A.PRAVEEN KUMAR",a.praveenkr@godrejagrovet.com,"Sales Rep",705447,240699,"CF - Gunasekaran Y",2024-02-19,,07:48:07
+240719,"CF - Siva S",siva.subramaniyan@godrejagrovet.com,"Sales Rep",712768,247372,"CF - Shanmuga Sundaram R",2024-02-19,,09:23:11
+240720,"IC_Shanmuga Sundaram R",dhadhed@jewfj.com,"Sales Rep",,247372,"CF - Shanmuga Sundaram R",2024-02-19,,AB
+240721,"CF - Kannan M",kannan.m@godrejagrovet.com,"Sales Rep",706770,247054,"Direct report to Arul Antony",2024-02-19,,10:38:13
+240722,"CF - Arulmurugan S",arulmurugan.s@godrejagrovet.com,"Sales Rep",713386,247054,"Direct report to Arul Antony",2024-02-19,,11:30:24
+240723,"Vijay M",vijay.m@godrejagrovet.com,"Sales Rep",301562,240694,"Direct Reports to Biju P Menon",2024-02-19,,13:28:11
+240724,"CF - M Balasubramanian",balasubramanian.m@godrejagrovet.com,"Sales Rep",717238,247054,"Direct report to Arul Antony",2024-02-19,,00:00:07
+240726,"CF - Pavithran",pavithran.s@godrejagrovet.com,"Sales Rep",105602,247372,"CF - Shanmuga Sundaram R",2024-02-19,,10:57:20
+240729,"CF - Srikanta Bdvt",srikanta.bdvt@godrejagrovet.com,"Sales Rep",G102758,240697,"CF - Sunil B V",2024-02-19,,08:12:17
+240731,"CF - Joackin S",joackin.s@godrejagrovet.com,"Sales Rep",F100207,240694,"Direct Reports to Biju P Menon",2024-02-19,,00:00:10
+240733,"CF - Ganeshamoorthi N",ganeshamoorthi.n@godrejagrovet.com,"Sales Rep",F100214,247372,"CF - Shanmuga Sundaram R",2024-02-19,,11:25:52
+240735,"CF - Charles K",charles.k@godrejagrovet.com,"Sales Rep",G104834,240699,"CF - Gunasekaran Y",2024-02-19,,10:45:07
+240737,"CF - Reddappa KB",reddappa.kb@godrejagrovet.com,"Sales Rep",F100280,240700,"CF - Nataraju N",2024-02-19,,05:48:31
+240738,"CF - Sujith Shetty",sujith.shetty@godrejagrovet.com,"Sales Rep",F100281,240697,"CF - Sunil B V",2024-02-19,,07:50:10
+240739,"IC_CF - Rambabu Kandukuri",dummyrambabu@gmail.com,"Sales Rep",,272370,"CF - Rambabu Kandukuri",2024-02-19,,AB
+240740,"CF - Chinnakannu A",chinnakannu.a1@godrejagrovet.com,"Sales Rep",F100346,247372,"CF - Shanmuga Sundaram R",2024-02-19,,09:54:23
+240741,"CF - Sreeraj PS",sreerajps@godrejagrovet.com,"Sales Rep",F100351,247054,"Direct report to Arul Antony",2024-02-19,,08:52:56
+240771,"RME North",abhishek.sanpurkar@godrejagrovet.com,Manager,G105350,247559,"Kiran Sinalkar",2024-02-21,,00:00:28
+240772,"RME East",amit.telang@godrejagrovet.com,Manager,707044,247559,"Kiran Sinalkar",2024-02-21,,AB
+240773,"VACANT_RME Central",vacantprernasaini@gmail.com,Manager,,247559,"Kiran Sinalkar",2024-02-21,,AB
+240775,"RME West",sunita.mundhe@godrejagrovet.com,Manager,G107502,247559,"Kiran Sinalkar",2024-02-21,,09:40:45
+240960,"CF - Rajesh Subbayyan",rajesh.subbayyan@godrejagrovet.com,"Sales Rep",G101605,247054,"Direct report to Arul Antony",2024-02-23,,14:32:25
+241367,"Direct Reports to CF - P.L.Kulkarni",aabbccdd123@gmail.com,"Team Leader",,251755,"CF - P.L.Kulkarni",2024-03-06,,AB
+241368,"CF - P N Bhopale",pandhrinath.bhopale@godrejagrovet.com,"Team Leader",257505,255421,"Ankush Dhabale",2024-03-06,,00:00:22
+241369,"Direct Reports - CF - Milind Shinde",dummymilindshinde@gmail.com,"Team Leader",,262757,"CF - Milind Shinde",2024-03-06,,AB
+241371,"Direct Reports- Santosh Koparde",dgaed@gavl.com,"Team Leader",,242941,"CF - Santhosh Koparde",2024-03-06,,AB
+241373,"CF - S N PATEL",sn.patel@godrejagrovet.com,"Team Leader",702943,279821,"CF - Mahesh Parmar",2024-03-06,,AB
+241374,"Direct Reports_CF - Pramod Patil",dummypramodpatil@gmail.com,"Team Leader",,281788,"CF - Pramod Patil",2024-03-06,,AB
+241381,"CF - Sagar Gaikwad",sagar.gaikwad@godrejagrovet.com,"Sales Rep",713188,241368,"CF - P N Bhopale",2024-03-06,,08:59:09
+241382,"IC_CF - Firoz Sayyad",icfirozsayyad@gmail.com,"Sales Rep",,262726,"CF - Firoz Sayyad",2024-03-06,,AB
+241383,"IC_CF - P R Ranaware",dummyranaware@gmail.com,"Sales Rep",,270395,"Direct Reports_CF - P R Ranaware",2024-03-06,,AB
+241384,"IC_CF - Ramesh",icramesh@gmail.com,"Sales Rep",,271326,"Direct Reports_CF - Ramesh",2024-03-06,,AB
+241385,"CF - H T Sutar",hanmant.sutar@godrejagrovet.com,"Sales Rep",257602,247735,"Direct Reports - CF - Suyog Shinde",2024-03-06,,SL
+241387,"CF - Swapnil Chikane",swapnil.chikane@godrejagrovet.com,"Sales Rep",100015,241368,"CF - P N Bhopale",2024-03-06,,08:31:19
+241388,"CF - Dayanand Zadbuke",dayanand.zadbuke@godrejagrovet.com,"Sales Rep",G100308,262726,"CF - Firoz Sayyad",2024-03-06,,12:31:19
+241390,"CF - Swapnil Madane",swapnil.madane@godrejagrovet.com,"Sales Rep",258151,241368,"CF - P N Bhopale",2024-03-06,,09:45:55
+241391,"CF - Shubham Patil",shubham.patil@godrejagrovet.com,"Sales Rep",258155,246712,"Direct reports Gopinath Jedhe",2024-03-06,,06:35:00
+241394,"IC_CF - Kishor Gavandi",dummykishor@gmail.com,"Sales Rep",,279577,"CF - Kishor Gavandi",2024-03-06,,AB
+241395,"CF - Mahendra Kumbhar",mahendra.kumbhar@godrejagrovet.com,"Sales Rep",2151,270395,"Direct Reports_CF - P R Ranaware",2024-03-06,,00:01:27
+241397,"CF - V. N. Sampat",sampat.vn@godrejagrovet.com,"Sales Rep",257404,270395,"Direct Reports_CF - P R Ranaware",2024-03-06,,06:28:32
+241398,"CF - Sangram Dalvi",sangram.dalvi@godrejagrovet.com,"Sales Rep",257391,241368,"CF - P N Bhopale",2024-03-06,,05:02:37
+241399,"IC_CF - S N Lad",dummysnlad@gmail.com,"Sales Rep",,251757,"CF - S N Lad",2024-03-06,,AB
+241400,"CF - Samrat Powar",samrat.powar@godrejagrovet.com,"Sales Rep",708511,241374,"Direct Reports_CF - Pramod Patil",2024-03-06,,13:54:14
+241401,"CF - Harshad Patil",harshad.patil@godrejagrovet.com,"Sales Rep",8100772,247735,"Direct Reports - CF - Suyog Shinde",2024-03-06,,02:54:57
+241402,"CF - Prafulla Salgar",prafull.salgar@godrejagrovet.com,"Sales Rep",8103255,247735,"Direct Reports - CF - Suyog Shinde",2024-03-06,,07:26:17
+241404,"CF - Ramesh Mali",ramesh.mali@godrejagrovet.com,"Sales Rep",708924,241374,"Direct Reports_CF - Pramod Patil",2024-03-06,,08:28:18
+241405,"IC_CF - Ganesh Phadtare",dummyganesh@gmail.com,"Sales Rep",,281789,"CF - Ganesh Phadtare",2024-03-06,,AB
+241406,"CF - Vaibhav Jagtap",vaibhav.jagtap@godrejagrovet.com,"Sales Rep",G100180,241374,"Direct Reports_CF - Pramod Patil",2024-03-06,,08:27:45
+241407,"CF - Shirish Kurde",shirish.kurde@godrejagrovet.com,"Sales Rep",258143,241374,"Direct Reports_CF - Pramod Patil",2024-03-06,,14:55:06
+241408,"CF - Sujit Bute",Sujit.bute@godrejagrovet.com,"Sales Rep",258146,241374,"Direct Reports_CF - Pramod Patil",2024-03-06,,08:24:29
+241410,"CF - Amol Navalayale",amol.navalyale@godrejagrovet.com,"Sales Rep",714967,241369,"Direct Reports - CF - Milind Shinde",2024-03-06,,14:01:03
+241411,"CF - P B Deshmukh",pb.deshmukh@godrejagrovet.com,"Sales Rep",257346,241369,"Direct Reports - CF - Milind Shinde",2024-03-06,,09:32:15
+241412,"CF - Samadhan koli",samadhan.koli@godrejagrovet.com,"Sales Rep",708927,241368,"CF - P N Bhopale",2024-03-06,,00:00:00
+241413,"CF - Anil Godse",anil.godse@godrejagrovet.com,"Sales Rep",708911,241369,"Direct Reports - CF - Milind Shinde",2024-03-06,,07:52:09
+241414,"CF - Shivappa Birajdar",shivappa.birajdar@godrejagrovet.com,"Sales Rep",707240,241369,"Direct Reports - CF - Milind Shinde",2024-03-06,,11:20:24
+241415,"Vipul chaudhori",vipul.choudhari@godrejagrovet.com,"Sales Rep",707241,241369,"Direct Reports - CF - Milind Shinde",2024-03-06,,AB
+241416,"CF - Ranjit Desai",ranjeet.desai@godrejagrovet.com,"Sales Rep",711126,241369,"Direct Reports - CF - Milind Shinde",2024-03-06,,06:44:03
+241417,"IC_CF - Tripti Pandey",dummytripti@gmail.com,"Sales Rep",,277653,"CF - Tripti Pandey",2024-03-06,,AB
+241418,"CF - Satish Pallakke",satishpallakki1@gmail.com,"Sales Rep",258156,241369,"Direct Reports - CF - Milind Shinde",2024-03-06,,10:20:51
+241420,"CF - Poshak Jadhav",poshakjadhav2017@gmail.com,"Sales Rep",F100267,241367,"Direct Reports to CF - P.L.Kulkarni",2024-03-06,,AB
+241421,"CF - Sunil Patil",sunil.dpatil@godrejagrovet.com,"Sales Rep",G105359,241367,"Direct Reports to CF - P.L.Kulkarni",2024-03-06,,AB
+241423,"CF - Omkar Khairmode",khairmodeomkar7@gmail.com,"Sales Rep",F100307,241367,"Direct Reports to CF - P.L.Kulkarni",2024-03-06,,07:05:43
+241424,"Vikas Patil",vikas.patil@godrejagrovet.com,"Sales Rep",G106170,241367,"Direct Reports to CF - P.L.Kulkarni",2024-03-06,,00:03:38
+241425,"VACANT_CF - Digvijay Palakar",vacantdigvijiay@gmail.com,"Sales Rep",F100327,241369,"Direct Reports - CF - Milind Shinde",2024-03-06,,AB
+241426,"IC_CF Ravindra Koli",dummyravindra@gmail.com,"Sales Rep",,270137,"CF Ravindra Koli",2024-03-06,,AB
+241431,"CF- Rohan Parlekar",rohanparlekar41297@gmail.com,"Sales Rep",F100232,241371,"Direct Reports- Santosh Koparde",2024-03-06,,AB
+241432,"IC_CF - Sattapa Shendage",dummysattapa@gmail.com,"Sales Rep",,276932,"CF - Sattapa Shendage",2024-03-06,,AB
+241433,"IC_Jigar Dave",abcde@mail.com,"Sales Rep",,250318,"Direct Reports - Jigar Dave",2024-03-06,,AB
+241434,"IC_CF - Satish Benade",satishdummy@gmail.com,"Sales Rep",,256860,"CF - Satish Benade",2024-03-06,,AB
+241435,"CF  - Adinath Khedkar",adinath.khedkar@godrejagrovet.com,"Sales Rep",708162,246712,"Direct reports Gopinath Jedhe",2024-03-06,,03:27:57
+241436,"IC_CF - Deepak Bagal",dummydeepakbagal@gmail.com,"Sales Rep",,262646,"CF - Deepak Bagal",2024-03-06,,AB
+241437,"CF - Pradeep Varade",pradeep.varade@godrejagrovet.com,"Sales Rep",257777,241371,"Direct Reports- Santosh Koparde",2024-03-06,,09:33:22
+241438,"Vikram Sankpal",vikram.sankpal@godrejagrovet.com,"Sales Rep",711129,246712,"Direct reports Gopinath Jedhe",2024-03-06,,09:51:44
+241439,"IC_CF - Shankar Gite",dummyshankar@gmail.com,"Sales Rep",,256582,"CF - Shankar Gite",2024-03-06,,AB
+241440,"CF - Umesh Gavale",umesh.gavale@godrejagrovet.com,"Sales Rep",711130,241371,"Direct Reports- Santosh Koparde",2024-03-06,,08:24:30
+241442,"CF - Rushikesh Naykude",rushikesh.naykude@godrejagrovet.com,"Sales Rep",G100307,241369,"Direct Reports - CF - Milind Shinde",2024-03-06,,09:11:55
+241443,"Vyanktesh Deshmukh",vyanktesh.deshmukh@godrejagrovet.com,"Sales Rep",G105302,246712,"Direct reports Gopinath Jedhe",2024-03-06,,12:55:23
+241444,"Vacant_CF - Hiren Mori",hiren.mori@godrejagrovet.com,"Sales Rep",707594,241373,"CF - S N PATEL",2024-03-06,,AB
+241446,"IC_Mahesh Parmar",dhfcgjshajb@godrej.com,"Sales Rep",,243648,"Direct Reports_CF - Mahesh Parmar",2024-03-06,,AB
+241447,"CF - Najmuddin Sheikh",najmuddin.shekh@godrejagrovet.com,"Sales Rep",8102444,243648,"Direct Reports_CF - Mahesh Parmar",2024-03-06,,12:54:47
+241449,"CF - Darshit Patel",pateldarshit090@gmail.com,"Sales Rep",F100308,243648,"Direct Reports_CF - Mahesh Parmar",2024-03-06,,10:47:21
+241450,"CF - Bhagatsinh Mori",moribhagat95@gmail.com,"Sales Rep",F100426,241373,"CF - S N PATEL",2024-03-06,,12:53:47
+242679,"Direct Reports CF-Harjeet Singh",srk@srl.com,"Team Leader",,248482,"CF-Harjeet Singh",2024-03-18,,AB
+242680,"Direct Reports to CF-Yogesh Sharma",dummytl@gmail.com,"Team Leader",,252552,"CF-Yogesh Sharma",2024-03-18,,AB
+242681,"CF-Vikas Sharma",vs.sharma@godrejagrovet.com,"Team Leader",717234,255445,"Dr Kedar Gupta",2024-03-18,,CL
+242705,"CF - Gaurav Kulshetra",gaurav.kulshrestha@godrejagrovet.com,"Team Leader",362402,255445,"Dr Kedar Gupta",2024-03-19,,09:47:54
+242708,"Vacant_CF - Naveen Kumar",vacantnaveenkumar@gmail.com,"Sales Rep",,239900,"CF - Dinesh Kumar Sharma",2024-03-19,,AB
+242710,"CF - Kanhaiya Lal Jangid",kanhaiyalalmorer@gmail.com,"Sales Rep",F100270,242705,"CF - Gaurav Kulshetra",2024-03-19,,11:27:00
+242713,"IC_Gaurav Kulshreshta",sdhae@lkjfel.com,"Sales Rep",,242705,"CF - Gaurav Kulshetra",2024-03-19,,AB
+242791,"CF - Arjun Singh",singh.arjun@godrejagrovet.com,"Sales Rep",706537,242679,"Direct Reports CF-Harjeet Singh",2024-03-20,,10:49:32
+242792,"CF - Jaswinder Bisht",jaswinder.bisht@godrejagrovet.com,"Sales Rep",8106570,242679,"Direct Reports CF-Harjeet Singh",2024-03-20,,09:40:52
+242793,"CF - Manish Sharma",manish.kr@godrejagrovet.com,"Sales Rep",703243,242679,"Direct Reports CF-Harjeet Singh",2024-03-20,,13:36:25
+242795,"CF - Sanjeev Kumar",kumar.sanjeev@godrejagrovet.com,"Sales Rep",G105501,242679,"Direct Reports CF-Harjeet Singh",2024-03-20,,11:27:05
+242796,"Yadvinder Singh",yadvinder.singh@godrejagrovet.com,"Sales Rep",G104475,242679,"Direct Reports CF-Harjeet Singh",2024-03-20,,CL
+242797,"CF - Rakesh Kumar",rakeshkumar301095@gmail.com,"Sales Rep",369851,262311,"CF - Rajender Sharma",2024-03-20,,09:09:30
+242798,"IC_CF - Pankaj Kumar",dummyrep@gmail.com,"Sales Rep",,252554,"CF - Pankaj Kumar",2024-03-20,,AB
+242799,"CF - Rajveer Punia",rajbir.punia@godrejagrovet.com,"Sales Rep",705629,242680,"Direct Reports to CF-Yogesh Sharma",2024-03-20,,11:03:59
+242800,"CF - Anmol Rattan",anmol.rattan@godrejagrovet.com,"Sales Rep",711765,252554,"CF - Pankaj Kumar",2024-03-20,,10:10:21
+242801,"IC_CF - Rajender Sharma",dummyrakeshsharma@gmail.com,"Sales Rep",,262311,"CF - Rajender Sharma",2024-03-20,,AB
+242802,"CF - Vikas Thakur",vikas.thakur@godrejagrovet.com,"Sales Rep",714160,252554,"CF - Pankaj Kumar",2024-03-20,,10:38:51
+242803,"CF - Roshil Verma",roshil.verma@godrejagrovet.com,"Sales Rep",716567,262311,"CF - Rajender Sharma",2024-03-20,,12:38:57
+242815,"Vacant_CF - Darshan Singh",vacantdarshan@gmail.com,"Sales Rep",,242679,"Direct Reports CF-Harjeet Singh",2024-03-20,,AB
+242941,"CF - Santhosh Koparde",sv.koparde@godrejagrovet.com,Manager,257323,255421,"Ankush Dhabale",2024-03-22,,00:01:02
+243125,"CF - Nitesh Kumar",nitesh.sharma@godrejagrovet.com,"Sales Rep",G107576,242681,"CF-Vikas Sharma",2024-04-02,,08:33:55
+243276,"Manindra Singh",manindra.singh@godrejagrovet.com,"Sales Rep",G106825,280230,"Amit Singh",2024-04-04,,07:41:57
+243610,"CF - Pratik Pawar",pratik.pawar@godrejagrovet.com,"Sales Rep",G103562,247735,"Direct Reports - CF - Suyog Shinde",2024-04-13,,13:16:32
+243643,"CF - Rahul Sharma",sharma.rahul@godrejagrovet.com,"Sales Rep",6100446,239896,"Vacant_ TL WUP_CF - Amit Kumar",2024-04-15,,13:25:38
+243648,"Direct Reports_CF - Mahesh Parmar",dummymaheshparmar01@gmail.com,"Team Leader",,279821,"CF - Mahesh Parmar",2024-04-15,,AB
+243711,"IC_Girraj Mittal",dummygirraj@gmail.com,"Sales Rep",,274564,"Girraj Mittal",2024-04-17,,AB
+243727,"CF - Swaraj Ranaware",swarajranaware1432@gmail.com,"Sales Rep",F100239,270395,"Direct Reports_CF - P R Ranaware",2024-04-17,,12:10:01
+243734,"Chetan Parmar",chetan.parmar@godrejagrovet.com,"Sales Rep",6100396,253890,"CF - Yogendra Gurjar",2024-04-17,,09:55:38
+244184,"Vacant_CF - Prasanth P",vacantprasanth@gmail.com,"Sales Rep",,247054,"Direct report to Arul Antony",2024-05-02,,AB
+244557,"CF - Sachin Patel",sachinkumar.patel@godrejagrovet.com,"Sales Rep",G107618,243648,"Direct Reports_CF - Mahesh Parmar",2024-05-07,,01:34:40
+244869,"Dinesh Singh",singh.dinesh@godrejagrovet.com,"Sales Rep",G108074,280724,"Manish Pandey",2024-05-13,,10:03:27
+244921,"Vacant Bareilly_PF - Vivek Dhoopar",vacantvivekdhoopar@gmail.com,"Sales Rep",,253350,"Direct Reports to Sushil Kakkar",2024-05-14,,AB
+245476,"PF- Mahesh Kansagra",mn.kansagara@godrejagrovet.com,Manager,,234528,"Abhimanyu M Dhole",2024-05-28,,00:00:00
+245477,"J P. Godhat",jp.godhat@godrejagrovet.com,"Team Leader",371120,245476,"PF- Mahesh Kansagra",2024-05-28,,11:14:48
+245481,"Vacant_Rewa_Vikas Tiwari",vacantvikas@gmail.com,"Sales Rep",6100549,274564,"Girraj Mittal",2024-05-28,,AB
+245790,"CF - Pramod kumar yadav",pramodk.yadav@godrejagrovet.com,"Team Leader",711175,240337,"Akhilesh Rajput",2024-01-31,,11:34:36
+245796,"Vacant_CF - Rajeev Rana",dummyrajeev@gmail.com,"Sales Rep",6100360,234329,"Direct Reports - Akhilesh Rajput",2024-06-04,,AB
+245905,"IC_Pramod kumar yadav ",directreportPramod@godrejagrovet.com,"Sales Rep",,245790,"CF - Pramod kumar yadav",2024-06-05,,AB
+246402,"Vacant Fatehpur_CF - Akash Sachan",vacantakashsachan@gmail.com,"Sales Rep",,239899,"CF - Bhoopendra Singh",2024-06-11,,AB
+246540,"CF - Akshay Narnavar",ashaynarnavar452@gmail.com,"Sales Rep",8100492,256860,"CF - Satish Benade",2024-06-14,,13:45:53
+246611,"Vikas Keshavarao Jadhav",jadhav.vikas@godrejagrovet.com,"Sales Rep",G108213,241367,"Direct Reports to CF - P.L.Kulkarni",2024-06-17,,11:16:19
+246712,"Direct reports Gopinath Jedhe",sajjdjdhjhd@sbkjdjd.com,"Team Leader",,246754,"CF - Gopinath Jedhe",2024-06-19,,AB
+246754,"CF - Gopinath Jedhe",gopinath.jedhe@godrejagrovet.com,Manager,257610,274918,"Vaibhav Dhaigude",2024-06-20,,11:44:46
+247031,"IC_Vacant Yashpal Sharma",Ashdh@kefhjehf.com,"Sales Rep",,242679,"Direct Reports CF-Harjeet Singh",2024-06-25,,AB
+247049,"CF - Mukhtar Singh",mukhtar.singh@godrejagrovet.com,"Sales Rep",G108693,242679,"Direct Reports CF-Harjeet Singh",2024-06-25,,00:00:10
+247051,"IC_Varun Gupta",dummyvarun@gmail.com,"Sales Rep",,257136,"Varun Gupta",2024-06-25,,AB
+247053,"CF - Arul Antony",arul.antony@godrejagrovet.com,Manager,,255451,"Sharath M R",2024-02-19,,12:47:38
+247054,"Direct report to Arul Antony",sakslchcj@dhefjef.com,"Team Leader",,247053,"CF - Arul Antony",2024-06-25,,AB
+247081,"CF - Laxmipat Raj Bohra",laxmipat.bohra@godrejagrovet.com,"Team Leader",700967,255445,"Dr Kedar Gupta",2024-06-26,,14:13:26
+247119,"CF - Surya Yadav",surya.yadav@godrejagrovet.com,Manager,G102515,255539,"Dr. Sunil kumar",2024-06-27,,SL
+247125,"Direct Report to Surya Yadav",amqlshwdh@lekelkfh.com,"Team Leader",,247119,"CF - Surya Yadav",2024-06-27,,AB
+247139,"CF - Shashank Gaur",shashank.gaur@godrejagrovet.com,"Team Leader",716793,247119,"CF - Surya Yadav",2024-06-27,,06:57:56
+247143,"Direct Reports_Vinit Kumar",dummyvinit@gmail.com,"Team Leader",,274565,"Vinit Kumar",2024-06-27,,AB
+247372,"CF - Shanmuga Sundaram R",shanmuga.sundaram@godrejagrovet.com,"Team Leader",707931,249233,"CF - Biju P Menon",2024-02-19,,12:10:07
+247559,"Kiran Sinalkar",kiran.sinalkar@godrejagrovet.com,Manager,,233569,"A Y Rajendra",2024-07-02,,AB
+247718,"CF - Sourav Paul",Sourav.Paul@godrejagrovet.com,"Sales Rep",G107918,247125,"Direct Report to Surya Yadav",2024-07-03,,SL
+247735,"Direct Reports - CF - Suyog Shinde",directreportssuyog@gmail.com,"Team Leader",,262729,"CF - Suyog Shinde",2024-07-03,,AB
+247781,"CF - Manoj Kumar Harge",manojkumar.harge@godrejagrovet.com,"Team Leader",257961,255451,"Sharath M R",2024-07-04,,09:55:47
+248031,"Iaishanborlang Reenborn",iaishanreenborn@gmail.com,"Sales Rep",F100502,251590,"Pradyumna Pathak",2024-07-08,,08:06:49
+248037,"BHARGAB SARMA",bhargab.sarma@godrejagrovet.com,"Sales Rep",G108020,234374,"Direct Reports to Diganta Kalita",2024-07-08,,00:02:28
+248482,"CF-Harjeet Singh",harjeet.singh@godrejagrovet.com,Manager,G103436,255448,"Dr Akshay Nirwal",2024-07-11,,11:13:51
+248632,"CF - VISHNU NIVRUTTI MISAL",vishnumisal0202@gmail.com,"Sales Rep",F100490,241368,"CF - P N Bhopale",2024-07-16,,08:11:16
+248634,"VACANT_SANDEEP KHATRI",vacantsandeep@gmail.com,"Sales Rep",G107953,234817,"PF-Rakesh Sharma",2024-07-16,,AB
+249233,"CF - Biju P Menon",p.biju@godrejagrovet.com,Manager,,255451,"Sharath M R",2024-07-26,,07:25:03
+249235,"VACANT_CF - R. Venkatesan",vacantvenkatesan@gmail.com,"Team Leader",712102,260792,"Omkar Rajendra Ganamale",2024-07-26,,AB
+249238,"CF - Prem Kumar N",premkumar.n@godrejagrovet.com,"Sales Rep",F100539,247054,"Direct report to Arul Antony",2024-07-26,,AB
+249240,"PF-Raj Kumar Singh Bhullar",rs.bhullar@godrejagrovet.com,Manager,361261,282087,"Bhanu Prakash Jhajharia",2024-07-26,,09:14:20
+249241,RAVIKANT,ravi.sharma@godrejagrovet.com,"Team Leader",363000,249240,"PF-Raj Kumar Singh Bhullar",2024-07-26,,12:54:36
+249254,"Dharmendra Kumar",dharmendra.kumar1@godrejagrovet.com,"Sales Rep",8109037,280230,"Amit Singh",2024-07-26,,07:40:38
+249255,"Ravendra Singh",ravendra.singh@godrejagrovet.com,"Sales Rep",8108914,253910,"Dr. Dheeraj Singh.",2024-07-26,,09:11:25
+249359,"VACANT_Gourav Borah",dhangaurav79@gmail.com,"Sales Rep",F100598,234371,"Mubin Ahmed",2024-07-01,,AB
+249360,"Vacant-North Lakhimpur",akashborah4655@gmail.com,"Sales Rep",F100599,234372,"Ashit Dutta",2024-07-01,,AB
+249361,"Prantu Pratim Saikia",saikiaprantupratim@gmail.com,"Sales Rep",F100600,234371,"Mubin Ahmed",2024-07-01,,08:41:58
+249402,"Prasanta Changmai",prasanta.changmai@godrejagrovet.com,"Team Leader",711585,267983,"Ankur Protim Borah",2024-07-30,,08:08:45
+250318,"Direct Reports - Jigar Dave",dummyjigar@gmail.com,"Team Leader",,279576,"Jigar Dave",2024-03-06,,AB
+250319,"Dipkumar Deshmukh",deep.h.deshmukh.09@gmail.com,"Sales Rep",F100506,250318,"Direct Reports - Jigar Dave",2024-08-01,,13:53:48
+250321,"IC_Rahulkumar Patel",dummyrahulkumar@gmail.com,"Sales Rep",,256167,"Rahulkumar Patel",2024-08-07,,AB
+250323,"VACANT_Karansinh Udesinh Vaghela",vacantkaransinh@gmail.com,"Sales Rep",109318,243648,"Direct Reports_CF - Mahesh Parmar",2024-08-08,,AB
+250604,"Kiran Tele",kiran.tele@godrejagrovet.com,"Sales Rep",G110377,245477,"J P. Godhat",2024-08-14,,10:47:31
+251498,"IC_Ramakanta Behera",hiugy@vfjk.com,"Sales Rep",,234350,"Ramakanta Behera",2024-08-27,,AB
+251508,"Raghavendra N",raghavendra.n@godrejagrovet.com,"Sales Rep",G107553,234178,"Vacant_Prashant Arvind Phoujadar",2024-08-27,,AB
+251518,"IC_PUSHAP RAJ",dummypushap@gmail.com,"Sales Rep",,257140,"PUSHAP RAJ",2024-08-27,,AB
+251520,"Shrinivas Deshmukh",shrinivas.deshmukh@godrejagrovet.com,"Sales Rep",G109417,271326,"Direct Reports_CF - Ramesh",2024-08-27,,AB
+251529,"Chandan Saikia",chandansaikia555@gmail.com,"Sales Rep",F100285,234372,"Ashit Dutta",2024-08-27,,09:16:23
+251586,"Diganta Kalita",diganta.kalita@godrejagrovet.com,Manager,G100784,267983,"Ankur Protim Borah",2024-08-28,,10:21:47
+251590,"Pradyumna Pathak",pradyumna.pathak@godrejagrovet.com,"Team Leader",717672,251586,"Diganta Kalita",2024-08-28,,11:04:25
+251755,"CF - P.L.Kulkarni",pl.kulkarni@godrejagrovet.com,Manager,257266,255421,"Ankush Dhabale",2024-08-28,,00:00:17
+251757,"CF - S N Lad",sunil.lad@godrejagrovet.com,"Team Leader",257601,262757,"CF - Milind Shinde",2024-08-28,,15:04:22
+252118,"Vikramaditya Pandey",vikramadityapandey8@gmail.com,"Sales Rep",F100620,274178,"Panchanand Kumar Pandey",2024-09-05,,10:37:09
+252446,"Sourav Patra",sourav.patra@godrejagrovet.com,"Sales Rep",F100619,240008,"Avilash Chowdhury",2024-09-13,,11:00:00
+252447,"Vacant_Prasanna MS",vacantprasanna@gmail.com,"Sales Rep",,240697,"CF - Sunil B V",2024-09-13,,AB
+252452,"ROHIT KUMAR",rohit.kumar2@godrejagrovet.com,"Sales Rep",G111555,242679,"Direct Reports CF-Harjeet Singh",2024-09-13,,AB
+252552,"CF-Yogesh Sharma",yogesh.sharma@godrejagrovet.com,Manager,362221,255448,"Dr Akshay Nirwal",2024-09-17,,10:47:31
+252554,"CF - Pankaj Kumar",pankaj.k@godrejagrovet.com,"Team Leader",708937,252552,"CF-Yogesh Sharma",2024-09-17,,10:02:13
+252730,"IC_Nageshwararao Posina",dummyrepp@gmail.com,"Sales Rep",,239020,"Nageshwararao Posina",2024-09-18,,AB
+253350,"Direct Reports to Sushil Kakkar",dummysushilkakkar@gmail.com,"Team Leader",,253918,"Sushil Kakkar",2024-10-01,,AB
+253351,"Sandip Yadav",sandip.yadav@godrejagrovet.com,Manager,708574,255546,"Dr. Rajesh Sharma",2024-10-01,,11:34:35
+253352,"Direct Reports to Sandip Yadav",dummysandeep@gmail.com,"Team Leader",,253351,"Sandip Yadav",2024-10-01,,AB
+253353,"Sunil Malviya",sunil.malviya@godrejagrovet.com,"Team Leader",712550,253351,"Sandip Yadav",2024-10-01,,11:08:22
+253886,"Manish Mewada",manish.mewada@godrejagrovet.com,"Sales Rep",F100505,253353,"Sunil Malviya",2024-10-16,,10:30:28
+253887,"Mohit Sen",mohit.sen@godrejagrovet.com,"Sales Rep",F100592,253353,"Sunil Malviya",2024-10-16,,11:00:53
+253890,"CF - Yogendra Gurjar",yogendra.gurjar@godrejagrovet.com,"Team Leader",708953,253351,"Sandip Yadav",2024-10-16,,00:00:13
+253893,"Shivendra Singh",shivendra.singh2@godrejagrovet.com,Manager,G109687,255546,"Dr. Rajesh Sharma",2024-10-16,,10:38:23
+253894,"Samrat Doloi",samrat.doloi@godrejagrovet.com,"Sales Rep",F100641,234372,"Ashit Dutta",2024-10-16,,10:34:40
+253900,"Jagdeep Signh Gill",jagdeep.gill@godrejagrovet.com,"Sales Rep",G110003,242681,"CF-Vikas Sharma",2024-10-17,,11:45:35
+253901,"Tarun Kumar Sharma",tarun.sharma1@godrejagrovet.com,"Sales Rep",G110136,247081,"CF - Laxmipat Raj Bohra",2024-10-17,,09:30:21
+253910,"Dr. Dheeraj Singh.",dheeraj.singh@godrejagrovet.com,"Team Leader",8101394,253918,"Sushil Kakkar",2024-10-17,,10:31:51
+253918,"Sushil Kakkar",sushil.kakkar@godrejagrovet.com,Manager,G109886,263074,"Dheeraj Kumar",2024-10-17,,10:37:05
+253945,"Jitendra Pal Singh",jitendra.singh1@godrejagrovet.com,Manager,G110362,253893,"Shivendra Singh",2024-10-17,,08:09:56
+253951,"Arun Sharma",arun.sharma@godrejagrovet.com,"Team Leader",361278,249240,"PF-Raj Kumar Singh Bhullar",2024-10-17,,08:50:38
+253965,"IC_CF - Gunasekaran Y",dummygunasekaran@gmail.com,"Sales Rep",,240699,"CF - Gunasekaran Y",2024-10-18,,AB
+253974,"Prashis Manwar",prashis.manwar@godrejagrovet.com,"Sales Rep",G110086,246712,"Direct reports Gopinath Jedhe",2024-10-18,,14:00:31
+254074,"VACANT_Yatin patel",vacantyatin@gmail.com,"Sales Rep",F100656,256167,"Rahulkumar Patel",2024-10-23,,AB
+254336,"Vacant_Srinivasa K S",vacantsrinivasa@gmail.com,"Sales Rep",G110415,240700,"CF - Nataraju N",2024-11-04,,AB
+254349,"Madhu Damarakonda",Madhu.damarakonda@godrejagrovet.com,"Sales Rep",G109916,234539,"Direct Reports - PF-Sambhaji C Tari",2024-11-04,,09:40:16
+254423,Vacant_Srikanth,vacantsrikanth@gmail.com,"Team Leader",,255451,"Sharath M R",2024-11-05,,AB
+254424,"Vacant_Praveenkumar Tenginakai",vacantpraveentenginaka@gmail.com,"Sales Rep",,281908,"Naveen RV",2024-11-05,,AB
+254442,"Nirmal Mishra",nirmal.mishra@godrejagrovet.com,"Sales Rep",G110451,234329,"Direct Reports - Akhilesh Rajput",2024-11-05,,12:44:39
+254448,"Vacant_CF_Kanpur Dehat_Pranjul Yadav",vacantpranjulyadav@gmail.com,"Sales Rep",,239899,"CF - Bhoopendra Singh",2024-11-06,,AB
+254470,"Pavan kumar",pavan.kumar01@godrejagrovet.com,"Sales Rep",G110317,247781,"CF - Manoj Kumar Harge",2024-11-06,,SL
+254912,"SIMRAN DUTTA",simran12137@gmail.com,"Sales Rep",F100681,257140,"PUSHAP RAJ",2024-11-05,,08:46:27
+255090,"S. Karthikeyan",s.karthikeyan@godrejagrovet.com,"Sales Rep",F100676,234881,"Gopalakrishnan K",2024-11-25,,10:57:27
+255110,"IC_Manish Pandey",dummymanishpandey@gmail.com,"Sales Rep",,280724,"Manish Pandey",2024-11-26,,AB
+255111,"Direct Reports Punit Srivastav",dummypunit@gmail.com,"Team Leader",,255148,"Punit Srivastav",2024-11-26,,AB
+255148,"Punit Srivastav",punit.srivastav@godrejagrovet.com,Manager,G110464,253893,"Shivendra Singh",2024-11-26,,11:05:58
+255244,"Raushan Kumar",raushankumar34351@gmail.com,"Sales Rep",F100679,247139,"CF - Shashank Gaur",2024-11-28,,13:38:22
+255419,"Ramesh Bhagwan Patale",ramesh.patale@godrejagrovet.com,Manager,,274918,"Vaibhav Dhaigude",2024-12-04,,07:03:19
+255421,"Ankush Dhabale",ankush.dhabale@godrejagrovet.com,Manager,G109416,255419,"Ramesh Bhagwan Patale",2024-12-04,,00:00:00
+255422,"Narsing Pawale",narsing.pawale@godrejagrovet.com,Manager,,245476,"PF- Mahesh Kansagra",2024-12-04,,10:33:01
+255444,"Dr Vilas Pal",vilas.pal@godrejagrovet.com,Manager,706742,234344,"Amulya Tanwar",2024-12-04,,12:58:11
+255445,"Dr Kedar Gupta",kedar.gupta@godrejagrovet.com,Manager,G101181,255444,"Dr Vilas Pal",2024-12-04,,08:49:29
+255447,"Dr Ouwesh Ansari",ansari.mohdouwesh@godrejagrovet.com,Manager,G101335,255444,"Dr Vilas Pal",2024-12-04,,09:14:37
+255448,"Dr Akshay Nirwal",akshay.nirwal@godrejagrovet.com,Manager,G109836,255445,"Dr Kedar Gupta",2024-12-04,,13:41:47
+255449,"Vacant_S Ramalingam",vacantramalingam@gmail.com,Manager,,280723,"SADUM KAVITHA",2024-12-04,,AB
+255451,"Sharath M R",sharath.mr@godrejagrovet.com,Manager,,260792,"Omkar Rajendra Ganamale",2024-12-04,,AB
+255452,"Anoop Kumar T",anoopkumar.t@godrejagrovet.com,Manager,,260792,"Omkar Rajendra Ganamale",2024-12-04,,12:06:25
+255505,"Hritik Ranjan",hritik.ranjan@godrejagrovet.com,"Sales Rep",F100711,247139,"CF - Shashank Gaur",2024-12-06,,08:50:16
+255539,"Dr. Sunil kumar",drsunil.kumar@godrejagrovet.com,Manager,712194,234343,"Prodyut Pratim Baruah",2024-12-07,,CL
+255541,"Dr. Gaurav Singh",gaurav.singh@godrejagrovet.com,Manager,G104046,255539,"Dr. Sunil kumar",2024-12-07,,06:31:14
+255542,"Vacant_Dr. Aashish kumar",vacantaashish@gmail.com,Manager,,255541,"Dr. Gaurav Singh",2024-12-07,,AB
+255543,"Dr. Ainul Haque",ainul.haque@godrejagrovet.com,Manager,712909,255539,"Dr. Sunil kumar",2024-12-07,,11:57:19
+255544,"Dr. Mizanur Rahman Molla",mizanur.molla@godrejagrovet.com,Manager,G107503,255539,"Dr. Sunil kumar",2024-12-07,,AB
+255546,"Dr. Rajesh Sharma",rajesh.sharma@godrejagrovet.com,Manager,G110945,234238,"Rahul Girisan",2024-12-07,,12:31:49
+255547,"Dr Praveen Nage",pravin.nage@godrejagrovet.com,Manager,707034,255546,"Dr. Rajesh Sharma",2024-12-07,,07:39:32
+255638,"Vacant_ Lucknow_Dr. Amit Jaiswal",vacantamitjaiswal@gmail.com,"Sales Rep",,253910,"Dr. Dheeraj Singh.",2024-12-10,,AB
+255734,"Boominathan A",boominathan.a@godrejagrovet.com,"Sales Rep",G110890,240694,"Direct Reports to Biju P Menon",2024-12-12,,11:35:43
+255735,"Manoj Dudiki",manoj.dudiki@godrejagrovet.com,"Sales Rep",G110840,239020,"Nageshwararao Posina",2024-12-12,,09:50:10
+255847,"Panchal Ashish",ashish.panchal@godrejagrovet.com,"Sales Rep",G110755,246712,"Direct reports Gopinath Jedhe",2024-12-17,,10:42:57
+255899,"Sherasiya Mahamdguljar Samsudin",guljarsherasiya00@gmail.com,"Sales Rep",F100710,241373,"CF - S N PATEL",2024-12-18,,11:04:45
+255900,"Dhavalkumar Prajapati",dhavalprajapati2016@gmail.com,"Sales Rep",F100709,243648,"Direct Reports_CF - Mahesh Parmar",2024-12-18,,13:28:05
+256141,"Abhishek Pratap Singh",abhishek.singh04@godrejagrovet.com,"Sales Rep",G111147,239899,"CF - Bhoopendra Singh",2024-12-26,,14:58:16
+256142,"Ramesh Yadav",ramesh.yadav@godrejagrovet.com,"Sales Rep",G111189,255111,"Direct Reports Punit Srivastav",2024-12-26,,00:00:37
+256143,"Akash Sayankar",akash.sayankar1@godrejagrovet.com,"Sales Rep",G111160,256860,"CF - Satish Benade",2024-12-26,,14:19:53
+256165,"VIRENDER KUMAR",virender.kumar@godrejagrovet.com,"Sales Rep",8111092,242681,"CF-Vikas Sharma",2024-12-27,,05:55:50
+256167,"Rahulkumar Patel",rahulkumar.patel@godrejagrovet.com,"Team Leader",G108697,279821,"CF - Mahesh Parmar",2024-12-27,,13:03:03
+256234,"Vivek Pathak",vivek.pathak1@godrejagrovet.com,"Sales Rep",G111188,234329,"Direct Reports - Akhilesh Rajput",2025-01-02,,00:00:00
+256235,"Manvendra Chandel",manvendra.chandel@godrejagrovet.com,"Sales Rep",G111179,234329,"Direct Reports - Akhilesh Rajput",2025-01-02,,12:19:07
+256236,"Prajjwal Singh",prajjwal.singh@godrejagrovet.com,"Sales Rep",G111183,234329,"Direct Reports - Akhilesh Rajput",2025-01-02,,11:17:32
+256239,"Saurav Kumar",saurav01.kumar@godrejagrovet.com,"Sales Rep",F100722,253350,"Direct Reports to Sushil Kakkar",2025-01-02,,00:00:00
+256580,"Ajit Mohan Mandale",ajit.mandale@godrejagrovet.com,"Sales Rep",G110033,241368,"CF - P N Bhopale",2025-01-06,,04:07:02
+256582,"CF - Shankar Gite",shankar.gite@godrejagrovet.com,"Team Leader",716335,246754,"CF - Gopinath Jedhe",2025-01-06,,12:42:18
+256583,"Suraj Dattatray Jagtap",surajjagtap1598@gmail.com,"Sales Rep",6100702,256582,"CF - Shankar Gite",2025-01-06,,10:02:34
+256701,"Gayathri Valasa Reddy",gayathri.reddy@godrejagrovet.com,"Sales Rep",,271536,"Direct Reports - A VIJAYA SHEKHAR",2025-01-08,,10:47:37
+256711,"Suresh Bhatiya",suresh.bhatiya0183@gmail.com,"Sales Rep",F100686,241373,"CF - S N PATEL",2025-01-08,,13:17:30
+256860,"CF - Satish Benade",satish.benade@godrejagrovet.com,"Team Leader",257498,246754,"CF - Gopinath Jedhe",2025-01-14,,00:32:59
+256902,"Tanaya Walzade R",tanaya.walzade@godrejagrovet.com,"Sales Rep",G113118,270137,"CF Ravindra Koli",2025-01-14,,CL
+257130,"VACANT_Pintu Kumar",dummypintu@gmail.com,"Sales Rep",F100699,247143,"Direct Reports_Vinit Kumar",2025-01-17,,AB
+257133,"MOHAMMED FAIZAL N",mohammed.faizaln@godrejagrovet.com,"Sales Rep", F100744,234176,"Direct Reports Chocklingam",2025-01-17,,08:45:25
+257136,"Varun Gupta",varun.gupta@godrejagrovet.com,"Team Leader",G107654,252552,"CF-Yogesh Sharma",2025-01-17,,10:12:15
+257140,"PUSHAP RAJ",pushap.raj@godrejagrovet.com,"Team Leader",G109562,252552,"CF-Yogesh Sharma",2025-01-17,,10:23:08
+257970,"PRAPHUL ANIGOL",praphul.anigol@godrejagrovet.com,Manager,G110461,234168,"Pradeep Kumar Hegde",2025-01-30,,AB
+258155,"IC_CF - Manas Nayak",dummymanas@gmail.com,"Sales Rep",,240007,"Direct Reports_CF - Manas Nayak",2025-02-03,,AB
+258231,"Shyam jee",shyam.jee@godrejagrovet.com,"Sales Rep",F100608,245790,"CF - Pramod kumar yadav",2025-02-05,,12:42:25
+258232,"Aditya Singh",aditya.singh02@godrejagrovet.com,"Sales Rep",F100677,245790,"CF - Pramod kumar yadav",2025-02-05,,00:00:14
+259280,"Swapnil Bankar",swapnilbankar863@gmail.com,"Sales Rep",F100639,241368,"CF - P N Bhopale",2025-02-13,,AB
+259504,"SHYAM SHARMA",shyam.sharma@godrejagrovet.com,"Sales Rep",G111792,242705,"CF - Gaurav Kulshetra",2025-02-19,,14:06:20
+259768,"Akshay Vibhute",akshay.vibhute@godrejagrovet.com,"Sales Rep",G111192,241368,"CF - P N Bhopale",2025-02-25,,05:38:28
+260067,"Manish Srivastava",manish.srivastava@godrejagrovet.com,"Sales Rep",F100747,255111,"Direct Reports Punit Srivastav",2025-03-04,,11:07:56
+260080,"Saurabh Chaturvedi",saurabh.chaturvedi@godrejagrovet.com,"Sales Rep",G111833,234329,"Direct Reports - Akhilesh Rajput",2025-03-04,,12:22:50
+260084,"JASVEER SINGH",jasveer.singh@godrejagrovet.com,"Sales Rep",G111916,242681,"CF-Vikas Sharma",2025-03-04,,SL
+260096,"Vishnu Ji",vishnu.ji@godrejagrovet.com,"Sales Rep",G111840,280724,"Manish Pandey",2025-03-04,,10:09:21
+260241,"Maheshkumar  M",maheshkumar.m@godrejagrovet.com,"Sales Rep",F100777,247054,"Direct report to Arul Antony",2025-03-06,,10:39:48
+260546,"Gopal Kumar",gopalkumaras.bscag@gmail.com,"Sales Rep",F100755,247143,"Direct Reports_Vinit Kumar",2025-03-13,,08:24:29
+260781,"RAJENDRA KUMAR SHARMA",rajendra.sharma2@godrejagrovet.com,"Sales Rep",G112109,247081,"CF - Laxmipat Raj Bohra",2025-03-21,,12:28:24
+260791,"Satesh AI",satesh.i@godrejagrovet.com,"Sales Rep",G112329,240694,"Direct Reports to Biju P Menon",2025-03-21,,00:14:49
+260792,"Omkar Rajendra Ganamale",omkar.ganamale@godrejagrovet.com,Manager,G110453,255449,"Vacant_S Ramalingam",2025-03-21,,AB
+261404,VACANT_Koandagoan,vacantkoandagoan@gmail.com,"Sales Rep",,278691,"CF - Sudhashu Sikadar",2025-03-27,,AB
+261948,"Shubham Ashok Khote",shubhamkhote3@gmail.com,"Sales Rep",F100787,256860,"CF - Satish Benade",2025-04-09,,11:42:49
+261986,"Kamalapuram Vineela",kamalapuram.vineela@godrejagrovet.com,"Sales Rep",,272370,"CF - Rambabu Kandukuri",2025-04-09,,10:52:51
+261987,"Herline F",herline.f@godrejagrovet.com,"Sales Rep",5007955,247372,"CF - Shanmuga Sundaram R",2025-04-09,,09:30:54
+262000,"Kanyashree A M",kanyashree.am@godrejagrovet.com,"Sales Rep",,240700,"CF - Nataraju N",2025-04-09,,10:04:32
+262005,"IC_Basharat Bashir",dummybasharat@gmail.com,"Sales Rep",,279559,"Basharat Bashir",2025-04-09,,AB
+262061,"Rahul Kumar Dahara",rahul.dahara@godrejagrovet.com,"Sales Rep",F100779,249402,"Prasanta Changmai",2025-04-10,,08:41:24
+262064,"Nilesh Patil",nilesh.patil1@godrejagrovet.com,"Sales Rep",8110836,251757,"CF - S N Lad",2025-04-10,,12:54:08
+262102,"Sandip Sardar",sandip.sardar@godrejagrovet.com,"Sales Rep",F100478,240008,"Avilash Chowdhury",2025-04-10,,10:52:46
+262144,"Direct Reports - Jitendra Pal Singh",dummyjitendra@gmail.com,"Team Leader",,253945,"Jitendra Pal Singh",2025-04-11,,AB
+262145,"Sunil Kumar",sunil.kumar03@godrejagrovet.com,"Sales Rep",G112493,255111,"Direct Reports Punit Srivastav",2025-04-11,,AB
+262146,"Vacant_Amit Mishra",vacantamitmishra@gmail.com,"Sales Rep",,255111,"Direct Reports Punit Srivastav",2025-04-11,,AB
+262151,"Direct Reports - Dheeraj Kumar",dummydheeraj@gmail.com,"Team Leader",,263074,"Dheeraj Kumar",2025-04-11,,AB
+262152,"Bimlesh Kumar",bimlesh.kumar@godrejagrovet.com,"Sales Rep",G112233,262144,"Direct Reports - Jitendra Pal Singh",2025-04-11,,13:07:57
+262153,"Vacant_Joel Edward Robinson",vacantjoeledward@gmail.com,"Sales Rep",,239900,"CF - Dinesh Kumar Sharma",2025-04-11,,AB
+262154,"Vacant_ Haridwar_Sachin Kumar",vacantsatishkumar@gmail.com,"Sales Rep",,239900,"CF - Dinesh Kumar Sharma",2025-04-11,,AB
+262156,"Raghvendra Singh",raghvendra.singh@godrejagrovet.com,"Sales Rep",G112661,262144,"Direct Reports - Jitendra Pal Singh",2025-04-11,,00:00:00
+262160,"Chaudhari Shrikesh Kashinath",shrikeshc60@gmail.com,"Sales Rep",F100799,256860,"CF - Satish Benade",2025-04-11,,11:35:42
+262306,"Sagar Chandrakant Shinde",shindesagar9556@gmail.com,"Sales Rep",F100704,241369,"Direct Reports - CF - Milind Shinde",2025-04-15,,14:37:49
+262311,"CF - Rajender Sharma",rajender.sharma@godrejagrovet.com,"Team Leader",713128,252552,"CF-Yogesh Sharma",2025-04-15,,00:00:16
+262629,"Samman Deep Singh",emsamdp@gmail.com,"Sales Rep",F100801,279559,"Basharat Bashir",2025-04-21,,09:22:37
+262646,"CF - Deepak Bagal",deepak.bagal@godrejagrovet.com,"Team Leader",257613,246754,"CF - Gopinath Jedhe",2025-04-21,,11:23:29
+262647,"Aniket kadam",kadamaniket1519@gmail.com,"Sales Rep",F100785,262646,"CF - Deepak Bagal",2025-04-21,,12:12:36
+262648,"Pravin Shete",pravin.shete@godrejagrovet.com,"Sales Rep",G113276,246712,"Direct reports Gopinath Jedhe",2025-04-21,,13:38:42
+262726,"CF - Firoz Sayyad",firoj.sayyad@godrejagrovet.com,"Team Leader",707192,271325,"CF - Ramesh",2025-04-23,,15:08:33
+262728,"Suraj Rathod",surajrathod.godrej@gmail.com,"Sales Rep",F100715,262726,"CF - Firoz Sayyad",2025-04-23,,10:18:08
+262729,"CF - Suyog Shinde",suyog.shinde@godrejagrovet.com,Manager,257434,255421,"Ankush Dhabale",2025-04-23,,00:00:00
+262757,"CF - Milind Shinde",milind.shinde@godrejagrovet.com,Manager,257827,255421,"Ankush Dhabale",2025-04-24,,00:00:24
+262888,"Sunil Bhamare",sunil.bhamare@godrejagrovet.com,"Team Leader",701251,245476,"PF- Mahesh Kansagra",2025-04-25,,10:50:45
+262889,"Direct Reports - Narsing Pawale",dummynarsing@gmail.com,"Team Leader",,255422,"Narsing Pawale",2025-04-25,,AB
+262890,"Mangesh Kolge",mangesh.kolge@godrejagrovet.com,"Team Leader",257427,245476,"PF- Mahesh Kansagra",2025-04-25,,09:01:03
+263074,"Dheeraj Kumar",dheeraj.kumar@godrejagrovet.com,Manager,G112349,255546,"Dr. Rajesh Sharma",2025-04-28,,CL
+263077,"Ayushi Sarathe",ayushi.sarathe@godrejagrovet.com,"Sales Rep",G113069,278855,"Direct Reports_Dr. Rajesh Sharma",2025-04-28,,08:40:34
+263179,"Adil Hassan Wani",waniaadil637@gmail.com,"Sales Rep",F100833,279559,"Basharat Bashir",2025-04-29,,12:45:28
+263180,"PF-Sambhaji C Tari",sc.tari@godrejagrovet.com,Manager,,280723,"SADUM KAVITHA",2025-04-29,,09:00:47
+263376,"Prajakt Prabhakar Haralikar",prajaktharlikar@gmail.com,"Sales Rep",F100357,241367,"Direct Reports to CF - P.L.Kulkarni",2025-05-05,,00:00:00
+263377,"Suraj Patil",suraj.patil@godrejagrovet.com,"Sales Rep",G112691,241367,"Direct Reports to CF - P.L.Kulkarni",2025-05-05,,11:24:18
+263895,"Vinod Yadav",vinod.yadav@godrejagrovet.com,"Sales Rep",G113406,280724,"Manish Pandey",2025-05-14,,SL
+267983,"Ankur Protim Borah",ankurprotim.borah@godrejagrovet.com,Manager,G113027,255543,"Dr. Ainul Haque",2025-05-15,,07:16:06
+268171,"Praveen Pariyarath",praveen.pariyarath@godrejagrovet.com,"Sales Rep",G113690,234176,"Direct Reports Chocklingam",2025-05-20,,09:06:56
+268292,"Ankit Kumar",ankit.k@godrejagrovet.com,"Sales Rep",F100832,247143,"Direct Reports_Vinit Kumar",2025-05-22,,09:33:43
+268393,"Vacant_Vaibhav Salunkhe",vaibhav.salunkhe@godrejagrovet.com,"Sales Rep",,241371,"Direct Reports- Santosh Koparde",2025-05-26,,AB
+268422,"Shantanu Shital Magdum",shantanumagdum9149@gmail.com,"Sales Rep",F100786,241371,"Direct Reports- Santosh Koparde",2025-05-26,,10:22:29
+269451,"Subhrasis Samantaray",subhrasis.samantaray@godrejagrovet.com,"Sales Rep",G113268,234350,"Ramakanta Behera",2025-05-29,,13:43:31
+270100,"Vacant_Medinapur_Saikat Saha",vacantsaikat@gmail.com,"Sales Rep",,240008,"Avilash Chowdhury",2025-06-06,,AB
+270130,"Girish Rajpurohit",rajpurohit.girish@godrejagrovet.com,"Team Leader",G108467,270131,"CF - Manas Nayak",2025-06-07,,AB
+270131,"CF - Manas Nayak",manas.nayak@godrejagrovet.com,Manager,G103808,255539,"Dr. Sunil kumar",2025-06-07,,11:58:26
+270132,"VACANT_Ritam Das",vacantritam@gmail.com,"Sales Rep",F100800,240008,"Avilash Chowdhury",2025-06-07,,AB
+270133,"Somyadeep Kar",somyadeep.kar@godrejagrovet.com,"Sales Rep",F100830,240008,"Avilash Chowdhury",2025-06-07,,02:07:12
+270134,"Rajen Mondal",rajen.mondal@godrejagrovet.com,"Sales Rep",F100831,240008,"Avilash Chowdhury",2025-06-07,,AB
+270135,"Nitish Raj Kalita",nitish.kalita@godrejagrovet.com,"Sales Rep",F100835,251590,"Pradyumna Pathak",2025-06-07,,09:47:22
+270137,"CF Ravindra Koli",ravindra.koli@godrejagrovet.com,"Team Leader",258118,242941,"CF - Santhosh Koparde",2025-06-07,,02:22:28
+270139,"Bhupesh A Sonawane",bhupesh.sonawane@godrejagrovet.com,"Sales Rep",G113731,241371,"Direct Reports- Santosh Koparde",2025-06-07,,00:00:41
+270220,"Raghavendra Naik",raghavendra.naik@godrejagrovet.com,"Sales Rep",711602,281908,"Naveen RV",2025-06-09,,10:19:19
+270239,"Santosh Kumar",santosh.kumar@godrejagrovet.com,"Sales Rep",6100701,240008,"Avilash Chowdhury",2025-06-10,,09:41:26
+270241,"SHANTHKUMAR D",d.shathakumar@godrejagrovet.com,"Sales Rep",F100716,240700,"CF - Nataraju N",2025-06-10,,09:32:26
+270326,"RME South",mouli.shanmugam@godrejagrovet.com,Manager,G113702,247559,"Kiran Sinalkar",2025-06-11,,AB
+270395,"Direct Reports_CF - P R Ranaware",dummyprranaware@gmail.com,"Team Leader",,277652,"CF - P R Ranaware",2025-06-12,,AB
+271164,"Yogesh Patel",yogesh.patel@godrejagrovet.com,"Sales Rep",G113900,253890,"CF - Yogendra Gurjar",2025-06-16,,09:11:49
+271325,"CF - Ramesh",ramesh.kale@godrejagrovet.com,Manager,257995,255421,"Ankush Dhabale",2025-06-19,,00:00:03
+271326,"Direct Reports_CF - Ramesh",dummyramesh@gmail.com,"Team Leader",,271325,"CF - Ramesh",2025-06-19,,AB
+271536,"Direct Reports - A VIJAYA SHEKHAR",dummyvijayashekhar@gmail.com,"Team Leader",,272367,"A VIJAYA SHEKHAR",2025-06-24,,AB
+271537,"GURUMURTHY GANUGACHINTHA",gurumurthy.g@godrejagrovet.com,"Sales Rep",G113914,271536,"Direct Reports - A VIJAYA SHEKHAR",2025-06-24,,10:32:55
+271538,"B.C. Varadarajulu",bc.varadarajulu@godrejagrovet.com,"Sales Rep",F100844,271536,"Direct Reports - A VIJAYA SHEKHAR",2025-06-24,,09:14:32
+271550,"Jagdish Shekhaliya",j.shekhaliya123@gmail.com,"Sales Rep",F100862,256167,"Rahulkumar Patel",2025-06-24,,AB
+271936,"Dharanidhar Singh",dharindhar.singh@godrejagrovet.com,"Sales Rep",G114199,253350,"Direct Reports to Sushil Kakkar",2025-07-01,,09:30:12
+271939,"Abhishek Kumar Singh",abhishek.singh07@godrejagrovet.com,"Sales Rep",G114207,253910,"Dr. Dheeraj Singh.",2025-07-01,,12:01:14
+271940,"Saurabh Gangwar",saurabh.gangwar@godrejagrovet.com,"Sales Rep",G114022,253350,"Direct Reports to Sushil Kakkar",2025-07-01,,10:33:52
+271944,"Amit Kumar Agrahari",amit.agrahari@godrejagrovet.com,"Sales Rep",G114089,255111,"Direct Reports Punit Srivastav",2025-07-01,,10:29:16
+271947,"Sanjana Rajeshbai Gamit",sanjanagamit450@gmail.com,"Sales Rep",F100863,250318,"Direct Reports - Jigar Dave",2025-07-01,,AB
+272318,"Udipta Kumar Saikia",udipta.saikia@godrejagrovet.com,"Sales Rep",F100865,234371,"Mubin Ahmed",2025-07-03,,08:28:31
+272359,"Dinesh Saini",dinesh421saini@gmail.com,"Sales Rep",F100869,247081,"CF - Laxmipat Raj Bohra",2025-07-04,,12:54:04
+272367,"A VIJAYA SHEKHAR",vijaya.a@godrejagrovet.com,Manager,G114065,280723,"SADUM KAVITHA",2025-07-04,,10:56:42
+272370,"CF - Rambabu Kandukuri",rambabu.kandukuri@godrejagrovet.com,"Team Leader",G104720,272367,"A VIJAYA SHEKHAR",2025-07-04,,11:16:59
+273532,"Piyush Sharma",Bavaprince333@gmail.com,"Sales Rep",F100870,242705,"CF - Gaurav Kulshetra",2025-07-09,,11:57:55
+273555,"Karthik M",karthik.01@godrejagrovet.com,"Sales Rep",G114224,247054,"Direct report to Arul Antony",2025-07-09,,11:53:41
+273645,"Vikas Singh",vikas.singh@godrejagrovet.com,"Sales Rep",G114005,253910,"Dr. Dheeraj Singh.",2025-07-10,,10:57:34
+273648,"Abhishek Shukla",abhishek.shukla2@godrejagrovet.com,"Sales Rep",G114504,253910,"Dr. Dheeraj Singh.",2025-07-10,,00:05:01
+273651,"Sunil Shukla",sunilkumar.shukla@godrejagrovet.com,"Sales Rep",G114302,239899,"CF - Bhoopendra Singh",2025-07-10,,00:00:04
+273653,"Vikas Tiwari",vikas.tiwari1@godrejagrovet.com,"Sales Rep",G114349,253350,"Direct Reports to Sushil Kakkar",2025-07-10,,11:54:04
+273965,"Jakir Hussain",jakir.husain@godrejagrovet.com,"Sales Rep",G114567,253350,"Direct Reports to Sushil Kakkar",2025-07-11,,10:50:30
+274178,"Panchanand Kumar Pandey",panchanand.pandey@godrejagrovet.com,"Team Leader",G114156,247119,"CF - Surya Yadav",2025-07-15,,09:00:47
+274392,"Ritesh Kumar Mishra",mishra@godrejagrovet.com,"Sales Rep",f100818,274178,"Panchanand Kumar Pandey",2025-07-18,,13:03:55
+274562,"Vinay Parmar",vinay.parmar@godrejagrovet.com,"Sales Rep",G114413,253890,"CF - Yogendra Gurjar",2025-07-23,,10:41:19
+274564,"Girraj Mittal",girraj.mittal@godrejagrovet.com,"Team Leader",G114019,253351,"Sandip Yadav",2025-07-23,,10:41:59
+274565,"Vinit Kumar",vinit.kumar@godrejagrovet.com,Manager,713714,247119,"CF - Surya Yadav",2025-07-23,,12:48:44
+274566,"CF - Mayank Gaur",mayank.gaur@godrejagrovet.com,"Team Leader",G103445,274565,"Vinit Kumar",2025-07-23,,00:00:07
+274567,"Sunny Vishal",sunny.vishal@godrejagrovet.com,"Sales Rep",F100848,274566,"CF - Mayank Gaur",2025-07-23,,12:09:52
+274568,"Sachin G H",sachin.g@godrejagrovet.com,"Sales Rep",F100669,240697,"CF - Sunil B V",2025-07-23,,10:41:17
+274569,"Ramesh kumar C A",ramesh.kumarca@godrejagrovet.com,"Sales Rep",F100558,240697,"CF - Sunil B V",2025-07-23,,11:23:30
+274570,"Vasanthkumar MR",vasanthkumar.mr@godrejagrovet.com,"Sales Rep",F100546,240697,"CF - Sunil B V",2025-07-23,,10:00:17
+274571,"Vikas Yadav",vikasyadavag36@gmail.com,"Sales Rep",F100881,242705,"CF - Gaurav Kulshetra",2025-07-23,,10:24:57
+274572,"Anand Laxman Jamkhandi",anand.jamakhandi@godrejagrovet.com,"Sales Rep",F100868,247781,"CF - Manoj Kumar Harge",2025-07-23,,07:35:16
+274624,"Mahendra Pal",mahendra.pal@godrejagrovet.com,Manager,G114304,255546,"Dr. Rajesh Sharma",2025-07-24,,09:33:33
+274844,"Vikas Shinde",vikas.shinde@godrejagrovet.com,"Sales Rep",G114573,271326,"Direct Reports_CF - Ramesh",2025-07-30,,08:03:50
+274918,"Vaibhav Dhaigude",vaibhav.dhaigude@godrejagrovet.com,Manager,G106809,234528,"Abhimanyu M Dhole",2025-07-31,,06:41:24
+275530,"Harpalsinh Vaghela",harpalsinh988@gmail.com,"Sales Rep",F100892,256167,"Rahulkumar Patel",2025-08-08,,15:00:12
+275870,"Vikas Madhukar Sargar",vikas.sargar@godrejagrovet.com,"Sales Rep",,241368,"CF - P N Bhopale",2025-08-08,,11:46:07
+276440,"Mangi Ram",mangi.ram@godrejagrovet.com,"Sales Rep",,242681,"CF-Vikas Sharma",2025-08-19,,10:04:37
+276822,"Nitesh Swami",niteshswami07@gmail.com,"Sales Rep",F100911,247081,"CF - Laxmipat Raj Bohra",2025-08-26,,12:29:44
+276920,"Saurabh Tripathi",saurabh.tripathi@godrejagrovet.com,"Sales Rep",,239899,"CF - Bhoopendra Singh",2025-08-28,,AB
+276923,"Anand sharma",anand.sharma1@godrejagrovet.com,"Sales Rep",G115315,280230,"Amit Singh",2025-08-28,,11:07:35
+276931,"Mayur Anilbhai Patel",mayur30first@gmail.com,"Sales Rep",F100893,276932,"CF - Sattapa Shendage",2025-08-28,,13:08:01
+276932,"CF - Sattapa Shendage",satappa.shendage@godrejagrovet.com,"Team Leader",704185,279576,"Jigar Dave",2025-08-28,,13:33:26
+277390,"Jitendra Rajput",jitendra.rajput@godrejagrovet.com,"Sales Rep",G115046,253353,"Sunil Malviya",2025-09-01,,10:10:57
+277650,"Mahesh Sayana",mahesh.sayana@godrejagrovet.com,"Sales Rep",G115303,271536,"Direct Reports - A VIJAYA SHEKHAR",2025-09-04,,09:03:14
+277652,"CF - P R Ranaware",pandurang.ranaware@godrejagrovet.com,Manager,257756,274918,"Vaibhav Dhaigude",2025-09-04,,00:00:03
+277653,"CF - Tripti Pandey",tripti.pandey@godrejagrovet.com,"Team Leader",707809,277652,"CF - P R Ranaware",2025-09-04,,05:21:19
+277654,"Atharva Navadkar",atharva.navadkar@godrejagrovet.com,"Sales Rep",G115181,270395,"Direct Reports_CF - P R Ranaware",2025-09-04,,07:44:47
+277666,"Satheesh K",satheesh.k@godrejagrovet.com,"Sales Rep",710688,240700,"CF - Nataraju N",2025-09-05,,09:41:50
+277667,"Anil Kumar GV",anilkumar.gv@godrejagrovet.com,"Sales Rep",G115089,240700,"CF - Nataraju N",2025-09-05,,10:16:26
+277686,"Dr. Arman Ahmad",arman.ahmad@godrejagrovet.com,Manager,G114234,255541,"Dr. Gaurav Singh",2025-09-05,,11:17:01
+277687,"Pankaj Jyoti Das",pankaj.das@godrejagrovet.com,"Sales Rep",F100864,234372,"Ashit Dutta",2025-09-05,,08:40:54
+277722,"Aakib Iqbal",laaqib229@gmail.com,"Sales Rep",F100909,257136,"Varun Gupta",2025-09-08,,SL
+277724,"Munish Soni",munish.soni@godrejagrovet.com,"Sales Rep",,234817,"PF-Rakesh Sharma",2025-09-08,,07:28:06
+277807,Koushik,koushik.r@godrejagrovet.com,"Sales Rep",G114840,240700,"CF - Nataraju N",2025-09-09,,AB
+277809,"Manjappa Doddamani",manjappa.doddamani@godrejagrovet.com,"Sales Rep",G114739,281908,"Naveen RV",2025-09-09,,12:55:35
+277822,"Shubham Kashid",shubhamkashid198@gmail.com,"Sales Rep",F100879,247735,"Direct Reports - CF - Suyog Shinde",2025-09-10,,00:22:19
+278691,"CF - Sudhashu Sikadar",sudhanshu.sikdar1@godrejagrovet.com,"Team Leader",6100374,255546,"Dr. Rajesh Sharma",2025-09-24,,11:49:56
+278855,"Direct Reports_Dr. Rajesh Sharma",dummyrajesh@gmail.com,"Team Leader",,255546,"Dr. Rajesh Sharma",2025-09-26,,AB
+278857,"Srinivasa Naidu",srinivasa.naidu@godrejagrovet.com,"Sales Rep",F100902,240700,"CF - Nataraju N",2025-09-26,,11:43:51
+279210,"Himanshu Dadhich",dadhichhimanshu107@gmail.com,"Sales Rep",F100946,247081,"CF - Laxmipat Raj Bohra",2025-10-03,,12:41:59
+279230,"Rutvik Gound",rutvikgound156@gmail.com,"Sales Rep",6100900,241374,"Direct Reports_CF - Pramod Patil",2025-10-03,,10:10:12
+279305,"Sajal Karmakar",sajal.karmakar@godrejagrovet.com,"Team Leader",707116,267983,"Ankur Protim Borah",2025-10-06,,11:30:27
+279307,"Suchitra Das",suchitra.das01@godrejagrovet.com,"Sales Rep",F100891,279305,"Sajal Karmakar",2025-10-06,,06:39:31
+279308,"Precilla Laltanpuii",precilla.laltanpuii@godrejagrovet.com,"Sales Rep",F100894,279305,"Sajal Karmakar",2025-10-06,,03:06:43
+279485,"Madhu Nirala",madhu.nirala@godrejagrovet.com,"Sales Rep",G115777,278855,"Direct Reports_Dr. Rajesh Sharma",2025-10-07,,AB
+279559,"Basharat Bashir",basharat.bashir@godrejagrovet.com,"Team Leader",G115679,252552,"CF-Yogesh Sharma",2025-10-09,,08:38:12
+279576,"Jigar Dave",jigar.dave@godrejagrovet.com,Manager,371281,255421,"Ankush Dhabale",2025-10-10,,00:49:54
+279577,"CF - Kishor Gavandi",kishor.gavandi@godrejagrovet.com,"Team Leader",257528,281788,"CF - Pramod Patil",2025-10-10,,12:02:42
+279578,"PRAJYOT NIKAM",prajyot.nikam@godrejagrovet.com,"Sales Rep",G115451,270395,"Direct Reports_CF - P R Ranaware",2025-10-10,,08:36:23
+279780,"Saniket Patil",,"Sales Rep",6100852,241374,"Direct Reports_CF - Pramod Patil",2025-10-14,,AB
+279821,"CF - Mahesh Parmar",maheshkumar.parmar@godrejagrovet.com,Manager,371259,255421,"Ankush Dhabale",2025-10-15,,00:01:02
+279829,"Filip Arvindbhai Chaudhari",filipchaudhari82@gmail.com,"Sales Rep",F100951,250318,"Direct Reports - Jigar Dave",2025-10-15,,12:11:43
+279947,Vacant_Saharanpur,vacantsaharanpur@gmail.com,"Sales Rep",,239900,"CF - Dinesh Kumar Sharma",2025-10-17,,AB
+280140,"Siljo Johnson",siljo.johnson@godrejagrovet.com,"Sales Rep",G115883,247054,"Direct report to Arul Antony",2025-10-22,,11:14:05
+280141,"Aromal S",aromal.s@godrejagrovet.com,"Sales Rep",F100933,247054,"Direct report to Arul Antony",2025-10-23,,12:59:58
+280227,"Rajendra Verma",rajendra.verma@godrejagrovet.com,"Sales Rep",G115859,262144,"Direct Reports - Jitendra Pal Singh",2025-10-24,,09:13:56
+280228,Nidhi,nidhi.1@godrejagrovet.com,"Sales Rep",G116022,262144,"Direct Reports - Jitendra Pal Singh",2025-10-24,,AB
+280230,"Amit Singh",amit.singh5@godrejagrovet.com,"Team Leader",G116069,274624,"Mahendra Pal",2025-10-24,,09:08:04
+280305,"Chauhan Ajaysinh",,"Sales Rep",F100935,243648,"Direct Reports_CF - Mahesh Parmar",2025-10-27,,AB
+280693,"Akash Apune",akash.apune@godrejagrovet.com,"Sales Rep",G116063,247735,"Direct Reports - CF - Suyog Shinde",2025-11-07,,14:03:19
+280721,"Shivam Singh",shivam.singh2@godrejagrovet.com,"Sales Rep",G116183,239899,"CF - Bhoopendra Singh",2025-11-07,,14:47:15
+280722,"Ashutosh Pandey",ashutosh.pandey@godrejagrovet.com,"Sales Rep",G116217,234329,"Direct Reports - Akhilesh Rajput",2025-11-07,,12:40:03
+280723,"SADUM KAVITHA",sadum.1@godrejagrovet.com,Manager,G115314,257970,"PRAPHUL ANIGOL",2025-11-07,,AB
+280724,"Manish Pandey",manish.pandey@godrejagrovet.com,"Team Leader",G110603,253918,"Sushil Kakkar",2025-11-07,,10:01:13
+280847,"Bijay Jena",bijay.jena@godrejagrovet.com,"Sales Rep",F100954,234350,"Ramakanta Behera",2025-11-11,,08:23:24
+280857,"Lopamudra Nayak",lopamudra.nayak@godrejagrovet.com,"Sales Rep",P100168,239899,"CF - Bhoopendra Singh",2025-11-11,,L
+280858,"Deepti Mayee Gochhayat",deeptim.gochhayat@godrejagrovet.com,"Sales Rep",P100169,239899,"CF - Bhoopendra Singh",2025-11-11,,L
+280863,"Dev Kumar",dev.kumar@godrejagrovet.com,"Sales Rep",P100170,239899,"CF - Bhoopendra Singh",2025-11-11,,08:00:50
+280864,"Shubham Kumar",shubham.kumar01@godrejagrovet.com,"Sales Rep",P100171,239899,"CF - Bhoopendra Singh",2025-11-11,,08:10:15
+280933,"Arun Thakur",arun.thakur@godrejagrovet.com,"Sales Rep",G116360,242681,"CF-Vikas Sharma",2025-11-13,,09:56:35
+281109,"Vishal George",vishal.george@godrejagrovet.com,"Sales Rep",G116389,234176,"Direct Reports Chocklingam",2025-11-18,,10:34:15
+281356,"Abhijeet Tulshiram Kalukhe",abhijeetkalukhe@gmail.com,"Sales Rep",F100887,270395,"Direct Reports_CF - P R Ranaware",2025-11-21,,09:04:02
+281621,"Sujeet Kumar Tiwari",sujeet.tiwari@godrejagrovet.com,"Sales Rep",G116659,278855,"Direct Reports_Dr. Rajesh Sharma",2025-11-26,,AB
+281788,"CF - Pramod Patil",p.patil@godrejagrovet.com,Manager,703214,255421,"Ankush Dhabale",2025-12-01,,09:30:18
+281789,"CF - Ganesh Phadtare",ganesh.phadatare@godrejagrovet.com,"Team Leader",713557,281788,"CF - Pramod Patil",2025-12-01,,11:02:59
+281822,"Kanhaiya Patidar",kanhaiya.patidar@godrejagrovet.com,"Sales Rep",G116741,253890,"CF - Yogendra Gurjar",2025-12-01,,CL
+281901,"Mahesh Jakhar",mahesh.jakhar@godrejagrovet.com,"Sales Rep",G116775,234818,"PF-Nanasaheb Laxman Kote",2025-12-03,,10:55:04
+281902,"Amritpal Singh",amrit.singh@godrejagrovet.com,"Sales Rep",,234817,"PF-Rakesh Sharma",2025-12-03,,09:23:42
+281904,"Adarsh Masali",adarsh.masali@godregagrovet.com,"Sales Rep",G116838,247781,"CF - Manoj Kumar Harge",2025-12-03,,10:32:42
+281908,"Naveen RV",naveen.rv@godrejagrovet.com,"Team Leader",G116418,255451,"Sharath M R",2025-12-03,,09:19:23
+281920,"Mrityunjay Kumar",mrityunjay.kumar@godrejagrovet.com,"Sales Rep",F100960,247139,"CF - Shashank Gaur",2025-12-04,,05:45:58
+282087,"Bhanu Prakash Jhajharia",bhanu.jhajhria@godrejagrovet.com,Manager,G116812,255447,"Dr Ouwesh Ansari",2025-12-08,,13:21:01
+282365,"Pakala Prakash Reddy",pakalaprakash.reddy@godrejagrovet.com,"Sales Rep",F100970,234539,"Direct Reports - PF-Sambhaji C Tari",2025-12-15,,SL
+282367,"Omita Patro",omita.patro@godrejagrovet.com,"Sales Rep",G116746,234350,"Ramakanta Behera",2025-12-15,,09:43:50
+282407,"Suman Khamaru",suman.khamaru@godrejagrovet.com,"Sales Rep",G116689,240008,"Avilash Chowdhury",2025-12-16,,09:34:34
+282850,"G Arun Kumar",garun.kumar@godrejagrovet.com,"Sales Rep",F00973,240699,"CF - Gunasekaran Y",2026-01-05,,09:52:38
