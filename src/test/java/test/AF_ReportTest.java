@@ -66,8 +66,7 @@ public class AF_ReportTest extends BaseClassAF{
     	File folder = new File(localFolder);
 
     	// Step 1: Get all .tmp files (downloaded by driver)
-    	File[] tmpFiles = folder.listFiles((dir, name) -> name.endsWith(".csv"));
-
+    	File[] tmpFiles = folder.listFiles((dir, name) -> name.startsWith(today1)||name.contains("activity_list") );
     	// Step 2: Check if any .tmp files exist
     	if (tmpFiles == null || tmpFiles.length == 0) {
     	    System.out.println(" No .tmp file found in folder: " + localFolder);
@@ -156,4 +155,5 @@ public class AF_ReportTest extends BaseClassAF{
             if (session != null) session.disconnect();
         }
   }
+
 }
