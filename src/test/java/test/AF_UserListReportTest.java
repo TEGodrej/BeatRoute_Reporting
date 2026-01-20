@@ -92,14 +92,27 @@ public class AF_UserListReportTest extends BaseClassAFUserList{
     	System.out.println("✅ Download seems complete.");
 
     	// Step 6: Rename file to CSV format
-    	boolean renamed = latestTmpFile.renameTo(renamedFile);
+    	Path source = latestTmpFile.toPath();
+         Path target = renamedFile.toPath();
 
-    	if (renamed) {
-    	    System.out.println("✅ File renamed successfully to: " + renamedFile.getAbsolutePath());
-    	} else {
-    	    System.out.println("❌ Failed to rename file: " + latestTmpFile.getName());
-    	    return;
-    	}
+       try {
+        if (!latestTmpFile.getName().equals(newFileName)) {
+        Files.move(
+            source,
+            target,
+            StandardCopyOption.REPLACE_EXISTING,
+            StandardCopyOption.ATOMIC_MOVE
+        );
+        System.out.println("✅ File renamed successfully to: " + renamedFile.getAbsolutePath());
+    } else {
+        System.out.println("ℹ File already named correctly. No rename needed.");
+        renamedFile = latestTmpFile;
+       }
+   } catch (IOException e) {
+          System.out.println("❌ Rename failed due to file lock or permission issue");
+          e.printStackTrace();
+     return;
+    }
 
     	// Step 7: Proceed with FTP upload using renamedFile
     	// (Example placeholder)
@@ -220,4 +233,5 @@ public class AF_UserListReportTest extends BaseClassAFUserList{
   }
 
 }
+
 
