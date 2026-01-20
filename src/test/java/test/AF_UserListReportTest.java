@@ -57,8 +57,7 @@ public class AF_UserListReportTest extends BaseClassAFUserList{
     	File folder = new File(localFolder);
 
     	// Step 1: Get all UserList files (downloaded by driver)
-    	File[] tmpFiles = folder.listFiles((dir, name) -> name.endsWith(".csv"));
-
+    	File[] tmpFiles = folder.listFiles((dir, name) -> name.startsWith("UserList")&&name.endsWith(".csv"));
     	// Step 2: Check if any UserList files exist
     	if (tmpFiles == null || tmpFiles.length == 0) {
     	    System.out.println(" No .tmp file found in folder: " + localFolder);
@@ -237,6 +236,7 @@ public class AF_UserListReportTest extends BaseClassAFUserList{
   }
 
 }
+
 
 
 
