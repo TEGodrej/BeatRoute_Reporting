@@ -47,28 +47,28 @@
         </methods>
       </class>
       
-      <class name="test.AttendanceReport_AF">
+      <class name="test.AttendanceReport_AF_Test">
         <methods>
           <include name="upload_AF_AdherenceReport"/>
           <include name="attendanceReport_AF"/>
         </methods>
       </class>
       
-       <class name="test.AttendanceReport_CPB">
+       <class name="test.AttendanceReport_CPB_Test">
         <methods>
           <include name="upload_CPB_AdherenceReport"/>
           <include name="attendanceReport_CPB"/>
         </methods>
       </class>
       
-      <class name="test.BR_Adherence_AF">
+      <class name="test.BR_Adherence_AF_Test">
         <methods>
           <include name="upload_AF_AdherenceReport"/>
           <include name="animalFeedAdherenceReport"/>
         </methods>
       </class>
       
-      <class name="test.BR_Adherence_CPB">
+      <class name="test.BR_Adherence_CPB_Test">
         <methods>
           <include name="upload_CPB_AdherenceReport"/>
           <include name="cpb_AdherenceReport"/>

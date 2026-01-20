@@ -13,7 +13,7 @@ import com.jcraft.jsch.Session;
 
 import GenericUtility.BaseClassAF_Attendance;
 
-public class AttendanceReport_AF extends BaseClassAF_Attendance{
+public class AttendanceReport_AF_Test extends BaseClassAF_Attendance{
 
 	
 	@Test
@@ -21,7 +21,9 @@ public class AttendanceReport_AF extends BaseClassAF_Attendance{
 		String user = "ajit.sahu@godrejagrovet.com";
         String paswrd = "Ganpati@123456";
 
+        System.out.println("This is AttendanceReport_AF ");
         loginPage_AF.sendkeyToUserNameTextField(user);
+        loginPage_AF.cancelPopup();
         loginPage_AF.clickOnProceedButton();
         loginPage_AF.sendkeyToPasswordTextField(paswrd);
         loginPage_AF.clickOnLoginButton();

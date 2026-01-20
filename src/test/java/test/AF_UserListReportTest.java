@@ -19,9 +19,11 @@ public class AF_UserListReportTest extends BaseClassAFUserList{
 	public void AF_userListReport() {
 		String user = "ajit.sahu@godrejagrovet.com";
         String paswrd = "Ganpati@123456";
-		
+        System.out.println("This is AF_UserListReportTest ");
 		driverUtility.implicitlyWait(10);
+		
 		loginPage_AF.sendkeyToUserNameTextField(user);
+		loginPage_AF.cancelPopup();
 		driverUtility.threadWait(10);
         loginPage_AF.clickOnProceedButton();
         driverUtility.threadWait(10);

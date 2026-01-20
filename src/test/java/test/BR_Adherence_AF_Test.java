@@ -11,17 +11,18 @@ import com.jcraft.jsch.ChannelSftp;
 import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.Session;
 
-import GenericUtility.BaseClass_CPB2;
+import GenericUtility.BaseClassAF2;
 
-public class BR_Adherence_CPB extends BaseClass_CPB2{
+public class BR_Adherence_AF_Test extends BaseClassAF2{
 
 	@Test
-	public void cpb_AdherenceReport() {
-		 String user = "Beatroute.admin@godrejagrovet.com";
-	     String paswrd = "GAVL@123";
-		
+	public void animalFeedAdherenceReport() {
+		String user = "ajit.sahu@godrejagrovet.com";
+        String paswrd = "Ganpati@123456";
+        System.out.println("This is BR_Adherence_AF ");
 		driverUtility.implicitlyWait(10);
 		loginPage_AF.sendkeyToUserNameTextField(user);
+		loginPage_AF.cancelPopup();
         loginPage_AF.clickOnProceedButton();
         loginPage_AF.sendkeyToPasswordTextField(paswrd);
         loginPage_AF.clickOnLoginButton();
@@ -49,13 +50,13 @@ public class BR_Adherence_CPB extends BaseClass_CPB2{
         loginPage_AF.clickOnAdherenceLogOutButton();
 	}
 	
-	@Test(dependsOnMethods = "cpb_AdherenceReport")
-	public void upload_CPB_AdherenceReport() {
+	@Test(dependsOnMethods = "animalFeedAdherenceReport")
+	public void upload_AF_AdherenceReport() {
 		// Get workspace path dynamically (works for both local and Jenkins)
     	String workspacePath = System.getProperty("user.dir");
 
     	// Local folder where reports are stored (inside workspace)
-    	String localFolder = workspacePath + File.separator + "AdherenceReports_CPB";
+    	String localFolder = workspacePath + File.separator + "AdherenceReports_AF";
 
     	// Get today’s date in the same format as file name
     	String today = new SimpleDateFormat("dd-MM-yyyy").format(new Date());
@@ -68,7 +69,7 @@ public class BR_Adherence_CPB extends BaseClass_CPB2{
 
     	// Step 2: Check if any UserList files exist
     	if (UserListFiles == null || UserListFiles.length == 0) {
-    	    System.out.println("No UserList file found in folder: " + localFolder);
+    	    System.out.println("❌ No UserList file found in folder: " + localFolder);
     	    return;
     	}
 
@@ -80,10 +81,10 @@ public class BR_Adherence_CPB extends BaseClass_CPB2{
     	    }
     	}
 
-    	System.out.println("Found latest team-activity-report file: " + latestTmpFile.getName());
+    	System.out.println("📄 Found latest team-activity-report file: " + latestTmpFile.getName());
     	
     	// Step 4: Define the final CSV file name
-    	String newFileName = "Adherence_Report_CPB_" + today + ".csv";
+    	String newFileName = "Adherence_Report_AF_" + today + ".csv";
     	File renamedFile = new File(folder, newFileName);
 
     	// Step 5: Wait until file is fully downloaded (optional but safer)
@@ -118,7 +119,7 @@ public class BR_Adherence_CPB extends BaseClass_CPB2{
     	 // Latest file path
       	 String localFilePath = renamedFile.getAbsolutePath();
       	 System.out.println(" Found today's file: " + localFilePath);
-           String remoteFilePath = "/Powerbi_Analytics/Beatroute/CPB/Team Productivity Adherence/" ;
+           String remoteFilePath = "/Powerbi_Analytics/Beatroute/Animal Feed/Team Productivity Adherence/";
            String userId ="powerbi.admin";
            String password ="Pbianalyts@456#";
            String host="10.9.111.212";
@@ -135,7 +136,7 @@ public class BR_Adherence_CPB extends BaseClass_CPB2{
                config.put("StrictHostKeyChecking", "no");
                session.setConfig(config);
 
-               session.connect(90000); // 15 sec timeout
+               session.connect(90000); // 90 sec timeout
 
                channel = (ChannelSftp) session.openChannel("sftp");
                channel.connect(90000);
@@ -153,5 +154,4 @@ public class BR_Adherence_CPB extends BaseClass_CPB2{
            }
        
 	}
-
 }

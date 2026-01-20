@@ -20,9 +20,10 @@ public class CPB_UserListReportTest extends BaseClassCPB_UserList{
 		String user = "Beatroute.admin@godrejagrovet.com";
         String paswrd = "GAVL@123";
 
-		
+		System.out.println("This is CPB_UserListReportTest ");
 		driverUtility.implicitlyWait(10);
 		loginPage_AF.sendkeyToUserNameTextField(user);
+		loginPage_AF.cancelPopup();
         loginPage_AF.clickOnProceedButton();
         loginPage_AF.sendkeyToPasswordTextField(paswrd);
         loginPage_AF.clickOnLoginButton();

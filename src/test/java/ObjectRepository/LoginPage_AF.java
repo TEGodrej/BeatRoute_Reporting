@@ -1,9 +1,16 @@
 package ObjectRepository;
 
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage_AF {
 	
@@ -36,6 +43,9 @@ public class LoginPage_AF {
 	
 	@FindBy(xpath = "//span[text()='Logout']")
 	private WebElement adherenceLogOutButton;
+	
+	@FindBy(xpath = "//div[@id='interactive-close-button']")
+	private WebElement adCancelButton;
 	
 	public void sendkeyToUserNameTextField(String key) {
 		try {
@@ -109,4 +119,51 @@ public class LoginPage_AF {
 		}
 	}
 	
+	public void clickOnAdCancelButton() {
+		if(adCancelButton.isDisplayed()) {
+			adCancelButton.click();
+			System.out.println("clicked on ad cross button");
+		}else {
+			System.out.println("Ad is not appeared");
+		}
+	}
+	
+	public void cancelPopup() {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		boolean popupClosed = false;
+
+		List<WebElement> iframes = wait.until(
+		        ExpectedConditions.presenceOfAllElementsLocatedBy(By.tagName("iframe"))
+		);
+
+		for (WebElement frame : iframes) {
+
+		    driver.switchTo().frame(frame);
+
+		    List<WebElement> closeButtons =
+		            driver.findElements(By.id("interactive-close-button"));
+
+		    if (!closeButtons.isEmpty() && closeButtons.get(0).isDisplayed()) {
+
+		        WebElement closeBtn = closeButtons.get(0);
+
+		        ((JavascriptExecutor) driver)
+		                .executeScript("arguments[0].click();", closeBtn);
+
+		        System.out.println("Popup closed using JS click");
+		        popupClosed = true;
+
+		        driver.switchTo().defaultContent();
+		        break;
+
+		    } else {
+		        driver.switchTo().defaultContent();
+		    }
+		}
+
+		if (!popupClosed) {
+		    System.out.println("Popup not present, continuing execution");
+		}
+
+	}
 }

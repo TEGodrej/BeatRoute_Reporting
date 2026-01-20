@@ -21,8 +21,11 @@ import GenericUtility.BaseClass_CPB;
 	    public void reportGeneration() throws InterruptedException {
 	        String user = "Beatroute.admin@godrejagrovet.com";
 	        String paswrd = "GAVL@123";
+	        
+	        System.out.println("This is CPB_ReportTest ");
 
 	        loginPage_AF.sendkeyToUserNameTextField(user);
+	        loginPage_AF.cancelPopup();
 	        loginPage_AF.clickOnProceedButton();
 	        loginPage_AF.sendkeyToPasswordTextField(paswrd);
 	        loginPage_AF.clickOnLoginButton();

@@ -13,7 +13,7 @@ import com.jcraft.jsch.Session;
 
 import GenericUtility.BaseClassCPB_Attendance;
 
-public class AttendanceReport_CPB extends BaseClassCPB_Attendance{
+public class AttendanceReport_CPB_Test extends BaseClassCPB_Attendance{
 
 	
 	@Test
@@ -21,7 +21,9 @@ public class AttendanceReport_CPB extends BaseClassCPB_Attendance{
 		String user = "Beatroute.admin@godrejagrovet.com";
         String paswrd = "GAVL@123";
 
+        System.out.println("This is AttendanceReport_CPB ");
         loginPage_AF.sendkeyToUserNameTextField(user);
+        loginPage_AF.cancelPopup();
         loginPage_AF.clickOnProceedButton();
         loginPage_AF.sendkeyToPasswordTextField(paswrd);
         loginPage_AF.clickOnLoginButton();

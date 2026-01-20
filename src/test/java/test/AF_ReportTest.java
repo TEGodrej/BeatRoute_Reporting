@@ -20,7 +20,9 @@ public class AF_ReportTest extends BaseClassAF{
         String user = "ajit.sahu@godrejagrovet.com";
         String paswrd = "Ganpati@123456";
 
+        System.out.println("This is AF_ReportTest ");
         loginPage_AF.sendkeyToUserNameTextField(user);
+        loginPage_AF.cancelPopup();
         loginPage_AF.clickOnProceedButton();
         loginPage_AF.sendkeyToPasswordTextField(paswrd);
         loginPage_AF.clickOnLoginButton();
