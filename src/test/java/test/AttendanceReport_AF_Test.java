@@ -51,7 +51,7 @@ public class AttendanceReport_AF_Test extends BaseClassAF_Attendance{
         
 	}
 	
-	@Test(dependsOnMethods = "attendanceReport_AF")
+	@Test(dependsOnMethods = {"attendanceReport_AF"})
 	public void upload_AF_AdherenceReport() {
 		// Get workspace path dynamically (works for both local and Jenkins)
     	String workspacePath = System.getProperty("user.dir");

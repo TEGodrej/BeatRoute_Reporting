@@ -50,7 +50,7 @@ public class BR_Adherence_CPB_Test extends BaseClass_CPB2{
         loginPage_AF.clickOnAdherenceLogOutButton();
 	}
 	
-	@Test(dependsOnMethods = "cpb_AdherenceReport")
+	@Test(dependsOnMethods = {"cpb_AdherenceReport"})
 	public void upload_CPB_AdherenceReport() {
 		// Get workspace path dynamically (works for both local and Jenkins)
     	String workspacePath = System.getProperty("user.dir");

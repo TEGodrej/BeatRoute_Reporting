@@ -36,6 +36,10 @@ public class AF_UserListReportTest extends BaseClassAFUserList{
         teamActivityPage.clickOnUserDownload();
         driverUtility.threadWait(10);
         driverUtility.allowAlertPopUp();
+        driverUtility.threadWait(10);
+        loginPage_AF.clickOnDropDownButton();
+        driverUtility.threadWait(10);
+        loginPage_AF.clickOnLogoutButton();
 	}
 	
 	@Test (dependsOnMethods = {"AF_userListReport"})
@@ -53,7 +57,7 @@ public class AF_UserListReportTest extends BaseClassAFUserList{
     	File folder = new File(localFolder);
 
     	// Step 1: Get all UserList files (downloaded by driver)
-    	File[] tmpFiles = folder.listFiles((dir, name) -> name.endsWith(".csv"));
+    	File[] tmpFiles = folder.listFiles((dir, name) -> name.startsWith("UserList")&&name.endsWith(".csv"));
 
     	// Step 2: Check if any UserList files exist
     	if (tmpFiles == null || tmpFiles.length == 0) {

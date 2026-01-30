@@ -61,12 +61,14 @@ public class AF_ReportTest extends BaseClassAF{
 
     	// Get today’s date in the same format as file name
     	String today = new SimpleDateFormat("dd-MM-yyyy").format(new Date());
+    	String today1 = new SimpleDateFormat("ddMMMyyyy").format(new Date());
 
     	// Create folder object
     	File folder = new File(localFolder);
 
     	// Step 1: Get all .tmp files (downloaded by driver)
-    	File[] tmpFiles = folder.listFiles((dir, name) -> name.endsWith(".csv"));
+    	File[] tmpFiles = folder.listFiles((dir, name) -> name.startsWith(today1)||name.contains("activity_list") );
+//    	name.endsWith(".csv"));
 
     	// Step 2: Check if any .tmp files exist
     	if (tmpFiles == null || tmpFiles.length == 0) {

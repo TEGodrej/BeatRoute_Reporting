@@ -50,7 +50,7 @@ public class BR_Adherence_AF_Test extends BaseClassAF2{
         loginPage_AF.clickOnAdherenceLogOutButton();
 	}
 	
-	@Test(dependsOnMethods = "animalFeedAdherenceReport")
+	@Test(dependsOnMethods = {"animalFeedAdherenceReport"})
 	public void upload_AF_AdherenceReport() {
 		// Get workspace path dynamically (works for both local and Jenkins)
     	String workspacePath = System.getProperty("user.dir");

@@ -33,13 +33,6 @@
         </methods>
       </class>
 
-      <class name="test.LiquidationReportTest">
-        <methods>
-          <include name="upload"/>
-          <include name="liquidationReport"/>
-        </methods>
-      </class>
-      
       <class name="test.GraciaReportTest">
         <methods>
           <include name="report_Gracia"/>
@@ -72,6 +65,13 @@
         <methods>
           <include name="upload_CPB_AdherenceReport"/>
           <include name="cpb_AdherenceReport"/>
+        </methods>
+      </class>
+      
+      <class name="test.LiquidationReportTest">
+        <methods>
+          <include name="upload"/>
+          <include name="liquidationReport"/>
         </methods>
       </class>
 
