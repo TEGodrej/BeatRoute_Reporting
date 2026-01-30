@@ -30,7 +30,7 @@ public class TeamActivityPage {
 	@FindBy(xpath = "//a[contains(@href,'/download/CSV/logRequest/type/activity')]")
 	private WebElement generateFileButton;
 	
-	@FindBy(xpath = "//a[@href='/download/CSV/getLast/type/activity']")
+	@FindBy(xpath = "(//i[@class='fa fa-arrow-down'])[2]")
 	private WebElement downloadButton;
 	
 	@FindBy(xpath = "//strong[contains(text(), 'Your account is about to expire ')]")
@@ -50,9 +50,9 @@ public class TeamActivityPage {
 	
 	@FindBy(xpath = "(//i[@class='action-icon link-text fa fa-arrow-down'])[2]")
 	private WebElement download_act;
-	
-	@FindBy(xpath = "//i[@class='action-icon link-text fa fa-arrow-down']")
-	private WebElement cbp_DownloadActivity;
+//	
+	@FindBy(xpath = "(//i[@class='fa fa-arrow-down'])[2]")
+	private WebElement downloadLastFile;
 	
 	public WebElement getcloseButton() {
 		return closeButton;
@@ -248,19 +248,28 @@ public class TeamActivityPage {
 	}
 	
 	public void clickOnDownload_act() {
-		try { 
-			if(download_act.isDisplayed()) {
+		
+			try {
 				download_act.click();
 				System.out.println("Clicked on download Activity");
-		}else {
+			}catch (Exception e){
 				
-			cbp_DownloadActivity.click();
+			System.out.println("not able to Click on download Activity "+e);
 			
 		}
 		 
-	}catch (Exception e) {
-		System.out.println("Not able to click on download_activity "+e);
+	}
+	
+	public void clickOnDownloadFile() {
+		try {
+			WebElement act=driver.findElement(By.xpath("//i[@class='action-icon link-text fa fa-arrow-down']"));
+			act.click();
+//			downloadLastFile.click();
+			System.out.println("Clicked on cbp_DownloadActivity");
+		} catch (Exception e) {
+			System.out.println("Not able to click on cbp_DownloadActivity  "+e);
+		}
 	}
 		
-	}	
+	
 }

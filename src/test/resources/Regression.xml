@@ -33,13 +33,6 @@
         </methods>
       </class>
 
-      <class name="test.GraciaReportTest">
-        <methods>
-          <include name="report_Gracia"/>
-          <include name="gracia_Report_Upload"/>
-        </methods>
-      </class>
-      
       <class name="test.AttendanceReport_AF_Test">
         <methods>
           <include name="upload_AF_AdherenceReport"/>
@@ -68,12 +61,7 @@
         </methods>
       </class>
       
-      <class name="test.LiquidationReportTest">
-        <methods>
-          <include name="upload"/>
-          <include name="liquidationReport"/>
-        </methods>
-      </class>
+      
 
     </classes>
   </test>

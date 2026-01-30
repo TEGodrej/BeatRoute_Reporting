@@ -114,7 +114,7 @@ public class AF_UserListReportTest extends BaseClassAFUserList{
    	 // Latest file path
    	 String localFilePath = renamedFile.getAbsolutePath();
    	 System.out.println("✅ Found today's file: " + localFilePath);
-        String remoteFilePath = "/Powerbi_Analytics/Beatroute/Animal Feed/Users/" + renamedFile.getName();
+        String remoteFilePath = "/Powerbi_Analytics/Beatroute/Animal Feed/Users/";
         String userId ="powerbi.admin";
         String password ="Pbianalyts@456#";
         String host="10.9.111.212";

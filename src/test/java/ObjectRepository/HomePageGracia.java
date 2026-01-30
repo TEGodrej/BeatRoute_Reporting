@@ -2,6 +2,7 @@ package ObjectRepository;
 
 import java.time.LocalDate;
 import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,7 +10,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePageGracia {
+import GenericUtility.BaseClass_Gracia;
+
+public class HomePageGracia extends BaseClass_Gracia{
 
 	WebDriver driver;
 	public HomePageGracia(WebDriver driver) {
@@ -31,29 +34,32 @@ public class HomePageGracia {
 	
 	
 	LocalDate today = LocalDate.now(ZoneId.of("Asia/Kolkata"));
-	
-    LocalDate yesterday = today.minusDays(1);
+	DateTimeFormatter formatter =
+	        DateTimeFormatter.ofPattern("EEEE, MMMM dd, yyyy");
+    String yesterday = today.minusDays(1).format(formatter);
     
-    LocalDate firstDayOfMonth = today.withDayOfMonth(1);
-    int day=yesterday.getDayOfMonth();
+//    LocalDate firstDayOfMonth = today.withDayOfMonth(1);
+//    int day=yesterday.getDayOfMonth();
 	
 	public void fromDate() {
 		try {
-			WebElement fromDate=driver.findElement(By.xpath("//span[text()='"+day+"']"));
+			WebElement fromDate=driver.findElement(By.xpath("//span[@aria-label='"+yesterday+" selected']"));
 			fromDate.click();
-			System.out.println("selected fromDate: "+day );
+//			driverutility. forceClik(fromDate);
+			System.out.println("selected fromDate: "+yesterday );
 		}catch (Exception e) {
-			System.out.println("Not able to select From-Date"+day + e);
+			System.out.println("Not able to select From-Date"+yesterday + e);
 		}
 	}
 	
 	public void select_To_Date(){
 		try {
-			WebElement To_Date=driver.findElement(By.xpath("//span[text()='"+day+"']"));
+			WebElement To_Date=driver.findElement(By.xpath("//span[@aria-label='"+yesterday+" selected']"));
 			To_Date.click();
-			System.out.println("selected To_Date: "+day );
+//			driverutility.forceClik(To_Date);
+			System.out.println("selected To_Date: "+yesterday );
 		} catch (Exception e) {
-			System.out.println("Not able to select To-Date"+day + e);
+			System.out.println("Not able to select To-Date"+yesterday + e);
 		}
 	}
 	

@@ -21,6 +21,7 @@ public class GraciaReportTest extends BaseClass_Gracia{
 		String password="admin@gracia";
 		driverutility.threadWait(4);
 		loginGracia.sendkeyToUserNameTextField(username);
+		driverutility.threadWait(4);
 		loginGracia.sendkeyToPasswordTextField(password);
 		loginGracia.clickOnSubmitButton();
 		driverutility.threadWait(6);
@@ -29,7 +30,7 @@ public class GraciaReportTest extends BaseClass_Gracia{
 		homePageGracia.clickOnCalenderButton();
 		driverutility.threadWait(10);
 		homePageGracia.fromDate();
-		driverutility.threadWait(2);
+		driverutility.threadWait(4);
 		homePageGracia.select_To_Date();
 		driverutility.threadWait(4);
 		homePageGracia.clickOnApplyFilter();

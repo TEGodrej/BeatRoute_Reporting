@@ -60,7 +60,7 @@ public class DashBoardPage extends BaseClass{
 	
 	@FindBy(xpath = "//span[text()='Team Productivity & Adherence']")
 	private WebElement adherenceTab;
-	
+	//div[@id="dateRangeFilterTrigger1"]
 	@FindBy(xpath = "//div[contains(@class,'layout-date-filter')]//select[contains(@class,'daterange-dropdown')]")
 	private WebElement dateChangeDropDown;
 	
@@ -94,11 +94,16 @@ public class DashBoardPage extends BaseClass{
 
     LocalDate today1 = ZonedDateTime.now(indiaZone).toLocalDate();
     LocalDate targetDate = today.minusMonths(1).plusDays(1);
+    LocalDate targetDate1 = today.minusDays(1);
 
     DateTimeFormatter formatter =
             DateTimeFormatter.ofPattern("MMM d, yyyy", Locale.ENGLISH);
+    
+    DateTimeFormatter formatter1 =
+            DateTimeFormatter.ofPattern("MMMM d, yyyy", Locale.ENGLISH);
 
     String formattedDate = targetDate.format(formatter);
+    String formattedDate1 = targetDate1.format(formatter1);
     
     
     LocalDate firstDayOfMonth = today.withDayOfMonth(1);
@@ -167,21 +172,21 @@ public class DashBoardPage extends BaseClass{
     public void AdherenceFromDate() {
 //    	SimpleDateFormat sim= new SimpleDateFormat("MMM dd ,yyyy");
 //    	String date = sim.format(new Date()); 
-    	System.out.println("Looking for: " + formattedDate);
-    	WebElement F_date=driver.findElement(By.xpath("//span[text()='"+formattedDate+"']"));
+    	System.out.println("Looking for: " + formattedDate);  //span[text()='"+formattedDate+"']
+    	WebElement F_date=driver.findElement(By.xpath("//div[@id='dateRangeFilterTrigger1']"));
     	F_date.click();
     }
     
     public void adherence_FromDate() {
     	WebElement fdate=driver.findElement(By.xpath("//span[text()=' "+day+" ']"));
     	fdate.click();
-    	System.out.println("selected " +day);
+    	System.out.println("selected From-Date : " +day);
     }
     
     public void adherence_ToDate() {
-    	WebElement Tdate=driver.findElement(By.xpath("//button[@aria-label='January 6, 2026']"));
+    	WebElement Tdate=driver.findElement(By.xpath("//button[@aria-label='"+formattedDate1+"']"));
     	Tdate.click();
-    	System.out.println("selected " +day);
+    	System.out.println("selected To-Date : " +formattedDate1);
     }
     
     public WebElement getToDateButton() {

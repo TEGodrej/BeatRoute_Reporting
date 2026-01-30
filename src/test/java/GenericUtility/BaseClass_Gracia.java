@@ -16,7 +16,7 @@ import ObjectRepository.LoginGracia;
 
 public class BaseClass_Gracia {
 
-	public static WebDriver driver;
+	public  WebDriver driver;
 	public LoginGracia loginGracia;
 	public HomePageGracia homePageGracia;
 	public Driverutility  driverutility;
