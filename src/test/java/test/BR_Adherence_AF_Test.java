@@ -84,7 +84,7 @@ public class BR_Adherence_AF_Test extends BaseClassAF2{
     	System.out.println("📄 Found latest team-activity-report file: " + latestTmpFile.getName());
     	
     	// Step 4: Define the final CSV file name
-    	String newFileName = "Adherence_Report_AF_" + today + ".csv";
+    	String newFileName = "Adherence_Report_AF_" + today + ".xlsx";
     	File renamedFile = new File(folder, newFileName);
 
     	// Step 5: Wait until file is fully downloaded (optional but safer)
