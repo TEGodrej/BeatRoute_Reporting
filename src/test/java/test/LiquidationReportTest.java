@@ -23,14 +23,14 @@ public class LiquidationReportTest extends BaseClass{
 	public void liquidationReport() throws InterruptedException {
 		
 
-	    String user = "PowerBI";
-	    String paswrd = "Ganpati#123456";
-	    driverUtility.threadWait(10);
-	    loginpage.SendkeyToUserName(user);
-	    driverUtility.threadWait(10);
-	    loginpage.sendkeyToPasswordTextField(paswrd);
-	    driverUtility.threadWait(10);
-	    loginpage.clickOnLogInButton();
+//	    String user = "PowerBI";
+//	    String paswrd = "Ganpati#123456";
+//	    driverUtility.threadWait(10);
+//	    loginpage.SendkeyToUserName(user);
+//	    driverUtility.threadWait(10);
+//	    loginpage.sendkeyToPasswordTextField(paswrd);
+//	    driverUtility.threadWait(10);
+//	    loginpage.clickOnLogInButton();
 	    driverUtility.threadWait(10);
 		dashboardPage.clickOnScanTab();
 		driverUtility.threadWait(10);
