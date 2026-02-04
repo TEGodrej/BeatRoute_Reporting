@@ -61,6 +61,26 @@
         </methods>
       </class>
       
+      <class name="test.StartAndEndDayReport_AF_Test">
+        <methods>
+          <include name="upload_start_N_EndDayLogReport"/>
+          <include name="start_N_EndDayLog"/>
+        </methods>
+      </class>
+      
+      <class name="test.StartAndEndDayReport_CPB_Test">
+        <methods>
+          <include name="upload_start_N_EndDayLogReport"/>
+          <include name="start_N_EndDayLog"/>
+        </methods>
+      </class>
+      
+      <class name="test.LiquidationReportTest">
+        <methods>
+          <include name="upload"/>
+          <include name="liquidationReport"/>
+        </methods>
+      </class>
       
 
     </classes>

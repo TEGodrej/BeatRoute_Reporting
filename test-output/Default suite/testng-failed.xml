@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.GraciaReportTest">
+      <class name="test.StartAndEndDayReport_AF">
         <methods>
-          <include name="report_Gracia"/>
-          <include name="closeApp"/>
+          <include name="closeInstance"/>
+          <include name="startNEndDayLog"/>
           <include name="Login"/>
         </methods>
-      </class> <!-- test.GraciaReportTest -->
+      </class> <!-- test.StartAndEndDayReport_AF -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

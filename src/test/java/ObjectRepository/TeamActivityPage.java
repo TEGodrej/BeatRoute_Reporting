@@ -1,6 +1,7 @@
 package ObjectRepository;
 
 import java.text.SimpleDateFormat;
+import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
@@ -8,10 +9,14 @@ import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class TeamActivityPage {
 	
@@ -53,9 +58,25 @@ public class TeamActivityPage {
 //	
 	@FindBy(xpath = "(//i[@class='fa fa-arrow-down'])[2]")
 	private WebElement downloadLastFile;
+//	====================================================================================================
+	@FindBy(xpath = "//div[normalize-space()='Download Daily Attendance']")
+	private WebElement dailyAttendanceButton;
+	
+	@FindBy(xpath = "//a[normalize-space()='User Day Start - Day End log']")
+	private WebElement userDay;
+	
+	@FindBy(xpath = "//div[@id='main-content-tens']//li//li[2]//ul[1]//li[1]//a[1]")
+	private WebElement generate_FileTab;
+	
+	@FindBy(xpath = "//a[@href='/download/CSV/getLast?type=startEndDayActivities']")
+	private WebElement download_Button;
 	
 	public WebElement getcloseButton() {
 		return closeButton;
+	}
+	
+	public WebElement getuserDay() {
+		return userDay;
 	}
 	
 	public void clickOnTeamActivityTab() {
@@ -119,9 +140,9 @@ public class TeamActivityPage {
 	        WebElement reportDate = driver.findElement(By.xpath("//a[@data-date='"+day+"']"));
 	        reportDate.click();
 	        
-	        System.out.println("Selected from-date");
+	        System.out.println("Selected From-date");
 		} catch (Exception e) {
-			System.out.println("Not able to select from-date "+e);
+			System.out.println("Not able to select From-date "+e);
 		}
 	}
 	
@@ -178,18 +199,18 @@ public class TeamActivityPage {
 	public void clickOnUserTab() {
 		try {
 			userTab.click();
-			System.out.println("clicked on userTab ");
+			System.out.println("clicked on UserTab ");
 		} catch (Exception e) {
-			System.out.println("Not able to click on userTab "+e);
+			System.out.println("Not able to click on UserTab "+e);
 		}
 	}
 	
 	public void clickOnUserDownload() {
 		try {
 			userDownload.click();
-			System.out.println("clicked on userDownload");
+			System.out.println("clicked on UserDownload");
 		} catch (Exception e) {
-			System.out.println("Not abke to click on userDownload "+e);
+			System.out.println("Not abke to click on UserDownload "+e);
 		}
 	}
 	
@@ -206,9 +227,9 @@ public class TeamActivityPage {
 		try {
 			WebElement FromDate=driver.findElement(By.xpath("//a[text()='"+day+"']"));
 			FromDate.click();
-			System.out.println("selcted "+day+" as from-date");
+			System.out.println("selcted "+day+" as From-date");
 		} catch (Exception e) {
-			System.out.println("Not able to select from date "+e);
+			System.out.println("Not able to select From-date "+e);
 		}
 	}
 	
@@ -241,9 +262,9 @@ public class TeamActivityPage {
 
 	        // Click to download (file goes to /downloads inside project)
 	        attendanceDownloadTab.click();
-	        System.out.println("clicked on download button");
+	        System.out.println("clicked on Download button");
 		} catch (Exception e) {
-			System.out.println("File has not been downloaded "+e);
+			System.out.println("File has not been Downloaded "+e);
 		}
 	}
 	
@@ -251,10 +272,10 @@ public class TeamActivityPage {
 		
 			try {
 				download_act.click();
-				System.out.println("Clicked on download Activity");
+				System.out.println("Clicked on Download Activity");
 			}catch (Exception e){
 				
-			System.out.println("not able to Click on download Activity "+e);
+			System.out.println("not able to Click on Download Activity "+e);
 			
 		}
 		 
@@ -265,9 +286,67 @@ public class TeamActivityPage {
 			WebElement act=driver.findElement(By.xpath("//i[@class='action-icon link-text fa fa-arrow-down']"));
 			act.click();
 //			downloadLastFile.click();
-			System.out.println("Clicked on cbp_DownloadActivity");
+			System.out.println("Clicked on CPB_DownloadActivity");
 		} catch (Exception e) {
-			System.out.println("Not able to click on cbp_DownloadActivity  "+e);
+			System.out.println("Not able to click on CPB_DownloadActivity  "+e);
+		}
+	}
+	
+	public void clickOnDailyAttendanceButton() {
+		try {
+			dailyAttendanceButton.click();
+			System.out.println("Clicked on Daily_Attendance Button");
+		} catch (Exception e) {
+			System.out.println("Not able to click on Daily_Attendance Button "+e);
+		}
+	}
+	
+	public void clickOnGenerate_FileTab() {
+		try {
+			generate_FileTab.click();
+			System.out.println("Clicked on Generate_FileTab");
+		} catch (Exception e) {
+			System.out.println("Not able to click on Generate_FileTab "+e);
+		}
+	}
+	
+	public void clickOnDownload_Button() {
+		try {
+			// Wait until 50 minutes later
+	        LocalDateTime now = LocalDateTime.now();
+	        LocalDateTime targetTime = now.plusMinutes(1);
+	        
+	        System.out.println("Please wit for 10 minutes ; download is under process");
+
+	        System.out.println("Current Time: " + now.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
+	        System.out.println("Will click at: " + targetTime.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
+
+	        while (LocalDateTime.now().isBefore(targetTime)) {
+	            Thread.sleep(1000);
+	        }
+	        
+	        clickOnDailyAttendanceButton();
+	        System.out.println("Clicked on Daily_Attendance Button");
+	        
+	        Actions action= new Actions(driver);
+			action.moveToElement(getuserDay()).perform();
+	        
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(65));
+
+	        By downloadBtn = By.xpath("//a[@href='/download/CSV/getLast?type=startEndDayActivities']");
+
+	        WebElement element = wait.until(
+	                ExpectedConditions.presenceOfElementLocated(downloadBtn)
+	        );
+
+	        // Click to download (file goes to /downloads inside project)
+	        wait.until(ExpectedConditions.elementToBeClickable(element));
+
+	        ((JavascriptExecutor) driver).executeScript(
+	                "arguments[0].click();", element);
+	        System.out.println("clicked on Download button");
+		} catch (Exception e) {
+			System.out.println("File has not been Downloaded "+e);
 		}
 	}
 		
