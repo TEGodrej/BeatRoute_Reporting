@@ -314,7 +314,7 @@ public class TeamActivityPage {
 		try {
 			// Wait until 50 minutes later
 	        LocalDateTime now = LocalDateTime.now();
-	        LocalDateTime targetTime = now.plusMinutes(1);
+	        LocalDateTime targetTime = now.plusMinutes(10);
 	        
 	        System.out.println("Please wit for 10 minutes ; download is under process");
 
