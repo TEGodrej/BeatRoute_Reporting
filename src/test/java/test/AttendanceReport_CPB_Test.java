@@ -36,16 +36,17 @@ public class AttendanceReport_CPB_Test extends BaseClassCPB_Attendance{
         teamActivityPage.select_FromDate();
         driverUtility.threadWait(2);
         teamActivityPage.select_ToDate();
+        driverUtility.scrollIntoView(dashboardPage.getattendanceSummaryDownloadTab());
         driverUtility.threadWait(15);
         dashboardPage.clickOnAttendanceSummaryDownloadTab();
         driverUtility.threadWait(15);
         dashboardPage.clickOnGenerate_File();
-        driverUtility.threadWait(15);
+//        driverUtility.threadWait(15);
 //        driverUtility.allowAlertPopUp();
 //        driverUtility.threadWait(15);
-        dashboardPage.clickOnAttendanceSummaryDownloadTab();
-        driverUtility.threadWait(15);
-        teamActivityPage.attendanceFileDownload();
+//        dashboardPage.clickOnAttendanceSum_Download();
+        driverUtility.threadWait(4);
+        teamActivityPage.attendanceFileDownload_CPB();
         driverUtility.threadWait(15);
         
         

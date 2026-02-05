@@ -35,7 +35,7 @@ public class HomePageGracia extends BaseClass_Gracia{
 	
 	LocalDate today = LocalDate.now(ZoneId.of("Asia/Kolkata"));
 	DateTimeFormatter formatter =
-	        DateTimeFormatter.ofPattern("EEEE, MMMM dd, yyyy");
+	        DateTimeFormatter.ofPattern("EEEE, MMMM d, yyyy");
     String yesterday = today.minusDays(1).format(formatter);
     
 //    LocalDate firstDayOfMonth = today.withDayOfMonth(1);
@@ -43,23 +43,23 @@ public class HomePageGracia extends BaseClass_Gracia{
 	
 	public void fromDate() {
 		try {
-			WebElement fromDate=driver.findElement(By.xpath("//span[@aria-label='"+yesterday+" selected']"));
+			WebElement fromDate=driver.findElement(By.xpath("//span[contains(@aria-label,'"+yesterday+"')]"));
 			fromDate.click();
 //			driverutility. forceClik(fromDate);
-			System.out.println("selected fromDate: "+yesterday );
+			System.out.println("selected From-Date: "+yesterday );
 		}catch (Exception e) {
-			System.out.println("Not able to select From-Date"+yesterday + e);
+			System.out.println("Not able to select From-Date "+yesterday + e);
 		}
 	}
 	
 	public void select_To_Date(){
 		try {
-			WebElement To_Date=driver.findElement(By.xpath("//span[@aria-label='"+yesterday+" selected']"));
+			WebElement To_Date=driver.findElement(By.xpath("//span[contains(@aria-label,'"+yesterday+"')]"));
 			To_Date.click();
 //			driverutility.forceClik(To_Date);
 			System.out.println("selected To_Date: "+yesterday );
 		} catch (Exception e) {
-			System.out.println("Not able to select To-Date"+yesterday + e);
+			System.out.println("Not able to select To-Date "+yesterday + e);
 		}
 	}
 	

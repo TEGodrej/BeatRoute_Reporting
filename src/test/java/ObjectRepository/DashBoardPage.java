@@ -82,8 +82,15 @@ public class DashBoardPage extends BaseClass{
 	@FindBy(xpath = "//div[@class='btn-group layout-actionbtn open']//a[@title='Click To Generate File'][normalize-space()='Generate File']")
 	private WebElement gen_File;
 	
+	@FindBy(xpath  = "//li[3]//div[1]//div[1]//i[contains(@class,'fa-arrow-down')]")
+	private WebElement attendanceSum_Download;
+	
 	public WebElement getdateChangeDropDown() {
 		return dateChangeDropDown;
+	}
+	
+	public WebElement getattendanceSummaryDownloadTab() {
+		return attendanceSummaryDownloadTab;
 	}
 	
 	
@@ -419,6 +426,18 @@ public class DashBoardPage extends BaseClass{
     		System.out.println("Clicked on generate file Tab");
 		} catch (Exception e) {
 			System.out.println("Not able to click on generate file Tab "+e);
+		}
+    }
+    
+    public void clickOnAttendanceSum_Download() {
+    	try {
+//    		WebDriverWait  wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//    		attendanceSum_Download = wait.until(ExpectedConditions.elementToBeClickable(attendanceSum_Download));
+//    		element.click();
+    		attendanceSum_Download.click();
+    		System.out.println("Clicked on attendanceSum_Download");
+		} catch (Exception e) {
+			System.out.println("Not able to click on attendanceSum_Download "+e);
 		}
     }
 }

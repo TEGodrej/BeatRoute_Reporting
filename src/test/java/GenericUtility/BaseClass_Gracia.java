@@ -55,8 +55,8 @@ public class BaseClass_Gracia {
 	@AfterClass
 	
 	public void closeApp() {
-		driver.close();
+//		driver.close();
 		
-//		driver.quit();
+		driver.quit();
 	}
 }

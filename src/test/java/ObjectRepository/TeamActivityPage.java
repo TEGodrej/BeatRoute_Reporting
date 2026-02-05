@@ -71,6 +71,9 @@ public class TeamActivityPage {
 	@FindBy(xpath = "//a[@href='/download/CSV/getLast?type=startEndDayActivities']")
 	private WebElement download_Button;
 	
+	@FindBy(xpath  = "//li[3]//div[1]//div[1]//i[contains(@class,'fa-arrow-down')]")
+	private WebElement attendanceSum_Download;
+	
 	public WebElement getcloseButton() {
 		return closeButton;
 	}
@@ -246,19 +249,43 @@ public class TeamActivityPage {
 	public void attendanceFileDownload() {
 		try {
 			// Wait until 50 minutes later
-//	        LocalDateTime now = LocalDateTime.now();
-//	        LocalDateTime targetTime = now.plusMinutes(10);
-//	        
-//	        System.out.println("Please wit for 10 minutes ; download is under process");
-//
-//	        System.out.println("Current Time: " + now.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
-//	        System.out.println("Will click at: " + targetTime.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
-//
-//	        while (LocalDateTime.now().isBefore(targetTime)) {
-//	            Thread.sleep(1000);
-//	        }
+	        LocalDateTime now = LocalDateTime.now();
+	        LocalDateTime targetTime = now.plusMinutes(10);
 	        
-//	        activityLogTab.click();
+	        System.out.println("Please wit for 10 minutes ; download is under process");
+
+	        System.out.println("Current Time: " + now.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
+	        System.out.println("Will click at: " + targetTime.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
+
+	        while (LocalDateTime.now().isBefore(targetTime)) {
+	            Thread.sleep(1000);
+	        }
+	        
+
+	        // Click to download (file goes to /downloads inside project)
+	        attendanceDownloadTab.click();
+	        System.out.println("clicked on Download button");
+		} catch (Exception e) {
+			System.out.println("File has not been Downloaded "+e);
+		}
+	}
+	
+	public void attendanceFileDownload_CPB() {
+		try {
+			// Wait until 50 minutes later
+	        LocalDateTime now = LocalDateTime.now();
+	        LocalDateTime targetTime = now.plusMinutes(5);
+	        
+	        System.out.println("Please wit for 10 minutes ; download is under process");
+
+	        System.out.println("Current Time: " + now.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
+	        System.out.println("Will click at: " + targetTime.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
+
+	        while (LocalDateTime.now().isBefore(targetTime)) {
+	            Thread.sleep(1000);
+	        }
+	        
+	        attendanceSum_Download.click();
 
 	        // Click to download (file goes to /downloads inside project)
 	        attendanceDownloadTab.click();
