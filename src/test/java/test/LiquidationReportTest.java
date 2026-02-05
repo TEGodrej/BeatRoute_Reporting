@@ -94,7 +94,7 @@ public class LiquidationReportTest extends BaseClass{
 	    	 // Latest file path
 	    	 String localFilePath = latestFile.getAbsolutePath();
 	    	 System.out.println(" Found today's file: " + localFilePath);
-	         String remoteFilePath = "/Powerbi_Analytics/MD_Dashboards/CPB/";
+	         String remoteFilePath = "/Powerbi_Analytics/CPB/Sankalp/Overall Liquidation/";
 	         String userId ="powerbi.admin";
 	         String password ="Pbianalyts@456#";
 	         String host ="10.9.111.212";
