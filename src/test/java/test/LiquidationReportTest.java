@@ -5,6 +5,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import com.jcraft.jsch.ChannelSftp;
@@ -31,6 +33,16 @@ public class LiquidationReportTest extends BaseClass{
 //	    loginpage.sendkeyToPasswordTextField(paswrd);
 //	    driverUtility.threadWait(10);
 //	    loginpage.clickOnLogInButton();
+		
+		WebElement username = driver.findElement(By.id("i0116"));
+		WebElement nextbutton = driver.findElement(By.id("idSIButton9"));
+		WebElement password = driver.findElement(By.id("i0118"));
+		WebElement submitButton = driver.findElement(By.id("idSIButton9"));
+		username.sendKeys("testing.engineer@godrejagrovet.com");
+		nextbutton.click();
+		password.sendKeys("Gavlagrovet@1295");
+		submitButton.click();
+		
 	    driverUtility.threadWait(10);
 		dashboardPage.clickOnScanTab();
 		driverUtility.threadWait(10);
@@ -94,7 +106,7 @@ public class LiquidationReportTest extends BaseClass{
 	    	 // Latest file path
 	    	 String localFilePath = latestFile.getAbsolutePath();
 	    	 System.out.println(" Found today's file: " + localFilePath);
-	         String remoteFilePath = "/Powerbi_Analytics/CPB/Sankalp/Overall Liquidation/";
+	         String remoteFilePath = "/Powerbi_Analytics/MD_Dashboards/CPB";
 	         String userId ="powerbi.admin";
 	         String password ="Pbianalyts@456#";
 	         String host ="10.9.111.212";
