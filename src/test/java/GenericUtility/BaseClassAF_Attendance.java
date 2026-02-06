@@ -55,10 +55,10 @@ public class BaseClassAF_Attendance {
 		teamActivityPage           = new TeamActivityPage(driver);
 	}
 	
-	@AfterClass
-	public void closeInstance() {
-		driver.quit();
-		System.out.println("File has been downloaded inside the project");
-	}
+//	@AfterClass
+//	public void closeInstance() {
+//		driver.quit();
+//		System.out.println("File has been downloaded inside the project");
+//	}
 	
 }

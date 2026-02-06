@@ -74,12 +74,24 @@ public class TeamActivityPage {
 	@FindBy(xpath  = "//li[3]//div[1]//div[1]//i[contains(@class,'fa-arrow-down')]")
 	private WebElement attendanceSum_Download;
 	
+	@FindBy(xpath = "//li[3]//div[1]//div[1]")
+	private WebElement attendanceSummaryDownloadTab;
+	
+	@FindBy(xpath = "//span[@class='layout-datepicker link-text']")
+	private WebElement calender;
+	
+	JavascriptExecutor js = (JavascriptExecutor)driver;
+	
 	public WebElement getcloseButton() {
 		return closeButton;
 	}
 	
 	public WebElement getuserDay() {
 		return userDay;
+	}
+	
+	public WebElement getcalender() {
+		return calender;
 	}
 	
 	public void clickOnTeamActivityTab() {
@@ -143,7 +155,7 @@ public class TeamActivityPage {
 	        WebElement reportDate = driver.findElement(By.xpath("//a[@data-date='"+day+"']"));
 	        reportDate.click();
 	        
-	        System.out.println("Selected From-date");
+	        System.out.println("Selected From-date "+day);
 		} catch (Exception e) {
 			System.out.println("Not able to select From-date "+e);
 		}
@@ -156,7 +168,7 @@ public class TeamActivityPage {
 	        WebElement reportDate1 = driver.findElement(By.xpath("//a[@data-date='"+ day +"']"));
 	        reportDate1.click();
 	        
-	        System.out.println("Selected To-date");
+	        System.out.println("Selected To-date "+day);
 		} catch (Exception e) {
 			System.out.println("Not able to select To-date "+e);
 		}
@@ -227,9 +239,13 @@ public class TeamActivityPage {
 		}
 	}
 	public void select_FromDate() {
-		try {
-			WebElement FromDate=driver.findElement(By.xpath("//a[text()='"+day+"']"));
+		try {       
+			WebElement FromDate=driver.findElement(By.xpath("//a[@data-date='"+day+"']"));
+//			 js.executeScript("arguments[0].click();", FromDate);
 			FromDate.click();
+			
+//			Actions act = new Actions(driver);
+//	        act.moveToElement(FromDate).click().perform();
 			System.out.println("selcted "+day+" as From-date");
 		} catch (Exception e) {
 			System.out.println("Not able to select From-date "+e);
@@ -238,7 +254,11 @@ public class TeamActivityPage {
 	
 	public void select_ToDate() {
 		try {
-			WebElement ToDate=driver.findElement(By.xpath("//a[text()='"+day+"']"));
+//			JavascriptExecutor js = (JavascriptExecutor)driver;
+			
+			
+			WebElement ToDate=driver.findElement(By.xpath("//a[@data-date='"+day+"']"));
+//			js.executeScript("arguments[0].scrollIntoView(false);",ToDate);
 			ToDate.click();
 			System.out.println("selcted "+day+" as To-date");
 		} catch (Exception e) {
@@ -260,7 +280,7 @@ public class TeamActivityPage {
 	        while (LocalDateTime.now().isBefore(targetTime)) {
 	            Thread.sleep(1000);
 	        }
-	        
+	        attendanceSummaryDownloadTab.click();
 
 	        // Click to download (file goes to /downloads inside project)
 	        attendanceDownloadTab.click();
@@ -376,6 +396,50 @@ public class TeamActivityPage {
 			System.out.println("File has not been Downloaded "+e);
 		}
 	}
+	
+	
+	 public void select_FromDate_AF() {
+
+         try {
+
+             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+             By dateLocator =
+                 By.xpath("//a[normalize-space()='" + day + "']");
+
+             // Wait for presence
+             WebElement fromDate =
+                 wait.until(ExpectedConditions.presenceOfElementLocated(dateLocator));
+
+             JavascriptExecutor js = (JavascriptExecutor) driver;
+
+             // Bring to center
+             js.executeScript(
+                 "arguments[0].scrollIntoView({block:'center'});",
+                 fromDate
+             );
+
+             Thread.sleep(500);
+
+             // JS click (important)
+             js.executeScript("arguments[0].click();", fromDate);
+
+             // Verify selection
+             Thread.sleep(500);
+
+             String aria =
+                 fromDate.getAttribute("aria-current");
+
+             System.out.println("aria-current = " + aria);
+
+             System.out.println("Selected " + day + " as From-date");
+
+         } catch (Exception e) {
+
+             System.out.println("Not able to select From-date " + e);
+
+         }
+     }
 		
 	
 }

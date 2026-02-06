@@ -33,7 +33,10 @@ public class AttendanceReport_AF_Test extends BaseClassAF_Attendance{
         dashboardPage.clickOncheckInTab();
         driverUtility.threadWait(2);
         teamActivityPage.clickOnAttendanceDateChange();
+        driverUtility.scrollIntoView(teamActivityPage.getcalender());
+        driverUtility.threadWait(2);
         teamActivityPage.select_FromDate();
+        driverUtility.scrollIntoView(dashboardPage.getattendanceSummaryDownloadTab());
         driverUtility.threadWait(2);
         teamActivityPage.select_ToDate();
         driverUtility.threadWait(15);
@@ -41,9 +44,7 @@ public class AttendanceReport_AF_Test extends BaseClassAF_Attendance{
         driverUtility.threadWait(15);
         dashboardPage.clickOnGenerate_File();
         driverUtility.threadWait(15);
-//        driverUtility.allowAlertPopUp();
-//        driverUtility.threadWait(15);
-        dashboardPage.clickOnAttendanceSummaryDownloadTab();
+        driverUtility.allowAlertPopUp();
         driverUtility.threadWait(15);
         teamActivityPage.attendanceFileDownload();
         driverUtility.threadWait(15);

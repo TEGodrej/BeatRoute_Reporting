@@ -2,24 +2,20 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-05T15:35:35 IST" name="Default suite" finished-at="2026-02-05T15:38:02 IST" duration-ms="147660">
+  <suite started-at="2026-02-06T17:33:30 IST" name="Default suite" finished-at="2026-02-06T17:33:55 IST" duration-ms="25721">
     <groups>
     </groups>
-    <test started-at="2026-02-05T15:35:35 IST" name="Default test" finished-at="2026-02-05T15:38:02 IST" duration-ms="147660">
-      <class name="test.GraciaReportTest">
-        <test-method is-config="true" signature="Login()[pri:0, instance:test.GraciaReportTest@4e50c791]" started-at="2026-02-05T15:35:35 IST" name="Login" finished-at="2026-02-05T15:35:37 IST" duration-ms="2437" status="PASS">
+    <test started-at="2026-02-06T17:33:30 IST" name="Default test" finished-at="2026-02-06T17:33:55 IST" duration-ms="25721">
+      <class name="test.AttendanceReport_AF_Test">
+        <test-method is-config="true" signature="Login()[pri:0, instance:test.AttendanceReport_AF_Test@5fbe4146]" started-at="2026-02-06T17:33:30 IST" name="Login" finished-at="2026-02-06T17:33:33 IST" duration-ms="3197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="report_Gracia()[pri:0, instance:test.GraciaReportTest@4e50c791]" started-at="2026-02-05T15:35:37 IST" name="report_Gracia" finished-at="2026-02-05T15:38:02 IST" duration-ms="145083" status="PASS">
+        <test-method signature="attendanceReport_AF()[pri:0, instance:test.AttendanceReport_AF_Test@5fbe4146]" started-at="2026-02-06T17:33:33 IST" name="attendanceReport_AF" finished-at="2026-02-06T17:33:55 IST" duration-ms="22488" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- report_Gracia -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:test.GraciaReportTest@4e50c791]" started-at="2026-02-05T15:38:02 IST" name="closeApp" finished-at="2026-02-05T15:38:02 IST" duration-ms="113" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-      </class> <!-- test.GraciaReportTest -->
+        </test-method> <!-- attendanceReport_AF -->
+      </class> <!-- test.AttendanceReport_AF_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
