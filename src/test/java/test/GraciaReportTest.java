@@ -34,7 +34,7 @@ public class GraciaReportTest extends BaseClass_Gracia{
 		homePageGracia.select_To_Date();
 		driverutility.threadWait(4);
 		homePageGracia.clickOnApplyFilter();
-		driverutility.threadWait(40);
+		driverutility.threadWait(10);
 		homePageGracia.clickOnDownloadButton();
 		driverutility.threadWait(8);
 		driverutility.allowAlertPopUp();
