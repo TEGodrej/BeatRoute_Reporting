@@ -44,7 +44,7 @@ public class BR_Adherence_AF_Test extends BaseClassAF2{
         dashboardPage.clickOnFileDownloadButton();
         driverUtility.threadWait(10);
         driverUtility.allowAlertPopUp();
-        driverUtility.threadWait(15);
+        driverUtility.threadWait(60);
         loginPage_AF.clickOnLogoutDropDown();
         driverUtility.threadWait(6);
         loginPage_AF.clickOnAdherenceLogOutButton();

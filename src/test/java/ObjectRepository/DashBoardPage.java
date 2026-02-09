@@ -375,8 +375,11 @@ public class DashBoardPage extends BaseClass{
 		}
     }
     
+    WebDriverWait wait = new WebDriverWait(driver, Duration.ofMinutes(1));
+    
     public void clickOnDateChangeDropDown() {
     	try {
+    		wait.until(ExpectedConditions.elementToBeClickable(dateChangeDropDown));
     		dateChangeDropDown.click();
     		System.out.println("Clicked on dateChangeDropDown");
 		} catch (Exception e) {
@@ -395,6 +398,7 @@ public class DashBoardPage extends BaseClass{
     
     public void clickOnFileDownloadButton() {
     	try {
+    		wait.until(ExpectedConditions.elementToBeClickable(fileDownloadButton));
     		fileDownloadButton.click();
     		System.out.println("Clicked on fileDownloadButton ");
 		} catch (Exception e) {

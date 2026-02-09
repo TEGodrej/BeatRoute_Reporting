@@ -44,13 +44,13 @@ public class BR_Adherence_CPB_Test extends BaseClass_CPB2{
         dashboardPage.clickOnFileDownloadButton();
         driverUtility.threadWait(10);
         driverUtility.allowAlertPopUp();
-        driverUtility.threadWait(15);
+        driverUtility.threadWait(60);
         loginPage_AF.clickOnLogoutDropDown();
         driverUtility.threadWait(6);
         loginPage_AF.clickOnAdherenceLogOutButton();
 	}
 	
-	@Test(dependsOnMethods = {"cpb_AdherenceReport"})
+	@Test//(dependsOnMethods = {"cpb_AdherenceReport"})
 	public void upload_CPB_AdherenceReport() {
 		// Get workspace path dynamically (works for both local and Jenkins)
     	String workspacePath = System.getProperty("user.dir");

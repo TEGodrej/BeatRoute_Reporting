@@ -75,7 +75,7 @@ public class OverAllLiquidationReportTest extends BaseClass_Liqiudation{
 
 	    	 // Get all files starting with "Liquidation_Log_<today>" and ending with ".xlsx"
 	    	 File[] todayFiles = folder.listFiles((dir, name) ->
-	    	     name.startsWith("Overall_Liquidation" + today) && name.endsWith(".xlsx")
+	    	     name.startsWith("Overall_Liquidation_" + today) && name.endsWith(".xlsx")
 	    	 );
 
 	    	 // Check if files found
