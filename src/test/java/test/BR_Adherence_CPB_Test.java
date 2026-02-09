@@ -30,7 +30,7 @@ public class BR_Adherence_CPB_Test extends BaseClass_CPB2{
         dashboardPage.clickOnReportTab();
         driverUtility.threadWait(2);
         dashboardPage.clickOnAdherenceTab();
-        driverUtility.threadWait(30);
+        driverUtility.threadWait(60);
         dashboardPage.clickOnDateChangeDropDown();
         driverUtility.threadWait(2);
         dashboardPage.clickOnCustomDateOption();

@@ -10,6 +10,7 @@ import java.util.Locale;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -84,6 +85,9 @@ public class DashBoardPage extends BaseClass{
 	
 	@FindBy(xpath  = "//li[3]//div[1]//div[1]//i[contains(@class,'fa-arrow-down')]")
 	private WebElement attendanceSum_Download;
+	
+	@FindBy(xpath = "//div[@class='scASFDropdownListItems']//span[@class='scASFDropdownListValue'][normalize-space()='Overall liquidation']")
+	private WebElement overallLiquidationTab;
 
 	@FindAll({@FindBy(xpath = "//input[@type='password']"),@FindBy(id = "i0118")})
 	private WebElement passwordTextfield;
@@ -461,6 +465,15 @@ public class DashBoardPage extends BaseClass{
     		System.out.println("Clicked on signInButton");
 		} catch (Exception e) {
 			System.out.println("Not able to click on signInButton "+e);
+		}
+    }
+    
+    public void clickOnOverallLiquidationTab() {
+    	try {
+    		overallLiquidationTab.click();
+    		System.out.println("Clicked on overallLiquidationTab");
+		} catch (Exception e) {
+			System.out.println("Not able to click on overallLiquidationTab "+e);
 		}
     }
 }

@@ -2,20 +2,24 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-06T17:33:30 IST" name="Default suite" finished-at="2026-02-06T17:33:55 IST" duration-ms="25721">
+  <suite started-at="2026-02-09T12:27:21 IST" name="Default suite" finished-at="2026-02-09T12:29:20 IST" duration-ms="118719">
     <groups>
     </groups>
-    <test started-at="2026-02-06T17:33:30 IST" name="Default test" finished-at="2026-02-06T17:33:55 IST" duration-ms="25721">
-      <class name="test.AttendanceReport_AF_Test">
-        <test-method is-config="true" signature="Login()[pri:0, instance:test.AttendanceReport_AF_Test@5fbe4146]" started-at="2026-02-06T17:33:30 IST" name="Login" finished-at="2026-02-06T17:33:33 IST" duration-ms="3197" status="PASS">
+    <test started-at="2026-02-09T12:27:21 IST" name="Default test" finished-at="2026-02-09T12:29:20 IST" duration-ms="118719">
+      <class name="test.OverAllLiquidationReportTest">
+        <test-method is-config="true" signature="Login()[pri:0, instance:test.OverAllLiquidationReportTest@4e50c791]" started-at="2026-02-09T12:27:21 IST" name="Login" finished-at="2026-02-09T12:27:27 IST" duration-ms="5552" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="attendanceReport_AF()[pri:0, instance:test.AttendanceReport_AF_Test@5fbe4146]" started-at="2026-02-06T17:33:33 IST" name="attendanceReport_AF" finished-at="2026-02-06T17:33:55 IST" duration-ms="22488" status="PASS">
+        <test-method signature="liquidationReport()[pri:0, instance:test.OverAllLiquidationReportTest@4e50c791]" started-at="2026-02-09T12:27:27 IST" name="liquidationReport" finished-at="2026-02-09T12:29:18 IST" duration-ms="111412" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- attendanceReport_AF -->
-      </class> <!-- test.AttendanceReport_AF_Test -->
+        </test-method> <!-- liquidationReport -->
+        <test-method is-config="true" signature="closeInstance()[pri:0, instance:test.OverAllLiquidationReportTest@4e50c791]" started-at="2026-02-09T12:29:18 IST" name="closeInstance" finished-at="2026-02-09T12:29:20 IST" duration-ms="1732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeInstance -->
+      </class> <!-- test.OverAllLiquidationReportTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

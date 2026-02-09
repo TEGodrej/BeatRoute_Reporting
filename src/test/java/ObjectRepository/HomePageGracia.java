@@ -95,7 +95,7 @@ public class HomePageGracia extends BaseClass_Gracia{
 			downloadButton.click();
 			System.out.println("Click on Download Button");
 		} catch (Exception e) {
-			System.out.println("Not able to click on Download Button");
+			System.out.println("Not able to click on Download Button "+e);
 		}
 	}
 }
