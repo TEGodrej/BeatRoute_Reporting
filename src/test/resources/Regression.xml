@@ -5,6 +5,13 @@
   <test name="Test" thread-count="1">
     <classes>
 
+      <class name="test.GraciaReportTest">
+        <methods>
+          <include name="gracia_Report_Upload"/>
+          <include name="report_Gracia"/>
+        </methods>
+      </class>
+
       <class name="test.AF_UserListReportTest">
         <methods>
           <include name="uploadToFTP_AF_User"/>
@@ -82,12 +89,7 @@
         </methods>
       </class>
       
-      <class name="test.GraciaReportTest">
-        <methods>
-          <include name="gracia_Report_Upload"/>
-          <include name="report_Gracia"/>
-        </methods>
-      </class>
+      
       
       <class name="test.OverAllLiquidationReportTest">
         <methods>
@@ -100,3 +102,4 @@
     </classes>
   </test>
 </suite>
+
