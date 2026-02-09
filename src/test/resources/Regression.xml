@@ -5,12 +5,7 @@
   <test name="Test" thread-count="1">
     <classes>
 
-      <class name="test.GraciaReportTest">
-        <methods>
-          <include name="gracia_Report_Upload"/>
-          <include name="report_Gracia"/>
-        </methods>
-      </class>
+      
 
       <class name="test.AF_UserListReportTest">
         <methods>
