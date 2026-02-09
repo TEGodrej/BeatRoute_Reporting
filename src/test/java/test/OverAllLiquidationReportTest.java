@@ -22,7 +22,7 @@ public class OverAllLiquidationReportTest extends BaseClass_Liqiudation{
 
 	
 	@Test
-	public void liquidationReport() throws InterruptedException {
+	public void OverAllLiquidationReport() throws InterruptedException {
 		
 		 WebElement ele=driver.findElement(By.id("i0116"));
 	    WebElement nxtbutton=driver.findElement(By.id("idSIButton9"));   
@@ -59,7 +59,7 @@ public class OverAllLiquidationReportTest extends BaseClass_Liqiudation{
 	}
 	
 	 	
-	     @Test (dependsOnMethods = {"OverAllLiquidationReportTest"})
+	     @Test (dependsOnMethods = {"OverAllLiquidationReport"})
 	     public void uploadOverAllLiquidation(){
 	    	// Get workspace path dynamically (works for both local and Jenkins)
 	    	 String workspacePath = System.getProperty("user.dir");

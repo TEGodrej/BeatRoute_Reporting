@@ -92,7 +92,7 @@
       <class name="test.OverAllLiquidationReportTest">
         <methods>
           <include name="uploadOverAllLiquidation"/>
-          <include name="liquidationReport"/>
+          <include name="OverAllLiquidationReport"/>
         </methods>
       </class>
       
