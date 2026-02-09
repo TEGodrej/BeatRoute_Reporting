@@ -84,6 +84,12 @@ public class DashBoardPage extends BaseClass{
 	
 	@FindBy(xpath  = "//li[3]//div[1]//div[1]//i[contains(@class,'fa-arrow-down')]")
 	private WebElement attendanceSum_Download;
+
+	@FindAll({@FindBy(xpath = "//input[@type='password']"),@FindBy(id = "i0118")})
+	private WebElement passwordTextfield;
+	
+	@FindAll({@FindBy(xpath = "//input[@type='submit']"), @FindBy(id = "idSIButton9")})
+	private WebElement signInButton;
 	
 	public WebElement getdateChangeDropDown() {
 		return dateChangeDropDown;
@@ -440,4 +446,22 @@ public class DashBoardPage extends BaseClass{
 			System.out.println("Not able to click on attendanceSum_Download "+e);
 		}
     }
+	public void sendkeyToPasswordTextfield(String key) {
+    	try {
+    		passwordTextfield.sendKeys(key);
+    		System.out.println("Entered value in passwordTextfield");
+		} catch (Exception e) {
+			System.out.println("Not able to enter value in passwordTextfield "+e);
+		}
+    }
+    
+    public void clickOnsignInButton() {
+    	try {
+    		signInButton.click();
+    		System.out.println("Clicked on signInButton");
+		} catch (Exception e) {
+			System.out.println("Not able to click on signInButton "+e);
+		}
+    }
 }
+
