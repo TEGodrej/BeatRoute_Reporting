@@ -34,14 +34,24 @@ public class LiquidationReportTest extends BaseClass{
 //	    driverUtility.threadWait(10);
 //	    loginpage.clickOnLogInButton();
 		
-		WebElement username = driver.findElement(By.id("i0116"));
-		WebElement nextbutton = driver.findElement(By.id("idSIButton9"));
-		WebElement password = driver.findElement(By.id("i0118"));
-		WebElement submitButton = driver.findElement(By.id("idSIButton9"));
-		username.sendKeys("testing.engineer@godrejagrovet.com");
-		nextbutton.click();
-		password.sendKeys("Gavlagrovet@1295");
-		submitButton.click();
+		// WebElement username = driver.findElement(By.id("i0116"));
+		// WebElement nextbutton = driver.findElement(By.id("idSIButton9"));
+		// WebElement password = driver.findElement(By.id("i0118"));
+		// WebElement submitButton = driver.findElement(By.id("idSIButton9"));
+		// username.sendKeys("testing.engineer@godrejagrovet.com");
+		// nextbutton.click();
+		// password.sendKeys("Gavlagrovet@1295");
+		// submitButton.click();
+		
+		 WebElement ele=driver.findElement(By.id("i0116"));
+	    WebElement nxtbutton=driver.findElement(By.id("idSIButton9"));   
+	    ele.sendKeys("testing.engineer@godrejagrovet.com");
+	    nxtbutton.click();
+	    driverUtility.threadWait(10);
+	    dashboardPage.sendkeyToPasswordTextfield("Gavlagrovet@1295");
+	    dashboardPage.clickOnsignInButton();
+	    driverUtility.threadWait(10);
+	    dashboardPage.clickOnsignInButton();
 		
 	    driverUtility.threadWait(10);
 		dashboardPage.clickOnScanTab();
@@ -144,3 +154,4 @@ public class LiquidationReportTest extends BaseClass{
 	 
 
 }
+
