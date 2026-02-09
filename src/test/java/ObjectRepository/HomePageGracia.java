@@ -94,25 +94,35 @@ public class HomePageGracia extends BaseClass_Gracia{
 	}
 	public void clickOnDownloadButton() {
     try {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(90));
 
-        // 1️⃣ Wait for overlay to disappear
+        // 1️⃣ Wait for Angular overlay to disappear
         wait.until(ExpectedConditions.invisibilityOfElementLocated(
                 By.cssSelector("div.loading-shade")));
 
-        // 2️⃣ Wait for button to be clickable
+        // 2️⃣ Re-find the element (avoid stale)
         WebElement downloadBtn = wait.until(
-                ExpectedConditions.elementToBeClickable(downloadButton));
+                ExpectedConditions.presenceOfElementLocated(
+                        By.xpath("//button[@title='Download filtered data']")));
 
-        // 3️⃣ Click
-        downloadBtn.click();
+        // 3️⃣ Scroll into view (headless fix)
+        ((JavascriptExecutor) driver).executeScript(
+                "arguments[0].scrollIntoView({block:'center'});", downloadBtn);
+
+        // 4️⃣ Wait until clickable
+        wait.until(ExpectedConditions.elementToBeClickable(downloadBtn));
+
+        // 5️⃣ JS click (last defense)
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", downloadBtn);
+
         System.out.println("Click on Download Button");
 
     } catch (Exception e) {
         System.out.println("Not able to click on Download Button: " + e.getMessage());
-        throw e; // IMPORTANT: let Jenkins mark test as FAILED
+        throw e; // Let Jenkins fail correctly
     }
 }
 
 }
+
 
