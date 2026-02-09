@@ -92,14 +92,27 @@ public class HomePageGracia extends BaseClass_Gracia{
 			System.out.println("Not able to click on Apply_Filter "+e);
 		}
 	}
-	WebDriverWait wait =new WebDriverWait(driver, Duration.ofMinutes(1));
 	public void clickOnDownloadButton() {
-		try {
-			wait.until(ExpectedConditions.elementToBeClickable(downloadButton));
-			downloadButton.click();
-			System.out.println("Click on Download Button");
-		} catch (Exception e) {
-			System.out.println("Not able to click on Download Button "+e);
-		}
-	}
+    try {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+
+        // 1️⃣ Wait for overlay to disappear
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(
+                By.cssSelector("div.loading-shade")));
+
+        // 2️⃣ Wait for button to be clickable
+        WebElement downloadBtn = wait.until(
+                ExpectedConditions.elementToBeClickable(downloadButton));
+
+        // 3️⃣ Click
+        downloadBtn.click();
+        System.out.println("Click on Download Button");
+
+    } catch (Exception e) {
+        System.out.println("Not able to click on Download Button: " + e.getMessage());
+        throw e; // IMPORTANT: let Jenkins mark test as FAILED
+    }
 }
+
+}
+
