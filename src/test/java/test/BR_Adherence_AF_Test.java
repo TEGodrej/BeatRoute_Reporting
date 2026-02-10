@@ -30,7 +30,7 @@ public class BR_Adherence_AF_Test extends BaseClassAF2{
         dashboardPage.clickOnReportTab();
         driverUtility.threadWait(2);
         dashboardPage.clickOnAdherenceTab();
-        driverUtility.threadWait(30);
+        driverUtility.threadWait(60);
         dashboardPage.clickOnDateChangeDropDown();
         driverUtility.threadWait(2);
         dashboardPage.clickOnCustomDateOption();
@@ -40,7 +40,7 @@ public class BR_Adherence_AF_Test extends BaseClassAF2{
         dashboardPage.adherence_FromDate();
         driverUtility.threadWait(10);
         dashboardPage.adherence_ToDate();
-        driverUtility.threadWait(30);
+        driverUtility.threadWait(90);
         dashboardPage.clickOnFileDownloadButton();
         driverUtility.threadWait(10);
         driverUtility.allowAlertPopUp();
@@ -50,7 +50,7 @@ public class BR_Adherence_AF_Test extends BaseClassAF2{
         loginPage_AF.clickOnAdherenceLogOutButton();
 	}
 	
-	@Test(dependsOnMethods = {"animalFeedAdherenceReport"})
+	@Test//(dependsOnMethods = {"animalFeedAdherenceReport"})
 	public void upload_AF_AdherenceReport() {
 		// Get workspace path dynamically (works for both local and Jenkins)
     	String workspacePath = System.getProperty("user.dir");

@@ -1,21 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-09T15:11:12 IST" name="Default suite" finished-at="2026-02-09T15:13:24 IST" duration-ms="131745">
+  <suite started-at="2026-02-10T10:09:06 IST" name="Default suite" finished-at="2026-02-10T10:11:41 IST" duration-ms="154765">
     <groups>
     </groups>
-    <test started-at="2026-02-09T15:11:12 IST" name="Default test" finished-at="2026-02-09T15:13:24 IST" duration-ms="131745">
+    <test started-at="2026-02-10T10:09:06 IST" name="Default test" finished-at="2026-02-10T10:11:41 IST" duration-ms="154765">
       <class name="test.GraciaReportTest">
-        <test-method is-config="true" signature="Login()[pri:0, instance:test.GraciaReportTest@4e50c791]" started-at="2026-02-09T15:11:12 IST" name="Login" finished-at="2026-02-09T15:11:19 IST" duration-ms="6283" status="PASS">
+        <test-method is-config="true" signature="Login()[pri:0, instance:test.GraciaReportTest@4e50c791]" started-at="2026-02-10T10:09:07 IST" name="Login" finished-at="2026-02-10T10:09:11 IST" duration-ms="4952" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="report_Gracia()[pri:0, instance:test.GraciaReportTest@4e50c791]" started-at="2026-02-09T15:11:19 IST" name="report_Gracia" finished-at="2026-02-09T15:13:24 IST" duration-ms="125198" status="PASS">
+        <test-method signature="report_Gracia()[pri:0, instance:test.GraciaReportTest@4e50c791]" started-at="2026-02-10T10:09:11 IST" name="report_Gracia" finished-at="2026-02-10T10:11:17 IST" duration-ms="125207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report_Gracia -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:test.GraciaReportTest@4e50c791]" started-at="2026-02-09T15:13:24 IST" name="closeApp" finished-at="2026-02-09T15:13:24 IST" duration-ms="237" status="PASS">
+        <test-method signature="gracia_Report_Upload()[pri:0, instance:test.GraciaReportTest@4e50c791]" started-at="2026-02-10T10:11:17 IST" name="gracia_Report_Upload" finished-at="2026-02-10T10:11:41 IST" depends-on-methods="test.GraciaReportTest.report_Gracia" duration-ms="24109" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[SFTP upload failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: SFTP upload failed
+at test.GraciaReportTest.gracia_Report_Upload(GraciaReportTest.java:177)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: com.jcraft.jsch.JSchException: java.net.ConnectException: Connection timed out: connect
+at com.jcraft.jsch.Util.createSocket(Util.java:394)
+at com.jcraft.jsch.Session.connect(Session.java:215)
+at test.GraciaReportTest.gracia_Report_Upload(GraciaReportTest.java:166)
+... 26 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+at java.base/sun.nio.ch.Net.connect0(Native Method)
+at java.base/sun.nio.ch.Net.connect(Net.java:589)
+at java.base/sun.nio.ch.Net.connect(Net.java:578)
+at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+at java.base/java.net.Socket.connect(Socket.java:751)
+at java.base/java.net.Socket.connect(Socket.java:686)
+at java.base/java.net.Socket.<init>(Socket.java:555)
+at java.base/java.net.Socket.<init>(Socket.java:324)
+at com.jcraft.jsch.Util$1.run(Util.java:362)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gracia_Report_Upload -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:test.GraciaReportTest@4e50c791]" started-at="2026-02-10T10:11:41 IST" name="closeApp" finished-at="2026-02-10T10:11:41 IST" duration-ms="473" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
