@@ -12,10 +12,11 @@ import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.Session;
 
 import GenericUtility.BaseClassAFUserList;
+import GenericUtility.RetryAnalyzer;
 
 public class AF_UserListReportTest extends BaseClassAFUserList{
 
-	@Test
+	@Test(retryAnalyzer = RetryAnalyzer.class)
 	public void AF_userListReport() {
 		String user = "ajit.sahu@godrejagrovet.com";
         String paswrd = "Ganpati@123456";

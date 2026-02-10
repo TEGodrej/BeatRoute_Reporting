@@ -12,10 +12,11 @@ import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.Session;
 
 import GenericUtility.BaseClassAF_Log;
+import GenericUtility.RetryAnalyzer;
 
 public class StartAndEndDayReport_AF_Test extends BaseClassAF_Log{
 
-	@Test
+	@Test(retryAnalyzer = RetryAnalyzer.class)
 	public void start_N_EndDayLog() {
 //		String user = "ajit.sahu@godrejagrovet.com";
 //        String paswrd = "Ganpati@123456";

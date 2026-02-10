@@ -12,10 +12,11 @@ import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.Session;
 
 import GenericUtility.BaseClassAF_Log_CPB;
+import GenericUtility.RetryAnalyzer;
 
 public class StartAndEndDayReport_CPB_Test extends BaseClassAF_Log_CPB{
 
-	@Test
+	@Test(retryAnalyzer = RetryAnalyzer.class)
 	public void start_N_EndDayLog() {
 		
 		String user = "Beatroute.admin@godrejagrovet.com";

@@ -12,10 +12,11 @@ import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.Session;
 
 import GenericUtility.BaseClassAF;
+import GenericUtility.RetryAnalyzer;
 
 public class AF_ReportTest extends BaseClassAF{
 
-    @Test
+    @Test(retryAnalyzer = RetryAnalyzer.class)
     public void reportGeneration() throws InterruptedException {
         String user = "ajit.sahu@godrejagrovet.com";
         String paswrd = "Ganpati@123456";

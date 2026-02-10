@@ -12,10 +12,11 @@ import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.Session;
 
 import GenericUtility.BaseClass_CPB2;
+import GenericUtility.RetryAnalyzer;
 
 public class BR_Adherence_CPB_Test extends BaseClass_CPB2{
 
-	@Test
+	@Test(retryAnalyzer = RetryAnalyzer.class)
 	public void cpb_AdherenceReport() {
 		 String user = "Beatroute.admin@godrejagrovet.com";
 	     String paswrd = "GAVL@123";

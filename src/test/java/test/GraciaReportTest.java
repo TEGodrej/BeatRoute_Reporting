@@ -12,10 +12,11 @@ import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.Session;
 
 import GenericUtility.BaseClass_Gracia;
+import GenericUtility.RetryAnalyzer;
 
 public class GraciaReportTest extends BaseClass_Gracia{
 
-	@Test          
+	@Test(retryAnalyzer = RetryAnalyzer.class)   
 	public void report_Gracia() {
 		String username="admin";
 		String password="admin@gracia";
