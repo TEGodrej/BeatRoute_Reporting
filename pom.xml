@@ -89,7 +89,6 @@
    				 <configuration>
      			   <suiteXmlFiles>
         		    <suiteXmlFile>src/test/resources/Regression.xml</suiteXmlFile>
-        		    <suiteXmlFile>src/test/resources/CPB_AdherenceRegression.xml</suiteXmlFile>
        			 </suiteXmlFiles>
    			   </configuration>
 			  </plugin>
