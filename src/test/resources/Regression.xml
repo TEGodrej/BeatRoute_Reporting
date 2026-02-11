@@ -37,7 +37,7 @@
 
       <class name="test.AttendanceReport_AF_Test">
         <methods>
-          <include name="upload_AF_AdherenceReport"/>
+          <include name="upload_attendanceReport_AF"/>
           <include name="attendanceReport_AF"/>
         </methods>
       </class>
