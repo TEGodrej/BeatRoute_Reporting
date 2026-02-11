@@ -14,7 +14,6 @@ import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.Session;
 
 import GenericUtility.BaseClass_Liqiudation;
-import GenericUtility.RetryAnalyzer;
 
 /**
  *@author DivyaPrakashAmar
@@ -22,7 +21,7 @@ import GenericUtility.RetryAnalyzer;
 public class OverAllLiquidationReportTest extends BaseClass_Liqiudation{
 
 	
-	@Test(retryAnalyzer = RetryAnalyzer.class)
+	@Test
 	public void OverAllLiquidationReport() throws InterruptedException {
 		
 		 WebElement ele=driver.findElement(By.id("i0116"));

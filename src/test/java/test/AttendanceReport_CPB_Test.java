@@ -12,12 +12,11 @@ import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.Session;
 
 import GenericUtility.BaseClassCPB_Attendance;
-import GenericUtility.RetryAnalyzer;
 
 public class AttendanceReport_CPB_Test extends BaseClassCPB_Attendance{
 
 	
-	@Test(retryAnalyzer = RetryAnalyzer.class)
+	@Test
 	public void attendanceReport_CPB() throws InterruptedException {
 		String user = "Beatroute.admin@godrejagrovet.com";
         String paswrd = "GAVL@123";

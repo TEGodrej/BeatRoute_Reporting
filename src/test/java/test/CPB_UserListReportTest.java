@@ -12,11 +12,10 @@ import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.Session;
 
 import GenericUtility.BaseClassCPB_UserList;
-import GenericUtility.RetryAnalyzer;
 
 public class CPB_UserListReportTest extends BaseClassCPB_UserList{
 
-	@Test(retryAnalyzer = RetryAnalyzer.class)
+	@Test
 	public void userListReport() {
 		String user = "Beatroute.admin@godrejagrovet.com";
         String paswrd = "GAVL@123";

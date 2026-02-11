@@ -14,7 +14,6 @@ import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.Session;
 
 import GenericUtility.BaseClass;
-import GenericUtility.RetryAnalyzer;
 
 /**
  *@author DivyaPrakashAmar
@@ -22,7 +21,7 @@ import GenericUtility.RetryAnalyzer;
 public class LiquidationReportTest extends BaseClass{
 
 	
-	@Test(retryAnalyzer = RetryAnalyzer.class)
+	@Test
 	public void liquidationReport() throws InterruptedException {
 		
 

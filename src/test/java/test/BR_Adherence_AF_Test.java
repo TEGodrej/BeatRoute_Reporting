@@ -12,11 +12,10 @@ import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.Session;
 
 import GenericUtility.BaseClassAF2;
-import GenericUtility.RetryAnalyzer;
 
 public class BR_Adherence_AF_Test extends BaseClassAF2{
 
-	@Test(retryAnalyzer = RetryAnalyzer.class)
+	@Test
 	public void animalFeedAdherenceReport() {
 		String user = "ajit.sahu@godrejagrovet.com";
         String paswrd = "Ganpati@123456";
