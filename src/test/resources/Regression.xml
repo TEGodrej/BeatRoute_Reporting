@@ -42,6 +42,13 @@
         </methods>
       </class>
       
+      <class name="test.AttendanceReport_CPB_Test">
+        <methods>
+          <include name="upload_CPB_AdherenceReport"/>
+          <include name="attendanceReport_CPB"/>
+        </methods>
+      </class>
+      
        
       
       <class name="test.BR_Adherence_AF_Test">
